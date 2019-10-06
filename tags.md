@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Tags"
+title: Tags
+permalink: /tags/
 ---
 
 <hr>
