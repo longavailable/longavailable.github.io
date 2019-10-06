@@ -1,10 +1,8 @@
 ---
 layout: page
-title: search
+title: Search
 permalink: /search/
 ---
-
-This is a search box
 
 {% include search-lunr.html %}
 
