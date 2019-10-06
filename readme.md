@@ -1,6 +1,6 @@
 # Documentation
 ## The theme
-<p>	The theme was based on <a href="https://github.com/jekyll/minima">minima</a>.</p>
+<p>	The theme is based on <a href="https://github.com/jekyll/minima">minima</a>.</p>
 <p> The search tool is <a href="https://jekyllcodex.org/without-plugin/search-lunr/">Lunr.js</a>.</p>
 <p> The archive and tag pages is forked from <a href="https://github.com/cnfeat/blog.io">cnfeat/blog.io</a>.</p>
 
