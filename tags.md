@@ -3,12 +3,13 @@ layout: page
 title: "Tags"
 ---
 
-
+<hr>
 <div id='tag_cloud'>
 {% for tag in site.tags %}
 <a style="text-decoration: underline; background-color: rgb(210,210,210)" href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
 </div>
+<hr>
 
 <ul class="listing">
 {% for tag in site.tags %}
