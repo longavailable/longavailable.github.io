@@ -1,8 +1,6 @@
 ---
 layout: page
 title: "Archive"
-description: "ндуб╧И╣╣"
-header-img: "img/orange.jpg"
 ---
 
 
