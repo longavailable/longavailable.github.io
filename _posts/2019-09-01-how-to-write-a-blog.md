@@ -8,6 +8,7 @@ categories: blog
 tags: [test,blog,first blog]
 description: Hello, world!
 header-image: 
+permalink: /how_to_wirte_a_blog/
 ---
 
 Now you can post your blog here.
