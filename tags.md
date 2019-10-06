@@ -6,7 +6,7 @@ title: "Tags"
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a style="background-color: rgb(172,250,251)" href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+<a style="background-color: rgb(250,250,250)" href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
 </div>
 
