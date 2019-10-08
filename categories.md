@@ -3,7 +3,6 @@ layout: page
 title: "Categories"
 # description:
 permalink: /categories/
-order: 2
 ---
 
 
