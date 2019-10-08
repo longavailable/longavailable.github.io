@@ -16,11 +16,15 @@ This is a templete to show how to write a post.
 How to add a picture:
 
 The picture from the repository which the site belongs to:
+# Just the picture
 ![Pic01](/assets/pics/pic01_green_test.png)
-
+# A picture with defined position and size
 <div align="center"><img width="165" height="75" src="/assets/pics/pic01_green_test.png"/></div>
 
 The picture from internet:
+# Just the picture
+![Pic01](https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png)
+# A picture with defined position and size
 <div align="center"><img width="65" height="75" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"/></div>
 
 
