@@ -1,0 +1,26 @@
+# setting the menu
+menu: 
+  - name: Home
+    link: /
+  - name: Categories
+    link: /categories
+  - name: Tags
+    link: /tags
+  - name: Archive
+    link: /archive
+  - name: Search
+    link: /search
+  - name: About
+    link: /about
+
+    
+#  - name: Follow me
+#    submenu:
+#      - name: GitHub
+#        icon: github
+#        link: http://github.com/alainpham
+#      - name: LinkedIn
+#        icon: linkedin-square
+#        link: http://www.linkedin.com/in/alainpham
+
+
