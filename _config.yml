@@ -18,14 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Longavailable
+title: LONGLOVEMYU
 email: liuxiaolong125@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Recoding, sharing, and fun.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  longavailable
+github_username: longlovemyu
+github_username: longavailable
 
 # jekyll-paginate configuration, specifies how many items should be displayed per page
 paginate: 10
