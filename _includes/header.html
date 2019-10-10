@@ -1,13 +1,14 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-  <!--
+	<!--
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 	-->
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-	<img alt="{{ page.title }}" width="150" height="22"	src="/assets/icon/siteLogo150by22.png" class="img-responsive"></a>
-	<!--{{ site.title | escape }}-->
+	<!--site-logo-->
+    <a class="site-title" href="{{ "/" | relative_url }}">
+	<img width="150" height="22" src="/assets/icon/siteLogo150by22.png"></a>
+	
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
