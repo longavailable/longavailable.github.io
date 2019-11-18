@@ -33,7 +33,7 @@ layout: default
 </div>
 
 <div class="list-group">
-	{% for post in paginator.posts reversed%} 	<!--order by date and using "reversed"-->
+	{% for post in paginator.posts%} 	<!--order by date and default "reversed"-->
 	<div class="list-group-item">
 	<a href="{{ post.url }}">
 		<h4 class="list-group-item-heading">{{ post.title }}</h4>
