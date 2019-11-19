@@ -63,5 +63,4 @@ include: ["_pages"]
 # Public setting for post front matter
 excerpt_separator: <!--more-->
 
-
 encoding: UTF-8

@@ -30,14 +30,15 @@ layout: default
     </div>
 </header>
 
+
 <!-- Post Content -->
 <article>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
 
-                <!-- {{ content }} -->
-				{{ post.content | remove: post.excerpt }} 	<!--remove excerpt from posts-->
+                <!--{{ content }} <!-- This line can not delete-->
+				{{ post.content | remove: post.excerpt }} 	<!-- remove excerpt from posts -->
 
                 <hr>
 
@@ -98,6 +99,12 @@ layout: default
             </div>
         </div>
     </div>
+	
+	<!-- mathjax -->
+	{% if page.mathjax  %}
+	<script type="text/javascript" async src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+	{% endif %}
+	
 </article>
 
 

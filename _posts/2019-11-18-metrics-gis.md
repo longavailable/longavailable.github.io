@@ -1,0 +1,50 @@
+---
+layout: post
+title:  Quick Conversion on GIS Metrics
+author: Bruce Liu
+# last update date
+date:   2019-11-19 13:00:00 +0100
+# first published date
+published: 2019-11-19 13:00:00 +0100 
+categories: [blog, GIS, Earth]
+tags: [GIS, metrics conversion]
+header-image: 
+permalink: /metrics_gis/
+# Enable the mathjax in post
+mathjax: true
+---
+How to quick convert some GIS metrics?
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+Basic parameter for the planet:<br>
+- `r` or Radius: 6371 km
+- `p` or Perimeter: 40,075 km
+
+And the formula for arc length:
+
+$$
+arc length=2\pi r\left ( \frac{\theta }{360} \right )=p\left ( \frac{\theta }{360} \right )
+$$
+
+
+| $$\theta$$(central angle)                     | arc length  | quick check |
+| --------------------------------------------- |:-----------:|:-----------:|
+| 1 arc degree                                  | 111.1 km    | 100 km      |
+| 0.5 arc degree (30 arc minutest)              | 55.7 km     | 50 km       |
+| 0.1 arc degree (6 arc minutes)                | 11.1 km     | 10 km       |
+| 0.01 arc degree (36 arc seconds)              | 1.1 km	  |	1 km		|
+| $$0.008\dot{3}$$ arc degree (30 arc seconds)  | 928 m		  |	1 km /900 m	|
+| $$0.001\dot{6}$$ arc degree (6 arc seconds) 	| 186 m		  | 200 m       |
+| 0.001 arc degree (3.6 arc seconds)            | 111 m 	  | 100 m       |
+
+>坐地日行八万里。By毛泽东
+
+The arc length i.e. perimeter of the Earth is about 40,000 km, which equals 80,000 Li (Chinese mile). Our planet rotates per day. According to elative motion, a people stays at the surface will have a 360 arc degrees motion. In some way, the people moves 40,000 km per day. Roughly, 1 arc degree equals 100 km at the surface of earth.  
+
+Reference:
+- [Jekyll Supports Math Notation](https://www.katarinahoeger.com/2017/12/08/jekyll-supports-math)
+- [MathJax in Markdown](https://hiltmon.com/blog/2017/01/28/mathjax-in-markdown/)
+- [Equation Editor](https://www.codecogs.com/latex/eqneditor.php)
+- [Arc Length Calculator - online ](https://www.omnicalculator.com/math/arc-length)
