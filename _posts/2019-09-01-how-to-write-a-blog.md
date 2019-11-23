@@ -4,9 +4,9 @@ title:  First blog
 subtitle: how to write a blog
 author: Bruce Liu
 # last update date
-date:   2019-10-09 00:50:03 +0200
+date:   2019-11-23 19:27:00 +0200
 # first published date
-published: 2019-09-01 00:50:03 +0200 
+published: 2019-09-01 00:50:00 +0200 
 categories: [blog, manual]
 tags: [test, blog, first blog]
 description: Hello, world!
@@ -19,6 +19,19 @@ This is a templete to show how to write a post.
 <!--the following is the text-->
 
 This is a templete to show how to write a post.
+
+How to test a blog using bundle:
+- Navigate to path of the githubpages repository. 
+	```
+	cd D:\git\githubPages\longavailable.github.io
+	```
+- Execute the following command:
+	```
+	bundle exec jekyll serve
+	```
+- Check the githubpages website from [http://127.0.0.1:4000](http://127.0.0.1:4000).
+- `Ctrl + C ` quit the bundle serve.
+
 
 How to add a picture:
 
