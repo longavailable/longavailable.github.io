@@ -4,7 +4,17 @@ title: Home
 permalink: /
 ---
 
-{% include search-lunr.html %}
+<!-- Page Header -->
+<!--
+	{% if page.background %}
+		<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+		<header class="masthead">
+  {% endif %}
+-->
+
+	{% include search-lunr.html %}
+	
 <head>
 	<meta charset="utf-8">
 	<link rel="shortcut icon" type="image/png" href="/assets/icon/icon.png" />
@@ -20,6 +30,7 @@ permalink: /
 			font-weight: bold;
 		}
 	</style>
+
 </head>
 
 <!-- Pagination links before posts-->
