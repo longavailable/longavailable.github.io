@@ -7,8 +7,8 @@ author: Bruce Liu
 date:   2019-09-13 00:50:03 +0200 
 # first published date
 published: 2019-09-13 00:50:03 +0200 
-categories: [blog, ArcGIS]
-tags: [ArcGIS, tools]
+categories: [ArcGIS]
+tags: [ArcGIS, GIS, tools]
 header-image: 
 permalink: 
 ---

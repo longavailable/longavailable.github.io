@@ -6,7 +6,7 @@ author: Bruce Liu
 date:   2020-01-14 11:20:00 +0100
 # first published date
 published: 2020-01-14 11:20:00 +0100
-categories: [blog, python, plotting]
+categories: [python, matplotlib]
 tags: [python, matplotlib, font]
 header-image: 
 permalink: /matplotlib_font/
@@ -53,6 +53,10 @@ or
 or
 	```
 	fc-list : lang=zh
+	```
+or
+	```
+	fc-list :lang=zh -f "%{family}\n" | sort | uniq
 	```
 If needed, install [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) first.
 	- If the font exists, go [here](#IFIL).

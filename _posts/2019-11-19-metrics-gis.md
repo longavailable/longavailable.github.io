@@ -6,7 +6,7 @@ author: Bruce Liu
 date:   2019-11-19 13:00:00 +0100
 # first published date
 published: 2019-11-19 13:00:00 +0100 
-categories: [blog, GIS, Earth]
+categories: [GIS, Earth]
 tags: [GIS, metrics conversion]
 header-image: 
 permalink: /metrics_gis/

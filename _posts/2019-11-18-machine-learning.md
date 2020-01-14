@@ -6,8 +6,8 @@ author: Bruce Liu
 date:   2019-11-18 22:06:00 +0100
 # first published date
 published: 2019-11-18 22:06:00 +0100 
-categories: [blog, ML, Machine Learning]
-tags: [deep learning, machine learning, neural networks]
+categories: [Machine Learning]
+tags: [deep learning, machine learning, ML, neural networks]
 header-image: 
 permalink: /free_ebooks_on_DL/
 ---

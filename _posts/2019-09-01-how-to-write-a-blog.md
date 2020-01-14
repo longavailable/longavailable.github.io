@@ -7,8 +7,8 @@ author: Bruce Liu
 date:   2019-11-23 19:27:00 +0200
 # first published date
 published: 2019-09-01 00:50:00 +0200 
-categories: [blog, manual]
-tags: [test, blog, first blog]
+categories: [Jekyll, markdown]
+tags: [first blog]
 description: Hello, world!
 header-image: 
 permalink: /how_to_wirte_a_blog/
