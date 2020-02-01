@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Key steps for case degine under the SCC / 海绵方案设计核心步骤
+title:  Key steps for case degine under the SCC / 海绵方案设计核心步骤 (中文)
 subtitle: 
 author: Bruce Liu
 # last update date
@@ -8,7 +8,7 @@ date:   2019-09-18 11:02:03 +0200
 # first published date
 published: 2019-09-18 11:02:03 +0200 
 categories: [Sponge City]
-tags: [Sponge City, SCC, 海绵城市]
+tags: [Sponge City, SCC, 海绵城市, 中文]
 header-image: 
 permalink: 
 ---
