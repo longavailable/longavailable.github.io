@@ -73,3 +73,4 @@ This is a templete to show how to write a post.
 - [Basic syntax - Markdown guide](https://www.markdownguide.org/basic-syntax/)
 - [MathJax in Markdown](https://hiltmon.com/blog/2017/01/28/mathjax-in-markdown/)
 - [Equation Editor](https://www.codecogs.com/latex/eqneditor.php)
+- [Jekyll: Previous And Next Posts](https://www.bytedude.com/jekyll-previous-and-next-posts/)
