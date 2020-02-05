@@ -2,6 +2,8 @@
 menu: 
   - name: Home
     link: /
+  - name: Projects
+    link: /projects
   - name: Categories
     link: /categories
   - name: Tags
