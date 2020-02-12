@@ -34,6 +34,7 @@ In my experience, the easiest way is to use a third-party tool. [TeamViewer](htt
 1. Launch Remote Desktop Connection utility on the client computer.
 1. Connect to the host computer. Enter the public IP followed with the port number. 
 
+Notice: Microsoft has a Remote Desktop app to support accessing a desktop from Android and iOS.
 
 <br>
 # Reference:
