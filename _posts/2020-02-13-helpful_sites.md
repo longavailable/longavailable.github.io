@@ -42,3 +42,9 @@ Be careful! Geeky!
 <b>啊哈磊</b>
 	&nbsp;&nbsp;
 	[<img src="/assets/pics/blog_35by27.png" height="20">](https://blog.51cto.com/ahalei)
+
+<b>博弈BLOG</b> 
+	&nbsp;&nbsp;
+	[ 🆕 <img src="/assets/pics/blog_35by27.png" height="20">](https://retire50blog.wang)
+	&nbsp;&nbsp;
+	[ 🛑 <img src="/assets/pics/blog_35by27.png" height="20">](https://blog1.jyzzj.online)

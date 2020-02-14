@@ -127,6 +127,24 @@ bundle exec jekyll serve
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5938.9807235220605!2d12.447683826439667!3d41.903816266880455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60660c3e3925%3A0x498c3835506c3c!2s00120%20Vatican%20City!5e0!3m2!1sen!2snl!4v1576946140498!5m2!1sen!2snl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 	</div>
 
+# How to add a emoji 🙈
+
+- The easiest way is copy and paste
+	
+	Visit [Emojipedia](https://emojipedia.org/), search , copy, and paste.
+	
+- Use [Jemoji](https://github.com/jekyll/jemoji)
+
+	  `gem install jemoji`
+	
+	Add `gem 'jemoji'` to gemfile.
+	
+	Add it as a plugin in `_config.yml`.
+	
+	Note: It may cause other problem. For my site, it will confict with lunr.js.
+
+
+
 # Reference
 - [Basic syntax - Markdown guide](https://www.markdownguide.org/basic-syntax/)
 - [markdown-guide](https://markdown-guide.readthedocs.io/en/latest/index.html)

@@ -66,9 +66,14 @@ layout: default
 
 				<!--{{ content }} <!-- This line can not delete-->
 				{{ post.content | remove: post.excerpt }} 	<!-- remove excerpt from posts -->
-				<br><hr>	<!-- br 是空行，hr是加一条直线-->
 			</div>
 		</div>
+	</div>
+	
+	<!-- share buttons -->
+	<br> <!-- br 是空行，hr是加一条直线-->
+	<div align="right">
+		{% include share-buttons.html %}
 	</div>
 	
 	<!-- mathjax -->
@@ -77,6 +82,7 @@ layout: default
 	{% endif %}
 	
 	<!-- page-piganation-->
+	<hr>	<!-- br 是空行，hr是加一条直线-->
 	<div class="post-nav">
 		<div>
 			{% if page.previous.url %}
