@@ -4,7 +4,7 @@ title:  First blog
 subtitle: how to write a blog
 author: Bruce Liu
 # last update date
-date:   2019-11-23 19:27:00 +0200
+date:   2020-02-14 20:07:00 +0200
 # first published date
 published: 2019-09-01 00:50:00 +0200 
 categories: [Jekyll, markdown]
@@ -151,3 +151,5 @@ bundle exec jekyll serve
 - [MathJax in Markdown](https://hiltmon.com/blog/2017/01/28/mathjax-in-markdown/)
 - [Equation Editor](https://www.codecogs.com/latex/eqneditor.php)
 - [Jekyll: Previous And Next Posts](https://www.bytedude.com/jekyll-previous-and-next-posts/)
+- [Jekyll without plugins](https://jekyllcodex.org/without-plugins/)
+- [Emojipedia](https://emojipedia.org/)

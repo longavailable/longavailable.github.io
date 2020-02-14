@@ -9,7 +9,7 @@ permalink: /search/
 
 {% include search-google.html %}
 
-<br>
+<br><hr>
 # Reference:
 - [Search with Lunr.js](https://jekyllcodex.org/without-plugin/search-lunr/)
 - [Search with Google](https://jekyllcodex.org/without-plugin/search-google/)
