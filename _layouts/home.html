@@ -55,14 +55,23 @@ permalink: /
 <div class="list-group">
 	{% for post in paginator.posts%} 	<!--order by date and default "reversed"-->
 	<div class="list-group-item">
+
+		<!-- title -->
 		<a href="{{ post.url }}">
 			<h3 class="list-group-item-heading">{{ post.title }}</h3>
-			<h5 class="list-group-item-heading">{{ post.published | date: '%B %d %Y' }}</h5>
 		</a>
+		
+		<!-- date -->
+		<p>
+			{% if post.published %}
+				<font size="3" color="#0000ee">{{ post.published | date: '%B %d %Y' }}</font>
+			{% else %}
+				<font size="3" color="#0000ee">{{ post.date | date: '%B %d %Y' }}</font>
+			{% endif %}
+		</p>
 
 		<!--
-		<h6 class="list-group-item-heading">{{ post.published | date: '%B %d,
-			%Y' }} | (Last Update : {{ post.date | date: '%B %d, %Y' }})</h6>
+		<h6 class="list-group-item-heading">{{ post.published | date: '%B %d,%Y' }} | (Last Update : {{ post.date | date: '%B %d, %Y' }})</h6>
 		
 		{% for tag in post.tags %}
 			<a class="label label-default" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
@@ -75,10 +84,9 @@ permalink: /
 			src="/assets/images/{{post.id}}/top.jpg" class="img-responsive">
 		{% endif %}
 		-->
-		<p>{{ post.excerpt | strip_html}} <a href="{{ post.url }}"> Read more...</a></p>
-		<!--
-		<a href="{{ post.url }}">Read more...</a>
-		-->
+		
+		<!-- excerpt -->
+		<p>{{ post.excerpt | strip_html}} <a href="{{ post.url }}"> 🔗 Read more...</a></p>
 	</div>
 	{% endfor %}
 </div>

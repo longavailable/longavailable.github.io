@@ -152,4 +152,5 @@ bundle exec jekyll serve
 - [Equation Editor](https://www.codecogs.com/latex/eqneditor.php)
 - [Jekyll: Previous And Next Posts](https://www.bytedude.com/jekyll-previous-and-next-posts/)
 - [Jekyll without plugins](https://jekyllcodex.org/without-plugins/)
+- [Basic syntax - Liquid template language](https://shopify.github.io/liquid/basics/introduction/)
 - [Emojipedia](https://emojipedia.org/)
