@@ -62,6 +62,8 @@ bundle exec jekyll serve
 
 - [More than 1 space in a text snippet (non-breaking space): `&nbsp;` is 2 spaces, `&nbsp;&nbsp;` 4 spaces](https://stackoverflow.com/a/15721400/12371819)
 
+- [Zero-width space: `&#8203;`](https://en.wikipedia.org/wiki/Zero-width_space)
+
 <!--<a class="headerlink" href="#code-inline" title="Permalink to this headline">¶</a>-->
 
 
@@ -127,6 +129,26 @@ bundle exec jekyll serve
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5938.9807235220605!2d12.447683826439667!3d41.903816266880455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60660c3e3925%3A0x498c3835506c3c!2s00120%20Vatican%20City!5e0!3m2!1sen!2snl!4v1576946140498!5m2!1sen!2snl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 	</div>
 
+## how to assign a variable
+
+Assigning a variable in Github Markdown:
+{% assign variableTest = "This is a string variable." %}
+{% capture variableTest2 %}This is a string variable for syntax 2.{% endcapture %}
+
+```
+{ % assign variableTest = "This is a string variable." % }
+{ % capture variableTest2 % }This is a string variable for syntax 2.{ % endcapture % }
+```
+
+- Note that, there is no space between curly bracket `{`, `}` and percent sign `%`.
+
+The content of variableTest is " {{variableTest}} ".
+
+The content of variableTest2 is " {{variableTest2}} ".
+
+The&#8203;content test.
+
+
 # How to add a emoji 🙈
 
 - The easiest way is copy and paste
@@ -135,7 +157,7 @@ bundle exec jekyll serve
 	
 - Use [Jemoji](https://github.com/jekyll/jemoji)
 
-	  `gem install jemoji`
+	  gem install jemoji
 	
 	Add `gem 'jemoji'` to gemfile.
 	
