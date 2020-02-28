@@ -6,7 +6,7 @@ author: Bruce Liu
 date:   2019-07-26 11:20:00 +0100
 # first published date
 published: 2019-07-26 11:20:00 +0100
-categories: [docker]
+categories: [post]
 tags: [docker, 中文]
 header-image: 
 permalink: /docker_guide/

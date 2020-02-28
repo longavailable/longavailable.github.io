@@ -6,7 +6,7 @@ author: Bruce Liu
 date:   2019-11-23 19:00:00 +0100
 # first published date
 published: 2019-11-23 19:00:00 +0100
-categories: [WSL, linux]
+categories: [post]
 tags: [WSL, linux]
 header-image: 
 permalink: /wsl-copy-paster/

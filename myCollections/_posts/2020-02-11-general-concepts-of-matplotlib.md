@@ -6,7 +6,7 @@ author: Bruce Liu
 date:   2020-02-11 11:20:00 +0100
 # first published date
 published: 2020-02-11 11:20:00 +0100
-categories: [python, matplotlib]
+categories: [post]
 tags: [python, matplotlib]
 header-image: 
 permalink: /matplotlib_concepts/

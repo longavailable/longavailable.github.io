@@ -7,7 +7,7 @@ author: Bruce Liu
 date:   2019-09-18 11:02:03 +0200 
 # first published date
 published: 2019-09-18 11:02:03 +0200 
-categories: [Sponge City]
+categories: [post]
 tags: [Sponge City, SCC, 海绵城市, 中文]
 header-image: 
 permalink: 

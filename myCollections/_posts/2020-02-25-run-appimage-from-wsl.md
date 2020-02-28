@@ -6,7 +6,7 @@ author: Bruce Liu
 date:   2020-02-25 15:30:00 +0100
 # first published date
 published: 2020-02-25 15:30:00 +0100
-categories: [wsl]
+categories: [post]
 tags: [WSL, linux, appimage, Xming]
 description: 
 header-image: 

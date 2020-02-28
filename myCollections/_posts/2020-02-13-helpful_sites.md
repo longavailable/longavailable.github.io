@@ -6,7 +6,7 @@ author: Bruce Liu
 date:   2020-02-13 13:08:00 +0100
 # first published date
 published: 2020-02-13 13:08:00 +0100
-categories: [sharing]
+categories: [post]
 tags: [sites]
 header-image: 
 permalink: /helpful_sites/

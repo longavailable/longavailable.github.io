@@ -6,7 +6,7 @@ author: Bruce Liu
 date:   2020-02-25 11:08:00 +0100
 # first published date
 published: 2020-02-25 11:08:00 +0100
-categories: [ArcGIS]
+categories: [post]
 tags: [ArcGIS, GIS]
 header-image: 
 permalink: /simple_landuse/

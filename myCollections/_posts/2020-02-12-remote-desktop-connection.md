@@ -6,7 +6,7 @@ author: Bruce Liu
 date:   2020-02-12 22:04:00 +0100
 # first published date
 published: 2020-02-12 22:04:00 +0100
-categories: [remote connection]
+categories: [post]
 tags: [teamviewer, remote desktop connection, windows os]
 header-image: 
 permalink: /remote_connection/

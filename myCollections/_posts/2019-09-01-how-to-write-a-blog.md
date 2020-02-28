@@ -7,7 +7,7 @@ author: Bruce Liu
 date:   2020-02-14 20:07:00 +0200
 # first published date
 published: 2019-09-01 00:50:00 +0200 
-categories: [Jekyll, markdown]
+categories: [post]
 tags: [first blog]
 description: Hello, world!
 header-image: 
