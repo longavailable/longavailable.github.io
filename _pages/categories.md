@@ -14,7 +14,7 @@ permalink: /categories/
 	{% endfor %}
 	
 	<!-- publication -->
-	<a style="text-decoration: underline; background-color: rgb(210,210,210)" href="#category_publication" title="Publication"> Publication </a>
+	<a style="text-decoration: underline; background-color: rgb(210,210,210)" href="#category_publication" title="publication"> publication </a>
 		&nbsp;
 </div>
 <hr>
@@ -31,7 +31,7 @@ permalink: /categories/
 	{% endfor %}
 	
 	<!-- for publication -->
-	<li class="listing-seperator" id="category_publication"> Publication </li>
+	<li class="listing-seperator" id="category_publication"> publication </li>
 	<ul>
 		{% for publication in site.publications %}
 			<li><a href="{{ publication.url }}">{{ publication.title }}</a></li>
