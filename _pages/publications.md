@@ -17,9 +17,9 @@ permalink: /publications/
 		<p>
 			<font size="3" color="#0000ee"><i>{{publication.journal}}</i> &nbsp; </font>
 			{% if publication.published %}
-				<font size="3" color="#0000ee">{{ publication.published | date: '%B %d %Y' }}</font>
+				<font size="3" color="#0000ee">{{ publication.published | date: '%Y' }}</font>
 			{% else %}
-				<font size="3" color="#0000ee">{{ publication.date | date: '%B %d %Y' }}</font>
+				<font size="3" color="#0000ee">{{ publication.date | date: '%Y' }}</font>
 			{% endif %}
 		</p>
 		

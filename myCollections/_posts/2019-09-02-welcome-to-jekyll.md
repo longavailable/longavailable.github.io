@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+author: Jekyll
+# last update date
 date:   2019-09-02 00:50:00 +0100
+# first published date
+published: 2019-09-02 00:50:00 +0100
 categories: [post]
 tags: [Jekyll]
 ---

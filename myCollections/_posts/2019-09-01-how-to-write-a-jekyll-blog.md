@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  First blog
-subtitle: how to write a blog
+title:  How to write a Jekyll blog
 author: Bruce Liu
 # last update date
 date:   2020-02-14 20:07:00 +0200
 # first published date
 published: 2019-09-01 00:50:00 +0200 
 categories: [post]
-tags: [first blog]
-description: Hello, world!
+tags: [first blog, Jekyll, markdown, map, picture, emoji]
+description: Hello, Jekyll!
 header-image: 
-permalink: /how_to_wirte_a_blog/
+permalink: /jekyll_blog/
 ---
 This is a templete to show how to write a post.
 <!--the above is the excerpt-->

@@ -47,14 +47,20 @@ Archived by:
 
 <hr>
 <div>
+	<!-- post -->
 	{% for category in site.categories %}
 		<a style="text-decoration: underline; background-color: rgb(210,210,210)" href="#{{ category[0] }}" title="{{ category[0] }}" rel="{{ category[1].size }}"> {{ category[0] }} </a>
 		&nbsp;
 	{% endfor %}
+	
+	<!-- publication -->
+	<a style="text-decoration: underline; background-color: rgb(210,210,210)" href="#category_publication" title="Publication"> Publication </a>
+		&nbsp;
 </div>
 <hr>
 
 <ul class="listing">
+	<!-- post -->
 	{% for category in site.categories %}
 	<li class="listing-seperator" id="{{ category[0] }}">{{ category[0] }}</li>
 	<ul>
@@ -63,6 +69,14 @@ Archived by:
 		{% endfor %}
 	</ul>
 	{% endfor %}
+	
+	<!-- for publication -->
+	<li class="listing-seperator" id="category_publication"> Publication </li>
+	<ul>
+		{% for publication in site.publications %}
+			<li><a href="{{ publication.url }}">{{ publication.title }}</a></li>
+		{% endfor %}
+	</ul>
 </ul>
 
 # Tags {#TAGS}
