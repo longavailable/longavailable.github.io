@@ -3,7 +3,7 @@ layout: post
 title:  How to write a Jekyll blog
 author: Bruce Liu
 # last update date
-date:   2020-02-14 20:07:00 +0200
+date:   2020-04-18 15:07:00 +0200
 # first published date
 published: 2019-09-01 00:50:00 +0200 
 categories: [post]
@@ -30,7 +30,13 @@ cd D:\git\githubPages\longavailable.github.io
 	```sh
 bundle exec jekyll serve
 	```
-
+	
+	or with `--drafts` tag.
+	
+	```sh
+bundle exec jekyll serve --drafts
+	```
+	
 - Check the githubpages website from [http://127.0.0.1:4000](http://127.0.0.1:4000).
 
 - `Ctrl + C ` quit the bundle serve.
