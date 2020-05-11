@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  guides for docker installation
+title:  Guides for docker installation
 author: Bruce Liu
 # last update date
 date:   2020-05-11 16:21:00 +0100
