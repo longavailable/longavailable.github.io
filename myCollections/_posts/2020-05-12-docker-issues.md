@@ -3,9 +3,9 @@ layout: post
 title:  FAQ for Docker in Chinese
 author: Bruce Liu
 # last update date
-published: 2019-05-11 15:15:00 +0100
+published: 2019-05-12 15:15:00 +0100
 # first published date
-published: 2019-05-11 15:15:00 +0100
+published: 2019-05-12 15:15:00 +0100
 categories: [post]
 tags: [docker, windows]
 header-image: 
@@ -48,3 +48,7 @@ FAQ for Docker.
 	- 打开Oracle VM VirtualBox
 	- 选中'default'虚拟机，设置（setting），打开共享文件夹（shared folders）选项，新建共享文件夹，根据需要设置好路径、文件夹名（例如mysharedfolder）
 	- `docker run --mount type=bind,source=/mysharedfolder,target=/mysharedfolder`
+
+1. 挂载（mount）使用`--volume`还是`--mount`？
+
+	- 参考[Choose the -v or --mount flag](https://docs.docker.com/storage/bind-mounts/#choose-the--v-or---mount-flag).
