@@ -16,7 +16,7 @@ Southwest China is abundant of rainfall and water resources, however, severe and
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Hydrological drought forecasting and assessment based on the standardized stream index in the Southwest China     |
 | Author         | Xiaolong Liu and Xianghong Xu and Meixiu Yu and Jinli Lu    |
 | Journal        | Procedia Engineering   |

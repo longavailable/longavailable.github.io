@@ -16,7 +16,7 @@ The Hanjiang River is the longest tributary of the Yangtze River. With the devel
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Impact of human activities on the flow regime of the Hanjiang     |
 | Author         | Guo Lu and Jun Wang and JianHua Zhao and MeiXiu Yu    |
 | Journal        | Proceedings Symposium JS. 3 at the Joint Convention of the International Association of Hydrological Sciences (IAHS) and the International Associaiton of Hydrogeologists (IAH)   |

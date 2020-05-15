@@ -16,7 +16,7 @@ The Standardized Precipitation Evapotranspiration Index (SPEI) was computed base
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Are droughts becoming more frequent or severe in China based on the standardized precipitation evapotranspiration index 19512010     |
 | Author         | Meixiu Yu and Qiongfang Li and Michael J Hayes and Mark D Svoboda and Richard R Heim    |
 | Journal        | International Journal of Climatology   |

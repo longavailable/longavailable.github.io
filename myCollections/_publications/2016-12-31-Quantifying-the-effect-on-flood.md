@@ -16,7 +16,7 @@ Both landscape and river systems over most regions of the world, within China in
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Quantifying the effect on flood regime of land-use pattern changes via hydrological simulation in the upper Huaihe River basin China     |
 | Author         | Meixiu Yu and Qiongfang Li and Xiaolong Liu and Jianyun Zhang    |
 | Journal        | Natural Hazards   |

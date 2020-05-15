@@ -16,7 +16,7 @@ Impacts of the Three Gorges Reservoir (TGR) on the downstream hydrological extre
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Impacts of the Three Gorges Reservoir on its immediate downstream hydrological drought regime during 19502016     |
 | Author         | Meixiu Yu and Xiaolong Liu and Qiongfang Li    |
 | Journal        | Natural Hazards   |

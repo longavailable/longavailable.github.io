@@ -16,7 +16,7 @@ With population increase and economic growth, the development of water resources
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Impacts of Danjiangkou reservoir on sediment regime of the Hanjiang River     |
 | Author         | Guobin Lu and Jun Wang and Qiongfang Li and Jianhua Zhao and Meixiu Yu and Tao Cai and Xue Bai and Wei Xie    |
 | Journal        | Hydrology Research   |

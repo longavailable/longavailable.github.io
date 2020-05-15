@@ -16,7 +16,7 @@ The processes of sediment generation in the upper Huaihe River basin have been a
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Investigation into the impacts of land-use change on sediment yield characteristics in the upper Huaihe River basin China     |
 | Author         | Tao Cai and Qiongfang Li and Meixiu Yu and Guobin Lu and Lipeng Cheng and Xie Wei    |
 | Journal        | Physics and Chemistry of the Earth, Parts A/B/C   |

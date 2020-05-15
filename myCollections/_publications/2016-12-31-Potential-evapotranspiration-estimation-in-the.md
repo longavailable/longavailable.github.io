@@ -16,7 +16,7 @@ The atmospheric evaporative demand, one of principal components in water cycle, 
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Potential evapotranspiration estimation in the upper Huaihe River basin China     |
 | Author         | Xianghong Xu and Meixiu Yu and Jinli Lu and Xiaolong Liu    |
 | Journal        | Procedia Engineering   |

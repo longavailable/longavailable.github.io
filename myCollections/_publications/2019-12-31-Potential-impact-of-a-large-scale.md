@@ -16,7 +16,7 @@ Dam building and reservoir operations alter the downstream hydrological regime, 
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Potential impact of a large-scale cascade reservoir on the spawning conditions of critical species in the Yangtze River China     |
 | Author         | Meixiu Yu and Daqing Yang and Xiaolong Liu and Qiongfang Li and Guoqing Wang    |
 | Journal        | Water   |

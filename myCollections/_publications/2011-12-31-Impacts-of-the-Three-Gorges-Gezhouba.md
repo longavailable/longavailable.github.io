@@ -16,7 +16,7 @@ The Yangtze River (Changjiang) is the third largest river in the world, and the 
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Impacts of the Three Gorges-Gezhouba reservoir cascade on the stream temperature regime of the Yangtze River     |
 | Author         | MEIXIU YU and GUOBIN LU and QIONGFANG LI and XIANGLIN ZOU    |
 | Journal        | IAHS-AISH publication   |

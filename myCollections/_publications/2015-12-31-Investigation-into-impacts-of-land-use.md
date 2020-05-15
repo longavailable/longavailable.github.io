@@ -16,7 +16,7 @@ To investigate the agricultural land-use change on flood regime, the upper Huaih
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Investigation into impacts of land-use changes on floods in the upper Huaihe River basin China     |
 | Author         | M Yu and Q Li and G Lu and H Wang and P Li    |
 | Journal        | Proceedings of the International Association of Hydrological Sciences   |

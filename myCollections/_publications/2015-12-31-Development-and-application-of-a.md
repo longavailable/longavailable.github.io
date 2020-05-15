@@ -16,7 +16,7 @@ Accurate and reliable drought monitoring is of primary importance for drought mi
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Development and application of a short-long-term composited drought index in the upper Huaihe River basin China     |
 | Author         | M Yu and Q Li and G Lu and H Wang and P Li    |
 | Journal        | Proceedings of the International Association of Hydrological Sciences   |

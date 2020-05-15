@@ -16,7 +16,7 @@ The Huaihe River Basin having China’s highest population density (662 persons 
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Drought assessment using a multivariate drought index in the Huaihe River basin of Eastern China     |
 | Author         | Q Li and M Zeng and H Wang and P Li and K Wang and M Yu    |
 | Journal        | Proceedings of the International Association of Hydrological Sciences   |

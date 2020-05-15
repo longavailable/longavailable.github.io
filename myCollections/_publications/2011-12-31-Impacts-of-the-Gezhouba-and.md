@@ -16,7 +16,7 @@ The sediment regime of the Yangtze River (Changjiang) has been altered by intens
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Impacts of the Gezhouba and Three Gorges reservoirs on the sediment regime in the Yangtze River China     |
 | Author         | Qiongfang Li and Meixiu Yu and Guobin Lu and Tao Cai and Xue Bai and Ziqiang Xia    |
 | Journal        | Journal of Hydrology   |

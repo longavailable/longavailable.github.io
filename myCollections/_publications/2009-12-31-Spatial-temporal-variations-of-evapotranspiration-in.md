@@ -16,7 +16,7 @@ Evapotranspiration, which is an important component of water cycle, is a critica
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Spatial-temporal variations of evapotranspiration in the upper Huaihe River basin     |
 | Author         | Qiongfang Li and Meixiu Yu and Yunhong Xue and Peng Li and Bin You    |
 | Journal        | International Symposium on Spatial Analysis, Spatial-Temporal Data Modeling, and Data Mining   |

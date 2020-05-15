@@ -16,7 +16,7 @@ The Poyang Lake, the largest freshwater lake in China, has attracted world widel
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Is the water level during dry season in Poyang Lake really lower than before     |
 | Author         | Xiaolong Liu and Meixiu Yu and Yong Shi and Zhenyu Luan and Dafang Fu    |
 | Journal        | EGU general assembly conference abstracts   |

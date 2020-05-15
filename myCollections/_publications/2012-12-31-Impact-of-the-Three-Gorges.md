@@ -16,7 +16,7 @@ With population increase and economic growth, the flow regime of the Yangtze Riv
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Impact of the Three Gorges reservoir operation on downstream ecological water requirements     |
 | Author         | Qiongfang Li and Meixiu Yu and Jianhua Zhao and Tao Cai and Guobin Lu and Wei Xie and Xue Bai    |
 | Journal        | Hydrology Research   |

@@ -16,7 +16,7 @@ With population increase and economic growth, the thermal regime of the Yangtze 
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Impacts of Three Gorges-Gezhouba reservoir cascade on the heat flux regime of the Yangtze River     |
 | Author         | QIONGFANG Li and HAOYANG Li and MEIXIU Yu    |
 | Journal        | Concept. Model. Stud. Integr. Groundw. Surf. Water Ecol. Syst   |

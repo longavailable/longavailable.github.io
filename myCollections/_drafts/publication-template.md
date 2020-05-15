@@ -16,7 +16,7 @@ permalink:
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | {title}     |
 | Author         | {author}    |
 | Journal        | {journal}   |

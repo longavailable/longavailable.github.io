@@ -16,7 +16,7 @@ The flow regime of the Yangtze River (Changjiang) has been altered to some exten
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Investigation into the Impacts of the Gezhouba and the Three Gorges Reservoirs on the Flow Regime of the Yangtze River     |
 | Author         | Meixiu Yu and Qiongfang Li and Guobin Lu and Tao Cai and Wei Xie and Xue Bai    |
 | Journal        | Journal of Hydrologic Engineering   |

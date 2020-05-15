@@ -16,7 +16,7 @@ Reservoir-induced alterations in the flow regime of the Yangtze River will unavo
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Genetic algorithms based hydropower optimization of the Three Gorges reservoir operation under two reservoir storing water schemes     |
 | Author         | QIONGFANG LI and JINLIANG REN and MEIXIU YU    |
 | Journal        | IAHS-AISH publication   |

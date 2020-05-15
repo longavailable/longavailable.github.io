@@ -16,7 +16,7 @@ With climate change and the rapid increase in water demand, droughts, whose inte
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Drought assessment using a multivariate drought index in the Luanhe River basin of Northern China     |
 | Author         | Qiongfang Li and Pengcheng Li and Haoyang Li and Meixiu Yu    |
 | Journal        | Stochastic environmental research and risk assessment   |

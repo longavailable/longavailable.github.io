@@ -16,7 +16,7 @@ Land-use change has significant impacts on hydrologic processes at the watershed
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Investigation into the impacts of land-use change on runoff generation characteristics in the upper Huaihe River Basin China     |
 | Author         | Qiongfang Li and Tao Cai and Meixiu Yu and Guobin Lu and Wei Xie and Xue Bai    |
 | Journal        | Journal of Hydrologic Engineering   |

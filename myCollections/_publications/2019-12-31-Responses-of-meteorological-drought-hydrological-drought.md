@@ -16,7 +16,7 @@ Spatial scale is a crucial factor in drought propagation and characterization. T
 
 
 | Item           | Content    |
-| ---------------|:-----------:|
+| ---------------|:------------|
 | Title          | Responses of meteorological drought-hydrological drought propagation to watershed scales in the upper Huaihe River basin China     |
 | Author         | Meixiu Yu and Xiaolong Liu and Qiongfang Li    |
 | Journal        | Environmental Science and Pollution Research   |
