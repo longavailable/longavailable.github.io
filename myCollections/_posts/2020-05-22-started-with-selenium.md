@@ -64,7 +64,7 @@ browser.quit()
 
 `selenium.webdriver.ChromeOptions()` is equivalent to `selenium.webdriver.chrome.options.Options()`.
 
-```
+```python
 #open a new ChromeOptions object
 options = webdriver.ChromeOptions()
 
@@ -84,7 +84,7 @@ There is a fantastic blog to guide the usage of XPath. Click [here](https://www.
 
 And you can test a XPath in Chrome Console. F12 --> Console --> Type your XPath like `$x(“.//*[@id='id']”)` --> ENTER.
 
-<div align="center"><img width="165" height="75" src="/assets/pics/xpath-console.png"/></div>
+<div align="center"><img width="365" height="205" src="/assets/pics/xpath-console.png"/></div>
 
 # Cases
 
