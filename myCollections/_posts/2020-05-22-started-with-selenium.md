@@ -32,7 +32,7 @@ There are ways to access a web page in python, such as [requests](https://reques
 
 Further more, there are some nice tools such as [webdriver-manager](https://pypi.org/project/webdriver-manager/), [chromedriver-autoinstaller](https://pypi.org/project/chromedriver-autoinstaller/) and [geckodriver-autoinstaller](https://pypi.org/project/geckodriver-autoinstaller/) to check, download and install a suitable driver from python automatically.
 
-Although WSL doesn't support GUI directly, there are still ways to use WebDrivers/Selenium. Here is a proven method. [https://github.com/lackovic/notes/tree/master/Windows/Windows%20Subsystem%20for%20Linux#use-chromedriver-on-wsl](https://github.com/lackovic/notes/tree/master/Windows/Windows%20Subsystem%20for%20Linux#use-chromedriver-on-wsl). In short, just place [ChromeDriver](https://chromedriver.chromium.org/) in some system directory in windows for example **C:\Windows\System32**, and remove **.exe** extension. After that, your can use from wsl directly.
+Although WSL doesn't support GUI directly, there are still ways to use WebDrivers/Selenium. Here is a proven method, <https://github.com/lackovic/notes/tree/master/Windows/Windows%20Subsystem%20for%20Linux#use-chromedriver-on-wsl>. In short, just place [ChromeDriver](https://chromedriver.chromium.org/) in some system directory in windows for example **C:\Windows\System32**, and remove **.exe** extension. After that, your can use from wsl directly.
 
 # Common usages
 
