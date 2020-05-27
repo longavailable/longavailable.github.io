@@ -20,6 +20,9 @@ layout: default
 	div.post-nav-next {
 		text-align: right;
 	}
+	div.spacing-2x {
+		line-height: 200%;
+	}
 	h3-publication { 
 		display: block;
 		font-family: "Comic Sans MS", cursive, sans-serif;
@@ -40,11 +43,13 @@ layout: default
 				<div class="post-heading">
 					<!-- for post -->
 					{% if page.categories[0] == "post" %}
+						<!-- tile -->
 						<h1>{{ page.title }}</h1>
 						{% if page.subtitle %}
 							<h2 class="subheading">{{ page.subtitle }}</h2>
 						{% endif %}
-						<span class="meta">
+						<!-- meta: author, date, etc -->
+						<div class="meta"><div class="spacing-2x"><p>
 							Posted by 
 								{% if page.author %}
 									{{ page.author }}
@@ -61,33 +66,26 @@ layout: default
 								, updated on 
 									{{ page.date | date: "%B %-d, %Y" }}
 							{% endif %}
-						
-						<!-- for publication -->
-						{% if page.categories[0] == "publication" %}
-							Written by
-								{% if page.author %}
-									{{ page.author }},
-								{% else %}
-									{{ site.title }},
-								{% endif %} 
-							Published in {{ page.date | date: "%Y" }}
-						{% endif %}
-						</span>
-						<div class="tags"><br>Tags: 
+						</p></div></div>
+						<!-- tags -->
+						<div class="tags"><div class="spacing-2x"><p>
+							Tags:
 							{% for tag in page.tags %}
-								<a class="tag" href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }},</a>
+								<a class="tag" href="/tags/#{{ tag }}" title="{{tag}}">{{tag}}</a>
+								{% if tag != page.tags.last %},{% endif %}	<!-- split with ',' -->
 							{% endfor %}
-						</div>
-						<br>
+						</p></div></div>
 					{% endif %}
 
 					<!-- for publication -->
 					{% if page.categories[0] == "publication" %}
+						<!-- tile -->
 						<h3-publication>{{ page.title }}</h3-publication>
 						{% if page.subtitle %}
 							<h4 class="subheading">{{ page.subtitle }}</h4>
 						{% endif %}
-						<p><span class="meta">
+						<!-- meta: author, date, etc -->
+						<div class="meta"><div class="spacing-2x"><p>
 							Written by
 								{% if page.author %}
 									{{ page.author }},
@@ -95,8 +93,7 @@ layout: default
 									{{ site.title }},
 								{% endif %} 
 							Published in {{ page.date | date: "%Y" }}
-						</span></p>
-						<br>
+						</p></div></div>
 					{% endif %}
 				</div>
 			</div>
