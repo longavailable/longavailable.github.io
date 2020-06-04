@@ -41,5 +41,6 @@ These are the number-line-like objects. They take care of setting the graph limi
 <br>
 # Reference:
 - [Matplotlib - User's Guide - Tutorials - Usage Guide](https://matplotlib.org/tutorials/introductory/usage.html#usage-guide)
+- [Writing mathematical expressions](https://matplotlib.org/3.2.1/tutorials/text/mathtext.html)
 
 
