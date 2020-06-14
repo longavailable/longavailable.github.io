@@ -3,7 +3,7 @@ layout: post
 title:  How to write a Jekyll blog
 author: Bruce Liu
 # last update date
-date:   2020-04-18 15:07:00 +0200
+date:   2020-06-14 15:00:00 +0200
 # first published date
 published: 2019-09-01 00:50:00 +0200 
 categories: [post]
@@ -181,3 +181,4 @@ The&#8203;content test.
 - [Jekyll without plugins](https://jekyllcodex.org/without-plugins/)
 - [Basic syntax - Liquid template language](https://shopify.github.io/liquid/basics/introduction/)
 - [Emojipedia](https://emojipedia.org/)
+- [List of Badges, in Markdown](https://github.com/Naereen/badges)
