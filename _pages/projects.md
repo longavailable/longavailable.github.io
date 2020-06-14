@@ -4,7 +4,7 @@ title: "Projects"
 # description:
 permalink: /projects/
 ---
-- # [adaptive-curvefitting](/adaptive_curvefitting)
+- # [adaptive-curvefitting](/adaptive-curvefitting)
 
 	Adaptive curvefitting is a tool to find potentially optimal models for your research data. It's based on [scipy], [numpy], and [matplotlib]. 
 	
