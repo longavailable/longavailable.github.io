@@ -3,7 +3,7 @@ layout: post
 title:  How to write a Jekyll blog
 author: Bruce Liu
 # last update date
-date:   2020-06-14 15:00:00 +0200
+date:   2020-06-16 00:50:00 +0200
 # first published date
 published: 2019-09-01 00:50:00 +0200 
 categories: [post]
@@ -12,6 +12,7 @@ description: Hello, Jekyll!
 header-image: 
 permalink: /jekyll_blog/
 ---
+
 This is a templete to show how to write a post.
 <!--the above is the excerpt-->
 <!--more-->
@@ -106,6 +107,19 @@ bundle exec jekyll serve --drafts
 ```
 
 <div align="center"><img width="65" height="75" alt="Demo pic for test" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"/></div>
+
+## How to compare two pictures
+
+<div class="img-comp-container">
+  <div class="img-comp-img">
+    <img src="/assets/pics/img_snow.jpg" width="300" height="200">
+  </div>
+  <div class="img-comp-img img-comp-overlay">
+    <img src="/assets/pics/img_forest.jpg" width="300" height="200">
+  </div>
+</div>
+
+{% include images_compare.html %}
 
 ## How to embed a map
 
