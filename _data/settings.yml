@@ -10,8 +10,8 @@ menu:
     link: /archive
   - name: Search
     link: /search
-  - name: About
-    link: /about
+  - name: Team
+    link: /team
 
     
 #  - name: Follow me
@@ -27,5 +27,7 @@ menu:
 #    link: /categories
 #  - name: Tags
 #    link: /tags
+#  - name: About
+#    link: /about
 
 
