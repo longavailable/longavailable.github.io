@@ -42,8 +42,8 @@ Maintainer of [LONGLOVEMYU], civil engineer, Pythoner, GISer, PhD fellow of [Sou
 [<img src="/assets/pics/github_marker_32px.png" height="20" title="GitHub">](https://github.com/longavailable)
 [<img src="/assets/pics/pypi_4k.png" height="20" title="PyPI">](https://pypi.org/user/longavailable)
 [<img src="/assets/pics/docker_Moby-logo_4k.png" height="18" title="Docker Hub">](https://hub.docker.com/u/longavailable)
+[<img src="/assets/pics/zenodo.svg" height="18" title="Zenodo">](https://zenodo.org/communities/longavailable)
 [<img src="/assets/pics/orcid-4k.png" height="20" title="ORCID">](https://orcid.org/0000-0002-6603-986X)
-
 
 <img src="/assets/pics/goodevil.jpg" alt="Avatar" class="avatar image-left">
 Anm  
