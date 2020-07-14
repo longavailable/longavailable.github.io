@@ -3,7 +3,7 @@ layout: post
 title:  Ports of python geospatial analysis tools
 author: Bruce Liu
 #last update date
-#date:   2020-07-13 14:16:00 +0200
+#date:   2020-07-14 09:50:00 +0200
 #first published date
 #published: 2020-07-13 14:16:00 +0200
 categories: [post]
@@ -75,6 +75,7 @@ There are lots of python packages for geospatial analysis. This post lists some 
 - Dependencies:
 	- Non-python denpendencies: [GDAL] including `gdal-bin` and `libgdal-dev`
 	- Python denpendencies: [NumPy]
+- [GitHub](https://github.com/OSGeo/gdal/tree/master/gdal/swig/python)
 - [PyPI](https://pypi.org/project/GDAL/)
 - [Python GDAL/OGR Cookbook]
 
