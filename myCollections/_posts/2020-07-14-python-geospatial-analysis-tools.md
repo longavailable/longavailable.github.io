@@ -3,9 +3,9 @@ layout: post
 title:  Ports of python geospatial analysis tools
 author: Bruce Liu
 #last update date
-#date:   2020-07-14 09:50:00 +0200
+date:   2020-07-14 09:50:00 +0200
 #first published date
-#published: 2020-07-13 14:16:00 +0200
+published: 2020-07-14 09:50:00 +0200
 categories: [post]
 tags: [python, gis, gdal, geos, jts, rasterio, shapely]
 description: 
