@@ -3,7 +3,7 @@ layout: post
 title:  Differences between dissolve and union in geoproceesing
 author: Bruce Liu
 #last update date
-date:   2020-07-20 01:20:00 +0200
+date:   2020-07-21 00:35:00 +0200
 #first published date
 published: 2020-07-20 01:20:00 +0200
 categories: [post]
@@ -44,6 +44,16 @@ Computes a geometric union of the input geometris.
 
 >At end, we can say, `dissolve` or `unary-union` combines the sub-objects for a given geometryCollection object. `union` works for two independent objects. The outputs of them are very similar.
 
+# buffer
+
+## `buffer` in Google Earth Engine
+
+- If two geometris touched, they will be unioned as one geometry after buffer operation.
+
+## `buffer` in [GeoPandas]
+
+- The number of geometris returen by `GeoSeries.buffer()` remains the same as input object.
+
 # Reference
 - [Union (analysis) in ArcGIS](https://pro.arcgis.com/en/pro-app/tool-reference/analysis/union.htm)
 - [Dissolve (Data Management) in ArcGIS](https://desktop.arcgis.com/en/arcmap/latest/tools/data-management-toolbox/dissolve.htm)
@@ -51,8 +61,9 @@ Computes a geometric union of the input geometris.
 - [Merging features in the same layer - ArcGIS](https://desktop.arcgis.com/en/arcmap/latest/manage-data/creating-new-features/merging-features-in-the-same-layer.htm)
 - [union - shapely](https://shapely.readthedocs.io/en/latest/manual.html#object.union)
 - [unary-union - shapely](https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.unary_union)
+- [GeoSeries.buffer()](https://geopandas.org/geometric_manipulations.html?highlight=buffer#GeoSeries.buffer)
 
 [FeatureCollection]: https://developers.arcgis.com/web-map-specification/objects/featureCollection/
 [feature]: https://developers.arcgis.com/web-map-specification/objects/feature/
 [geometry]: https://developers.arcgis.com/web-map-specification/objects/geometry/
-
+[GeoPandas]: https://geopandas.org/
