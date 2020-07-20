@@ -46,11 +46,11 @@ Computes a geometric union of the input geometris.
 
 # buffer
 
-## `buffer` in Google Earth Engine
+## Google Earth Engine
 
-- If two geometris touched, they will be unioned as one geometry after buffer operation.
+- If two geometris touched, they will be unioned as one geometry after `ee.Geometry.buffer` operation.
 
-## `buffer` in [GeoPandas]
+## [GeoPandas]
 
 - The number of geometris returen by `GeoSeries.buffer()` remains the same as input object.
 
