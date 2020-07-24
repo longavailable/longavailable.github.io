@@ -106,6 +106,7 @@ There are lots of python packages for geospatial analysis. This post lists some 
 
 ![analysis badge](https://img.shields.io/badge/analysis-blue.svg)
 ![vector badge](https://img.shields.io/badge/vector-blue.svg)
+![read and write badge](https://img.shields.io/badge/NO%20file%20read/write-blue.svg)
 
 - Dependencies: 
 	- Non-python denpendencies: [GEOS]
