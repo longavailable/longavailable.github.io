@@ -211,4 +211,5 @@ Python module of QGIS.
 [Data Analysis in Python]: http://www.data-analysis-in-python.org/
 [GIS in Python]: http://www.data-analysis-in-python.org/t_gis.html
 [geoplot]: https://residentmario.github.io/geoplot/index.html
+[seaborn]: https://seaborn.pydata.org/
 
