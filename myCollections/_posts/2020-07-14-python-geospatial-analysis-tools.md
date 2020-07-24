@@ -3,7 +3,7 @@ layout: post
 title:  Ports of python geospatial analysis tools
 author: Bruce Liu
 #last update date
-date:   2020-07-14 09:50:00 +0200
+date:   2020-07-24 10:40:00 +0200
 #first published date
 published: 2020-07-14 09:50:00 +0200
 categories: [post]
@@ -25,7 +25,7 @@ There are lots of python packages for geospatial analysis. This post lists some 
 
 ## [GDAL] 
 
-![analysis badge](https://img.shields.io/badge/analysis-blue.svg)
+![analysis badge](https://img.shields.io/badge/analysis-blue.svg) 
 ![raster badge](https://img.shields.io/badge/raster-blue.svg)
 ![vector badge](https://img.shields.io/badge/vector-blue.svg)
 ![C++ badge](https://img.shields.io/badge/C++-blue.svg)
@@ -125,6 +125,18 @@ There are lots of python packages for geospatial analysis. This post lists some 
 - [GitHub](https://github.com/geopandas/geopandas)
 - [PyPI](https://pypi.org/project/geopandas/)
 
+## [geoplot]
+
+![visualization badge](https://img.shields.io/badge/visualization-blue.svg)
+![analysis badge](https://img.shields.io/badge/analysis-blue.svg)
+![vector badge](https://img.shields.io/badge/vector-blue.svg)
+
+- Dependencies:
+	- Python denpendencies: [Matplotlib], [seaborn], [pandas], [GeoPandas] and [more](https://github.com/ResidentMario/geoplot/blob/master/setup.py).
+- [GitHub](https://github.com/ResidentMario/geoplot)
+- [PyPI](https://pypi.org/project/geoplot/)
+- [Gallery](https://residentmario.github.io/geoplot/gallery/index.html)
+
 ## [Cartopy]
 
 ![visualization badge](https://img.shields.io/badge/visualization-blue.svg)
@@ -135,6 +147,7 @@ There are lots of python packages for geospatial analysis. This post lists some 
 	- Python denpendencies: [NumPy], [Cython], [Shapely], [pyshp], and [six]; optinally, [Matplotlib] and [more](https://scitools.org.uk/cartopy/docs/latest/installing.html#optional-dependencies).
 - [GitHub](https://github.com/SciTools/cartopy)
 - [PyPI](https://pypi.org/project/Cartopy/)
+- [Gallery](https://scitools.org.uk/cartopy/docs/latest/gallery/index.html)
 
 ## [Folium]
 
@@ -197,4 +210,5 @@ Python module of QGIS.
 [pyproj]: http://pyproj4.github.io/pyproj/stable/
 [Data Analysis in Python]: http://www.data-analysis-in-python.org/
 [GIS in Python]: http://www.data-analysis-in-python.org/t_gis.html
+[geoplot]: https://residentmario.github.io/geoplot/index.html
 
