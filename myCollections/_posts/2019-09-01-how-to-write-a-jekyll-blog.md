@@ -3,7 +3,7 @@ layout: post
 title:  How to write a Jekyll blog
 author: Bruce Liu
 # last update date
-date:   2020-06-16 00:50:00 +0200
+date:   2020-08-02 16:30:00 +0200
 # first published date
 published: 2019-09-01 00:50:00 +0200 
 categories: [post]
@@ -110,16 +110,23 @@ bundle exec jekyll serve --drafts
 
 ## How to compare two pictures
 
-<div class="img-comp-container">
-  <div class="img-comp-img">
-    <img src="/assets/pics/img_snow.jpg" width="300" height="200">
-  </div>
-  <div class="img-comp-img img-comp-overlay">
-    <img src="/assets/pics/img_forest.jpg" width="300" height="200">
-  </div>
-</div>
+There are ways to create a comparative iframe. For example, [How TO - Image Comparison Slider], [JuxtaposeJS]. Add the following to your post by using [JuxtaposeJS].
 
-{% include images_compare.html %}
+```html
+<div class="juxtapose">
+    <img src="/assets/pics/img_forest.jpg" />
+    <img src="/assets/pics/img_snow.jpg" />
+</div>
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+```
+
+<div class="juxtapose">
+    <img src="/assets/pics/img_forest.jpg"/>
+    <img src="/assets/pics/img_snow.jpg"/>
+</div>
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
 ## How to embed a map
 
@@ -195,4 +202,10 @@ The&#8203;content test.
 - [Jekyll without plugins](https://jekyllcodex.org/without-plugins/)
 - [Basic syntax - Liquid template language](https://shopify.github.io/liquid/basics/introduction/)
 - [Emojipedia](https://emojipedia.org/)
+- [How TO - Image Comparison Slider]
+- [JuxtaposeJS - Easy-to-make frame comparisons](https://juxtapose.knightlab.com/)
 - [List of Badges, in Markdown](https://github.com/Naereen/badges)
+
+
+[How TO - Image Comparison Slider]: https://www.w3schools.com/howto/howto_js_image_comparison.asp
+[JuxtaposeJS]: https://github.com/NUKnightLab/juxtapose
