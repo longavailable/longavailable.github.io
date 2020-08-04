@@ -1,0 +1,3 @@
+[submodule "reveal.js"]
+	path = reveal.js
+	url = /mnt/d/git/reveal.js
