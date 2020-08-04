@@ -6,6 +6,8 @@ menu:
     link: /projects
   - name: Publications
     link: /publications
+  - name: Slides
+    link: /slides
   - name: Archive
     link: /archive
   - name: Search
