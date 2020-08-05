@@ -22,9 +22,9 @@
 			<meta name="author" content="{{ site.title }}" />
 		{% endif %}
 				
-    <!-- Description -->
-    {% if page.description %}
-      <meta name="description" content="{{ page.description }}" />
+    <!-- Description/excerpt -->
+    {% if page.excerpt %}
+      <meta name="description" content="{{ page.excerpt }}" />
     {% else %}
       <meta name="description" content="{{ site.description }}">
     {% endif %}
@@ -57,7 +57,7 @@
         <section data-markdown
                  data-separator="<!--horizontal-->"
                  data-separator-vertical="<!--vertical-->"
-								 data-notes="^Note:">          
+								 data-notes="^Note:">
 					<script type="text/template">
 {%
 						assign lines = content | newline_to_br | strip_newlines | split: "<br />"
@@ -106,18 +106,9 @@
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
-
-				{% if site.reveal_options %}
-					{% if site.reveal_options.first.first %}
-						// Reveal options generated from mapping
-						{% for option in site.reveal_options %}
-							{{ option[0] }}: "{{ option[1] }}",
-						{% endfor %}
-					{% else %}
-						// Reveal options generated from a list of strings
-						{{ site.reveal_options | append:',' }}
-					{% endif %}
-				{% endif %}
+				
+				{% if page.width %}width: {{ page.width }}, {% endif %}
+				{% if page.height %}height: {{ page.height }}, {% endif %}
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
@@ -127,6 +118,8 @@
 					{ src: '{{ site.baseurl }}/js/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: '{{ site.baseurl }}/js/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: '{{ site.baseurl }}/js/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					
+					<!--set denpendencies in _config.yml-->
 					{% if site.reveal_dependencies %}
 					, {{ site.reveal_dependencies }}
 					{% endif %}
