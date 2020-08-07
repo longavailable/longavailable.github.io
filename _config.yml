@@ -67,6 +67,9 @@ collections:
 
 include: ["_pages"]
 
+#reveal.js path
+revealjs_path: /js/reveal.js/
+
 # Public setting for post front matter
 excerpt_separator: <!--more-->
 
