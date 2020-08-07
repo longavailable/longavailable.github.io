@@ -3,7 +3,7 @@ layout: post
 title:  How to write a Jekyll blog
 author: Bruce Liu
 # last update date
-date:   2020-08-02 16:30:00 +0200
+date:   2020-08-08 00:20:00 +0200
 # first published date
 published: 2019-09-01 00:50:00 +0200 
 categories: [post]
@@ -190,6 +190,16 @@ The&#8203;content test.
 	Add it as a plugin in `_config.yml`.
 	
 	Note: It may cause other problem. For my site, it will confict with lunr.js.
+	
+# add a reveal.js presentation
+
+```html
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=500 height=400 src="/slides/2020-08-07-demo-from-revealjs.html#/"></iframe>
+```
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=500 height=400 src="/slides/2020-08-07-demo-from-revealjs.html#/"></iframe>
+
+Press **F** to fullscreen mode.
 
 
 
