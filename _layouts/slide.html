@@ -34,21 +34,18 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
-		<link rel="stylesheet" href="{{ site.baseurl }}/js/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="{{ site.revealjs_path }}dist/reveal.css">
+		<link rel="stylesheet" href="{{ site.revealjs_path }}dist/reset.css">
+		
+		<!--Default theme-->
 		{% if page.theme %}
-			<link rel="stylesheet" href="{{ site.baseurl }}{{ page.theme }}" id="theme">
+			<link rel="stylesheet" href="{{ page.theme }}" id="theme">
 		{% else %}
-			<link rel="stylesheet" href="{{ site.baseurl }}/js/reveal.js/css/theme/black.css" id="theme">
+			<link rel="stylesheet" href="{{ site.revealjs_path }}dist/theme/black.css" id="theme">
 		{% endif %}
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="{{ site.baseurl }}/js/reveal.js/lib/css/zenburn.css" id="highlight-theme">
-
-		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
-		<script>
-			document.write( '<link rel="stylesheet" href="{{ site.baseurl }}/js/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
-		</script>
-
+		<link rel="stylesheet" href="{{ site.revealjs_path }}plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
 
 	<body>
@@ -57,7 +54,7 @@
         <section data-markdown
                  data-separator="<!--horizontal-->"
                  data-separator-vertical="<!--vertical-->"
-								 data-notes="^Note:">
+								 data-notes="^Notes:">
 					<script type="text/template">
 {%
 						assign lines = content | newline_to_br | strip_newlines | split: "<br />"
@@ -65,13 +62,48 @@
 						for line in lines
 %}{% 
 							assign processed_line = line
-								| replace:'<fragment/>','<!-- .element: class="fragment" -->'
+								| replace:'<fragment>','<!-- .element: class="fragment" -->'
+								| replace:'<span fragment>','<span class="fragment">'
+								| replace:'</span fragment>','</span>'
+								| replace:'<fragment-grow>','<!-- .element: class="fragment grow" -->'
+								| replace:'<fragment-shrink>','<!-- .element: class="fragment shrink" -->'
+								| replace:'<fragment-fade-out>','<!-- .element: class="fragment fade-out" -->'
+								| replace:'<fragment-fade-right>','<!-- .element: class="fragment fade-right" -->'
+								| replace:'<fragment-fade-up>','<!-- .element: class="fragment fade-up" -->'
+								| replace:'<fragment-fade-down>','<!-- .element: class="fragment fade-down" -->'
+								| replace:'<fragment-fade-left>','<!-- .element: class="fragment fade-left" -->'
+								| replace:'<fragment-fade-in-then-out>','<!-- .element: class="fragment fade-in-then-out" -->'
+								| replace:'<fragment-fade-in-then-semi-out>','<!-- .element: class="fragment fade-in-then-semi-out" -->'
+								| replace:'<fragment-highlight-red>','<!-- .element: class="fragment highlight-red" -->'
+								| replace:'<fragment-highlight-blue>','<!-- .element: class="fragment highlight-blue" -->'
+								| replace:'<fragment-highlight-green>','<!-- .element: class="fragment highlight-greem" -->'
 								| replace:'<background>','<!-- .slide: data-background="'
 								| replace:'</background>','" -->'
-								| replace:'<backgroundimage>','<!-- .slide: data-background="'
-								| replace:'</backgroundimage>','" --> '
+								| replace:'<transition>','<!-- .slide: data-transition="'
+								| replace:'</transition>','" -->'
+								| replace:'<background-repeat>','<!-- .slide: data-background-repeat="'
+								| replace:'</background-repeat>','" -->'
+								| replace:'<background-size>','<!-- .slide: data-background-size="'
+								| replace:'</background-size>','" -->'
+								| replace:'<background-video>','<!-- .slide: data-background-video="'
+								| replace:'</background-video>','" -->'
+								| replace:'<background-color>','<!-- .slide: data-background-color="'
+								| replace:'</background-color>','" -->'
+								| replace:'<background-transition>','<!-- .slide: data-background-transition="'
+								| replace:'</background-transition>','" -->'
 								| replace:'<backgroundimageopacity>','<!-- .slide: data-background-opacity="'
 								| replace:'</backgroundimageopacity>','" -->'
+								| replace:'<data-auto-animate/>', '<!-- .slide: data-auto-animate -->'
+								| replace:'<data-auto-animate-easing>', '<!-- .slide: data-auto-animate-easing="'
+								| replace:'</data-auto-animate-easing>', '" -->'
+								| replace:'<background-iframe>','<!-- .slide: data-background-iframe="'
+								| replace:'</background-iframe>','" -->'
+								| replace:'</background-iframe-interactive>','" data-background-interactive -->'
+								| replace:'<state>','<!-- .slide: data-state="'
+								| replace:'</state>','" -->'
+								| replace:'<style>','<!-- .slide: style="'
+								| replace:'</style>','" -->'
+								
 %}{%
 							assign first_char = line | strip
 								| slice: 0,1
@@ -91,9 +123,13 @@
 			</div>
 		</div>
 
-		<script src="{{ site.baseurl }}/js/reveal.js/lib/js/head.min.js"></script>
-		<script src="{{ site.baseurl }}/js/reveal.js/js/reveal.js"></script>
-
+		<script src="{{ site.revealjs_path }}dist/reveal.js"></script>
+		<script src="{{ site.revealjs_path }}plugin/zoom/zoom.js"></script>
+		<script src="{{ site.revealjs_path }}plugin/notes/notes.js"></script>
+		<script src="{{ site.revealjs_path }}plugin/search/search.js"></script>
+		<script src="{{ site.revealjs_path }}plugin/markdown/markdown.js"></script>
+		<script src="{{ site.revealjs_path }}plugin/highlight/highlight.js"></script>
+		
 		<script>
 
 			// Full list of configuration options available here:
@@ -103,27 +139,18 @@
 				progress: true,
 				history: true,
 				center: true,
+				hash: true,
 
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+				// transition styles: https://revealjs.com/transitions/#styles
+				// none/fade/slide/convex/concave/zoom
+				{% if page.transition %}transition: '{{ page.transition }}', {% else %}transition: 'slide',{% endif %}
+				{% if page.backgroundTransition %}backgroundTransition: '{{ page.backgroundTransition }}', {% else %}backgroundTransition: 'slide', {% endif %}
 				
 				{% if page.width %}width: {{ page.width }}, {% endif %}
 				{% if page.height %}height: {{ page.height }}, {% endif %}
 
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: '{{ site.baseurl }}/js/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '{{ site.baseurl }}/js/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '{{ site.baseurl }}/js/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '{{ site.baseurl }}/js/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: '{{ site.baseurl }}/js/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: '{{ site.baseurl }}/js/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-					
-					<!--set denpendencies in _config.yml-->
-					{% if site.reveal_dependencies %}
-					, {{ site.reveal_dependencies }}
-					{% endif %}
-				]
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
 			});
 
 		</script>
