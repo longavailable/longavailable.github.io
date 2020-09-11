@@ -3,7 +3,7 @@ layout: post
 title:  Ports of python geospatial analysis tools
 author: Bruce Liu
 #last update date
-date:   2020-07-24 10:40:00 +0200
+date:   2020-09-11 06:40:00 +0200
 #first published date
 published: 2020-07-14 09:50:00 +0200
 categories: [post]
@@ -125,6 +125,7 @@ There are lots of python packages for geospatial analysis. This post lists some 
 	- Python denpendencies: [NumPy], [pandas], [Shapely], [Fiona], [pyproj]; optinally, [Matplotlib] and [more](https://geopandas.org/install.html#dependencies).
 - [GitHub](https://github.com/geopandas/geopandas)
 - [PyPI](https://pypi.org/project/geopandas/)
+- [Gallery](https://geopandas.org/gallery/index.html)
 
 ## [geoplot]
 
