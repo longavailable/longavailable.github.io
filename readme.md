@@ -6,5 +6,3 @@
 
 <p>forked from <a href="http://jekyllthemes.org/themes/SIMPLE-GREEN-TECH/">SIMPLE-GREEN-TECH</a>.</p>
 
-<p>The script of tag cloud is forked from <a href="https://github.com/addywaddy/jquery.tagcloud.js/">cnfeat/blog.io</a>.</p>
-
