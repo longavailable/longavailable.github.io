@@ -15,7 +15,9 @@ permalink: /slides/
 		
 		<!-- author and date -->
 		<p>
+			🧑 
 			<font size="3" color="#0000ee"><i>{{ slide.author }}</i> &nbsp; </font>
+			📅 
 			{% if slide.published %}
 				<font size="3" color="#0000ee">{{ slide.published | date: '%B %d %Y' }}</font>
 			{% else %}
@@ -25,7 +27,7 @@ permalink: /slides/
 				
 		<!-- tags -->
 		<div class="tags"><div class="spacing-2x"><p>
-			Keywords:
+			🏷️ Keywords:
 			{% for tag in slide.tags %}
 				<a class="tag" href="/tags/#{{ tag }}" title="{{tag}}">{{tag}}</a>
 				{% if tag != slide.tags.last %},{% endif %}	<!-- split with ',' -->

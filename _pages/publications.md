@@ -15,7 +15,9 @@ permalink: /publications/
 		
 		<!-- date and journal -->
 		<p>
+			📰 
 			<font size="3" color="#0000ee"><i>{{publication.journal}}</i> &nbsp; </font>
+			📅 
 			{% if publication.published %}
 				<font size="3" color="#0000ee">{{ publication.published | date: '%Y' }}</font>
 			{% else %}
