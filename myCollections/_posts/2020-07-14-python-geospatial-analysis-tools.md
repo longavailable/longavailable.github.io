@@ -3,7 +3,7 @@ layout: post
 title:  Ports of python geospatial analysis tools
 author: Bruce Liu
 #last update date
-date:   2020-09-11 06:40:00 +0200
+date:   2020-09-18 06:10:00 +0200
 #first published date
 published: 2020-07-14 09:50:00 +0200
 categories: [post]
@@ -17,6 +17,12 @@ There are lots of python packages for geospatial analysis. This post lists some 
 <!--the above is the excerpt-->
 <!--more-->
 <!--the following is the text-->
+
+## galleries
+
+[GeoPandas](https://geopandas.org/gallery/index.html)
+[GeoPlot](https://residentmario.github.io/geoplot/gallery/index.html)
+[Cartopy](https://scitools.org.uk/cartopy/docs/latest/gallery/index.html)
 
 # Fundamental tools/libraries
 
