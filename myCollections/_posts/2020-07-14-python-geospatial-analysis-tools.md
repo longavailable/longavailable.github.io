@@ -18,11 +18,25 @@ There are lots of python packages for geospatial analysis. This post lists some 
 <!--more-->
 <!--the following is the text-->
 
-## galleries
+## Ports of python packages
 
-[GeoPandas](https://geopandas.org/gallery/index.html)
-[GeoPlot](https://residentmario.github.io/geoplot/gallery/index.html)
-[Cartopy](https://scitools.org.uk/cartopy/docs/latest/gallery/index.html)
+[contextily](https://github.com/darribas/contextily) &nbsp;
+[pyproj](https://github.com/pyproj4/pyproj) &nbsp;
+[pyepsg](https://github.com/rhattersley/pyepsg) &nbsp;
+[GDAL Python API] &nbsp;
+[Rasterio] &nbsp;
+[Fiona] &nbsp;
+[Shapely] &nbsp;
+[GeoPandas] &nbsp;
+[geoplot] &nbsp;
+[Cartopy] &nbsp;
+[Folium] &nbsp;
+
+## Ports of galleries
+
+[GeoPandas](https://geopandas.org/gallery/index.html) &nbsp;
+[GeoPlot](https://residentmario.github.io/geoplot/gallery/index.html) &nbsp;
+[Cartopy](https://scitools.org.uk/cartopy/docs/latest/gallery/index.html) &nbsp;
 
 # Fundamental tools/libraries
 
