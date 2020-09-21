@@ -3,7 +3,7 @@ layout: post
 title:  Ports of python geospatial analysis tools
 author: Bruce Liu
 #last update date
-date:   2020-09-18 06:10:00 +0200
+date:   2020-09-21 07:00:00 +0200
 #first published date
 published: 2020-07-14 09:50:00 +0200
 categories: [post]
@@ -21,7 +21,7 @@ There are lots of python packages for geospatial analysis. This post lists some 
 ## Ports of python packages
 
 [geopy](https://github.com/geopy/geopy) &nbsp;
-[contextily](https://github.com/darribas/contextily) &nbsp;
+[contextily](https://github.com/geopandas/contextily) &nbsp;
 [pyproj](https://github.com/pyproj4/pyproj) &nbsp;
 [pyepsg](https://github.com/rhattersley/pyepsg) &nbsp;
 [GDAL Python API] &nbsp;
