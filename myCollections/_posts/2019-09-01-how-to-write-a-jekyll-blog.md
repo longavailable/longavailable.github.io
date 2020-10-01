@@ -145,7 +145,7 @@ There are ways to create a comparative iframe. For example, [How TO - Image Comp
 
 - Example
 	<div align="center">
-		<script src="https://embed.github.com/view/geojson/longavailable/georepo/master/geojson/afg.json?width=600&height=600"></script>
+		<script src="https://embed.github.com/view/geojson/longavailable/georepo/main/geojson/afg.json?width=600&height=600"></script>
 	</div>
 
 
