@@ -3,7 +3,7 @@ layout: post
 title:  List of related academic journals
 author: Bruce Liu
 #last update date
-date:   2020-10-19 06:00:00 +0200
+date:   2020-10-20 21:30:00 +0200
 #first published date
 published: 2020-10-19 06:00:00 +0200
 categories: [post]
@@ -22,6 +22,7 @@ List of related academic journals with LetPub links.
 |-------------|:---------------------------------|---------|------------|--------|
 | 0169-2046   | [Landscape and Urban Planning]   | Q1  		 | 2区				| 5.441  |
 | 1009-637X   | [Journal of Geographical Sciences]   | Q1  		 | 3区				| 2.851  |
+| 0920-4741   | [Water Resources Management]   | Q1  		 | 2区				| 2.924  |
 
 
 
@@ -29,3 +30,4 @@ List of related academic journals with LetPub links.
 <!--letpub links-->
 [Landscape and Urban Planning]: https://www.letpub.com.cn/index.php?journalid=5535&page=journalapp&view=detail
 [Journal of Geographical Sciences]: https://www.letpub.com.cn/index.php?journalid=4587&page=journalapp&view=detail
+[Water Resources Management]: https://www.letpub.com.cn/index.php?journalid=8080&page=journalapp&view=detail
