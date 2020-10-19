@@ -18,9 +18,9 @@ List of related academic journals with LetPub links.
 <!--the following is the text-->
 
 
-| ISSN        | Name    												 | JCR分区 | 中科院分区 | IF |
-|-------------|:---------------------------------|---------|------------|---------|
-| 0169-2046   | [landscape and urban planning]   | Q1  		 | 2区				| [greensci](http://www.greensci.net/search?kw=0169-2046)	  |
+| ISSN        | Name    												 | JCR分区 | 中科院分区 | IF     |
+|-------------|:---------------------------------|---------|------------|--------|
+| 0169-2046   | [landscape and urban planning]   | Q1  		 | 2区				| 5.441  |
 
 
 
