@@ -20,10 +20,12 @@ List of related academic journals with LetPub links.
 
 | ISSN        | Name    												 | JCR分区 | 中科院分区 | IF     |
 |-------------|:---------------------------------|---------|------------|--------|
-| 0169-2046   | [landscape and urban planning]   | Q1  		 | 2区				| 5.441  |
+| 0169-2046   | [Landscape and Urban Planning]   | Q1  		 | 2区				| 5.441  |
+| 1009-637X   | [Journal of Geographical Sciences]   | Q1  		 | 3区				| 2.851  |
 
 
 
 
 <!--letpub links-->
-[landscape and urban planning]: https://www.letpub.com.cn/index.php?journalid=5535&page=journalapp&view=detail
+[Landscape and Urban Planning]: https://www.letpub.com.cn/index.php?journalid=5535&page=journalapp&view=detail
+[Journal of Geographical Sciences]: https://www.letpub.com.cn/index.php?journalid=4587&page=journalapp&view=detail
