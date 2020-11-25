@@ -24,6 +24,7 @@ List of related academic journals with LetPub links.
 | 1009-637X   | [Journal of Geographical Sciences]   | Q1  		 | 3区				| 2.851  |
 | 0920-4741   | [Water Resources Management]   | Q1  		 | 2区				| 2.924  |
 | 1462-9011   | [Environmental Science and Policy]   | Q1  		 | 2区				| 4.767  |
+| 1753-318X   | [Journal of Flood Risk Management]   | Q1  		 | 3区				| 3.066  |
 
 
 
@@ -33,3 +34,4 @@ List of related academic journals with LetPub links.
 [Journal of Geographical Sciences]: https://www.letpub.com.cn/index.php?journalid=4587&page=journalapp&view=detail
 [Water Resources Management]: https://www.letpub.com.cn/index.php?journalid=8080&page=journalapp&view=detail
 [Environmental Science and Policy]: https://www.letpub.com.cn/index.php?journalid=2565&page=journalapp&view=detail
+[Journal of Flood Risk Management]: https://www.letpub.com.cn/index.php?journalid=8283&page=journalapp&view=detail
