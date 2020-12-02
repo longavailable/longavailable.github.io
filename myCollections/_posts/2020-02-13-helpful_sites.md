@@ -3,7 +3,7 @@ layout: post
 title:  Sites worth sharing
 author: Bruce Liu
 # last update date
-date:   2020-02-13 13:08:00 +0100
+date:   2020-12-02 23:20:00 +0100
 # first published date
 published: 2020-02-13 13:08:00 +0100
 categories: [post]
@@ -16,6 +16,10 @@ Those sites were worth sharing.
 <!--more-->
 <!--the following is the text-->
 Be careful! Geeky!
+
+<b>Tim Dettmers</b>
+	&nbsp;&nbsp;
+	[<img src="/assets/pics/blog_35by27.png" height="20">](https://timdettmers.com)
 
 <b>高金的博客</b>
 	&nbsp;&nbsp;
