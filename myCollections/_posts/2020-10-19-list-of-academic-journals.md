@@ -69,7 +69,6 @@ List of related academic journals with LetPub links.
 
 
 <!--journal websites-->
-[Applied Geography]:
-https://www.sciencedirect.com/journal/applied-geography
+[Applied Geography]: https://www.sciencedirect.com/journal/applied-geography
 [Annals of the American Association of Geographers]: https://www.tandfonline.com/loi/raag21
 
