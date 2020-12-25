@@ -3,7 +3,7 @@ layout: post
 title:  Ports of python geospatial analysis tools
 author: Bruce Liu
 #last update date
-date:   2020-09-21 07:00:00 +0200
+date:   2020-12-25 02:00:00 +0100
 #first published date
 published: 2020-07-14 09:50:00 +0200
 categories: [post]
@@ -158,7 +158,7 @@ There are lots of python packages for geospatial analysis. This post lists some 
 	- Python denpendencies: [Matplotlib], [seaborn], [pandas], [GeoPandas] and [more](https://github.com/ResidentMario/geoplot/blob/master/setup.py).
 - [GitHub](https://github.com/ResidentMario/geoplot)
 - [PyPI](https://pypi.org/project/geoplot/)
-- [Gallery](https://residentmario.github.io/geoplot/gallery/index.html)
+- [Gallery](https://residentmario.github.io/geoplot/gallery/index.html), [more](https://residentmario.github.io/geoplot/plot_references/plot_reference.html)
 
 ## [Cartopy]
 
