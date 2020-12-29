@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  List of related academic journals
+title:  Academic journals on water and environment
 author: Bruce Liu
 #last update date
-date:   2020-12-09 03:00:00 +0100
+date:   2020-12-29 23:50:00 +0100
 #first published date
 published: 2020-10-19 06:00:00 +0200
 categories: [post]
-tags: [journal, LetPub]
+tags: [journal, LetPub, water, water resources, environment]
 description: 
 header-image: 
 permalink: /journal-list/
 ---
-List of related academic journals with LetPub links.
+It posted a list of academic journals on water and environment with LetPub links.
 <!--the above is the excerpt-->
 <!--more-->
 <!--the following is the text-->
@@ -34,9 +34,10 @@ List of related academic journals with LetPub links.
 | 2169-897X   | [Journal of Geophysical Research: Atmospheres]   | Q2  		 | 2区				| 3.821  |
 | 0169-8095   | [Atmospheric Research]   | Q1  		 | 2区				| 4.676  |
 | 2212-0955		| [Urban Climate] 	| Q1  		 | 				| 3.834  |
-| 1087-3562   | [Earth Interactions]   | Q1  		 | 3区				| 2.167  |
-| 0094-8276   | [Geophysical Research Letters]   | Q1  		 | 1区				| 4.497  |
-| 0273-1177   | [Advances in Space Research]   | Q2  		 | 4区				| 2.177  |
+| 1087-3562   | [Earth Interactions]   | Q1  		 	| 3区				| 2.167  	|
+| 0094-8276   | [Geophysical Research Letters]   	| Q1  		 	| 1区			| 4.497  	|
+| 0262-6667		| [Hydrological Sciences Journal]		| Q1				| 4区			| 2.186		|
+| 0273-1177   | [Advances in Space Research]   		| Q2  		 	| 4区			| 2.177  	|
 
 # SSCI journals
 
@@ -65,6 +66,7 @@ List of related academic journals with LetPub links.
 [Atmospheric Research]: https://www.letpub.com.cn/index.php?journalid=955&page=journalapp&view=detail
 [Advances in Space Research]: https://www.letpub.com.cn/index.php?journalid=282&page=journalapp&view=detail
 [Urban Climate]: https://www.letpub.com.cn/index.php?journalid=10939&page=journalapp&view=detail
+[Hydrological Sciences Journal]: https://www.letpub.com.cn/index.php?journalid=3289&page=journalapp&view=detail
 
 
 
