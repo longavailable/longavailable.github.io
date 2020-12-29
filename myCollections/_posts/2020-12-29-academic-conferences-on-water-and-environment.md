@@ -33,6 +33,7 @@ It posted a list of academic conferences on water and environment.
 
 
 <!--institute links-->
+[AGU]: https://www.agu.org
 [EGU]: https://www.egu.eu
 [EWRI]: https://www.asce.org/environmental-and-water-resources-engineering/environmental-and-water-resources-institute/
 [IAHR]: https://www.iahr.org
