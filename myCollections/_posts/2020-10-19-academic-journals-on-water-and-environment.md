@@ -3,7 +3,7 @@ layout: post
 title:  Academic journals on water and environment
 author: Bruce Liu
 #last update date
-date:   2021-01-04 22:40:00 +0100
+date:   2021-01-29 04:50:00 +0800
 #first published date
 published: 2020-10-19 06:00:00 +0200
 categories: [post]
@@ -39,6 +39,7 @@ It posted a list of academic journals on water and environment with LetPub links
 | 0262-6667		| [Hydrological Sciences Journal]		| Q1				| 4区			| 2.186		|
 | 0273-1177   | [Advances in Space Research]   		| Q2  		 	| 4区			| 2.177  	|
 | 2072-4292   | [Remote Sensing]   		| Q1  		 	| 2区			| 4.509  	|
+| 1548-1603   | [GIScience & Remote Sensing]   		| Q1  		 	| 1区			| 5.965  	|
 
 # SSCI journals
 
@@ -69,6 +70,8 @@ It posted a list of academic journals on water and environment with LetPub links
 [Urban Climate]: https://www.letpub.com.cn/index.php?journalid=10939&page=journalapp&view=detail
 [Hydrological Sciences Journal]: https://www.letpub.com.cn/index.php?journalid=3289&page=journalapp&view=detail
 [Remote Sensing]: https://www.letpub.com.cn/index.php?journalid=8969&page=journalapp&view=detail
+[GIScience & Remote Sensing]: https://www.letpub.com.cn/index.php?journalid=3102&page=journalapp&view=detail
+
 
 
 <!--journal websites-->
