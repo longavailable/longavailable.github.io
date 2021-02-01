@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Galleries
 permalink: /vod-index/
 galleries:
   - title: Golden Age
