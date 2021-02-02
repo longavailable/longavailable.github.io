@@ -3,7 +3,7 @@ layout: post
 title:  Vie of Delft&#58; 2019 - 2020
 author: Bruce Liu
 #last update date
-date:   2021-01-15 21:50:00 +0100
+date:   2021-02-02 15:00:00 +0800
 #first published date
 published: 2021-01-15 21:50:00 +0100
 categories: [post]
