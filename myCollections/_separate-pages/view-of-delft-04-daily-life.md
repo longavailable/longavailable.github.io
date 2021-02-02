@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Buildings
+title: Daily life
 permalink: /vod-dl/
 ---
 
