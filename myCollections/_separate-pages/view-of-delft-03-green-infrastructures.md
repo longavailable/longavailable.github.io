@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Buildings
+title: Green infrastructures
 permalink: /vod-gi/
 ---
 
