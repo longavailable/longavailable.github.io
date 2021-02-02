@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Golden Age
+title: Golden age paintings
 permalink: /vod-golden-age/
 ---
 
