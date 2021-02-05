@@ -3,7 +3,7 @@ layout: post
 title:  Academic journals on water and environment
 author: Bruce Liu
 #last update date
-date:   2021-01-29 04:50:00 +0800
+date:   2021-02-05 18:50:00 +0800
 #first published date
 published: 2020-10-19 06:00:00 +0200
 categories: [post]
@@ -38,17 +38,19 @@ It posted a list of academic journals on water and environment with LetPub links
 | 0094-8276   | [Geophysical Research Letters]   	| Q1  		 	| 1区			| 4.497  	|
 | 0262-6667		| [Hydrological Sciences Journal]		| Q1				| 4区			| 2.186		|
 | 0273-1177   | [Advances in Space Research]   		| Q2  		 	| 4区			| 2.177  	|
-| 2072-4292   | [Remote Sensing]   		| Q1  		 	| 2区			| 4.509  	|
+| 2072-4292   | [Remote Sensing]   		| Q1  		 	| 2区				| 4.509  	|
 | 1548-1603   | [GIScience & Remote Sensing]   		| Q1  		 	| 1区			| 5.965  	|
+| 0013-9351   | [Environmental Research]   				| Q1  		 	| 2区			| 5.715  	|
+| 1364-8152   | [Environmental Modelling & Software]   				| Q1  		| 2区			| 4.807  	|
+
 
 # SSCI journals
 
-| ISSN        | Name    												 	| JCR分区 | IF     |
-|-------------|:----------------------------------|---------|--------|
-| 0143-6228   | [Applied Geography]   						| Q1  		| 3.508  |
-| 2469-4452   | [Annals of the American Association of Geographers]  | Q1  		| 3.302  |
-
-
+| ISSN        | Name    												 	| JCR分区 | IF     	|
+|-------------|:----------------------------------|---------|--------	|
+| 0143-6228   | [Applied Geography]   						| Q1  		| 3.508  	|
+| 2469-4452   | [Annals of the American Association of Geographers]  	| Q1  		| 3.302  |
+| 0198-9715   | [Computers, Environment and Urban Systems]  | Q1  		| 4.655  	|
 
 
 <!--letpub links-->
@@ -71,10 +73,14 @@ It posted a list of academic journals on water and environment with LetPub links
 [Hydrological Sciences Journal]: https://www.letpub.com.cn/index.php?journalid=3289&page=journalapp&view=detail
 [Remote Sensing]: https://www.letpub.com.cn/index.php?journalid=8969&page=journalapp&view=detail
 [GIScience & Remote Sensing]: https://www.letpub.com.cn/index.php?journalid=3102&page=journalapp&view=detail
+[Environmental Research]: https://www.letpub.com.cn/index.php?journalid=2562&page=journalapp&view=detail
+[Environmental Modelling & Software]: https://www.letpub.com.cn/index.php?journalid=2558&page=journalapp&view=detail
 
 
 
 <!--journal websites-->
 [Applied Geography]: https://www.sciencedirect.com/journal/applied-geography
 [Annals of the American Association of Geographers]: https://www.tandfonline.com/loi/raag21
+[Computers, Environment and Urban Systems]: https://www.journals.elsevier.com/computers-environment-and-urban-systems/
+
 
