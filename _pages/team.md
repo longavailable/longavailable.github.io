@@ -29,7 +29,7 @@ image::after
 
 <img src="/assets/pics/myu.jpg" alt="Avatar" class="avatar image-left">
 Dr Meixiu Yu / 虞美秀  
-[中文简介](/myu_hhu_cn)  
+[中文简介](/myu-hhu-cn)  
 Chief scientist of [LONGLOVEMYU], hydrologist, associate professor of [Hohai University]<br>
 [<img src="/assets/pics/hhu_20k.png" height="20" title="Hohai University">](http://shxy.hhu.edu.cn/2017/0307/c3223a45183/page.htm)
 [<img src="/assets/pics/ResearchGate-6k.png" height="18" title="Research Gate">](https://www.researchgate.net/profile/Meixiu_Yu)
