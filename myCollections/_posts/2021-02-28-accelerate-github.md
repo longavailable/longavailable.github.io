@@ -19,13 +19,13 @@ permalink: /fasten-github/
 
 以[voronoi-diagram-for-polygons]项目为例
 
-项目链接：(https://github.com/longavailable/voronoi-diagram-for-polygons)
+项目链接：<https://github.com/longavailable/voronoi-diagram-for-polygons>
 
 克隆命令：`git clone https://github.com/longavailable/voronoi-diagram-for-polygons.git`
 
-release链接：(https://github.com/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip)
+release链接：<https://github.com/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip>
 
-raw链接（示例）：(https://raw.githubusercontent.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png)
+raw链接（示例）：<https://raw.githubusercontent.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png>
 
 # 国内镜像加速
 
@@ -33,17 +33,15 @@ raw链接（示例）：(https://raw.githubusercontent.com/longavailable/voronoi
 
 作用：加速访问；加速克隆；加速release下载
 
-[hub.fastgit.org](https://hub.fastgit.org/)
-
 使用方法：将`github.com`替换为`hub.fastgit.org`即可加速。
 
-项目加速链接：(https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons)
+项目加速链接：<https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons>
 
 加速克隆命令：`git clone https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons.git`
 
-release加速下载链接：(https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip)
+release加速下载链接：<https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip>
 
-raw加速访问链接：（https://raw.fastgit.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png）
+raw加速访问链接：<https://raw.fastgit.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png>
 
 
 ## [github.com.cnpmjs.org]
@@ -68,7 +66,7 @@ raw加速访问链接：（https://raw.fastgit.com/longavailable/voronoi-diagram
 
 使用方法：将`raw.githubusercontent.com`替换为`raw.sevencdn.com`。
 
-raw加速访问链接：（https://raw.sevencdn.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png）
+raw加速访问链接：<https://raw.sevencdn.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png>
 
 ## [gh.api.99988866.xyz]
 
@@ -98,10 +96,10 @@ raw加速访问链接：（https://raw.sevencdn.com/longavailable/voronoi-diagra
 
 # 参考/References
 
-- [Github国内mirror加速]: https://blog.csdn.net/networken/article/details/105122778
+- [Github国内mirror加速](https://blog.csdn.net/networken/article/details/105122778)
 - [国内加速访问Github的办法，超级简单](https://blog.csdn.net/qianglei6077/article/details/90051554)
-- [一招搞定GitHub下载加速]: https://zhuanlan.zhihu.com/p/112697807
-- [IPAddress.com]: http://ipaddress.com/
+- [一招搞定GitHub下载加速](https://zhuanlan.zhihu.com/p/112697807)
+- [IPAddress.com](http://ipaddress.com/)
 
 
 [voronoi-diagram-for-polygons]: https://github.com/longavailable/voronoi-diagram-for-polygons
