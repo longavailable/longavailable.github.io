@@ -51,7 +51,7 @@ raw加速访问链接：<https://raw.fastgit.com/longavailable/voronoi-diagram-f
 使用方法：与[fastgit.org]相似，将`github.com`替换为`github.com.cnpmjs.org`即可加速。
 
 
-## [gitclone]
+## [gitclone.com]
 
 作用：加速克隆
 
@@ -107,13 +107,13 @@ raw加速访问链接：<https://raw.sevencdn.com/longavailable/voronoi-diagram-
 - [一招搞定GitHub下载加速](https://zhuanlan.zhihu.com/p/112697807)
 - [IPAddress.com](http://ipaddress.com/)
 
-
+<!--helping links-->
 [voronoi-diagram-for-polygons]: https://github.com/longavailable/voronoi-diagram-for-polygons
 [fastgit.org]: https://doc.fastgit.org/en-us/#about-fastgit
 [gitclone.com]: https://www.gitclone.com/
 [github.com.cnpmjs.org]: https://github.com.cnpmjs.org/
 [7ed.net GRA]: https://7ed.net/gra/
-[gh.api.99988866.xyz]：https://gh.api.99988866.xyz/
+[gh.api.99988866.xyz]: https://gh.api.99988866.xyz/
 [toolwa.com/github]: https://toolwa.com/github/
 [d.serctl.com]: https://d.serctl.com/
 
