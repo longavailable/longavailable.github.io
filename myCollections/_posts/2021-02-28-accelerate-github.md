@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  如何解决github访问慢的问题
+title:  如何解决github访问慢的问题（中文）
 author: Bruce Liu
 #last update date
 date:   2021-02-28 00:50:00 +0800
 #first published date
 published: 2021-02-28 00:50:00 +0800
 categories: [post]
-tags: [github, China]
+tags: [github, China, 中文]
 description: 
 header-image: 
 permalink: /fasten-github/
