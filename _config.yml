@@ -37,7 +37,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
-
+  - jekyll-spaceship
+  
 collections_dir: myCollections
 collections:
   publications:
