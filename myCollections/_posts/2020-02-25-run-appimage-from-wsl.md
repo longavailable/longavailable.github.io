@@ -3,11 +3,11 @@ layout: post
 title:  How to run an AppImage on WSL
 author: Bruce Liu
 # last update date
-date:   2020-02-25 15:30:00 +0100
+date:   2021-03-19 13:10:00 +0800
 # first published date
 published: 2020-02-25 15:30:00 +0100
 categories: [post]
-tags: [WSL, linux, appimage, Xming]
+tags: [WSL, linux, appimage, Xming, VcXsrv]
 description: 
 header-image: 
 permalink: /appimage_wsl/
@@ -25,9 +25,10 @@ Cannot mount AppImage, please check your FUSE setup.
 
 I solved it as follows:
 
-## Step1: install Xming in Windows.
+## Step1: install Linux GUI Apps on Windows.
 
-Download Xming from [https://sourceforge.net/projects/xming/](https://sourceforge.net/projects/xming/).
+- [Xming X Server for Windows](https://sourceforge.net/projects/xming/)
+- [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/)
 
 ## Step2: install GTK graphical user interface library (libgtk2.0-0 or libgtk-3-0) in wsl
 
@@ -78,3 +79,5 @@ Due to windows not support FUSE, AppImage have to be extracted and it will gener
 
 - [Run AppImage on Windows](https://discourse.appimage.org/t/run-appimage-on-windows/177)
 - [How to run an AppImage using the Terminal](https://docs.appimage.org/introduction/quickstart.html#using-the-terminal)
+- [Running GUI Linux applications in WSL 2](https://ramonh.dev/2020/09/30/wsl2-gui-apps/)
+- [Running WSL GUI Apps on Windows 10](https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242)
