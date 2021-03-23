@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jeffreytse/jekyll-spaceship
-  revision: 2a2bc4ada9b36ec6794b55b9b9d26b1ba862ae3f
+  revision: 9fe6804fac18b727aa73456db63b25a16df66dba
   specs:
     jekyll-spaceship (0.9.8)
       gemoji (~> 3.0)
@@ -40,13 +40,13 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
-    jekyll-feed (0.15.0)
+    jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
-    jekyll-seo-tag (2.6.1)
-      jekyll (>= 3.3, < 5.0)
+    jekyll-seo-tag (2.7.1)
+      jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.1)
@@ -82,9 +82,9 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.7)
+    tzinfo (1.2.9)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2020.1)
+    tzinfo-data (1.2021.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
     wdm (0.1.1)
