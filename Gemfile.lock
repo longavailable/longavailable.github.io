@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jeffreytse/jekyll-spaceship
-  revision: 9fe6804fac18b727aa73456db63b25a16df66dba
+  revision: 30fc35979c806d7abba029e2530e755f7aa89c53
   specs:
     jekyll-spaceship (0.9.8)
       gemoji (~> 3.0)
@@ -54,7 +54,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.4.1)
+    listen (3.5.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
