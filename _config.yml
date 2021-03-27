@@ -31,6 +31,7 @@ github_username_admin: longavailable
 
 # jekyll-paginate configuration, specifies how many items should be displayed per page
 paginate: 10
+paginate_path: /page:num/
 
 # Build settings
 theme: minima
