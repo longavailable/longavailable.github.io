@@ -3,7 +3,7 @@ layout: post
 title:  Ports of python geospatial analysis tools
 author: Bruce Liu
 #last update date
-date:   2020-12-25 02:00:00 +0100
+date:   2021-03-29 08:00:00 +0800
 #first published date
 published: 2020-07-14 09:50:00 +0200
 categories: [post]
@@ -53,6 +53,7 @@ There are lots of python packages for geospatial analysis. This post lists some 
 
 - [Main site](https://gdal.org/)
 - [GitHub](https://github.com/OSGeo/gdal)
+- [GDAL python api autotest / example ](https://github.com/OSGeo/gdal/tree/master/autotest/utilities)
 
 ## [OGR]
 
