@@ -7,7 +7,7 @@ date:   2021-03-23 09:20:00 +0800
 #first published date
 published: 2021-03-13 11:20:00 +0800
 categories: [post]
-tags: [百度网盘, 网盘搜索, 网盘加速下载, Shadowsocks, v2rayN, Windows, Office]
+tags: [百度网盘, 网盘搜索, 网盘加速下载, 科学上网, Windows, Office]
 description: 
 header-image: 
 permalink: /useful-tools/
@@ -20,8 +20,7 @@ permalink: /useful-tools/
 | **Windows Application** ||
 | ---------------------------|----------------------------|
 | Application / Softs        | Download links / Webpages  |
-| Shadowsocks Clients | [官网](https://shadowsocks.org/en/download/clients.html), [蓝奏云密码666](https://wwe.lanzous.com/b01099klg) |
-| v2rayN | [官网](https://github.com/2dust/v2rayN/releases), [蓝奏云密码666](https://wwe.lanzous.com/b01099klg) |
+| S*h*a*d*ows$oc&ks / v#2r@ay*N | [s&s](https://shadowsocks.org/en/download/clients.html), [v2&&ray&*N](https://github.com/2dust/v2rayN/releases), [蓝奏云密码666](https://wwe.lanzous.com/b01099klg) |
 | DWG FastView for Windows | [官网](https://en.dwgfastview.com/cloud/download/) |
 | CiteHist/CiteHist pro | [CiteHist官网], [CiteHist Pro官网], [蓝奏云密码666](https://wwe.lanzous.com/b010bc9dc) |
 | **Web-based Application** ||
