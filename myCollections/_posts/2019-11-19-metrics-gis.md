@@ -3,7 +3,7 @@ layout: post
 title:  Quick Conversion on GIS Metrics
 author: Bruce Liu
 # last update date
-date:   2020-06-19 22:30:00 +0200
+date:   2021-04-03 01:20:00 +0800
 # first published date
 published: 2019-11-19 13:00:00 +0100 
 categories: [post]
@@ -56,4 +56,5 @@ Reference:
 - [Jekyll Supports Math Notation](https://www.katarinahoeger.com/2017/12/08/jekyll-supports-math)
 - [MathJax in Markdown](https://hiltmon.com/blog/2017/01/28/mathjax-in-markdown/)
 - [Equation Editor](https://www.codecogs.com/latex/eqneditor.php)
+- [Syntax for entering math using ASCIIMathML](https://www.intmath.com/help/send-math-email-syntax.php)
 - [Arc Length Calculator - online ](https://www.omnicalculator.com/math/arc-length)
