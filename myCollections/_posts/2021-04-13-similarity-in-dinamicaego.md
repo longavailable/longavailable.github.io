@@ -22,11 +22,13 @@ permalink: /similarity-dinamicaego/
 | [Calc Reciprocal Similarity Map] | First map or simulated map, | Two reciprocal similarity maps, | Single window | Constant or exponential |
 | ^^ | ^^ second map or observed map | ^^ mean similarities of similarity map | ^^ | ^^ |
 | [Calc Similarity of Differences] | Initial map, | Minimun similarity map of two reciprocal similarity maps, | Single window | Constant or exponential |
-| ^^ | ^^ simulated map, | ^^ minimum of mean similarities of two reciprocal similarity maps | ^^ | ^^ |
+| ^^ | ^^ simulated map, | ^^ minimum of mean similarities of two reciprocal similarity maps [**] | ^^ | ^^ |
 | ^^ | ^^ observed map | ^^ | ^^ | ^^ |
-| [Calc Multi Window Similarity of Differences] | Initial map, | Minimun of mean similarities of two reciprocal similarity maps, | Multi windows | Constant |
+| [Calc Multi Window Similarity of Differences] | Initial map, | Minimun of mean similarities of two reciprocal similarity maps [**], | Multi windows | Constant |
 | ^^ | ^^ simulated map, | ^^ maximum of mean similarities of two reciprocal similarity maps | ^^ | ^^ |
 | ^^ | ^^ observed map | ^^ | ^^ | ^^ |
+
+Note that the items of [**] would return same result for a specific window size.
 
 <!--links-->
 [Calc Reciprocal Similarity Map]: http://www.csr.ufmg.br/dinamica/dokuwiki/doku.php?id=calc_reciprocal_similarity_map
