@@ -3,7 +3,7 @@ layout: post
 title:  Academic journals on water and environment
 author: Bruce Liu
 #last update date
-date:   2021-02-05 18:50:00 +0800
+date:   2021-04-20 12:55:00 +0800
 #first published date
 published: 2020-10-19 06:00:00 +0200
 categories: [post]
@@ -40,6 +40,7 @@ It posted a list of academic journals on water and environment with LetPub links
 | 0273-1177   | [Advances in Space Research]   		| Q2  		 	| 4区			| 2.177  	|
 | 2072-4292   | [Remote Sensing]   		| Q1  		 	| 2区				| 4.509  	|
 | 1548-1603   | [GIScience & Remote Sensing]   		| Q1  		 	| 1区			| 5.965  	|
+| 0034-4257   | [Remote Sensing Of Environment]   		| Q1  		 	| 1区			| 9.763  	|
 | 0013-9351   | [Environmental Research]   				| Q1  		 	| 2区			| 5.715  	|
 | 1364-8152   | [Environmental Modelling & Software]   				| Q1  		| 2区			| 4.807  	|
 
@@ -51,6 +52,12 @@ It posted a list of academic journals on water and environment with LetPub links
 | 0143-6228   | [Applied Geography]   						| Q1  		| 3.508  	|
 | 2469-4452   | [Annals of the American Association of Geographers]  	| Q1  		| 3.302  |
 | 0198-9715   | [Computers, Environment and Urban Systems]  | Q1  		| 4.655  	|
+
+# References
+
+- [LetPub](https://www.letpub.com.cn/index.php?page=journalapp)
+- [SCI Journal](https://www.scijournal.org/)
+- [Web of Science Master Journal List](https://mjl.clarivate.com/home)
 
 
 <!--letpub links-->
@@ -75,6 +82,7 @@ It posted a list of academic journals on water and environment with LetPub links
 [GIScience & Remote Sensing]: https://www.letpub.com.cn/index.php?journalid=3102&page=journalapp&view=detail
 [Environmental Research]: https://www.letpub.com.cn/index.php?journalid=2562&page=journalapp&view=detail
 [Environmental Modelling & Software]: https://www.letpub.com.cn/index.php?journalid=2558&page=journalapp&view=detail
+[Remote Sensing Of Environment]: https://www.letpub.com.cn/index.php?journalid=7128&page=journalapp&view=detail
 
 
 
