@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/jeffreytse/jekyll-spaceship
-  revision: 8ca9f6520b5984aadf49a9a5fff4b3e0c38970a0
+  revision: ca2cd9a0edf56632ff0e8acddcfc86e1e3aeb30f
   specs:
-    jekyll-spaceship (0.9.8)
+    jekyll-spaceship (0.9.9)
       gemoji (~> 3.0)
       jekyll (>= 3.6, < 5.0)
       nokogiri (~> 1.6)
@@ -63,7 +63,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    nokogiri (1.11.2)
+    nokogiri (1.11.3)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     pathutil (0.16.2)
