@@ -26,6 +26,6 @@ Better understanding the impacts of land use changes on storm-based sedigraphs i
 | Pages          | 1-12	   |
 | Abstract       | Better understanding the impacts of land use changes on storm-based sedigraphs in semi-humid and humid regions is critical for their soil erosion control. Based on the LULC, soil, precipitation, evaporation, flow and sediment data in the 1990 s to 2000 s from the Dapoling catchment of the upper Huaihe river basin, land use changes from the 1990 s to 2000 s were examined, storm-based sedigraphs under two decades’ land use patterns were simulated using a water-sediment model, which was built by coupling the Xin’anjiang model and the newly developed soil erosion model and calibrated, respectively, in the 1990 s and 2000 s, the impacts of land use changes on the storm-based sedigraphs were investigated, and the role of storm-based sediment load in its annual total and the relationship between storm rainfall and storm-based sediment load were discussed. The results revealed: land use pattern in the …	 |
 | Cited by		 | /   |
-| Url  			 | https://link.springer.com/article/10.1007/s12665-020-09116-x		 |
+| Url  			 | <https://link.springer.com/article/10.1007/s12665-020-09116-x>		 |
 | Achive 	     | /		 |
 

@@ -26,6 +26,6 @@ River regulation by the construction of reservoirs represents one of the greates
 | Pages          | 2125-2138	   |
 | Abstract       | River regulation by the construction of reservoirs represents one of the greatest challenges to the natural flow regime and ecological health of riverine systems globally. The Danjiangkou (DJK) Reservoir is the largest reservoir on the Hangjiang River and commenced operations in 1967. The reservoir was upgraded in 2012 to provide water resource for the South–North water transfer project through central China. However, the effect of the reservoir operations on the downstream hydrological regime and ecological health of the Hanjiang River following the upgrade (increase in dam height and reservoir capacity) has not been examined thus far. The daily discharge series from four stations along the main stem of the Hanjiang River, including a site upstream, were examined from 1950 to 2017. The study series was divided into three periods based on the difference stages of the reservoir operation:(1) 1950–1966,(2 …	 |
 | Cited by		 | /   |
-| Url  			 | https://link.springer.com/article/10.1007/s00477-020-01861-6		 |
+| Url  			 | <https://link.springer.com/article/10.1007/s00477-020-01861-6>		 |
 | Achive 	     | /		 |
 
