@@ -25,7 +25,7 @@ With climate change and the rapid increase in water demand, droughts, whose inte
 | Issue          | 6	   |
 | Pages          | 1509-1520	   |
 | Abstract       | With climate change and the rapid increase in water demand, droughts, whose intensity, duration and frequency have shown an increasing trend in China over the past decades, are increasingly becoming a critical constraint to China’s sustainable socio-economic development, especially in Northern China, even more so. Therefore, it is essential to develop an appropriate drought assessment approach in China. To propose a suitable drought index for drought assessment, the Luanhe river basin in the northern China was selected as a case study site. Based on the Principal Component Analysis of precipitation, evapotranspiration, soil moisture and runoff, the three latter variables of which were obtained by using the Variable Infiltration Capacity land surface macro-scale hydrology model, a new multivariate drought index (MDI) was formulated, and its thresholds were determined by use of cumulative …	 |
-| Cited by			 | 2 (Updated on May-16-2020)   |
+| Cited by    | 3 (Updated on Jun-11-2021)   |
 | Url  					 | [https://link.springer.com/article/10.1007/s00477-014-0982-4](https://link.springer.com/article/10.1007/s00477-014-0982-4)		   |
 | Achive 	       | [https://pdfs.semanticscholar.org/8745/2e4f34b11c2ef34a7fe0f6dd070735168651.pdf](https://pdfs.semanticscholar.org/8745/2e4f34b11c2ef34a7fe0f6dd070735168651.pdf)		 |
 

@@ -25,7 +25,7 @@ The Hanjiang River is the longest tributary of the Yangtze River. With the devel
 | Issue          | /	   |
 | Pages          | 197-202	   |
 | Abstract       | The Hanjiang River is the longest tributary of the Yangtze River. With the development of water resources, the flow regime of the Hanjiang River has been altered by dam building to some extent, and consequently water allocation water allocation Subject Category: Miscellaneoussee more details between different water uses may be affected. To assess dam-induced alterations in the flow regime of the Hanjiang River, this paper selected three hydrological stations above and below the Danjiangkou reservoir, as case study sites, and the whole study period was divided into two subperiods by the year when the reservoir started to store water. On the basis of the 51-year long time series of daily discharge data, the alterations in annual, seasonal, monthly and daily runoff runoff Subject Category: Miscellaneous	 |
-| Cited by			 | 6 (Updated on May-15-2020)   |
+| Cited by    | 5 (Updated on Jun-11-2021)   |
 | Url  					 | [https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Impact+of+human+activities+on+the+flow+regime+of+the+Hanjiang.&btnG=](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Impact+of+human+activities+on+the+flow+regime+of+the+Hanjiang.&btnG=)		   |
 | Achive 	       | /		 |
 

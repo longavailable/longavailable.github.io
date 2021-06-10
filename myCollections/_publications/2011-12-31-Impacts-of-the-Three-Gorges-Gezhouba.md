@@ -25,7 +25,7 @@ The Yangtze River (Changjiang) is the third largest river in the world, and the 
 | Issue          | /	   |
 | Pages          | 74-81	   |
 | Abstract       | The Yangtze River (Changjiang) is the third largest river in the world, and the alterations in its hydrological regime have global-scale impacts. However, with population increase and economic growth, the stream temperature regime of the Yangtze River has been altered to some extent by human activities, particularly dam construction. The alteration in the stream temperature regime of the Yangtze River will unavoidably influence its biological processes. To assess dam-induced alterations in the stream temperature regime of the Yangtze River quantitatively, the Gezhouba reservoir and the Three Gorges reservoir have been selected as case study sites. On the basis of stream temperature time series, the changes of annual, seasonal, monthly, and daily stream temperature regimes in different sub-periods were investigated and the driving forces were explored. The output of the paper could provide …	 |
-| Cited by			 | /   |
+| Cited by    | /   |
 | Url  					 | [https://iahs.info/uploads/dms/15695.350%20abstracts%2074-81.pdf](https://iahs.info/uploads/dms/15695.350%20abstracts%2074-81.pdf)		   |
 | Achive 	       | /		 |
 
