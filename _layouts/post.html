@@ -88,7 +88,11 @@ layout: default
 						<div class="meta"><div class="spacing-2x"><p>
 							Authored by
 								{% if page.author %}
-									{{ page.author }},
+									{% if page.author == "Meixiu Yu" %}
+										<a href="http://shxy.hhu.edu.cn/2017/0307/c3223a45183/page.htm">{{ page.author }}</a>,
+									{% else %}
+										{{ page.author }},
+									{% endif %}
 								{% else %}
 									{{ site.title }},
 								{% endif %} 
