@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Assessing sponge cities performance at city scale using remotely sensed LULC changes: Case study Nanjing
+title:  Assessing sponge cities performance at city scale using remotely sensed LULC changes&#58; Case study Nanjing
 author: Meixiu Yu
 journal: Remote Sensing
 #date:  2020-12-31 00:00:01 +0000
