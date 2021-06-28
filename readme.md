@@ -10,5 +10,4 @@
 
 - Make codes interactive. Maybe [DataCamp Light](https://github.com/datacamp/datacamp-light).
 
-- Add a separate module to introduce some useful tools to python. [Python Tutorial](https://docs.python.org/3/tutorial/), [w3schools](https://www.w3schools.com/python/), [Real Python](https://realpython.com/), [jobtensor](https://jobtensor.com/Tutorial/Python/en/Introduction), [stackoverflow](https://stackoverflow.com/questions/tagged/python).
 
