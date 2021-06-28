@@ -114,6 +114,11 @@ layout: default
 
 				<!--{{ content }} <!-- This line can not delete-->
 				{{ post.content | remove: post.excerpt }} 	<!-- remove excerpt from posts -->
+				
+				<!-- add a python tools hyperlink if 'python' appears in tags-->
+				{% if page.tags contains "Python" or page.tags contains "python" %}
+					<a href="/python-tools">Python tools</a>
+				{% endif %}
 			</div>
 		</div>
 	</div>
