@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Python tools
-permalink: /python-tools/
+title: Tools
+permalink: /tools/
 ---
 
 # Python tools
 
-- [Python Tutorial] the official documentation.
-- [w3schools] interactive learning experiences.
+- [Python Tutorial] (official)
+- [w3schools]
 - [Real Python]
 - [jobtensor]
 - [stackoverflow]
