@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://longlovemyu.tk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://longlovemyu.tk/" rel="alternate" type="text/html" /><updated>2021-07-14T08:36:33+00:00</updated><id>https://longlovemyu.tk/feed.xml</id><title type="html">LONGLOVEMYU</title><subtitle>Sharing and recoding something useful, trying to make things simple, and looking for some fun.</subtitle><author><name>LONGAVAILABLE</name></author><entry><title type="html">Ports of free hydrodynamic models/softwares</title><link href="https://longlovemyu.tk/hydrodynamic_models/" rel="alternate" type="text/html" title="Ports of free hydrodynamic models/softwares" /><published>2021-06-24T07:55:00+00:00</published><updated>2021-06-24T07:55:00+00:00</updated><id>https://longlovemyu.tk/free-softwares-for-hydrodynamics</id><content type="html" xml:base="https://longlovemyu.tk/hydrodynamic_models/">&lt;p&gt;This post lists some hydrodynamic models/softwares.
+&lt;!--the above is the excerpt--&gt;
+&lt;!--more--&gt;
+&lt;!--the following is the text--&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Organization/Team&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Models/Softwares&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Webpages&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[US Army Corps of Engineers (USACE)](https://www.usace.army.mil/), [Hydrologic Engineering Center (HEC)](https://www.hec.usace.army.mil/)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.hec.usace.army.mil/software/hec-ras&quot;&gt;https://www.hec.usace.army.mil/software/hec-ras&lt;/a&gt;]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Deltares](https://www.deltares.nl/en/)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Delft3D](https://oss.deltares.nl/web/delft3d)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://oss.deltares.nl/web/delft3d/source-code&quot;&gt;https://oss.deltares.nl/web/delft3d/source-code&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[U.S. Bureau of Reclamation](https://www.usbr.gov/), [Technical Service Center (TSC)](https://www.usbr.gov/tsc/)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[SRH-1D](https://www.usbr.gov/tsc/techreferences/computer%20software/models/srh1d/index.html), [SRH-2D](https://www.usbr.gov/tsc/techreferences/computer%20software/models/srh2d/index.html), [SRH-Capacity](https://www.usbr.gov/tsc/techreferences/computer%20software/models/srhcapacity/index.html), [SRH-Mesh](https://www.usbr.gov/tsc/techreferences/computer%20software/models/srhmesh/index.html)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.usbr.gov/tsc/techreferences/computer%20software/compsoft.html&quot;&gt;https://www.usbr.gov/tsc/techreferences/computer%20software/compsoft.html&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[iRIC](https://i-ric.org/en/)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Nays1D+](https://i-ric.org/en/solvers/nays1dplus/), [CERI1D](https://i-ric.org/en/solvers/ceri1d/), [River2D](https://i-ric.org/en/solvers/river2d/), [Nays2DH](https://i-ric.org/en/solvers/nays2dh/), [Nays2Dv](https://i-ric.org/en/solvers/nays2dv/), [Nays2DFlood](https://i-ric.org/en/solvers/nays2dflood/), [SToRM](https://i-ric.org/en/solvers/storm/), [Mflow_02](https://i-ric.org/en/solvers/mflow02/), [NaysCUBE](https://i-ric.org/en/solvers/nayscube/), [NaysEddy](https://i-ric.org/en/solvers/nayseddy/), [FaSTMECH](https://i-ric.org/en/solvers/fastmech/),&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://i-ric.org/en/download/&quot;&gt;https://i-ric.org/en/download/&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Iberaula](https://iberaula.es/)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Iber](https://iberaula.es/53/iber-model/modules), [IberHABITAT](https://iberaula.es/54/iber-model/downloads)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://iberaula.es/54/iber-model/downloads&quot;&gt;https://iberaula.es/54/iber-model/downloads&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[U.S. National Center for Computational Hydroscience and Engineering (NCCHE)](https://www.ncche.olemiss.edu/)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[CCHE2D-Flow](https://www.ncche.olemiss.edu/cche2d-flw-model/), [CCHE2D-Flood](https://www.ncche.olemiss.edu/cche2d-flood-model/), [CCHE2D-Sed](https://www.ncche.olemiss.edu/cche2d-sed-model/), [CCHE2D-CHEM](https://www.ncche.olemiss.edu/cche2d3d-chem/), [CCHE2D-WQ](https://www.ncche.olemiss.edu/cche2d3d-wq/), [CCHE-MESH](https://www.ncche.olemiss.edu/cche-mesh-2/)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.ncche.olemiss.edu/downloads/&quot;&gt;https://www.ncche.olemiss.edu/downloads/&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Jonathan Richard Shewchuk](https://people.eecs.berkeley.edu/~jrs/)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Triangle](https://www.cs.cmu.edu/~quake/triangle.html)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.cs.cmu.edu/~quake/triangle.html&quot;&gt;https://www.cs.cmu.edu/~quake/triangle.html&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Bruce Liu</name></author><category term="post" /><category term="hydrodynamics" /><category term="HEC-RAS" /><category term="Delft3D" /><summary type="html">This post lists some hydrodynamic models/softwares.</summary></entry><entry><title type="html">Academic journals on water and environment</title><link href="https://longlovemyu.tk/journal-list/" rel="alternate" type="text/html" title="Academic journals on water and environment" /><published>2021-04-20T04:55:00+00:00</published><updated>2021-04-20T04:55:00+00:00</updated><id>https://longlovemyu.tk/academic-journals-on-water-and-environment</id><content type="html" xml:base="https://longlovemyu.tk/journal-list/">&lt;p&gt;It posted a list of academic journals on water and environment with LetPub links.
+&lt;!--the above is the excerpt--&gt;
+&lt;!--more--&gt;
+&lt;!--the following is the text--&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;sci-journals&quot;&gt;SCI journals&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ISSN&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
+      &lt;th&gt;JCR分区&lt;/th&gt;
+      &lt;th&gt;中科院分区&lt;/th&gt;
+      &lt;th&gt;IF&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0169-2046&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Landscape and Urban Planning](https://www.letpub.com.cn/index.php?journalid=5535&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;2区&lt;/td&gt;
+      &lt;td&gt;5.441&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1009-637X&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Journal of Geographical Sciences](https://www.letpub.com.cn/index.php?journalid=4587&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;3区&lt;/td&gt;
+      &lt;td&gt;2.851&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0920-4741&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Water Resources Management](https://www.letpub.com.cn/index.php?journalid=8080&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;2区&lt;/td&gt;
+      &lt;td&gt;2.924&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1027-5606&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Hydrology and Earth System Sciences](https://www.letpub.com.cn/index.php?journalid=3291&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;1区&lt;/td&gt;
+      &lt;td&gt;5.153&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1462-9011&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Environmental Science and Policy](https://www.letpub.com.cn/index.php?journalid=2565&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;2区&lt;/td&gt;
+      &lt;td&gt;4.767&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1753-318X&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Journal of Flood Risk Management](https://www.letpub.com.cn/index.php?journalid=8283&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;3区&lt;/td&gt;
+      &lt;td&gt;3.066&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0885-6087&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Hydrological Processes](https://www.letpub.com.cn/index.php?journalid=3288&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;2区&lt;/td&gt;
+      &lt;td&gt;3.256&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0899-8418&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[International Journal of Climatology](https://www.letpub.com.cn/index.php?journalid=3688&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;3区&lt;/td&gt;
+      &lt;td&gt;3.928&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1558-8424&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Journal of Applied Meteorology and Climatology](https://www.letpub.com.cn/index.php?journalid=4149&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q2&lt;/td&gt;
+      &lt;td&gt;3区&lt;/td&gt;
+      &lt;td&gt;2.506&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1525-755X&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Journal of Hydrometeorology](https://www.letpub.com.cn/index.php?journalid=4651&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;2区&lt;/td&gt;
+      &lt;td&gt;3.891&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2169-897X&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Journal of Geophysical Research: Atmospheres](https://www.letpub.com.cn/index.php?journalid=10218&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q2&lt;/td&gt;
+      &lt;td&gt;2区&lt;/td&gt;
+      &lt;td&gt;3.821&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0169-8095&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Atmospheric Research](https://www.letpub.com.cn/index.php?journalid=955&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;2区&lt;/td&gt;
+      &lt;td&gt;4.676&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2212-0955&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Urban Climate](https://www.letpub.com.cn/index.php?journalid=10939&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;3.834&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1087-3562&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Earth Interactions](https://www.letpub.com.cn/index.php?journalid=2387&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;3区&lt;/td&gt;
+      &lt;td&gt;2.167&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0094-8276&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Geophysical Research Letters](https://www.letpub.com.cn/index.php?journalid=3078&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;1区&lt;/td&gt;
+      &lt;td&gt;4.497&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0262-6667&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Hydrological Sciences Journal](https://www.letpub.com.cn/index.php?journalid=3289&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;4区&lt;/td&gt;
+      &lt;td&gt;2.186&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0273-1177&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Advances in Space Research](https://www.letpub.com.cn/index.php?journalid=282&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q2&lt;/td&gt;
+      &lt;td&gt;4区&lt;/td&gt;
+      &lt;td&gt;2.177&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2072-4292&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Remote Sensing](https://www.letpub.com.cn/index.php?journalid=8969&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;2区&lt;/td&gt;
+      &lt;td&gt;4.509&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1548-1603&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[GIScience &amp;amp; Remote Sensing](https://www.letpub.com.cn/index.php?journalid=3102&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;1区&lt;/td&gt;
+      &lt;td&gt;5.965&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0034-4257&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Remote Sensing Of Environment](https://www.letpub.com.cn/index.php?journalid=7128&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;1区&lt;/td&gt;
+      &lt;td&gt;9.763&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0013-9351&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Environmental Research](https://www.letpub.com.cn/index.php?journalid=2562&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;2区&lt;/td&gt;
+      &lt;td&gt;5.715&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1364-8152&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Environmental Modelling &amp;amp; Software](https://www.letpub.com.cn/index.php?journalid=2558&amp;amp;page=journalapp&amp;amp;view=detail)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;2区&lt;/td&gt;
+      &lt;td&gt;4.807&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;ssci-journals&quot;&gt;SSCI journals&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ISSN&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
+      &lt;th&gt;JCR分区&lt;/th&gt;
+      &lt;th&gt;IF&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0143-6228&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Applied Geography](https://www.sciencedirect.com/journal/applied-geography)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;3.508&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2469-4452&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Annals of the American Association of Geographers](https://www.tandfonline.com/loi/raag21)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;3.302&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0198-9715&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Computers, Environment and Urban Systems](https://www.journals.elsevier.com/computers-environment-and-urban-systems/)&lt;/td&gt;
+      &lt;td&gt;Q1&lt;/td&gt;
+      &lt;td&gt;4.655&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.letpub.com.cn/index.php?page=journalapp&quot;&gt;LetPub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.scijournal.org/&quot;&gt;SCI Journal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mjl.clarivate.com/home&quot;&gt;Web of Science Master Journal List&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--letpub links--&gt;
+
+&lt;!--journal websites--&gt;</content><author><name>Bruce Liu</name></author><category term="post" /><category term="journal" /><category term="LetPub" /><category term="water" /><category term="water resources" /><category term="environment" /><summary type="html">It posted a list of academic journals on water and environment with LetPub links.</summary></entry><entry><title type="html">Comparison of three functors on similarity in DinamicaEGO</title><link href="https://longlovemyu.tk/similarity-dinamicaego/" rel="alternate" type="text/html" title="Comparison of three functors on similarity in DinamicaEGO" /><published>2021-04-13T07:50:00+00:00</published><updated>2021-04-13T07:50:00+00:00</updated><id>https://longlovemyu.tk/similarity-in-dinamicaego</id><content type="html" xml:base="https://longlovemyu.tk/similarity-dinamicaego/">&lt;!--the above is the excerpt--&gt;
+&lt;!--more--&gt;
+&lt;!--the following is the text--&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;functor&lt;/th&gt;
+      &lt;th&gt;inputs&lt;/th&gt;
+      &lt;th&gt;outputs&lt;/th&gt;
+      &lt;th&gt;Window size&lt;/th&gt;
+      &lt;th&gt;Decay function&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Calc Reciprocal Similarity Map](http://www.csr.ufmg.br/dinamica/dokuwiki/doku.php?id=calc_reciprocal_similarity_map)&lt;/td&gt;
+      &lt;td&gt;First map or simulated map,&lt;/td&gt;
+      &lt;td&gt;Two reciprocal similarity maps,&lt;/td&gt;
+      &lt;td&gt;Single window&lt;/td&gt;
+      &lt;td&gt;Constant or exponential&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^ second map or observed map&lt;/td&gt;
+      &lt;td&gt;^^ mean similarities of similarity map&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Calc Similarity of Differences](https://www.csr.ufmg.br/dinamica/dokuwiki/doku.php?id=calc_similarity_of_differences)&lt;/td&gt;
+      &lt;td&gt;Initial map,&lt;/td&gt;
+      &lt;td&gt;Minimun similarity map of two reciprocal similarity maps,&lt;/td&gt;
+      &lt;td&gt;Single window&lt;/td&gt;
+      &lt;td&gt;Constant or exponential&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^ simulated map,&lt;/td&gt;
+      &lt;td&gt;^^ minimum of mean similarities of two reciprocal similarity maps [**]&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^ observed map&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Calc Multi Window Similarity of Differences](https://www.csr.ufmg.br/dinamica/dokuwiki/doku.php?id=calc_multi_window_similarity_of_differences)&lt;/td&gt;
+      &lt;td&gt;Initial map,&lt;/td&gt;
+      &lt;td&gt;Minimun of mean similarities of two reciprocal similarity maps [**],&lt;/td&gt;
+      &lt;td&gt;Multi windows&lt;/td&gt;
+      &lt;td&gt;Constant&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^ simulated map,&lt;/td&gt;
+      &lt;td&gt;^^ maximum of mean similarities of two reciprocal similarity maps&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^ observed map&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Note that the items of [**] would return same result for a specific window size.&lt;/p&gt;
+
+&lt;!--links--&gt;</content><author><name>Bruce Liu</name></author><category term="post" /><category term="DinamicaEGO" /><category term="similarity" /><category term="land use change" /><summary type="html"></summary></entry><entry><title type="html">Quick Conversion on GIS Metrics</title><link href="https://longlovemyu.tk/metrics_gis/" rel="alternate" type="text/html" title="Quick Conversion on GIS Metrics" /><published>2021-04-02T17:20:00+00:00</published><updated>2021-04-02T17:20:00+00:00</updated><id>https://longlovemyu.tk/metrics-gis</id><content type="html" xml:base="https://longlovemyu.tk/metrics_gis/">&lt;p&gt;How to quick convert some GIS metrics?
+&lt;!--the above is the excerpt--&gt;
+&lt;!--more--&gt;
+&lt;!--the following is the text--&gt;&lt;/p&gt;
+
+&lt;p&gt;Basic parameter for the planet:&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; or Radius: 6371 km&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; or Perimeter: 40,075 km&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And the formula for arc length:&lt;/p&gt;
+
+\[arc length=2\pi r\left ( \frac{\theta }{360} \right )=p\left ( \frac{\theta }{360} \right )\]
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;$$\theta$$(central angle)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;arc length&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;quick check&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1 arc degree&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;111.1 km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;100 km&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.5 arc degree (30 arc minutest)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;55.7 km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;50 km&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.25 arc degree (15 arc minutest)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;27.8 km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;25 km&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.1 arc degree (6 arc minutes)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11.1 km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10 km&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.05 arc degree (3 arc minutes)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5.6 km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5 km&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.01 arc degree (36 arc seconds)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.1 km&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1 km&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$$0.008\dot{3}$$ arc degree (30 arc seconds)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;928 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;900 m&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$$0.001\dot{6}$$ arc degree (6 arc seconds)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;186 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;200 m&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0.001 arc degree (3.6 arc seconds)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;111 m&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;100 m&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;坐地日行八万里。By毛泽东&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The arc length i.e. perimeter of the Earth is about 40,000 km, which equals 80,000 Li (Chinese mile). Our planet rotates per day. According to elative motion, a people stays at the surface will have a 360 arc degrees motion. In some way, the people moves 40,000 km per day. Roughly, 1 arc degree equals 100 km at the surface of earth.&lt;/p&gt;
+
+&lt;div class=&quot;omni-calculator&quot; data-calculator=&quot;math/arc-length&quot; data-width=&quot;300&quot; data-config=&quot;{}&quot; data-currency=&quot;EUR&quot; data-show-row-controls=&quot;false&quot; data-version=&quot;3&quot; data-t=&quot;1592598747186&quot;&gt;
+  &lt;div class=&quot;omni-calculator-header&quot;&gt;Arc Length Calculator&lt;/div&gt;
+  &lt;div class=&quot;omni-calculator-footer&quot;&gt;
+    &lt;a href=&quot;https://www.omnicalculator.com/math/arc-length&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Omni&quot; class=&quot;omni-calculator-logo&quot; src=&quot;https://cdn.omnicalculator.com/embed/omni-calculator-logo-long.svg&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cdn.omnicalculator.com/sdk.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Reference:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.katarinahoeger.com/2017/12/08/jekyll-supports-math&quot;&gt;Jekyll Supports Math Notation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hiltmon.com/blog/2017/01/28/mathjax-in-markdown/&quot;&gt;MathJax in Markdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;Equation Editor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.intmath.com/help/send-math-email-syntax.php&quot;&gt;Syntax for entering math using ASCIIMathML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.omnicalculator.com/math/arc-length&quot;&gt;Arc Length Calculator - online &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Bruce Liu</name></author><category term="post" /><category term="GIS" /><category term="metrics conversion" /><summary type="html">How to quick convert some GIS metrics?</summary></entry><entry><title type="html">Ports of python geospatial analysis tools</title><link href="https://longlovemyu.tk/python_geo_tools/" rel="alternate" type="text/html" title="Ports of python geospatial analysis tools" /><published>2021-03-29T00:00:00+00:00</published><updated>2021-03-29T00:00:00+00:00</updated><id>https://longlovemyu.tk/python-geospatial-analysis-tools</id><content type="html" xml:base="https://longlovemyu.tk/python_geo_tools/">&lt;p&gt;There are lots of python packages for geospatial analysis. This post lists some famous ones.
+&lt;!--the above is the excerpt--&gt;
+&lt;!--more--&gt;
+&lt;!--the following is the text--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ports-of-python-packages&quot;&gt;Ports of python packages&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/geopy/geopy&quot;&gt;geopy&lt;/a&gt;  
+&lt;a href=&quot;https://github.com/geopandas/contextily&quot;&gt;contextily&lt;/a&gt;  
+&lt;a href=&quot;https://github.com/pyproj4/pyproj&quot;&gt;pyproj&lt;/a&gt;  
+&lt;a href=&quot;https://github.com/rhattersley/pyepsg&quot;&gt;pyepsg&lt;/a&gt;  
+&lt;a href=&quot;https://gdal.org/python/index.html&quot;&gt;GDAL Python API&lt;/a&gt;  
+&lt;a href=&quot;https://rasterio.readthedocs.io/en/latest/&quot;&gt;Rasterio&lt;/a&gt;  
+&lt;a href=&quot;https://fiona.readthedocs.io/en/latest/&quot;&gt;Fiona&lt;/a&gt;  
+&lt;a href=&quot;https://shapely.readthedocs.io/en/latest/&quot;&gt;Shapely&lt;/a&gt;  
+&lt;a href=&quot;https://geopandas.org/&quot;&gt;GeoPandas&lt;/a&gt;  
+&lt;a href=&quot;https://residentmario.github.io/geoplot/index.html&quot;&gt;geoplot&lt;/a&gt;  
+&lt;a href=&quot;https://scitools.org.uk/cartopy/docs/latest/&quot;&gt;Cartopy&lt;/a&gt;  
+&lt;a href=&quot;https://python-visualization.github.io/folium/&quot;&gt;Folium&lt;/a&gt;  &lt;/p&gt;
+
+&lt;h2 id=&quot;ports-of-galleries&quot;&gt;Ports of galleries&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://geopandas.org/gallery/index.html&quot;&gt;GeoPandas&lt;/a&gt;  
+&lt;a href=&quot;https://residentmario.github.io/geoplot/gallery/index.html&quot;&gt;GeoPlot&lt;/a&gt;  
+&lt;a href=&quot;https://scitools.org.uk/cartopy/docs/latest/gallery/index.html&quot;&gt;Cartopy&lt;/a&gt;  &lt;/p&gt;
+
+&lt;h1 id=&quot;fundamental-toolslibraries&quot;&gt;Fundamental tools/libraries&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/Non--python-blue.svg&quot; alt=&quot;non-python badge&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gdal&quot;&gt;&lt;a href=&quot;https://gdal.org/&quot;&gt;GDAL&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt; 
+&lt;img src=&quot;https://img.shields.io/badge/raster-blue.svg&quot; alt=&quot;raster badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/C++-blue.svg&quot; alt=&quot;C++ badge&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gdal.org/&quot;&gt;Main site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/OSGeo/gdal&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/OSGeo/gdal/tree/master/autotest/utilities&quot;&gt;GDAL python api autotest / example &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ogr&quot;&gt;&lt;a href=&quot;https://gdal.org/faq.html#what-is-this-ogr-stuff&quot;&gt;OGR&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/C++-blue.svg&quot; alt=&quot;C++ badge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;With the GDAL 2.0 release, the GDAL and OGR components were integrated together.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gdal.org/&quot;&gt;GDAL&lt;/a&gt; is equivalent to GDAL / OGR in this context.&lt;/p&gt;
+
+&lt;h2 id=&quot;jts-topology-suite&quot;&gt;&lt;a href=&quot;https://locationtech.github.io/jts/&quot;&gt;JTS Topology Suite&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/java-blue.svg&quot; alt=&quot;java badge&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/locationtech/jts&quot;&gt;GitHub&lt;/a&gt; (v1.15 ~ current)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourceforge.net/projects/jts-topo-suite/&quot;&gt;SourceForge&lt;/a&gt; (previous ~ v1.14)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;geos&quot;&gt;&lt;a href=&quot;https://trac.osgeo.org/geos/&quot;&gt;GEOS&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/C++-blue.svg&quot; alt=&quot;C++ badge&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A C++ port of the &lt;a href=&quot;https://locationtech.github.io/jts/&quot;&gt;JTS Topology Suite&lt;/a&gt; .&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/libgeos/geos&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;python-packages&quot;&gt;Python packages&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/Python%20Wrapper-blue.svg&quot; alt=&quot;Python Wrapper badge&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gdal-python-api&quot;&gt;&lt;a href=&quot;https://gdal.org/python/index.html&quot;&gt;GDAL Python API&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/raster-blue.svg&quot; alt=&quot;raster badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dependencies:
+    &lt;ul&gt;
+      &lt;li&gt;Non-python denpendencies: &lt;a href=&quot;https://gdal.org/&quot;&gt;GDAL&lt;/a&gt; including &lt;code class=&quot;highlighter-rouge&quot;&gt;gdal-bin&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;libgdal-dev&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Python denpendencies: &lt;a href=&quot;https://numpy.org/&quot;&gt;NumPy&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/OSGeo/gdal/tree/master/gdal/swig/python&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/GDAL/&quot;&gt;PyPI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pcjericks.github.io/py-gdalogr-cookbook/&quot;&gt;Python GDAL/OGR Cookbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rasterio&quot;&gt;&lt;a href=&quot;https://rasterio.readthedocs.io/en/latest/&quot;&gt;Rasterio&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/raster-blue.svg&quot; alt=&quot;raster badge&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dependencies:
+    &lt;ul&gt;
+      &lt;li&gt;Non-python denpendencies: &lt;a href=&quot;https://gdal.org/&quot;&gt;GDAL&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Python denpendencies: &lt;a href=&quot;https://numpy.org/&quot;&gt;NumPy&lt;/a&gt; and &lt;a href=&quot;https://rasterio.readthedocs.io/en/latest/installation.html#dependencies&quot;&gt;more&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mapbox/rasterio&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/rasterio/&quot;&gt;PyPI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fiona&quot;&gt;&lt;a href=&quot;https://fiona.readthedocs.io/en/latest/&quot;&gt;Fiona&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/data%20importing-blue.svg&quot; alt=&quot;data importing badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/data%20exporting-blue.svg&quot; alt=&quot;data exporting badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dependencies:
+    &lt;ul&gt;
+      &lt;li&gt;Non-python denpendencies: &lt;a href=&quot;https://gdal.org/&quot;&gt;GDAL&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Python denpendencies: &lt;a href=&quot;https://github.com/benjaminp/six&quot;&gt;six&lt;/a&gt; and &lt;a href=&quot;https://github.com/Toblerity/Fiona#python-requirements&quot;&gt;more&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Toblerity/Fiona&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/fiona/&quot;&gt;PyPI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;shapely&quot;&gt;&lt;a href=&quot;https://shapely.readthedocs.io/en/latest/&quot;&gt;Shapely&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;
+&lt;a href=&quot;https://shapely.readthedocs.io/en/latest/project.html?highlight=read#integration&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/NO%20file%20read/write-blue.svg&quot; alt=&quot;read and write badge&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dependencies:
+    &lt;ul&gt;
+      &lt;li&gt;Non-python denpendencies: &lt;a href=&quot;https://trac.osgeo.org/geos/&quot;&gt;GEOS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Python denpendencies: None.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Toblerity/Shapely&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/Shapely/&quot;&gt;PyPI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;geopandas&quot;&gt;&lt;a href=&quot;https://geopandas.org/&quot;&gt;GeoPandas&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/visualization-blue.svg&quot; alt=&quot;visualization badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dependencies:
+    &lt;ul&gt;
+      &lt;li&gt;Non-python denpendencies (indirectly): &lt;a href=&quot;https://trac.osgeo.org/geos/&quot;&gt;GEOS&lt;/a&gt;, &lt;a href=&quot;https://gdal.org/&quot;&gt;GDAL&lt;/a&gt; and &lt;a href=&quot;https://proj.org/&quot;&gt;PROJ&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;Python denpendencies: &lt;a href=&quot;https://numpy.org/&quot;&gt;NumPy&lt;/a&gt;, &lt;a href=&quot;https://pandas.pydata.org/&quot;&gt;pandas&lt;/a&gt;, &lt;a href=&quot;https://shapely.readthedocs.io/en/latest/&quot;&gt;Shapely&lt;/a&gt;, &lt;a href=&quot;https://fiona.readthedocs.io/en/latest/&quot;&gt;Fiona&lt;/a&gt;, &lt;a href=&quot;http://pyproj4.github.io/pyproj/stable/&quot;&gt;pyproj&lt;/a&gt;; optinally, &lt;a href=&quot;https://matplotlib.org/&quot;&gt;Matplotlib&lt;/a&gt; and &lt;a href=&quot;https://geopandas.org/install.html#dependencies&quot;&gt;more&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/geopandas/geopandas&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/geopandas/&quot;&gt;PyPI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://geopandas.org/gallery/index.html&quot;&gt;Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;geoplot&quot;&gt;&lt;a href=&quot;https://residentmario.github.io/geoplot/index.html&quot;&gt;geoplot&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/visualization-blue.svg&quot; alt=&quot;visualization badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dependencies:
+    &lt;ul&gt;
+      &lt;li&gt;Python denpendencies: &lt;a href=&quot;https://matplotlib.org/&quot;&gt;Matplotlib&lt;/a&gt;, &lt;a href=&quot;https://seaborn.pydata.org/&quot;&gt;seaborn&lt;/a&gt;, &lt;a href=&quot;https://pandas.pydata.org/&quot;&gt;pandas&lt;/a&gt;, &lt;a href=&quot;https://geopandas.org/&quot;&gt;GeoPandas&lt;/a&gt; and &lt;a href=&quot;https://github.com/ResidentMario/geoplot/blob/master/setup.py&quot;&gt;more&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ResidentMario/geoplot&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/geoplot/&quot;&gt;PyPI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://residentmario.github.io/geoplot/gallery/index.html&quot;&gt;Gallery&lt;/a&gt;, &lt;a href=&quot;https://residentmario.github.io/geoplot/plot_references/plot_reference.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cartopy&quot;&gt;&lt;a href=&quot;https://scitools.org.uk/cartopy/docs/latest/&quot;&gt;Cartopy&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/visualization-blue.svg&quot; alt=&quot;visualization badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dependencies:
+    &lt;ul&gt;
+      &lt;li&gt;Non-python denpendencies: &lt;a href=&quot;https://trac.osgeo.org/geos/&quot;&gt;GEOS&lt;/a&gt; and &lt;a href=&quot;https://proj.org/&quot;&gt;PROJ&lt;/a&gt;; optinally, &lt;a href=&quot;https://gdal.org/&quot;&gt;GDAL&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Python denpendencies: &lt;a href=&quot;https://numpy.org/&quot;&gt;NumPy&lt;/a&gt;, &lt;a href=&quot;https://cython.org/&quot;&gt;Cython&lt;/a&gt;, &lt;a href=&quot;https://shapely.readthedocs.io/en/latest/&quot;&gt;Shapely&lt;/a&gt;, &lt;a href=&quot;https://github.com/GeospatialPython/pyshp&quot;&gt;pyshp&lt;/a&gt;, and &lt;a href=&quot;https://github.com/benjaminp/six&quot;&gt;six&lt;/a&gt;; optinally, &lt;a href=&quot;https://matplotlib.org/&quot;&gt;Matplotlib&lt;/a&gt; and &lt;a href=&quot;https://scitools.org.uk/cartopy/docs/latest/installing.html#optional-dependencies&quot;&gt;more&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/SciTools/cartopy&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/Cartopy/&quot;&gt;PyPI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://scitools.org.uk/cartopy/docs/latest/gallery/index.html&quot;&gt;Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;folium&quot;&gt;&lt;a href=&quot;https://python-visualization.github.io/folium/&quot;&gt;Folium&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/pure%20Python-blue.svg&quot; alt=&quot;pure-python map badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/interactive%20map-blue.svg&quot; alt=&quot;interactive map badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/visualization-blue.svg&quot; alt=&quot;visualization badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/raster-blue.svg&quot; alt=&quot;raster badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Python implementation of &lt;a href=&quot;https://leafletjs.com/&quot;&gt;Leaflet.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/python-visualization/folium&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/folium/&quot;&gt;PyPI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;arcpy&quot;&gt;&lt;a href=&quot;https://pro.arcgis.com/en/pro-app/arcpy/&quot;&gt;ArcPy&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/non--standalone-blue.svg&quot; alt=&quot;Non-standalone badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/raster-blue.svg&quot; alt=&quot;raster badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Python module of ArcGIS. &lt;strong&gt;&lt;em&gt;Need an ArcGIS license.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;qgis-python-api&quot;&gt;&lt;a href=&quot;https://qgis.org/pyqgis/&quot;&gt;QGIS Python API&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/non--standalone-blue.svg&quot; alt=&quot;Non-standalone badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/analysis-blue.svg&quot; alt=&quot;analysis badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/raster-blue.svg&quot; alt=&quot;raster badge&quot; /&gt;
+&lt;img src=&quot;https://img.shields.io/badge/vector-blue.svg&quot; alt=&quot;vector badge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Python module of QGIS.&lt;/p&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.data-analysis-in-python.org/&quot;&gt;Data Analysis in Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.data-analysis-in-python.org/t_gis.html&quot;&gt;GIS in Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Bruce Liu</name></author><category term="post" /><category term="python" /><category term="gis" /><category term="gdal" /><category term="geos" /><category term="jts" /><category term="rasterio" /><category term="shapely" /><summary type="html">There are lots of python packages for geospatial analysis. This post lists some famous ones.</summary></entry><entry><title type="html">Hydrological Model lists</title><link href="https://longlovemyu.tk/hydro-models/" rel="alternate" type="text/html" title="Hydrological Model lists" /><published>2021-03-25T01:20:00+00:00</published><updated>2021-03-25T01:20:00+00:00</updated><id>https://longlovemyu.tk/hydrological-models</id><content type="html" xml:base="https://longlovemyu.tk/hydro-models/">&lt;!--the above is the excerpt--&gt;
+&lt;!--more--&gt;
+&lt;!--the following is the text--&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;**Existing Lists / Repositories** ||&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Organization/Team&lt;/td&gt;
+      &lt;td&gt;List / repository / models / tools&lt;/td&gt;
+      &lt;td&gt;Webpages&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[CSDMS](https://csdms.colorado.edu/wiki/Main_Page)&lt;/td&gt;
+      &lt;td&gt;Repository for numerical models and scientific software tools&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://csdms.colorado.edu/wiki/Model%5Fdownload%5Fportal&quot;&gt;https://csdms.colorado.edu/wiki/Model%5Fdownload%5Fportal&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^&lt;/td&gt;
+      &lt;td&gt;^^ &lt;a href=&quot;https://csdms.colorado.edu/wiki/Hydrological%5FModels&quot;&gt;https://csdms.colorado.edu/wiki/Hydrological%5FModels&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[TAMU](https://aglifesciences.tamu.edu/)&lt;/td&gt;
+      &lt;td&gt;list&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://hydrologicmodels.tamu.edu/models.htm/&quot;&gt;https://hydrologicmodels.tamu.edu/models.htm/&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[陈昌春](http://blog.sciencenet.cn/home.php?mod=space&amp;amp;uid=350729)&lt;/td&gt;
+      &lt;td&gt;水文模型大本营 - List&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://blog.sciencenet.cn/blog-350729-686420.html&quot;&gt;http://blog.sciencenet.cn/blog-350729-686420.html&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;!--links--&gt;</content><author><name>Bruce Liu</name></author><category term="post" /><category term="hydrology" /><category term="hydrological model" /><category term="SWAT" /><category term="VIC" /><summary type="html"></summary></entry><entry><title type="html">Useful tools</title><link href="https://longlovemyu.tk/useful-tools/" rel="alternate" type="text/html" title="Useful tools" /><published>2021-03-23T01:20:00+00:00</published><updated>2021-03-23T01:20:00+00:00</updated><id>https://longlovemyu.tk/useful-tools</id><content type="html" xml:base="https://longlovemyu.tk/useful-tools/">&lt;!--the above is the excerpt--&gt;
+&lt;!--more--&gt;
+&lt;!--the following is the text--&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;**Windows Application** |&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Application / Softs&lt;/td&gt;
+      &lt;td&gt;Download links / Webpages&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;S*h*a*d*ows$oc&amp;amp;ks / v#2r@ay*N&lt;/td&gt;
+      &lt;td&gt;[s&amp;amp;s](https://shadowsocks.org/en/download/clients.html), [v2&amp;amp;&amp;amp;ray&amp;amp;*N](https://github.com/2dust/v2rayN/releases), [蓝奏云密码666](https://wwe.lanzous.com/b01099klg)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DWG FastView for Windows&lt;/td&gt;
+      &lt;td&gt;[官网](https://en.dwgfastview.com/cloud/download/)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CiteHist/CiteHist pro&lt;/td&gt;
+      &lt;td&gt;[CiteHist官网](https://support.clarivate.com/ScientificandAcademicResearch/s/article/HistCite-No-longer-in-active-development-or-officially-supported?language=en_US), [CiteHist Pro官网](https://zhuanlan.zhihu.com/p/20902898), [蓝奏云密码666](https://wwe.lanzous.com/b010bc9dc)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**Web-based Application** |&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[KinhDown](http://kinhdown.kinh.cc/)&lt;/td&gt;
+      &lt;td&gt;[在线解析](https://pan.kdbaidu.com/), [在线解析](https://yun.kdbaidu.com/), [在线解析](https://www.kdbaidu.com/)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[56网盘搜索](https://www.56wangpan.com/)&lt;/td&gt;
+      &lt;td&gt;[官网](https://www.56wangpan.com/)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Official Windows OS, Office, and language packs&lt;/td&gt;
+      &lt;td&gt;[官网](https://tb.rg-adguard.net/public.php)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jeffreytse/jekyll-spaceship&quot;&gt;jekyll-spaceship&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--links--&gt;</content><author><name>Bruce Liu</name></author><category term="post" /><category term="百度网盘" /><category term="网盘搜索" /><category term="网盘加速下载" /><category term="科学上网" /><category term="Windows" /><category term="Office" /><summary type="html"></summary></entry><entry><title type="html">How to run an AppImage on WSL</title><link href="https://longlovemyu.tk/appimage_wsl/" rel="alternate" type="text/html" title="How to run an AppImage on WSL" /><published>2021-03-19T05:10:00+00:00</published><updated>2021-03-19T05:10:00+00:00</updated><id>https://longlovemyu.tk/run-appimage-from-wsl</id><content type="html" xml:base="https://longlovemyu.tk/appimage_wsl/">&lt;p&gt;Generally, an AppImage will work well on Linux. So how about a Windows Subsystem for Linux (WSL)? Not sure. Here is a way to solve my error.
+&lt;!--the above is the excerpt--&gt;
+&lt;!--more--&gt;
+&lt;!--the following is the text--&gt;
+Here was my error:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fuse: device not found, try 'modprobe fuse' first
+Cannot mount AppImage, please check your FUSE setup.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I solved it as follows:&lt;/p&gt;
+
+&lt;h2 id=&quot;step1-install-linux-gui-apps-on-windows&quot;&gt;Step1: install Linux GUI Apps on Windows.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourceforge.net/projects/xming/&quot;&gt;Xming X Server for Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourceforge.net/projects/vcxsrv/&quot;&gt;VcXsrv Windows X Server&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;step2-install-gtk-graphical-user-interface-library-libgtk20-0-or-libgtk-3-0-in-wsl&quot;&gt;Step2: install GTK graphical user interface library (libgtk2.0-0 or libgtk-3-0) in wsl&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install libgtk2.0-0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install libgtk-3-0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;libgtk2.0-0&lt;/code&gt; is an old version, and &lt;code class=&quot;highlighter-rouge&quot;&gt;libgtk-3-0&lt;/code&gt; is the new version. While both works in the new release of ubuntu. More about &lt;a href=&quot;https://packages.ubuntu.com/search?keywords=libgtk&amp;amp;searchon=names&amp;amp;suite=eoan§ion=all&quot;&gt;GTK GUI library&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;step3-set-the-default-display-in-wsl&quot;&gt;Step3: set the default display in wsl.&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;export DISPLAY=:0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Default display number is 0. You can change it in Xlaunch.&lt;/p&gt;
+
+&lt;p&gt;Of course, you can add it to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; file. Add followings to it.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;export DISPLAY=&quot;:0&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step4-navigate-to-your-appimage-folder-dinamica-is-my-case&quot;&gt;Step4: navigate to your AppImage folder. Dinamica is my case.&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd  /mnt/d/dinamicaEGO/v5&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step5-set-access-mode-of-appimage-file&quot;&gt;Step5: set access mode of AppImage file&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;chmod a+x Dinamica.AppImage&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;  – all users&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt;  – permission to execute the file&lt;/p&gt;
+
+&lt;p&gt;More about &lt;a href=&quot;https://www.geeksforgeeks.org/chmod-command-linux/&quot;&gt;chmod&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;step6-extract-appimage&quot;&gt;Step6: extract AppImage.&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;./Dinamica.AppImage --appimage-extract&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Due to windows not support FUSE, AppImage have to be extracted and it will generate a folder named ‘squashfs-root’.&lt;/p&gt;
+
+&lt;h2 id=&quot;step7-run-it&quot;&gt;Step7: Run it&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;./squashfs-root/AppRun&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Although it works finally, I don’t think it is the way.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discourse.appimage.org/t/run-appimage-on-windows/177&quot;&gt;Run AppImage on Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.appimage.org/introduction/quickstart.html#using-the-terminal&quot;&gt;How to run an AppImage using the Terminal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ramonh.dev/2020/09/30/wsl2-gui-apps/&quot;&gt;Running GUI Linux applications in WSL 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242&quot;&gt;Running WSL GUI Apps on Windows 10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Bruce Liu</name></author><category term="post" /><category term="WSL" /><category term="linux" /><category term="appimage" /><category term="Xming" /><category term="VcXsrv" /><summary type="html">Generally, an AppImage will work well on Linux. So how about a Windows Subsystem for Linux (WSL)? Not sure. Here is a way to solve my error.</summary></entry><entry><title type="html">Debugging in Python</title><link href="https://longlovemyu.tk/debugging-in-python/" rel="alternate" type="text/html" title="Debugging in Python" /><published>2021-03-08T08:20:00+00:00</published><updated>2021-03-08T08:20:00+00:00</updated><id>https://longlovemyu.tk/debugging-in-python</id><content type="html" xml:base="https://longlovemyu.tk/debugging-in-python/">&lt;!--the above is the excerpt--&gt;
+&lt;!--more--&gt;
+&lt;!--the following is the text--&gt;
+
+&lt;h2 id=&quot;pdb---the-python-debugger&quot;&gt;&lt;a href=&quot;https://docs.python.org/3/library/pdb.html&quot;&gt;pdb&lt;/a&gt; - the Python Debugger&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Invoke &lt;strong&gt;[pbd]&lt;/strong&gt; from terminal to debug the entire script.&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; pdb mytest.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Insert &lt;code class=&quot;highlighter-rouge&quot;&gt;import pdb; pdb.set_trace()&lt;/code&gt; in a specific line of the script.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Insert &lt;code class=&quot;highlighter-rouge&quot;&gt;breakpoint()&lt;/code&gt; in the script. The built-in &lt;a href=&quot;https://docs.python.org/3/library/functions.html#breakpoint&quot;&gt;breakpoint()&lt;/a&gt; is a equivalent way of &lt;code class=&quot;highlighter-rouge&quot;&gt;import pdb; pdb.set_trace()&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Commands: c(ontinue), s(tep), n(ext), r(eturn), j(ump), q(uit) .. &lt;a href=&quot;https://docs.python.org/3/library/pdb.html#debugger-commands&quot;&gt;more&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;pudb---a-console-based-visual-debugger-for-python&quot;&gt;&lt;a href=&quot;https://documen.tician.de/pudb/index.html&quot;&gt;PuDB&lt;/a&gt; - a console-based visual debugger for Python&lt;/h2&gt;
+
+&lt;h3 id=&quot;installing&quot;&gt;Installing&lt;/h3&gt;
+
+&lt;p&gt;Install &lt;a href=&quot;https://documen.tician.de/pudb/index.html&quot;&gt;PuDB&lt;/a&gt; by &lt;code class=&quot;highlighter-rouge&quot;&gt;pip install pudb&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;conda install -c conda-forge pudb&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;Similar to &lt;a href=&quot;https://docs.python.org/3/library/pdb.html&quot;&gt;pdb&lt;/a&gt;,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Debug the entire script with:&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pudb mytest.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;or&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; pudb mytest.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Insert in a specific line with:&lt;/p&gt;
+
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pudb&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;set_trace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;set_trace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;or&lt;/p&gt;
+
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pudb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;db&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Integrate &lt;a href=&quot;https://documen.tician.de/pudb/index.html&quot;&gt;pudb&lt;/a&gt; with &lt;a href=&quot;https://docs.python.org/3/library/functions.html#breakpoint&quot;&gt;breakpoint()&lt;/a&gt; function. Add:&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PYTHONBREAKPOINT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;pudb.set_trace&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;in your &lt;strong&gt;.bashrc&lt;/strong&gt; or &lt;strong&gt;.zshrc&lt;/strong&gt;. Then use &lt;code class=&quot;highlighter-rouge&quot;&gt;breakpoint()&lt;/code&gt; in your script.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Commands: tyep ‘?’ in the console to check the conmand list.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/3/library/pdb.html&quot;&gt;pdb — The Python Debugger&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://documen.tician.de/pudb/starting.html&quot;&gt;Getting Started: pudb 2020.1 dicumentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/python-3-7s-new-builtin-breakpoint-a-quick-tour-4f1aebc444c&quot;&gt;Python 3.7’s new builtin breakpoint — a quick tour&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--links--&gt;</content><author><name>Bruce Liu</name></author><category term="post" /><category term="Python" /><category term="pdb" /><category term="pudb" /><summary type="html"></summary></entry><entry><title type="html">Set up and serve Jekyll</title><link href="https://longlovemyu.tk/serve-jekyll/" rel="alternate" type="text/html" title="Set up and serve Jekyll" /><published>2021-02-28T02:40:00+00:00</published><updated>2021-02-28T02:40:00+00:00</updated><id>https://longlovemyu.tk/start-jekyll</id><content type="html" xml:base="https://longlovemyu.tk/serve-jekyll/">&lt;p&gt;Steps to setup a jekyll server.
+&lt;!--the above is the excerpt--&gt;
+&lt;!--more--&gt;
+&lt;!--the following is the text--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;install-rubygem&quot;&gt;install rubygem&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;rubygems
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;install-bundler-and-jekyll&quot;&gt;install bundler and jekyll&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;bundler jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;install-the-gemsdependencies-specified-in-the-gemfile&quot;&gt;install the gems/dependencies specified in the Gemfile&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;run-a-jekyll-site-server&quot;&gt;run a jekyll site server&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Transform your plain text into static websites and blogs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/9485083/gem-command-not-found/20593800#20593800&quot;&gt;Gem Command not found&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bundler.io/man/bundle-install.1.html&quot;&gt;Bundler: bundle install&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Bruce Liu</name></author><category term="post" /><category term="Jekyll" /><category term="rubygems" /><category term="Github Pages" /><summary type="html">Steps to setup a jekyll server.</summary></entry></feed>
