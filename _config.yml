@@ -23,7 +23,7 @@ author: LONGAVAILABLE
 email: liuxiaolong125@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Sharing and recoding something useful, trying to make things simple, and looking for some fun.
-url: https://longlovemyu.tk 	# the base hostname & protocol for your site, e.g. http://example.com
+url: https://longlovemyu.ga 	# the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 # twitter_username: jekyllrb
 github_username: longlovemyu
