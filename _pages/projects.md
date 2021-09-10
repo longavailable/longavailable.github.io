@@ -16,12 +16,12 @@ permalink: /projects/
 
 	Banks/ATMs near your place which works for CSC debit cards.
 	
-- # [polygon](https://longlovemyu.tk/Polygon/)(for test)
+- # [polygon](/Polygon/)(for test)
 
 
-[Voronoi diagram for polygons]: https://longlovemyu.tk/voronoi-diagram-for-polygons/
-[adaptive-curvefitting]: https://longlovemyu.tk/adaptive-curvefitting/
-[cscbank]: https://longlovemyu.tk/cscbank/
+[Voronoi diagram for polygons]: /voronoi-diagram-for-polygons/
+[adaptive-curvefitting]: /adaptive-curvefitting/
+[cscbank]: /cscbank/
 [scipy]: https://scipy.org/scipylib/
 [numpy]: https://numpy.org/
 [matplotlib]: https://matplotlib.org/
