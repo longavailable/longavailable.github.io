@@ -52,7 +52,7 @@ Agathokakological monster
 Hellboy-like destroyer  
 Tough cowboy
 
-[LONGLOVEMYU]: https://www.longlovemyu.tk/
+[LONGLOVEMYU]: /
 [Hohai University]: https://en.hhu.edu.cn/
 [Southeast University]: https://www.seu.edu.cn/english/
 

@@ -35,9 +35,9 @@ g.get_repo(repoName).get_contents(filePath)
 	
 	Responce examples of GitHub API v3:
 	
-	The root directory of [cscbank](http://longlovemyu.tk/cscbank/): [https://api.github.com/repos/longavailable/cscbank/contents](https://api.github.com/repos/longavailable/cscbank/contents).
+	The root directory of [cscbank](/cscbank/): [https://api.github.com/repos/longavailable/cscbank/contents](https://api.github.com/repos/longavailable/cscbank/contents).
 	
-	`README.md` of [cscbank](http://longlovemyu.tk/cscbank/): [https://api.github.com/repos/longavailable/cscbank/contents/README.md](https://api.github.com/repos/longavailable/cscbank/contents/README.md).
+	`README.md` of [cscbank](/cscbank/): [https://api.github.com/repos/longavailable/cscbank/contents/README.md](https://api.github.com/repos/longavailable/cscbank/contents/README.md).
 
 	Important❗
 
@@ -79,9 +79,9 @@ g.get_repo(repoName).update_file(path=file,message= 'update '+file,content= data
 
 	Responce examples of GitHub API v3:
 		
-	The root tree/directory of [cscbank](http://longlovemyu.tk/cscbank/): [https://api.github.com/repos/longavailable/cscbank/git/trees/master](https://api.github.com/repos/longavailable/cscbank/git/trees/master).
+	The root tree/directory of [cscbank](/cscbank/): [https://api.github.com/repos/longavailable/cscbank/git/trees/master](https://api.github.com/repos/longavailable/cscbank/git/trees/master).
 
-	Subtree/subdirectory `nl/delft` of [cscbank](http://longlovemyu.tk/cscbank/): [https://api.github.com/repos/longavailable/cscbank/git/trees/master:nl/delft](https://api.github.com/repos/longavailable/cscbank/git/trees/master:nl/delft).
+	Subtree/subdirectory `nl/delft` of [cscbank](/cscbank/): [https://api.github.com/repos/longavailable/cscbank/git/trees/master:nl/delft](https://api.github.com/repos/longavailable/cscbank/git/trees/master:nl/delft).
 	
 	Notices:
 	
