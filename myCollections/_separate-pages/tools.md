@@ -18,3 +18,8 @@ permalink: /tools/
 [Real Python]: https://realpython.com/
 [jobtensor]: https://jobtensor.com/Tutorial/Python/en/Introduction
 [stackoverflow]: https://stackoverflow.com/questions/tagged/python
+
+
+<!-- back to top button -->
+<script src="/js/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop()</script>

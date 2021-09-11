@@ -39,3 +39,7 @@ permalink: /slides/
 	</div>
 	{% endfor %}
 </div>
+
+<!-- back to top button -->
+<script src="/js/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop()</script>

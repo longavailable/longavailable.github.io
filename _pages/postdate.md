@@ -32,3 +32,7 @@ permalink: /postdate/
 	</ul>
 {% endfor %}
 </ul>
+
+<!-- back to top button -->
+<script src="/js/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop()</script>
