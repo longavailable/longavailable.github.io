@@ -1,5 +1,5 @@
 ---
-layout: /
+layout: null
 title: Galleries
 permalink: /vod-compare/
 ---
