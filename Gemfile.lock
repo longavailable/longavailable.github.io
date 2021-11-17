@@ -1,9 +1,8 @@
 GIT
   remote: https://github.com/jeffreytse/jekyll-spaceship
-  revision: 935ce5a7c58131374ed08e9dec2a06f424add1b1
-  ref: 935ce5
+  revision: d01a89f80aaf7d11b7e874729d25fd65e7e5a3f8
   specs:
-    jekyll-spaceship (0.10.0)
+    jekyll-spaceship (0.10.1)
       gemoji (~> 3.0)
       jekyll (>= 3.6, < 5.0)
       nokogiri (~> 1.6)
