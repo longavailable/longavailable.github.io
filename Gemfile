@@ -20,7 +20,7 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-paginate'
-  gem 'jekyll-spaceship', git: 'https://github.com/jeffreytse/jekyll-spaceship', ref: '935ce5'
+  gem 'jekyll-spaceship', git: 'https://github.com/jeffreytse/jekyll-spaceship' #, ref: '935ce5'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
