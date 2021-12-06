@@ -3,9 +3,9 @@ layout: post
 title:  Add a search bar in Jekyll blogsite
 author: Bruce Liu
 # last update date
-date:   2020-02-15 23:30:00 +0100
+date:   2021-12-06 23:30:00 +0800
 # first published date
-date:   2020-02-15 23:30:00 +0100
+published:   2020-02-15 23:30:00 +0100
 categories: [post]
 tags: [Jekyll, search, Lunr, Google Custom Search engine]
 description: Hello, Jekyll!
@@ -17,6 +17,10 @@ There are ways to add a search bar. This post shows my way.
 <!--the above is the excerpt-->
 <!--more-->
 <!--the following is the text-->
+
+# Christian's [Simple-Jekyll-Search]
+
+- Find the guide [here](https://blog.webjeda.com/instant-jekyll-search/).
 
 # Lunr
 
@@ -71,4 +75,5 @@ ___
 [Lunr.js]: https://raw.githubusercontent.com/jhvanderschee/jekyllcodex/gh-pages/js/lunr.js
 [search-lunr.html]: https://raw.githubusercontent.com/jhvanderschee/jekyllcodex/gh-pages/_includes/search-lunr.html
 [search-google.html]: https://raw.githubusercontent.com/jhvanderschee/jekyllcodex/gh-pages/_includes/search-google.html
+[Simple-Jekyll-Search]:https://github.com/christian-fei/Simple-Jekyll-Search
 
