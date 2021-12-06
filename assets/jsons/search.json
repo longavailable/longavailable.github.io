@@ -5,7 +5,7 @@ layout: none
   {% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
+      "category" : "{{ post.categories }}",
 	  "author"   : "{{ post.author }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
@@ -16,7 +16,7 @@ layout: none
   {% for publication in site.publications %}
     {
       "title"    : "{{ publication.title | escape }}",
-      "category" : "{{ publication.category }}",
+      "category" : "{{ publication.categories }}",
 	  "author"   : "{{ post.author }}",
       "tags"     : "{{ publication.tags | join: ', ' }}",
       "url"      : "{{ publication.baseurl }}{{ publication.url }}"
@@ -26,7 +26,7 @@ layout: none
   {% for slide in site.slides %}
     {
       "title"    : "{{ slide.title | escape }}",
-      "category" : "{{ slide.category }}",
+      "category" : "{{ slide.categories }}",
 	  "author"   : "{{ post.author }}",
       "tags"     : "{{ slide.tags | join: ', ' }}",
       "url"      : "{{ slide.baseurl }}{{ slide.url }}",
