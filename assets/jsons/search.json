@@ -1,0 +1,36 @@
+---
+layout: none
+---
+[
+  {% for post in site.posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+	  "author"   : "{{ post.author }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %} ,
+  
+  {% for publication in site.publications %}
+    {
+      "title"    : "{{ publication.title | escape }}",
+      "category" : "{{ publication.category }}",
+	  "author"   : "{{ post.author }}",
+      "tags"     : "{{ publication.tags | join: ', ' }}",
+      "url"      : "{{ publication.baseurl }}{{ publication.url }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %} ,
+  
+  {% for slide in site.slides %}
+    {
+      "title"    : "{{ slide.title | escape }}",
+      "category" : "{{ slide.category }}",
+	  "author"   : "{{ post.author }}",
+      "tags"     : "{{ slide.tags | join: ', ' }}",
+      "url"      : "{{ slide.baseurl }}{{ slide.url }}",
+      "date"     : "{{ post.date }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
