@@ -123,6 +123,47 @@ layout: default
 		</div>
 	</div>
 	
+	<!-- Related contents -->
+	<div class="relatedPosts">
+
+		<!-- for post -->
+		{% if page.categories[0] == "post" %}
+		
+			<h2>Related</h2>
+
+			{% assign maxRelated = 4 %}
+			{% assign minCommonTags =  1 %}
+			{% assign maxRelatedCounter = 0 %}
+
+			{% for post in site.posts %}
+
+				{% assign sameTagCount = 0 %}
+				{% assign commonTags = '' %}
+
+				{% for tag in post.tags %}
+					{% if post.url != page.url %}
+						{% if page.tags contains tag %}
+							{% assign sameTagCount = sameTagCount | plus: 1 %}
+							{% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+							{% assign commonTags = commonTags | append: tagmarkup %}
+						{% endif %}
+					{% endif %}
+				{% endfor %}
+
+				{% if sameTagCount >= minCommonTags %}
+					<div>
+						<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a>
+					</div>
+					{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+					{% if maxRelatedCounter >= maxRelated %}
+						{% break %}
+					{% endif %}
+				{% endif %}
+
+			{% endfor %}
+		{% endif %}
+	</div>
+
 	<!-- share buttons -->
 	<br> <!-- br 是空行，hr是加一条直线-->
 	<div align="right">
