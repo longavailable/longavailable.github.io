@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2021-03-23 09:20:00 +0800
+date:   2021-12-16 14:15:00 +0800
 #first published date
 published: 2021-03-13 11:20:00 +0800
 categories: [post]
@@ -27,6 +27,7 @@ permalink: /useful-tools/
 | [KinhDown] | [在线解析](https://pan.kdbaidu.com/), [在线解析](https://yun.kdbaidu.com/), [在线解析](https://www.kdbaidu.com/) |
 | [56网盘搜索] | [官网](https://www.56wangpan.com/) |
 | Official Windows OS, Office, and language packs| [官网](https://tb.rg-adguard.net/public.php) |
+| MalvaStyle USB Repair | [官网](https://malvastyle.com/disk-repair-application-by-malvastyle/), [蓝奏云密码666](https://www.lanzouq.com/b01139k8d) |
 
 
 ## References
