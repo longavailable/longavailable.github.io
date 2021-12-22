@@ -3,7 +3,7 @@ layout: post
 title:  Quick Conversion on GIS Metrics
 author: Bruce Liu
 # last update date
-date:   2021-04-03 01:20:00 +0800
+date:   2021-11-22 017:30:00 +0800
 # first published date
 published: 2019-11-19 13:00:00 +0100 
 categories: [post]
@@ -31,14 +31,16 @@ $$
 | $$\theta$$(central angle)                     | arc length  | quick check |
 | --------------------------------------------- |:-----------:|:-----------:|
 | 1 arc degree                                  | 111.1 km    | 100 km      |
-| 0.5 arc degree (30 arc minutest)              | 55.7 km     | 50 km       |
-| 0.25 arc degree (15 arc minutest)             | 27.8 km     | 25 km 		|
+| 0.5 arc degree (30 arc minutes)               | 55.7 km     | 50 km       |
+| 0.25 arc degree (15 arc minutes)              | 27.8 km     | 25 km 		|
 | 0.1 arc degree (6 arc minutes)                | 11.1 km     | 10 km       |
 | 0.05 arc degree (3 arc minutes)               | 5.6 km	  |	5 km		|
+| $$0.01\dot{6}$$ arc degree (1 arc minutes) 	| 1860 m	  | 2 km        |
 | 0.01 arc degree (36 arc seconds)              | 1.1 km	  |	1 km		|
 | $$0.008\dot{3}$$ arc degree (30 arc seconds)  | 928 m		  |	900 m		|
 | $$0.001\dot{6}$$ arc degree (6 arc seconds) 	| 186 m		  | 200 m       |
 | 0.001 arc degree (3.6 arc seconds)            | 111 m 	  | 100 m       |
+| $$0.0002\dot{7}$$ arc degree (1 arc seconds) 	| 31 m	      | 30 km       |
 
 >坐地日行八万里。By毛泽东
 
