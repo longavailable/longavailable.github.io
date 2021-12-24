@@ -32,7 +32,7 @@ $$
 
 Note taht the radius (R) and perimeter (P) of the earth at the equator is 6378 km, 40075km separately.
 
-And the arc length on a specific latitude is calculated by:
+And the arc length on a specific parallel/latitude is calculated by:
 
 $$
 \begin{eqnarray}arc length & = & 2\pi R\cos(latitude)\left ( \frac{longitude}{360} \right ) 
