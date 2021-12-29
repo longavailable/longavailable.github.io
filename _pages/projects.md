@@ -15,13 +15,18 @@ permalink: /projects/
 - # [cscbank]
 
 	Banks/ATMs near your place which works for CSC debit cards.
-	
+
+- # [deep-learning-network-architectures]
+
+	A collection of some useful architectures/frameworks of deep learning / neural network.
+
 - # [polygon](/Polygon/)(for test)
 
 
 [Voronoi diagram for polygons]: /voronoi-diagram-for-polygons/
 [adaptive-curvefitting]: /adaptive-curvefitting/
 [cscbank]: /cscbank/
+[deep-learning-network-architectures]: /deep-learning-network-architectures/
 [scipy]: https://scipy.org/scipylib/
 [numpy]: https://numpy.org/
 [matplotlib]: https://matplotlib.org/
