@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/jeffreytse/jekyll-spaceship
-  revision: d01a89f80aaf7d11b7e874729d25fd65e7e5a3f8
+  revision: 4c9987fb1a861df191ac0578e473d423f1e3edca
   specs:
-    jekyll-spaceship (0.10.1)
+    jekyll-spaceship (0.10.2)
       gemoji (~> 3.0)
       jekyll (>= 3.6, < 5.0)
       nokogiri (~> 1.6)
@@ -75,7 +75,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
-    rouge (3.26.1)
+    rouge (3.27.0)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
