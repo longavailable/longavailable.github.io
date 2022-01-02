@@ -8,6 +8,7 @@
 
 ## Todo
 
-- Make codes interactive. Maybe [DataCamp Light](https://github.com/datacamp/datacamp-light).
+- Make codes interactive. Maybe [DataCamp Light](https://github.com/datacamp/datacamp-light),
+- Add a gallery frame. <https://github.com/opieters/jekyll-image-gallery-example>
 
 
