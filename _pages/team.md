@@ -34,7 +34,7 @@ Chief scientist of [LONGLOVEMYU], hydrologist, associate professor of [Hohai Uni
 [<img src="/assets/pics/hhu_20k.png" height="20" title="Hohai University">](http://shxy.hhu.edu.cn/2017/0307/c3223a45183/page.htm)
 [<img src="/assets/pics/ResearchGate-6k.png" height="18" title="Research Gate">](https://www.researchgate.net/profile/Meixiu_Yu)
 [<img src="/assets/pics/GoogleScholar-4k.png" height="18" title="Google Scholar">](https://scholar.google.com/citations?user=ly9d4IgAAAAJ&hl=en&oi=ao)
-[<img src="/assets/pics/orcid-4k.png" height="20" title="ORCID">](https://orcid.org/0000-0001-6155-8890)
+[<img src="/assets/pics/orcid-2k.png" height="20" title="ORCID">](https://orcid.org/0000-0001-6155-8890)
 <span id="badgeCont469"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont469&rid=ABB-2344-2020&size=small"></script></span>
 
 <img src="/assets/pics/bruce.jpg" alt="Avatar" class="avatar image-left">
@@ -44,7 +44,7 @@ Maintainer of [LONGLOVEMYU], civil engineer, Pythoner, GISer, PhD fellow of [Sou
 [<img src="/assets/pics/pypi_4k.png" height="20" title="PyPI">](https://pypi.org/user/longavailable)
 [<img src="/assets/pics/docker_Moby-logo_4k.png" height="18" title="Docker Hub">](https://hub.docker.com/u/longavailable)
 [<img src="/assets/pics/zenodo.svg" height="18" title="Zenodo">](https://zenodo.org/communities/longavailable)
-[<img src="/assets/pics/orcid-4k.png" height="20" title="ORCID">](https://orcid.org/0000-0002-6603-986X)
+[<img src="/assets/pics/orcid-2k.png" height="20" title="ORCID">](https://orcid.org/0000-0002-6603-986X)
 
 <img src="/assets/pics/goodevil.jpg" alt="Avatar" class="avatar image-left">
 Anm  
