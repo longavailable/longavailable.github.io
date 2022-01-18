@@ -36,6 +36,7 @@ Chief scientist of [LONGLOVEMYU], hydrologist, associate professor of [Hohai Uni
 [<img src="/assets/pics/GoogleScholar-4k.png" height="18" title="Google Scholar">](https://scholar.google.com/citations?user=ly9d4IgAAAAJ&hl=en&oi=ao)
 [<img src="/assets/pics/orcid-2k.png" height="20" title="ORCID">](https://orcid.org/0000-0001-6155-8890)
 <span id="badgeCont469"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont469&rid=ABB-2344-2020&size=small"></script></span>
+[<img src="/assets/pics/loop-frontiers.svg" height="20" title="Loop">](https://loop.frontiersin.org/people/1640371/overview)
 
 <img src="/assets/pics/bruce.jpg" alt="Avatar" class="avatar image-left">
 Bruce / Xiaolong Liu / 刘小龙  
