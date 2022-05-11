@@ -3,7 +3,7 @@ layout: post
 title:  Quick Conversion on GIS Metrics
 author: Bruce Liu
 # last update date
-date:   2021-12-24 15:00:00 +0800
+date:   2022-05-11 23:00:00 +0800
 # first published date
 published: 2019-11-19 13:00:00 +0100 
 categories: [post]
@@ -24,7 +24,7 @@ $$
 arc length=2\pi r\left ( \frac{\theta }{360} \right )=p\left ( \frac{\theta }{360} \right )
 $$
 
-If the equatorial plane is looked as a circle, then the arc length on the equator is calculated by:
+If the equatorial plane is looked as a circle, then the arc length at the equator is calculated by:
 
 $$
 arc length=P\left ( \frac{longitude}{360} \right )=40075* \left ( \frac{longitude}{360} \right )=111*longitude
@@ -41,8 +41,8 @@ $$
 \\ & = & 111*longitude \cos(latitude) \end{eqnarray}
 $$
 
-| longitude                   					| arc length  | quick check (latitude)   |||
-| ^^                     						| ^^  		  |  25°		| 36° 	      | 44° 	    |
+| longitude                   					| quick check of arc length at (latitude)   |||
+| ^^                     						| equator  	  |  25°		| 36° 	      | 44° 	    |
 | --------------------------------------------- |:-----------:|:-----------:|:-----------:|:-----------:|
 | 1 arc degree                                  | 111.32 km   | 100 km      | 90 km       | 80 km       |
 | 0.5 arc degree (30 arc minutes)               | 55.66 km    | 50 km       | 45 km       | 40 km       |
