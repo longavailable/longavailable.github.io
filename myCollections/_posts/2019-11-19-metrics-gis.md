@@ -53,6 +53,7 @@ $$
 | $$0.01\dot{6}$$ arc degree (1 arc minutes) 	| 1.855 km	  | 1.7 km      | 1.5 km      | 1.3 km      |
 | 0.01 arc degree (36 arc seconds)              | 1.113 km	  |	1 km		| 900 m		  | 800 m		|
 | $$0.008\dot{3}$$ arc degree (30 arc seconds)  | 928 m		  |	850 m		| 750 m	      | 670 m	    |
+| $$0.0041\dot{6}$$ arc degree (15 arc seconds) | 464 m		  |	425 m		| 375 m	      | 335 m	    |
 | $$0.001\dot{6}$$ arc degree (6 arc seconds) 	| 186 m		  | 170 m       | 150 m       | 130 m       |
 | 0.001 arc degree (3.6 arc seconds)            | 111 m 	  | 100 m       | 90 m        | 80 m        |
 | $$0.0002\dot{7}$$ arc degree (1 arc seconds) 	| 31 m	      | 30 km       | 25 km       | 22 km       |
