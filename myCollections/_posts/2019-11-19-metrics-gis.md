@@ -3,7 +3,7 @@ layout: post
 title:  Quick Conversion on GIS Metrics
 author: Bruce Liu
 # last update date
-date:   2022-05-11 23:00:00 +0800
+date:   2022-05-12 15:00:00 +0800
 # first published date
 published: 2019-11-19 13:00:00 +0100 
 categories: [post]
@@ -48,6 +48,7 @@ $$
 | 0.5 arc degree (30 arc minutes)               | 55.66 km    | 50 km       | 45 km       | 40 km       |
 | 0.25 arc degree (15 arc minutes)              | 27.83 km    | 25 km 		| 23 km       | 20 km       |
 | 0.1 arc degree (6 arc minutes)                | 11.13 km    | 10 km       | 9 km        | 8 km        |
+| $$0.08\dot{3}$$ arc degree (5 arc minutes)    | 9.28 km     | 8.5 km      | 7.5 km      | 6.7 km      |
 | 0.05 arc degree (3 arc minutes)               | 5.566 km	  |	5 km		| 4.5 km	  | 4 km	    |
 | $$0.01\dot{6}$$ arc degree (1 arc minutes) 	| 1.855 km	  | 1.7 km      | 1.5 km      | 1.3 km      |
 | 0.01 arc degree (36 arc seconds)              | 1.113 km	  |	1 km		| 900 m		  | 800 m		|
