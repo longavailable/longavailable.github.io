@@ -68,7 +68,7 @@ cpolar tcp 8123
 
 	- Live screen/terminal for cpolar channel
 	
-		![cpolar channel](//assets/pics/ha-build-cpolar-channel-linux.png)
+		![cpolar channel](/assets/pics/ha-build-cpolar-channel-linux.png)
 		
 	- cpolar online channel status <https://dashboard.cpolar.com/status>
 
@@ -80,13 +80,10 @@ If you have a domain, such <longlovemyu.com>, you can forward a custom link to t
 
 I cloudflared <longlovemyu.com>. So I did a forwarding test by using [cloudflare] rules.
 
-![cpolar channel](//assets/pics/ha-forward-cpolar-link.png)
+![cpolar channel](/assets/pics/ha-forward-cpolar-link.png)
 
 Enjoy it!
 
-
-# Reference
-- [How TO - Include HTML]
 
 <!--links-->
 [cpolar]: https://i.cpolar.com/m/4OZZ
