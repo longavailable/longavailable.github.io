@@ -86,21 +86,21 @@ All were not working on [Termux] for android `5`.
 
 # [PRoot]
 
-## [proot-distro] is NOT supported on android 5/6.  💩
+- [proot-distro] is NOT supported on android 5/6.  💩
 
-Almost no way to proceed.
+	Almost no way to proceed.
 
-## [ubuntu-in-termux]
+- [ubuntu-in-termux]
 
-Lucky. I've found a ready-to-use script to install Ubuntu from [Termux].
+	Lucky. I've found a ready-to-use script to install Ubuntu from [Termux].
 
-It works like a charm.
+	It works like a charm.
 
-So I have a [Jellyfish] on my [Redmi Pro]. It will be easily to go on.
+	So I have a [Jellyfish] on my [Redmi Pro]. It will be easily to go on.
 
 # [Home Assistant] [Core] on [ubuntu-in-termux]
 
-- su user access,
+- `su` user access,
 
 - latest `python` (3.10),
 
