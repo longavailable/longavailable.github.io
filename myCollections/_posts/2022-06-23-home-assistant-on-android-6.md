@@ -42,11 +42,11 @@ Recently, I am trying to make devices alive in my room. And I found Home Assista
 	
 So [Termux] for android 5 was which I chose finally.
 	
-# [Home Assistant] [Operating System], [Container], [Supervised], and [Core]
+# [Home Assistant][1] [Operating System], [Container], [Supervised], and [Core]
 
 There is a [table](https://www.home-assistant.io/installation/#compare-installation-methods) to compare these installation methods.<https://www.home-assistant.io/installation/#compare-installation-methods>
 
-Normally, I'd like a most powerful [Home assistant]. So I tried [Operating System], [Supervised], [Container], and [Core], sequentially.
+Normally, I'd like a most powerful [Home assistant][1]. So I tried [Operating System], [Supervised], [Container], and [Core], sequentially.
 
 - [Operating System] - Not working!
 	
@@ -98,7 +98,7 @@ All were not working on [Termux] for android `5`.
 
 	So I have a [Jellyfish] on my [Redmi Pro]. It will be easily to go on.
 
-# [Home Assistant] [Core] on [ubuntu-in-termux]
+# [Home Assistant][1] [Core] on [ubuntu-in-termux]
 
 - `su` user access,
 
@@ -112,7 +112,7 @@ All were not working on [Termux] for android `5`.
 
 Note: Maybe a few bugs. I ignored them.
 
-Enjoy [Home Assistant] on my [Redmi Pro]!
+Enjoy [Home Assistant][1] on my [Redmi Pro]!
 
 # Brainstorm
 
@@ -137,7 +137,7 @@ No plan to test.
 [F-Droid]: https://f-droid.org
 [Github Build]: https://github.com/termux/termux-app/actions/workflows/debug_build.yml
 [Linux Deploy]: https://github.com/meefik/linuxdeploy
-[Home Assistant]: https://www.home-assistant.io
+[1]: https://www.home-assistant.io
 [Operating System]: https://github.com/home-assistant/operating-system
 [Container]: https://github.com/home-assistant/docker
 [Supervised]: https://github.com/home-assistant/supervisor
