@@ -19,26 +19,39 @@
 # in the templates via {{ site.myvariable }}.
 
 title: LONGLOVEMYU
-author: LONGAVAILABLE
-email: liuxiaolong125@gmail.com
+author:
+  name: LONGAVAILABLE
+  email: liuxiaolong125@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Sharing and recoding something useful, trying to make things simple, and looking for some fun.
 url: https://longlovemyu.com 	# the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-# twitter_username: jekyllrb
-github_username: longlovemyu
-github_username_admin: longavailable
 
 # jekyll-paginate configuration, specifies how many items should be displayed per page
 paginate: 10
 paginate_path: /page:num/
 
 # Build settings
-theme: minima
-plugins:
+plugins::
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-spaceship
+  - jekyll-remote-theme
+
+# minima
+#theme: minima	# 2.5.1
+remote_theme: https://github.com/jekyll/minima	# 3.0
+
+minima:
+  skin: classic
+  # skin: dark
+  # skin: solarized-dark
+  social_links:
+    gitlab:
+      - username: longavailable
+      - username: longlovemyu
   
 collections_dir: myCollections
 collections:
