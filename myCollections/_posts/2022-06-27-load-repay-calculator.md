@@ -19,5 +19,5 @@ permalink: /loan-repay-cal/
 
 
 
-# [Calculator for loan and repay](/loan-repay-calculator.html)
+# [Calculator for loan and repay](/loan-repay-calculator)
 
