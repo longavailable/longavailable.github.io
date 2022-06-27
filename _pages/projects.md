@@ -19,7 +19,9 @@ permalink: /projects/
 - # [deep-learning-network-architectures]
 
 	A collection of some useful architectures/frameworks of deep learning / neural network.
-
+	
+- # [Calculator for loan and repay]
+	
 - # [polygon](/Polygon/)(for test)
 
 
@@ -27,6 +29,7 @@ permalink: /projects/
 [adaptive-curvefitting]: /adaptive-curvefitting/
 [cscbank]: /cscbank/
 [deep-learning-network-architectures]: /deep-learning-network-architectures/
+[Calculator for loan and repay]: /loan-repay-calculator
 [scipy]: https://scipy.org/scipylib/
 [numpy]: https://numpy.org/
 [matplotlib]: https://matplotlib.org/
