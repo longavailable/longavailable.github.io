@@ -32,7 +32,7 @@ Dr Meixiu Yu / 虞美秀
 [中文简介](/myu-hhu-cn)  
 Chief scientist of [LONGLOVEMYU], hydrologist, associate professor of [Hohai University]<br>
 [<img src="/assets/pics/hhu-b-15k.png" height="20" title="Hohai University">](http://shxy.hhu.edu.cn/2017/0307/c3223a45183/page.htm)
-[<img src="/assets/pics/ResearchGate-6k.png" height="18" title="Research Gate">](https://www.researchgate.net/profile/Meixiu_Yu)
+[<img src="/assets/pics/ResearchGate-32x32.png" height="18" title="Research Gate">](https://www.researchgate.net/profile/Meixiu_Yu)
 [<img src="/assets/pics/GoogleScholar-4k.png" height="18" title="Google Scholar">](https://scholar.google.com/citations?user=ly9d4IgAAAAJ&hl=en&oi=ao)
 [<img src="/assets/pics/orcid-2k.png" height="20" title="ORCID">](https://orcid.org/0000-0001-6155-8890)
 [<img src="https://publons.com/static/images/favicons/favicon.ico" height="20" title="publons">](https://publons.com/researcher/3952468/meixiu-yu/)
