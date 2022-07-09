@@ -1,3 +1,7 @@
 [submodule "js/reveal.js"]
 	path = js/reveal.js
 	url = https://github.com/hakimel/reveal.js
+[submodule "myCollections/_publications"]
+	path = myCollections/_publications
+	url = https://github.com/longavailable/generate-publication-overview.git
+	branch = publications
