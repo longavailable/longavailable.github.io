@@ -19,6 +19,14 @@ permalink: /projects/
 - # [deep-learning-network-architectures]
 
 	A collection of some useful architectures/frameworks of deep learning / neural network.
+
+- # [empty-omegat-project]
+
+	A template of [OmegaT] team project.
+
+- # [generate-publication-overview]
+
+	Scripts to generate Meixiu Yu's publications automatically for the Jekyll website <https://www.longlovemyu.com>. Although it is a special case, there are also something to be learned.
 	
 - # [Calculator for loan and repay]
 	
@@ -30,9 +38,13 @@ permalink: /projects/
 [cscbank]: /cscbank/
 [deep-learning-network-architectures]: /deep-learning-network-architectures/
 [Calculator for loan and repay]: /loan-repay-calculator
+[empty-omegat-project]: /empty-omegat-project
+[generate-publication-overview]: /generate-publication-overview
+
 [scipy]: https://scipy.org/scipylib/
 [numpy]: https://numpy.org/
 [matplotlib]: https://matplotlib.org/
+[OmegaT]: https://omegat.org/
 
 
 <!-- back to top button -->
