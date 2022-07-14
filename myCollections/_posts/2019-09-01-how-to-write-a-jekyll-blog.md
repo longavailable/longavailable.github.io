@@ -215,6 +215,7 @@ Press **F** to fullscreen mode.
 - [How TO - Image Comparison Slider]
 - [JuxtaposeJS - Easy-to-make frame comparisons](https://juxtapose.knightlab.com/)
 - [List of Badges, in Markdown](https://github.com/Naereen/badges)
+- [Basic HTML Codes for Beginners](https://www.websiteplanet.com/blog/html-guide-beginners/)
 
 
 [How TO - Image Comparison Slider]: https://www.w3schools.com/howto/howto_js_image_comparison.asp
