@@ -3,7 +3,7 @@ layout: post
 title:  Debugging in Python
 author: Bruce Liu
 #last update date
-date:   2021-03-08 16:20:00 +0800
+date:   2022-08-05 16:20:00 +0800
 #first published date
 published: 2021-03-08 16:20:00 +0800
 categories: [post]
@@ -19,7 +19,7 @@ permalink: /debugging-in-python/
 
 ## [pdb] - the Python Debugger
 
-- Invoke **[pbd]** from terminal to debug the entire script.
+- Invoke **[pbd](https://docs.python.org/3/library/pdb.html)** from terminal to debug the entire script.
 
     ```bash
 python -m pdb mytest.py
