@@ -35,7 +35,7 @@ Chief scientist of [LONGLOVEMYU], hydrologist, associate professor of [Hohai Uni
 [<img src="/assets/pics/ResearchGate-32x32.png" height="18" title="Research Gate">](https://www.researchgate.net/profile/Meixiu_Yu)
 [<img src="/assets/pics/GoogleScholar-4k.png" height="18" title="Google Scholar">](https://scholar.google.com/citations?user=ly9d4IgAAAAJ&hl=en&oi=ao)
 [<img src="/assets/pics/orcid-2k.png" height="20" title="ORCID">](https://orcid.org/0000-0001-6155-8890)
-[<img src="https://publons.com/static/images/favicons/favicon.ico" height="20" title="publons">](https://publons.com/researcher/3952468/meixiu-yu/)
+[<img src="https://www.webofscience.com/wos/static/favicon.png" height="20" title="Web of Science ResearcherID">](https://www.webofscience.com/wos/author/rid/ABB-2344-2020)
 [<img src="/assets/pics/loop-frontiers.svg" height="20" title="Loop">](https://loop.frontiersin.org/people/1640371/overview)
 [<img src="/assets/pics/scinapse.svg" height="20" title="Scinapse">](https://www.scinapse.io/authors/2116893696)
 [<img src="/assets/pics/scopus-4k.png" height="20" title="Scopus Author Profile">](https://www.scopus.com/authid/detail.uri?authorId=35197424200)
