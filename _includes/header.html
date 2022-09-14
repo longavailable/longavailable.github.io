@@ -47,7 +47,12 @@
 				{% endif %}
 			{% endfor %}
         </div>
+
       </nav>
     {%- endif -%}
+	{% if page.coverimage %}	
+		<img src={{ page.coverimage }}>
+	{% else %}
+	{% endif %}
   </div>
 </header>
