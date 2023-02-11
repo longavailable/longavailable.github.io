@@ -3,7 +3,7 @@ layout: post
 title:  Academic journals on climate change
 author: Bruce Liu
 #last update date
-date:   2021-12-07 11:30:00 +0800
+date:   2023-02-11 20:30:00 +0800
 #first published date
 published: 2021-12-07 11:30:00 +0800
 categories: [post]
@@ -16,6 +16,12 @@ It posted a list of academic journals on climate change with LetPub links.
 <!--the above is the excerpt-->
 <!--more-->
 <!--the following is the text-->
+
+# Journal search engine
+
+[DOAJ](https://www.doaj.org/)
+
+[SJR](https://www.scimagojr.com/)
 
 # SCI journals
 
