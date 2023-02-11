@@ -3,7 +3,7 @@ layout: post
 title:  Academic journals on water and environment
 author: Bruce Liu
 #last update date
-date:   2023-02-11 20:40:00 +0800
+date:   2023-02-11 20:35:00 +0800
 #first published date
 published: 2020-10-19 06:00:00 +0200
 categories: [post]
