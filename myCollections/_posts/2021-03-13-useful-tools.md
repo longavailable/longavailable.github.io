@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2021-12-16 14:15:00 +0800
+date:   2023-02-14 14:25:00 +0800
 #first published date
 published: 2021-03-13 11:20:00 +0800
 categories: [post]
@@ -28,6 +28,7 @@ permalink: /useful-tools/
 | [56网盘搜索] | [官网](https://www.56wangpan.com/) |
 | Official Windows OS, Office, and language packs| [官网](https://tb.rg-adguard.net/public.php) |
 | MalvaStyle USB Repair | [官网](https://malvastyle.com/disk-repair-application-by-malvastyle/), [蓝奏云密码666](https://www.lanzouq.com/b01139k8d) |
+| [Prettier]: An online code formatter | [官网](https://prettier.io/), [GitHub](https://github.com/prettier/prettier) |
 
 
 ## References
@@ -39,4 +40,4 @@ permalink: /useful-tools/
 [56网盘搜索]: https://www.56wangpan.com/
 [CiteHist官网]: https://support.clarivate.com/ScientificandAcademicResearch/s/article/HistCite-No-longer-in-active-development-or-officially-supported?language=en_US
 [CiteHist Pro官网]: https://zhuanlan.zhihu.com/p/20902898
-
+[Prettier]: https://github.com/prettier/prettier
