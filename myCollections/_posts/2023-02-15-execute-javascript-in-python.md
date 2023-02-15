@@ -30,13 +30,13 @@ Python packages and implementation ways to execute JavaScript code in Python.
 
 Firstly, install [Js2Py] then import js2py module:
 
-    ```python
+```python
 import js2py
-    ```
+```
 
 ### js code in place
 
-    ```python
+```python
 js_code = '''
 function add(a, b) {
   return a + b;
@@ -44,25 +44,25 @@ function add(a, b) {
 '''
 add = js2py.eval_js(js_code)
 add(1,2) + 3
-    ```
+```
 
 ### js code in a file
 
 Create a js file nameed with `add.js`:
 
-    ```javascript
+```javascript
 function add(a, b) {
   return a + b;
 }
-    ```
+```
 
 Then,
 
-    ```python
+```python
 with open('add.js') as f:
 	add = js2py.eval_js(f.read())
 add(1,2) + 3
-    ```
+```
 
 ### online js code
 
@@ -70,12 +70,14 @@ There is a public link for the `add` function
 
 <https://raw.githubusercontent.com/longavailable/datarepo02/main/code/javascript/add.js>
 
-    ```python
+and,
+
+```python
 import requests
 js_link = 'https://raw.githubusercontent.com/longavailable/datarepo02/main/code/javascript/add.js'
 add = js2py.eval_js(requests.get(js_link).text)
 add(1,2) + 3
-    ```
+```
 
 <!--links-->
 [Js2Py]: https://github.com/PiotrDabkowski/Js2Py
