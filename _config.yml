@@ -39,7 +39,7 @@ plugins::
   - jekyll-paginate
   - jekyll-spaceship
   - jekyll-remote-theme
-  - jekyll-pandoc
+#  - jekyll-pandoc
 
 # minima
 #theme: minima	# 2.5.1
@@ -93,4 +93,4 @@ excerpt_separator: <!--more-->
 encoding: UTF-8
 
 # config for jekyll-pandoc
-markdown: Pandoc
+#markdown: Pandoc
