@@ -13,6 +13,7 @@ group :jekyll_plugins do
   #gem 'jekyll-admin'
   gem 'jekyll-paginate'
   gem 'jekyll-spaceship', git: 'https://github.com/jeffreytse/jekyll-spaceship' #, ref: '935ce5'
+  gem "jekyll-pandoc"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -26,5 +27,3 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "webrick"
-
-gem "jekyll-pandoc"

@@ -92,4 +92,5 @@ excerpt_separator: <!--more-->
 
 encoding: UTF-8
 
+# config for jekyll-pandoc
 markdown: Pandoc
