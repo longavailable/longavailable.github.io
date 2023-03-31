@@ -39,6 +39,7 @@ plugins::
   - jekyll-paginate
   - jekyll-spaceship
   - jekyll-remote-theme
+  - jekyll-pandoc
 
 # minima
 #theme: minima	# 2.5.1
@@ -90,3 +91,5 @@ revealjs_path: /js/reveal.js/
 excerpt_separator: <!--more-->
 
 encoding: UTF-8
+
+markdown: Pandoc
