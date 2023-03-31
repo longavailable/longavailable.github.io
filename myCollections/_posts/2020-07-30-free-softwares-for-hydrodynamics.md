@@ -26,7 +26,7 @@ This post lists some hydrodynamic models/softwares.
 | [iRIC] | [Nays1D+], [CERI1D], [River2D], [Nays2DH], [Nays2Dv], [Nays2DFlood], [SToRM], [Mflow_02], [NaysCUBE], [NaysEddy], [FaSTMECH], | <https://i-ric.org/en/download/> | No |
 | [Iberaula] | [Iber], [IberHABITAT] | <https://iberaula.es/54/iber-model/downloads> | No |
 | [U.S. National Center for Computational Hydroscience and Engineering (NCCHE)] | [CCHE2D-Flow], [CCHE2D-Flood], [CCHE2D-Sed], [CCHE2D-CHEM], [CCHE2D-WQ], [CCHE-MESH] | <https://www.ncche.olemiss.edu/downloads/> | No |
-| [Jonathan Richard Shewchuk] | [Triangle] | <https://www.cs.cmu.edu/~quake/triangle.html> | No |
+| [Jonathan Richard Shewchuk] | **Not a model**[Triangle] | <https://www.cs.cmu.edu/~quake/triangle.html> | No |
 | [AED research group], [University of Western Australia (UWA)] | [GLM], [GLM-AED] | <https://github.com/AquaticEcoDynamics/GLM>, <https://github.com/AquaticEcoDynamics/glm-aed> | Yes |
 | [Biogeochemical modelling] | MyLake | `Matlab`: <https://github.com/biogeochemistry/MyLake_public>, `R`: <https://github.com/aemon-j/MyLakeR> | Partially yes |
 | [GOTM] volunteers | [GOTM] | `Fortran`: <https://github.com/gotm-model/code> | Yes |
