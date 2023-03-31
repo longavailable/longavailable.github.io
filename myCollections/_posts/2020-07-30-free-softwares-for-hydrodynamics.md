@@ -22,11 +22,11 @@ This post lists some hydrodynamic models/softwares.
 | ---------------------------|:--------------------|:-----------------|:------------|
 | [US Army Corps of Engineers (USACE)], [Hydrologic Engineering Center (HEC)] | [HEC-RAS] | <https://www.hec.usace.army.mil/software/hec-ras> | No |
 | [Deltares] | [Delft3D] | <https://oss.deltares.nl/web/delft3d/source-code> | Yes |
-| [U.S. Bureau of Reclamation], [Technical Service Center (TSC)] | [SRH-1D], [SRH-2D], [SRH-Capacity], [SRH-Mesh] | <https://www.usbr.gov/tsc/techreferences/computer%20software/compsoft.html> | No |
+| [U.S. Bureau of Reclamation], [Technical Service Center (TSC)] | [SRH-1D], [SRH-2D], [SRH-Capacity], [SRH-Mesh], [U^2^RANS] | <https://www.usbr.gov/tsc/techreferences/computer%20software/compsoft.html> | No |
 | [iRIC] | [Nays1D+], [CERI1D], [River2D], [Nays2DH], [Nays2Dv], [Nays2DFlood], [SToRM], [Mflow_02], [NaysCUBE], [NaysEddy], [FaSTMECH], | <https://i-ric.org/en/download/> | No |
 | [Iberaula] | [Iber], [IberHABITAT] | <https://iberaula.es/54/iber-model/downloads> | No |
 | [U.S. National Center for Computational Hydroscience and Engineering (NCCHE)] | [CCHE2D-Flow], [CCHE2D-Flood], [CCHE2D-Sed], [CCHE2D-CHEM], [CCHE2D-WQ], [CCHE-MESH] | <https://www.ncche.olemiss.edu/downloads/> | No |
-| [Jonathan Richard Shewchuk] | **Not a model**[Triangle] | <https://www.cs.cmu.edu/~quake/triangle.html> | No |
+| [Jonathan Richard Shewchuk] | **Not a model** [Triangle] | <https://www.cs.cmu.edu/~quake/triangle.html> | No |
 | [AED research group], [University of Western Australia (UWA)] | [GLM], [GLM-AED] | <https://github.com/AquaticEcoDynamics/GLM>, <https://github.com/AquaticEcoDynamics/glm-aed> | Yes |
 | [Biogeochemical modelling] | MyLake | `Matlab`: <https://github.com/biogeochemistry/MyLake_public>, `R`: <https://github.com/aemon-j/MyLakeR> | Partially yes |
 | [GOTM] volunteers | [GOTM] | `Fortran`: <https://github.com/gotm-model/code> | Yes |
@@ -45,6 +45,7 @@ This post lists some hydrodynamic models/softwares.
 [SRH-2D]: https://www.usbr.gov/tsc/techreferences/computer%20software/models/srh2d/index.html
 [SRH-Mesh]: https://www.usbr.gov/tsc/techreferences/computer%20software/models/srhmesh/index.html
 [SRH-Capacity]: https://www.usbr.gov/tsc/techreferences/computer%20software/models/srhcapacity/index.html
+[U^2^RANS]: https://www.usbr.gov/tsc/techreferences/computer%20software/models/u2rans/index.html
 
 [U.S. National Center for Computational Hydroscience and Engineering (NCCHE)]: https://www.ncche.olemiss.edu/
 [CCHE2D-Flow]: https://www.ncche.olemiss.edu/cche2d-flw-model/
