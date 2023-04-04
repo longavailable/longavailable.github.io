@@ -39,6 +39,7 @@ plugins::
   - jekyll-paginate
   - jekyll-spaceship
   - jekyll-remote-theme
+  - jekyll-redirect-from
 #  - jekyll-pandoc
 
 # minima
