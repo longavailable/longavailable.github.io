@@ -41,8 +41,8 @@ Chief scientist of [LONGLOVEMYU], hydrologist, associate professor of [Hohai Uni
 [<img src="/assets/pics/scopus-4k.png" height="20" title="Scopus Author Profile">](https://www.scopus.com/authid/detail.uri?authorId=35197424200)
 
 <img src="/assets/pics/bruce.jpg" alt="Avatar" class="avatar image-left">
-Bruce / Xiaolong Liu / 刘小龙  
-Maintainer of [LONGLOVEMYU], civil engineer, Pythoner, GISer, PhD fellow of [Southeast University]<br>
+Dr Bruce / Xiaolong Liu / 刘小龙  
+Maintainer of [LONGLOVEMYU], civil engineer, Pythoner, GISer, PhD from [Southeast University]<br>
 [<img src="/assets/pics/github_marker_32px.png" height="20" title="GitHub">](https://github.com/longavailable)
 [<img src="/assets/pics/pypi_4k.png" height="20" title="PyPI">](https://pypi.org/user/longavailable)
 [<img src="/assets/pics/docker_Moby-logo_4k.png" height="18" title="Docker Hub">](https://hub.docker.com/u/longavailable)
