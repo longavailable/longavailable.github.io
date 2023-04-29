@@ -36,6 +36,9 @@ layout: base
 	}
 </style>
 
+<!--style for table of contents--->
+<link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}">
+
 <header class="intro-header" >
 	<div class="container">
 		<div class="row">
@@ -104,11 +107,19 @@ layout: base
 		</div>
 	</div>
 </header>
-
-
+		
+<!--table-of-contents-->
+<div class="sidebar">
+	<div class='toc' id="table-of-contents">
+		{% toc %}
+	</div>
+</div>
+	
 <!-- Post Content -->
 <article>
+	
 	<div class="container">
+		
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
 

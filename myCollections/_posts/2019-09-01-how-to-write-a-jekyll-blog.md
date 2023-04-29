@@ -11,6 +11,7 @@ tags: [first blog, Jekyll, markdown, map, picture, emoji]
 description: Hello, Jekyll!
 header-image: 
 permalink: /jekyll_blog/
+toc:
 ---
 
 This is a templete to show how to write a post.

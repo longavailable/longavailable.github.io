@@ -40,6 +40,7 @@ plugins::
   - jekyll-spaceship
   - jekyll-remote-theme
   - jekyll-redirect-from
+  - jekyll-toc
 #  - jekyll-pandoc
 
 # minima
@@ -64,6 +65,16 @@ collections:
     output: true
   redirects:
     output: true
+
+# table of contents
+toc:
+  max_level: 3
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

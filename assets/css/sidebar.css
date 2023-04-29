@@ -1,0 +1,12 @@
+.toc {
+  position: fixed;
+  float: left !important;
+  top: 0;
+  left: 0;
+  width: $left-sidebar-width-narrow;
+  margin-left: -1 * $left-sidebar-width-narrow;
+  padding-right: 1em;
+  padding-top: 5em !important;
+  margin-bottom: 1em;
+  height: 100%;
+}

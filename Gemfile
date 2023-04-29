@@ -15,6 +15,7 @@ group :jekyll_plugins do
   gem 'jekyll-spaceship', git: 'https://github.com/jeffreytse/jekyll-spaceship' #, ref: '935ce5'
   #gem 'jekyll-pandoc'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-toc' 
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
