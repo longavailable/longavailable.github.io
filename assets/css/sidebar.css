@@ -14,12 +14,12 @@
 	max-width: 300px;
 	margin-left: 1em;
 	padding-right: 1em;
-	margin-top: 5.5em !important;
+	margin-top: 8em !important;
 	margin-bottom: 1em;
 	height: 100%;
 }
 
-@media only screen and (max-width: 1368px) {
+@media only screen and (max-width: 1368px) and (min-width: 768px) {
 	.page-content .wrapper {
 		margin-left: 300px;
 	}
