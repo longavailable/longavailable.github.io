@@ -2,35 +2,39 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-	<!--
-	<a href="{{ "/" | relative_url }}">
-	<img width="40" height="40" src="/assets/icon/siteicon40.png"></a>
-	-->
+	
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
+	
     <div class="footer-col-wrapper">
-	  <div style="padding-right:15px"><a href="{{ "/" | relative_url }}"><img height="40" width="90" src="/assets/icon/siteicon40.png"></a></div>
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author.name -%}
-              {{ site.author.name | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-	  <!--
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-      -->
-      <div class="footer-col footer-col-2">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+		<!--logo-->
+		<div style="width: 40%">
+			<a href="{{ "/" | relative_url }}">
+				<img src="/assets/icon/siteicon40.png" height="40" width="40">
+			</a>
+		</div>
+		
+		<div class="footer-col footer-col-1">
+			<ul class="contact-list">
+				<li class="p-name">
+					{%- if site.author.name -%}
+					  {{ site.author.name | escape }}
+					{%- else -%}
+					  {{ site.title | escape }}
+					{%- endif -%}
+				</li>
+				{%- if site.author.email -%}
+				<li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+				{%- endif -%}
+			</ul>
+		</div>
+		<!--
+		<div class="footer-col footer-col-2">
+		{%- include social.html -%}
+		</div>
+		-->
+		<div class="footer-col footer-col-2">
+			<p>{{- site.description | escape -}}</p>
+		</div>
     </div>
 
   </div>
