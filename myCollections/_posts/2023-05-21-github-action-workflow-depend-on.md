@@ -3,7 +3,7 @@ layout: post
 title:  Github actions jobs/workflows/repository depend on each other
 author: Bruce Liu
 #last update date
-date:   2023-05-21 20:40:00 +0800
+date:   2023-05-22 13:50:00 +0800
 #first published date
 published:   2023-05-21 20:40:00 +0800
 categories: [post]
@@ -115,7 +115,7 @@ jobs:
 	- name: send a POST request to the GitHub API
       run: curl -X POST \
           -H "Accept: application/vnd.github.v3+json" \
-          -H "Authorization: token ${{ secrets.GITHUB_API_TOKEN }}" \
+          -H "Authorization: token <your token>" \	# ${{ secrets.GITHUB_API_TOKEN }}
           --data '{"event_type": "job1-event"}' \
           https://api.github.com/repos/<owner>/<repo>/dispatches		# repository which job2 file is located
 	  
@@ -146,7 +146,7 @@ Of course, you can trigger the job2 from the terminal:
 ```
 curl -X POST \
 -H "Accept: application/vnd.github.v3+json" \
--H "Authorization: token ${{ secrets.GITHUB_API_TOKEN }}" \
+-H "Authorization: token <your token>" \
 --data '{"event_type": "job1-event"}' \
 https://api.github.com/repos/<owner>/<repo>/dispatches
 ```
