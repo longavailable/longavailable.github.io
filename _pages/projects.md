@@ -12,6 +12,10 @@ permalink: /projects/
 
 	Adaptive curvefitting is a tool to find potentially optimal models for your research data. It's based on [scipy], [numpy], and [matplotlib]. 
 	
+- # [nanjing-lulc-modified-sankey]
+	
+	The modified Sankey chart to visualize the landuse/landcover change flow in Nanjing.
+	
 - # [cscbank]
 
 	Banks/ATMs near your place which works for CSC debit cards.
@@ -33,13 +37,14 @@ permalink: /projects/
 - # [polygon](/Polygon/)(for test)
 
 
-[Voronoi diagram for polygons]: /voronoi-diagram-for-polygons/
-[adaptive-curvefitting]: /adaptive-curvefitting/
+[Voronoi diagram for polygons]: /voronoi-diagram-for-polygons
+[adaptive-curvefitting]: /adaptive-curvefitting
 [cscbank]: /cscbank/
-[deep-learning-network-architectures]: /deep-learning-network-architectures/
+[deep-learning-network-architectures]: /deep-learning-network-architectures
 [Calculator for loan and repay]: /loan-repay-calculator
 [empty-omegat-project]: /empty-omegat-project
 [generate-publication-overview]: /generate-publication-overview
+[nanjing-lulc-modified-sankey]: /nanjing-lulc-modified-sankey
 
 [scipy]: https://scipy.org/scipylib/
 [numpy]: https://numpy.org/
