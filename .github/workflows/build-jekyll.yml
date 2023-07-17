@@ -21,7 +21,12 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-
+      
+      # setup `ssh-agent` with a private key
+      - uses: webfactory/ssh-agent@master
+        with:
+            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+            
       # Use GitHub Deploy Action to build and deploy to Github
       - uses: jeffreytse/jekyll-deploy-action@master
         with:
