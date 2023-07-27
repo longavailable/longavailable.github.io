@@ -82,7 +82,7 @@ virt-install --import --name hass --description "Home Assistant OS" --os-variant
 --osinfo detect=on,require=off \
 --graphics none \
 --noautoconsole \
---boot uefi
+--boot uefi \
 --autostart
 ```
 
