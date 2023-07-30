@@ -3,7 +3,7 @@ layout: post
 title:  如何解决github访问慢的问题（中文）
 author: Bruce Liu
 #last update date
-date:   2021-02-28 00:50:00 +0800
+date:   2023-07-30 14:10:00 +0800
 #first published date
 published: 2021-02-28 00:50:00 +0800
 categories: [post]
@@ -27,7 +27,24 @@ release链接：<https://github.com/longavailable/voronoi-diagram-for-polygons/a
 
 raw链接（示例）：<https://raw.githubusercontent.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png>
 
+# 自建镜像
+
+- [gh-proxy](https://github.com/hacs-china/gh-proxy)
+
+使用自己的域名创建镜像，当然也可以使用[`freenom.com`](https://freenom.com)的免费域名。
+
+- 创建自己的镜像：
+  - 登陆或注册[`Cloudflare`](https://cloudflare.com)添加自己的域名，并修改域名的NS记录
+  - [创建`Worker`服务](https://dash.cloudflare.com/?account=workers)，选择`HTTP 处理程序`（默认）
+  - 复制[`index.js`](https://raw.githubusercontent.com/hacs-china/gh-proxy/master/index.js)中的代码，并张贴至Worker的代码编辑器中
+  - 部署并在触发器中添加自定义域名，Worker分配的域名是无法被访问的
+  - 访问`https://your.mirror.domain/api/`检查是否生效
+  - 在HA的集成与服务页面找到已添加的HACS，点击`选项`
+  - 填入镜像地址`https://your.mirror.domain/api`
+
 # 国内镜像加速
+
+## [ghproxy.com]
 
 ## [fastgit.org]
 
@@ -116,6 +133,7 @@ raw加速访问链接：<https://raw.sevencdn.com/longavailable/voronoi-diagram-
 [gh.api.99988866.xyz]: https://gh.api.99988866.xyz/
 [toolwa.com/github]: https://toolwa.com/github/
 [d.serctl.com]: https://d.serctl.com/
+[ghproxy.com]: https://ghproxy.com
 
 
 
