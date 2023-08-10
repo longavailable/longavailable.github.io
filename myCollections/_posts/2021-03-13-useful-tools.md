@@ -5,7 +5,7 @@ author: Bruce Liu
 #last update date
 date:   2023-02-14 14:25:00 +0800
 #first published date
-published: 2021-03-13 11:20:00 +0800
+published: 2023-08-10 10:10:00 +0800
 categories: [post]
 tags: [百度网盘, 网盘搜索, 网盘加速下载, 科学上网, Windows, Office]
 description: 
@@ -29,6 +29,7 @@ permalink: /useful-tools/
 | Official Windows OS, Office, and language packs| [官网](https://tb.rg-adguard.net/public.php) |
 | MalvaStyle USB Repair | [官网](https://malvastyle.com/disk-repair-application-by-malvastyle/), [蓝奏云密码666](https://www.lanzouq.com/b01139k8d) |
 | [Prettier]: An online code formatter | [官网](https://prettier.io/), [GitHub](https://github.com/prettier/prettier) |
+| [在线九宫格拼图](https://www.qtool.net/ninepalace) | <https://www.qtool.net/ninepalace> |
 
 
 ## References
