@@ -3,7 +3,7 @@ layout: post
 title:  How to write a Jekyll blog
 author: Bruce Liu
 # last update date
-date:   2020-08-08 00:20:00 +0200
+date:   2023-08-24 16:40:00 +0800
 # first published date
 published: 2019-09-01 00:50:00 +0200 
 categories: [post]
@@ -109,6 +109,30 @@ bundle exec jekyll serve --drafts
 
 <div align="center"><img width="65" height="75" alt="Demo pic for test" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"/></div>
 
+### 360° image
+
+Place a `<a-scene>` tag and its scripts supported by [A-Frame](https://aframe.io/).
+
+```html
+<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+
+<a-scene style="aspect-ratio:1/1;width:100%" embedded>
+  <a-sky src="/assets/pics/puydesancy.jpg" rotation="0 -130 0"></a-sky>
+  <a-text font="kelsonsans" value="Puy de Sancy, France" width="6" position="-2.5 0.25 -1.5"
+		  rotation="0 15 0"></a-text>
+</a-scene>
+```
+
+<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+
+<a-scene style="aspect-ratio:1/1;width:100%" embedded>
+  <a-sky src="/assets/pics/puydesancy.jpg" rotation="0 -130 0"></a-sky>
+  <a-text font="kelsonsans" value="Puy de Sancy, France" width="6" position="-2.5 0.25 -1.5"
+		  rotation="0 15 0"></a-text>
+</a-scene>
+
+Image courtesy: [A-Frame example](https://github.com/aframevr/aframe/tree/v1.0.4/examples/boilerplate/panorama)
+
 ## How to compare two pictures
 
 There are ways to create a comparative iframe. For example, [How TO - Image Comparison Slider], [JuxtaposeJS]. Add the following to your post by using [JuxtaposeJS].
@@ -156,7 +180,7 @@ There are ways to create a comparative iframe. For example, [How TO - Image Comp
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5938.9807235220605!2d12.447683826439667!3d41.903816266880455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60660c3e3925%3A0x498c3835506c3c!2s00120%20Vatican%20City!5e0!3m2!1sen!2snl!4v1576946140498!5m2!1sen!2snl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 	</div>
 
-## how to assign a variable
+## How to assign a variable
 
 Assigning a variable in Github Markdown:
 {% assign variableTest = "This is a string variable." %}
@@ -192,7 +216,7 @@ The&#8203;content test.
 	
 	Note: It may cause other problem. For my site, it will confict with lunr.js.
 	
-# add a reveal.js presentation
+# Add a reveal.js presentation
 
 ```html
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=500 height=400 src="/slides/2020-08-07-demo-from-revealjs.html#/"></iframe>
@@ -217,6 +241,8 @@ Press **F** to fullscreen mode.
 - [JuxtaposeJS - Easy-to-make frame comparisons](https://juxtapose.knightlab.com/)
 - [List of Badges, in Markdown](https://github.com/Naereen/badges)
 - [Basic HTML Codes for Beginners](https://www.websiteplanet.com/blog/html-guide-beginners/)
+- [360° image - A-Frame](https://aframe.io/examples/showcase/sky/)
+- [Google VRView with Jekyll](https://longqian.me/2017/07/25/vrview-with-jekyll/)
 
 
 [How TO - Image Comparison Slider]: https://www.w3schools.com/howto/howto_js_image_comparison.asp
