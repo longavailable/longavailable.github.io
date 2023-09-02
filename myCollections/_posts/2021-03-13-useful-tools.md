@@ -3,9 +3,9 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2023-02-14 14:25:00 +0800
+date:   2023-09-02 21:40:00 +0800
 #first published date
-published: 2023-08-10 10:10:00 +0800
+published: 2021-03-13 10:10:00 +0800
 categories: [post]
 tags: [百度网盘, 网盘搜索, 网盘加速下载, 科学上网, Windows, Office]
 description: 
@@ -30,6 +30,8 @@ permalink: /useful-tools/
 | MalvaStyle USB Repair | [官网](https://malvastyle.com/disk-repair-application-by-malvastyle/), [蓝奏云密码666](https://www.lanzouq.com/b01139k8d) |
 | [Prettier]: An online code formatter | [官网](https://prettier.io/), [GitHub](https://github.com/prettier/prettier) |
 | [在线九宫格拼图](https://www.qtool.net/ninepalace) | <https://www.qtool.net/ninepalace> |
+| 视频字幕、语音转文字、文档翻译、图片翻译[网易见外工作台](https://jianwai.youdao.com) | <https://jianwai.youdao.com> |
+| 视频、语音、图片转文字[悦录-同花顺出品](http://www.voiceclub.cn) | <http://www.voiceclub.cn> |
 
 
 ## References
