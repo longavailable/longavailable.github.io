@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2023-09-02 21:40:00 +0800
+date:   2023-09-06 21:40:00 +0800
 #first published date
 published: 2021-03-13 10:10:00 +0800
 categories: [post]
@@ -32,6 +32,7 @@ permalink: /useful-tools/
 | [在线九宫格拼图](https://www.qtool.net/ninepalace) | <https://www.qtool.net/ninepalace> |
 | 视频字幕、语音转文字、文档翻译、图片翻译[网易见外工作台](https://jianwai.youdao.com) | <https://jianwai.youdao.com> |
 | 视频、语音、图片转文字[悦录-同花顺出品](http://www.voiceclub.cn) | <http://www.voiceclub.cn> |
+| 文件收集[收件夹](http://xzc.cn/) | <http://xzc.cn/> |
 
 
 ## References
