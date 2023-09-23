@@ -5,5 +5,5 @@ permalink: /ha
 redirect_from:
   - /home
   - /homeassistant
-redirect_to: http://longlovemyu.duckdns.org:8123
+redirect_to: http://16.tcp.cpolar.top:10267
 ---
