@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2023-09-06 21:40:00 +0800
+date:   2023-10-30 09:15:00 +0800
 #first published date
 published: 2021-03-13 10:10:00 +0800
 categories: [post]
@@ -23,6 +23,8 @@ permalink: /useful-tools/
 | S*h*a*d*ows$oc&ks / v#2r@ay*N | [s&s](https://shadowsocks.org/en/download/clients.html), [v2&&ray&*N](https://github.com/2dust/v2rayN/releases), [蓝奏云密码666](https://wwe.lanzous.com/b01099klg) |
 | DWG FastView for Windows | [官网](https://en.dwgfastview.com/cloud/download/) |
 | CiteHist/CiteHist pro | [CiteHist官网], [CiteHist Pro官网], [蓝奏云密码666](https://wwe.lanzous.com/b010bc9dc) |
+| 视频录制、屏幕录制、直播录制[OBS Studio](https://obsproject.com/) | <https://obsproject.com/> |
+| 虚拟形象、面部捕捉、动作捕捉[小K直播姬](https://www.yunboai.com/) | <https://www.yunboai.com/> |
 | **Web-based Application** ||
 | [KinhDown] | [在线解析](https://pan.kdbaidu.com/), [在线解析](https://yun.kdbaidu.com/), [在线解析](https://www.kdbaidu.com/) |
 | [56网盘搜索] | [官网](https://www.56wangpan.com/) |
