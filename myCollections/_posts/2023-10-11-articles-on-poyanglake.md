@@ -3,7 +3,7 @@ layout: post
 title:  鄱阳湖三部曲
 author: Bruce Liu
 #last update date
-date:   2023-10-11 09:10:00 +0800
+date:   2023-11-02 10:20:00 +0800
 #first published date
 published:   2023-10-11 09:10:00 +0800
 categories: [post]
@@ -37,6 +37,9 @@ permalink: /research-articles-on-poyanglake
 	- [ResearchGate](https://www.researchgate.net/profile/Meixiu_Yu){:target="_blank"}
 	
 	- [Google Scholar](https://scholar.google.com/citations?user=ly9d4IgAAAAJ&amp;hl=en&amp;oi=ao){:target="_blank"}
+
+- [我院虞美秀副教授在农业干旱监测预警研究领域取得进展](https://shxy.hhu.edu.cn/2023/1101/c3465a266852/page.htm){:target="_blank"}
+
 
 <!--links-->
 [1]: https://doi.org/10.1016/j.jhydrol.2023.130257
