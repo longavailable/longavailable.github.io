@@ -3,7 +3,7 @@ layout: post
 title:  如何解决github访问慢的问题（中文）
 author: Bruce Liu
 #last update date
-date:   2023-07-30 14:10:00 +0800
+date:   2023-12-10 09:50:00 +0800
 #first published date
 published: 2021-02-28 00:50:00 +0800
 categories: [post]
@@ -29,11 +29,11 @@ raw链接（示例）：<https://raw.githubusercontent.com/longavailable/voronoi
 
 # 自建镜像
 
-- [gh-proxy](https://github.com/hacs-china/gh-proxy)
+- [hunshcn/gh-proxy], [hacs-china/gh-proxy] (`/api/` supported), and [crazypeace/gh-proxy] (`api.github.com` supported)
 
 使用自己的域名创建镜像，当然也可以使用[`freenom.com`](https://freenom.com)的免费域名。
 
-- 创建自己的镜像：
+- 利用[hacs-china/gh-proxy]创建自己的镜像：
   - 登陆或注册[`Cloudflare`](https://cloudflare.com)添加自己的域名，并修改域名的NS记录
   - [创建`Worker`服务](https://dash.cloudflare.com/?account=workers)，选择`HTTP 处理程序`（默认）
   - 复制[`index.js`](https://raw.githubusercontent.com/hacs-china/gh-proxy/master/index.js)中的代码，并张贴至Worker的代码编辑器中
@@ -107,6 +107,9 @@ raw加速访问链接：<https://raw.sevencdn.com/longavailable/voronoi-diagram-
 使用方法：拷贝相应链接到该网站进行下载。
 
 
+## [ghproxy.agrayman.gay]
+
+
 # 修改hosts文件
 
 参考[国内加速访问Github的办法，超级简单](https://blog.csdn.net/qianglei6077/article/details/90051554)。
@@ -134,6 +137,10 @@ raw加速访问链接：<https://raw.sevencdn.com/longavailable/voronoi-diagram-
 [toolwa.com/github]: https://toolwa.com/github/
 [d.serctl.com]: https://d.serctl.com/
 [ghproxy.com]: https://ghproxy.com
+[ghproxy.agrayman.gay]: https://ghproxy.agrayman.gay
+[hunshcn/gh-proxy]: https://github.com/hunshcn/gh-proxy
+[hacs-china/gh-proxy]: https://github.com/hacs-china/gh-proxy
+[crazypeace/gh-proxy]: https://github.com/crazypeace/gh-proxy
 
 
 
