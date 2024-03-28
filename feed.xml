@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://longlovemyu.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://longlovemyu.com/" rel="alternate" type="text/html" /><updated>2024-03-28T03:22:43+00:00</updated><id>https://longlovemyu.com/feed.xml</id><title type="html">LONGLOVEMYU</title><subtitle>Sharing and recoding something useful, trying to make things simple, and looking for some fun.</subtitle><author><name>LONGAVAILABLE</name><email>liuxiaolong125@gmail.com</email></author><entry><title type="html">GPT ports</title><link href="https://longlovemyu.com/gpt-ports" rel="alternate" type="text/html" title="GPT ports" /><published>2024-03-08T10:50:00+00:00</published><updated>2024-03-08T10:50:00+00:00</updated><id>https://longlovemyu.com/gpt-ports</id><content type="html" xml:base="https://longlovemyu.com/gpt-ports"><![CDATA[<p>GPTs and autonomous Agent tools.</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<h2 id="gpt">GPT</h2>
+
+<ul>
+  <li>
+    <p><a href="https://chat.openai.com/">ChatGPT</a>, <a href="https://talkai.info/chat/">TalkAI</a> - 3rd port of <a href="https://chat.openai.com/">ChatGPT</a> without registration.</p>
+  </li>
+  <li>
+    <p><a href="https://www.bing.com/search?form=CHRD01&amp;q=Bing+AI&amp;showconv=1">Microsoft Copilot</a></p>
+  </li>
+  <li>
+    <p><a href="https://gemini.google.com/">Google Gemini</a></p>
+  </li>
+  <li>
+    <p><a href="https://huggingface.co/chat/">HuggingChat</a></p>
+  </li>
+  <li>
+    <p><a href="https://pi.ai/chat">Pi AI</a></p>
+  </li>
+</ul>
+
+<h2 id="autonomous-ai-agent">Autonomous AI Agent</h2>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/Significant-Gravitas/Auto-GPT">Auto-GPT</a><sup><a href="https://github.com/Significant-Gravitas/Auto-GPT">github</a></sup></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/yoheinakajima/babyagi">BabyAGI</a><sup><a href="https://github.com/yoheinakajima/babyagi">github</a></sup></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/reworkd/AgentGPT">AgentGPT</a><sup><a href="https://github.com/reworkd/AgentGPT">github</a>, <a href="https://agentgpt.reworkd.ai/">env</a></sup></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/microsoft/JARVIS">HuggingGPT</a>/<a href="https://github.com/microsoft/JARVIS">JARVIS</a><sup><a href="https://github.com/microsoft/JARVIS">github</a>, <a href="https://huggingface.co/spaces/microsoft/HuggingGPT">env</a></sup></p>
+  </li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="ChatGPT" /><category term="OpenAI" /><category term="Auto-GPT" /><category term="Jarvis" /><summary type="html"><![CDATA[GPTs and autonomous Agent tools.]]></summary></entry><entry><title type="html">Useful tools</title><link href="https://longlovemyu.com/useful-tools/" rel="alternate" type="text/html" title="Useful tools" /><published>2024-01-12T11:10:00+00:00</published><updated>2024-01-12T11:10:00+00:00</updated><id>https://longlovemyu.com/useful-tools</id><content type="html" xml:base="https://longlovemyu.com/useful-tools/"><![CDATA[<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<table>
+  <thead>
+    <tr>
+      <th>**Windows Application** |</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Application / Softs</td>
+      <td>Download links / Webpages</td>
+    </tr>
+    <tr>
+      <td>S*h*a*d*ows$oc&amp;ks / v#2r@ay*N</td>
+      <td>[s&amp;s](https://shadowsocks.org/en/download/clients.html), [v2&amp;&amp;ray&amp;*N](https://github.com/2dust/v2rayN/releases), [蓝奏云密码666](https://wwe.lanzous.com/b01099klg)</td>
+    </tr>
+    <tr>
+      <td>DWG FastView for Windows</td>
+      <td>[官网](https://en.dwgfastview.com/cloud/download/)</td>
+    </tr>
+    <tr>
+      <td>CiteHist/CiteHist pro</td>
+      <td>[CiteHist官网](https://support.clarivate.com/ScientificandAcademicResearch/s/article/HistCite-No-longer-in-active-development-or-officially-supported?language=en_US), [CiteHist Pro官网](https://zhuanlan.zhihu.com/p/20902898), [蓝奏云密码666](https://wwe.lanzous.com/b010bc9dc)</td>
+    </tr>
+    <tr>
+      <td>视频录制、屏幕录制、直播录制[OBS Studio](https://obsproject.com/)</td>
+      <td><a href="https://obsproject.com/">https://obsproject.com/</a></td>
+    </tr>
+    <tr>
+      <td>虚拟形象、面部捕捉、动作捕捉[小K直播姬](https://www.yunboai.com/)</td>
+      <td><a href="https://www.yunboai.com/">https://www.yunboai.com/</a></td>
+    </tr>
+    <tr>
+      <td>**Web-based Application** |</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>[KinhDown](http://kinhdown.kinh.cc/)</td>
+      <td>[在线解析](https://pan.kdbaidu.com/), [在线解析](https://yun.kdbaidu.com/), [在线解析](https://www.kdbaidu.com/)</td>
+    </tr>
+    <tr>
+      <td>[56网盘搜索](https://www.56wangpan.com/)</td>
+      <td>[官网](https://www.56wangpan.com/)</td>
+    </tr>
+    <tr>
+      <td>Official Windows OS, Office, and language packs</td>
+      <td>[官网](https://tb.rg-adguard.net/public.php)</td>
+    </tr>
+    <tr>
+      <td>MalvaStyle USB Repair</td>
+      <td>[官网](https://malvastyle.com/disk-repair-application-by-malvastyle/), [蓝奏云密码666](https://www.lanzouq.com/b01139k8d)</td>
+    </tr>
+    <tr>
+      <td>[Prettier](https://github.com/prettier/prettier): An online code formatter</td>
+      <td>[官网](https://prettier.io/), [GitHub](https://github.com/prettier/prettier)</td>
+    </tr>
+    <tr>
+      <td>[在线九宫格拼图](https://www.qtool.net/ninepalace)</td>
+      <td><a href="https://www.qtool.net/ninepalace">https://www.qtool.net/ninepalace</a></td>
+    </tr>
+    <tr>
+      <td>[图像中裁剪圆圈](https://crop-circle.imageonline.co/cn/)</td>
+      <td><a href="https://crop-circle.imageonline.co/cn/">https://crop-circle.imageonline.co/cn/</a></td>
+    </tr>
+    <tr>
+      <td>视频字幕、语音转文字、文档翻译、图片翻译[网易见外工作台](https://jianwai.youdao.com)</td>
+      <td><a href="https://jianwai.youdao.com">https://jianwai.youdao.com</a></td>
+    </tr>
+    <tr>
+      <td>视频、语音、图片转文字[悦录-同花顺出品](http://www.voiceclub.cn)</td>
+      <td><a href="http://www.voiceclub.cn">http://www.voiceclub.cn</a></td>
+    </tr>
+    <tr>
+      <td>文件收集[收件夹](http://xzc.cn/)</td>
+      <td><a href="http://xzc.cn/">http://xzc.cn/</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://github.com/jeffreytse/jekyll-spaceship">jekyll-spaceship</a></li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="百度网盘" /><category term="网盘搜索" /><category term="网盘加速下载" /><category term="科学上网" /><category term="Windows" /><category term="Office" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Deply python and install dependencies within Node-RED-addon in Homeassistant</title><link href="https://longlovemyu.com/python-nodered-in-hass" rel="alternate" type="text/html" title="Deply python and install dependencies within Node-RED-addon in Homeassistant" /><published>2024-01-05T03:30:00+00:00</published><updated>2024-01-05T03:30:00+00:00</updated><id>https://longlovemyu.com/nodered-addon-with-python</id><content type="html" xml:base="https://longlovemyu.com/python-nodered-in-hass"><![CDATA[<p>Node RED can be deployed within Home Assistant OS by using the community addon-node-red. Python is not a dependency for the running of node-red, so it was not a built-in in the image. How to add python and install needed dependencies in the addon container.</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<p>Frenck, the maintainer of <a href="https://github.com/hassio-addons/addon-node-red">node-red-addon</a> declared,</p>
+
+<blockquote>
+  <p>Python is not needed to run node-red.</p>
+</blockquote>
+
+<p><a href="https://github.com/hassio-addons/addon-node-red/issues/1450#issuecomment-1260433209">https://github.com/hassio-addons/addon-node-red/issues/1450#issuecomment-1260433209</a></p>
+
+<p>So <a href="https://www.python.org">Python</a> is not built in the node-red addon.</p>
+
+<p>Athough it support the options of <code class="language-plaintext highlighter-rouge">system_packages</code>, <code class="language-plaintext highlighter-rouge">npm_packages</code>, and <code class="language-plaintext highlighter-rouge">init_commands</code> to extend its function. While a explicit method to implement <a href="https://www.python.org">Python</a> script is still needed.</p>
+
+<h2 id="nevigate-to-node-red-addon-contianer-from-terminal-in-ha">Nevigate to <a href="https://github.com/hassio-addons/addon-node-red">node-red-addon</a> contianer from Terminal in HA</h2>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec -it addon_&lt;your addon id&gt;_nodered /bin/bash</code></p>
+
+<h2 id="choose-a-comfortable-source-of-alpine-linux-skip-if-its-not-needed">Choose a comfortable source of <a href="https://www.alpinelinux.org">Alpine Linux</a> (skip if it’s not needed)</h2>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories</code></p>
+
+<h2 id="add-python-and-pip">Add python and pip</h2>
+
+<p><code class="language-plaintext highlighter-rouge">apk add py3-pip</code></p>
+
+<h2 id="choose-a-comfortable-source-of-pypi-skip-if-its-not-needed">Choose a comfortable source of <a href="https://pypi.org">PyPI</a> (skip if it’s not needed)</h2>
+
+<p><code class="language-plaintext highlighter-rouge">pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/</code></p>
+
+<h2 id="install-necessary-python-packages">Install necessary <a href="https://www.python.org">Python</a> packages</h2>
+
+<p><code class="language-plaintext highlighter-rouge">pip3 install requests beautifulsoup4</code></p>
+
+<h2 id="implement-the-above-in-a-flow">Implement the above in a flow</h2>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[{</span><span class="nl">"id"</span><span class="p">:</span><span class="s2">"05fbd5fa4cea99e8"</span><span class="p">,</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"exec"</span><span class="p">,</span><span class="nl">"z"</span><span class="p">:</span><span class="s2">"6defd24b07e25d51"</span><span class="p">,</span><span class="nl">"command"</span><span class="p">:</span><span class="s2">"sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories &amp;&amp; apk add py3-pip &amp;&amp; pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/ &amp;&amp; pip3 install requests beautifulsoup4"</span><span class="p">,</span><span class="nl">"addpay"</span><span class="p">:</span><span class="s2">""</span><span class="p">,</span><span class="nl">"append"</span><span class="p">:</span><span class="s2">""</span><span class="p">,</span><span class="nl">"useSpawn"</span><span class="p">:</span><span class="s2">"false"</span><span class="p">,</span><span class="nl">"timer"</span><span class="p">:</span><span class="s2">""</span><span class="p">,</span><span class="nl">"winHide"</span><span class="p">:</span><span class="kc">false</span><span class="p">,</span><span class="nl">"oldrc"</span><span class="p">:</span><span class="kc">false</span><span class="p">,</span><span class="nl">"name"</span><span class="p">:</span><span class="s2">"安装python脚本依赖项"</span><span class="p">,</span><span class="nl">"x"</span><span class="p">:</span><span class="mi">440</span><span class="p">,</span><span class="nl">"y"</span><span class="p">:</span><span class="mi">260</span><span class="p">,</span><span class="nl">"wires"</span><span class="p">:[[</span><span class="s2">"9bf90b61cf6ca404"</span><span class="p">],[</span><span class="s2">"9bf90b61cf6ca404"</span><span class="p">],[</span><span class="s2">"9bf90b61cf6ca404"</span><span class="p">]]}]</span><span class="w">
+</span></code></pre></div></div>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="home assistant" /><category term="Nodered" /><category term="Node RED" /><category term="Python" /><category term="linux" /><summary type="html"><![CDATA[Node RED can be deployed within Home Assistant OS by using the community addon-node-red. Python is not a dependency for the running of node-red, so it was not a built-in in the image. How to add python and install needed dependencies in the addon container.]]></summary></entry><entry><title type="html">如何解决github访问慢的问题（中文）</title><link href="https://longlovemyu.com/fasten-github/" rel="alternate" type="text/html" title="如何解决github访问慢的问题（中文）" /><published>2023-12-10T01:50:00+00:00</published><updated>2023-12-10T01:50:00+00:00</updated><id>https://longlovemyu.com/accelerate-github</id><content type="html" xml:base="https://longlovemyu.com/fasten-github/"><![CDATA[<p>最近回到国内，不知什么原因，访问Github时出现“无法下载release”、“克隆速度慢”、“raw文件无法查看”等问题。网上搜索后发现还有很多网友也碰到这一问题。在此梳理下解决方法。
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text--></p>
+
+<p>以<a href="https://github.com/longavailable/voronoi-diagram-for-polygons">voronoi-diagram-for-polygons</a>项目为例</p>
+
+<p>项目链接：<a href="https://github.com/longavailable/voronoi-diagram-for-polygons">https://github.com/longavailable/voronoi-diagram-for-polygons</a></p>
+
+<p>克隆命令：<code class="language-plaintext highlighter-rouge">git clone https://github.com/longavailable/voronoi-diagram-for-polygons.git</code></p>
+
+<p>release链接：<a href="https://github.com/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip">https://github.com/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip</a></p>
+
+<p>raw链接（示例）：<a href="https://raw.githubusercontent.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png">https://raw.githubusercontent.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png</a></p>
+
+<h1 id="自建镜像">自建镜像</h1>
+
+<ul>
+  <li><a href="https://github.com/hunshcn/gh-proxy">hunshcn/gh-proxy</a>, <a href="https://github.com/hacs-china/gh-proxy">hacs-china/gh-proxy</a> (<code class="language-plaintext highlighter-rouge">/api/</code> supported), and <a href="https://github.com/crazypeace/gh-proxy">crazypeace/gh-proxy</a> (<code class="language-plaintext highlighter-rouge">api.github.com</code> supported)</li>
+</ul>
+
+<p>使用自己的域名创建镜像，当然也可以使用<a href="https://freenom.com"><code class="language-plaintext highlighter-rouge">freenom.com</code></a>的免费域名。</p>
+
+<ul>
+  <li>利用<a href="https://github.com/hacs-china/gh-proxy">hacs-china/gh-proxy</a>创建自己的镜像：
+    <ul>
+      <li>登陆或注册<a href="https://cloudflare.com"><code class="language-plaintext highlighter-rouge">Cloudflare</code></a>添加自己的域名，并修改域名的NS记录</li>
+      <li><a href="https://dash.cloudflare.com/?account=workers">创建<code class="language-plaintext highlighter-rouge">Worker</code>服务</a>，选择<code class="language-plaintext highlighter-rouge">HTTP 处理程序</code>（默认）</li>
+      <li>复制<a href="https://raw.githubusercontent.com/hacs-china/gh-proxy/master/index.js"><code class="language-plaintext highlighter-rouge">index.js</code></a>中的代码，并张贴至Worker的代码编辑器中</li>
+      <li>部署并在触发器中添加自定义域名，Worker分配的域名是无法被访问的</li>
+      <li>访问<code class="language-plaintext highlighter-rouge">https://your.mirror.domain/api/</code>检查是否生效</li>
+      <li>在HA的集成与服务页面找到已添加的HACS，点击<code class="language-plaintext highlighter-rouge">选项</code></li>
+      <li>填入镜像地址<code class="language-plaintext highlighter-rouge">https://your.mirror.domain/api</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="国内镜像加速">国内镜像加速</h1>
+
+<h2 id="ghproxycom"><a href="https://ghproxy.com">ghproxy.com</a></h2>
+
+<h2 id="fastgitorg"><a href="https://doc.fastgit.org/en-us/#about-fastgit">fastgit.org</a></h2>
+
+<p>作用：加速访问；加速克隆；加速release下载</p>
+
+<p>使用方法：将<code class="language-plaintext highlighter-rouge">github.com</code>替换为<code class="language-plaintext highlighter-rouge">hub.fastgit.org</code>即可加速。</p>
+
+<p>项目加速链接：<a href="https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons">https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons</a></p>
+
+<p>加速克隆命令：<code class="language-plaintext highlighter-rouge">git clone https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons.git</code></p>
+
+<p>release加速下载链接：<a href="https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip">https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip</a></p>
+
+<p>raw加速访问链接：<a href="https://raw.fastgit.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png">https://raw.fastgit.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png</a></p>
+
+<h2 id="githubcomcnpmjsorg"><a href="https://github.com.cnpmjs.org/">github.com.cnpmjs.org</a></h2>
+
+<p>作用：加速访问；加速克隆；加速release下载</p>
+
+<p>使用方法：与<a href="https://doc.fastgit.org/en-us/#about-fastgit">fastgit.org</a>相似，将<code class="language-plaintext highlighter-rouge">github.com</code>替换为<code class="language-plaintext highlighter-rouge">github.com.cnpmjs.org</code>即可加速。</p>
+
+<h2 id="gitclonecom"><a href="https://www.gitclone.com/">gitclone.com</a></h2>
+
+<p>作用：加速克隆</p>
+
+<p>使用方法：将<code class="language-plaintext highlighter-rouge">https://github.com</code>替换为<code class="language-plaintext highlighter-rouge">https://gitclone.com/github.com</code>即可加速。</p>
+
+<p>加速克隆命令：<code class="language-plaintext highlighter-rouge">git clone https://gitclone.com/github.com/longavailable/voronoi-diagram-for-polygons.git</code></p>
+
+<h2 id="7ednet-gra"><a href="https://7ed.net/gra/">7ed.net GRA</a></h2>
+
+<p>作用：加速raw访问</p>
+
+<p>使用方法：将<code class="language-plaintext highlighter-rouge">raw.githubusercontent.com</code>替换为<code class="language-plaintext highlighter-rouge">raw.sevencdn.com</code>。</p>
+
+<p>raw加速访问链接：<a href="https://raw.sevencdn.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png">https://raw.sevencdn.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png</a></p>
+
+<h2 id="ghapi99988866xyz"><a href="https://gh.api.99988866.xyz/">gh.api.99988866.xyz</a></h2>
+
+<p>作用：加速release下载；加速文件下载</p>
+
+<p>使用方法：拷贝相应链接到该网站进行下载。</p>
+
+<h2 id="toolwacomgithub"><a href="https://toolwa.com/github/">toolwa.com/github</a></h2>
+
+<p>作用：加速release下载；加速文件下载</p>
+
+<p>使用方法：拷贝相应链接到该网站进行下载。</p>
+
+<h2 id="dserctlcom"><a href="https://d.serctl.com/">d.serctl.com</a></h2>
+
+<p>作用：加速项目下载/克隆；</p>
+
+<p>使用方法：拷贝相应链接到该网站进行下载。</p>
+
+<h2 id="ghproxyagraymangay"><a href="https://ghproxy.agrayman.gay">ghproxy.agrayman.gay</a></h2>
+
+<h1 id="修改hosts文件">修改hosts文件</h1>
+
+<p>参考<a href="https://blog.csdn.net/qianglei6077/article/details/90051554">国内加速访问Github的办法，超级简单</a>。</p>
+
+<h1 id="码云gitee曲线加速">码云（Gitee）曲线加速</h1>
+
+<p>利用Gitee的“从github导入仓库”功能，再从Gitee克隆到本地。</p>
+
+<h1 id="参考references">参考/References</h1>
+
+<ul>
+  <li><a href="https://blog.csdn.net/networken/article/details/105122778">Github国内mirror加速</a></li>
+  <li><a href="https://blog.csdn.net/qianglei6077/article/details/90051554">国内加速访问Github的办法，超级简单</a></li>
+  <li><a href="https://zhuanlan.zhihu.com/p/112697807">一招搞定GitHub下载加速</a></li>
+  <li><a href="http://ipaddress.com/">IPAddress.com</a></li>
+</ul>
+
+<!--helping links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="github" /><category term="China" /><category term="中文" /><summary type="html"><![CDATA[最近回到国内，不知什么原因，访问Github时出现“无法下载release”、“克隆速度慢”、“raw文件无法查看”等问题。网上搜索后发现还有很多网友也碰到这一问题。在此梳理下解决方法。]]></summary></entry><entry><title type="html">鄱阳湖三部曲</title><link href="https://longlovemyu.com/research-articles-on-poyanglake" rel="alternate" type="text/html" title="鄱阳湖三部曲" /><published>2023-11-02T02:20:00+00:00</published><updated>2023-11-02T02:20:00+00:00</updated><id>https://longlovemyu.com/articles-on-poyanglake</id><content type="html" xml:base="https://longlovemyu.com/research-articles-on-poyanglake"><![CDATA[<p>近年来，河海大学虞美秀博士围绕我国最大的淡水湖泊——鄱阳湖开展了干旱、防洪、生态等方面的研究工作，部分成果发表在国内外行业顶级期刊。</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<ul>
+  <li>
+    <p><strong>Yu, M.</strong>, Zhang, J., Wei L., Wang G., Dong W., and Liu X. 2023. <a href="https://doi.org/10.1016/j.jhydrol.2023.130257" target="_blank">Impact of soil textures on agricultural drought evolution and field capacity estimation in humid regions</a>. <a href="https://www.sciencedirect.com/journal/journal-of-hydrology" target="_blank">Journal of Hydrology</a>. 626. DOI: <a href="https://doi.org/10.1016/j.jhydrol.2023.130257" target="_blank">10.1016/j.jhydrol.2023.130257</a>.</p>
+  </li>
+  <li>
+    <p><strong>Yu, M.</strong>, Liu, X., Wood P., Wei L., Wang G., Zhang J., and Li Q. 2022. <a href="https://doi.org/10.1111/jfr3.12806" target="_blank">Simulation of Poyang Lake water levels and outflow under historical extreme hydrological scenarios</a>. <a href="https://onlinelibrary.wiley.com/journal/1753318x" target="_blank">Journal of Flood Risk Management</a>. 15(3). DOI: <a href="https://doi.org/10.1111/jfr3.12806" target="_blank">10.1111/jfr3.12806</a>.</p>
+  </li>
+  <li>
+    <p><strong>虞美秀</strong>, 董吴欣, 张建云, 韦丽, 吴智, 王国庆. 2022. <a href="http://skxjz.nhri.cn/cn/article/doi/10.14042/j.cnki.32.1309.2022.02.003" target="_blank">基于大范围地面墒情监测的鄱阳湖流域农业干旱</a>. <a href="http://skxjz.nhri.cn" target="_blank">水科学进展</a>. 33(2): 185-195. DOI: <a href="http://skxjz.nhri.cn/cn/article/doi/10.14042/j.cnki.32.1309.2022.02.003" target="_blank">10.14042/j.cnki.32.1309.2022.02.003</a>.</p>
+  </li>
+</ul>
+
+<h2 id="相关阅读">相关阅读</h2>
+
+<ul>
+  <li>
+    <p>虞美秀个人主页</p>
+
+    <ul>
+      <li>
+        <p><a href="https://shxy.hhu.edu.cn/2017/0307/c3223a45183/page.htm" target="_blank">河海大学</a></p>
+      </li>
+      <li>
+        <p><a href="https://www.researchgate.net/profile/Meixiu_Yu" target="_blank">ResearchGate</a></p>
+      </li>
+      <li>
+        <p><a href="https://scholar.google.com/citations?user=ly9d4IgAAAAJ&amp;hl=en&amp;oi=ao" target="_blank">Google Scholar</a></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://shxy.hhu.edu.cn/2023/1101/c3465a266852/page.htm" target="_blank">我院虞美秀副教授在农业干旱监测预警研究领域取得进展</a></p>
+  </li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="research" /><category term="Poyang Lake" /><category term="Meixiu Yu" /><summary type="html"><![CDATA[近年来，河海大学虞美秀博士围绕我国最大的淡水湖泊——鄱阳湖开展了干旱、防洪、生态等方面的研究工作，部分成果发表在国内外行业顶级期刊。]]></summary></entry><entry><title type="html">How to write a Jekyll blog</title><link href="https://longlovemyu.com/jekyll_blog/" rel="alternate" type="text/html" title="How to write a Jekyll blog" /><published>2023-08-24T08:40:00+00:00</published><updated>2023-08-24T08:40:00+00:00</updated><id>https://longlovemyu.com/how-to-write-a-jekyll-blog</id><content type="html" xml:base="https://longlovemyu.com/jekyll_blog/"><![CDATA[<p>This is a templete to show how to write a post.
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text--></p>
+
+<h1 id="how-to-test-a-blog-using-bundle">How to test a blog using bundle:</h1>
+
+<ul>
+  <li>
+    <p>Navigate to path of the githubpages repository.</p>
+
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>D:<span class="se">\g</span>it<span class="se">\g</span>ithubPages<span class="se">\l</span>ongavailable.github.io
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Execute the following command:</p>
+
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div>    </div>
+
+    <p>or with <code class="language-plaintext highlighter-rouge">--drafts</code> tag.</p>
+
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve <span class="nt">--drafts</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Check the githubpages website from <a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Ctrl + C </code> quit the bundle serve.</p>
+  </li>
+</ul>
+
+<h1 id="markdown-skills">Markdown skills</h1>
+
+<h2 id="space-tab-and-blank-line">Space, tab, and blank line</h2>
+
+<ul>
+  <li>
+    <p><a href="https://markdown-guide.readthedocs.io/en/latest/basics.html#paragraphs">Paragraph: text line + blank line + text line</a></p>
+  </li>
+  <li>
+    <p><a href="https://markdown-guide.readthedocs.io/en/latest/basics.html?highlight=space#code-block">Plain code block: paragraph text line (+ blank line) + 1 Tab or 4 spaces + code + blank line</a></p>
+  </li>
+  <li>
+    <p><a href="https://markdown-guide.readthedocs.io/en/latest/basics.html?highlight=space#code-block">Plain code block in list (indented): (blank line) + ‘1 Tab + 2 spaces’ or 6 spaces  + code (+ blank line)</a></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello, world in list
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Fenced code block: (blank line) +  ` ` `  + language identifier + enter + code + enter + ` ` ` (+ blank line)</a></p>
+  </li>
+</ul>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gu">## Header line h2.</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p><a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Fenced code block in list (indented): (blank line) + 1 Tab or 4 spaces +  ` ` `  + language identifier + enter + code + enter + 1 Tab or 4 spaces + ` ` ` (+ blank line)</a>. It didnot work for <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code>, see <a href="#NOTWORKING">here</a> 2nd item. Why?</p>
+
+    <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gu">### Header line h3.</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://stackoverflow.com/a/15721400/12371819">More than 1 space in a text snippet (non-breaking space): <code class="language-plaintext highlighter-rouge">&amp;nbsp;</code> is 2 spaces, <code class="language-plaintext highlighter-rouge">&amp;nbsp;&amp;nbsp;</code> 4 spaces</a></p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Zero-width_space">Zero-width space: <code class="language-plaintext highlighter-rouge">&amp;#8203;</code></a></p>
+  </li>
+</ul>
+
+<!--<a class="headerlink" href="#code-inline" title="Permalink to this headline">¶</a>-->
+
+<h2 id="how-to-add-a-picture">How to add a picture</h2>
+
+<h3 id="NOTWORKING">The picture from the repository which the site belongs to</h3>
+
+<ul>
+  <li>
+    <p>Just the picture</p>
+
+    <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Pic01</span><span class="p">](</span><span class="sx">/assets/pics/pic01_green_test.png</span><span class="p">)</span>
+</code></pre></div>    </div>
+    <p><img src="/assets/pics/pic01_green_test.png" alt="Pic01" /></p>
+  </li>
+  <li>
+    <p>A picture with defined position and size</p>
+  </li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">align=</span><span class="s">"center"</span><span class="nt">&gt;&lt;img</span> <span class="na">width=</span><span class="s">"165"</span> <span class="na">height=</span><span class="s">"75"</span> <span class="na">src=</span><span class="s">"/assets/pics/pic01_green_test.png"</span><span class="nt">/&gt;&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<div align="center"><img width="165" height="75" src="/assets/pics/pic01_green_test.png" /></div>
+
+<h3 id="the-picture-from-internet">The picture from internet</h3>
+<ul>
+  <li>
+    <p>Just the picture</p>
+
+    <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Pic01</span><span class="p">](</span><span class="sx">https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png</span><span class="p">)</span>
+</code></pre></div>    </div>
+    <p><img src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png" alt="Pic01" /></p>
+  </li>
+  <li>
+    <p>A picture with defined position and size</p>
+  </li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">align=</span><span class="s">"center"</span><span class="nt">&gt;&lt;img</span> <span class="na">width=</span><span class="s">"65"</span> <span class="na">height=</span><span class="s">"75"</span> <span class="na">alt=</span><span class="s">"Demo pic for test"</span> <span class="na">src=</span><span class="s">"https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"</span><span class="nt">/&gt;&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<div align="center"><img width="65" height="75" alt="Demo pic for test" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png" /></div>
+
+<h3 id="360-image">360° image</h3>
+
+<p>Place a <code class="language-plaintext highlighter-rouge">&lt;a-scene&gt;</code> tag and its scripts supported by <a href="https://aframe.io/">A-Frame</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://aframe.io/releases/1.3.0/aframe.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+<span class="nt">&lt;a-scene</span> <span class="na">style=</span><span class="s">"aspect-ratio:1/1;width:100%"</span> <span class="na">embedded</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a-sky</span> <span class="na">src=</span><span class="s">"/assets/pics/puydesancy.jpg"</span> <span class="na">rotation=</span><span class="s">"0 -130 0"</span><span class="nt">&gt;&lt;/a-sky&gt;</span>
+  <span class="nt">&lt;a-text</span> <span class="na">font=</span><span class="s">"kelsonsans"</span> <span class="na">value=</span><span class="s">"Puy de Sancy, France"</span> <span class="na">width=</span><span class="s">"6"</span> <span class="na">position=</span><span class="s">"-2.5 0.25 -1.5"</span>
+		  <span class="na">rotation=</span><span class="s">"0 15 0"</span><span class="nt">&gt;&lt;/a-text&gt;</span>
+<span class="nt">&lt;/a-scene&gt;</span>
+</code></pre></div></div>
+
+<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+
+<a-scene style="aspect-ratio:1/1;width:100%" embedded="">
+  <a-sky src="/assets/pics/puydesancy.jpg" rotation="0 -130 0"></a-sky>
+  <a-text font="kelsonsans" value="Puy de Sancy, France" width="6" position="-2.5 0.25 -1.5" rotation="0 15 0"></a-text>
+</a-scene>
+
+<p>Image courtesy: <a href="https://github.com/aframevr/aframe/tree/v1.0.4/examples/boilerplate/panorama">A-Frame example</a></p>
+
+<h2 id="how-to-compare-two-pictures">How to compare two pictures</h2>
+
+<p>There are ways to create a comparative iframe. For example, <a href="https://www.w3schools.com/howto/howto_js_image_comparison.asp">How TO - Image Comparison Slider</a>, <a href="https://github.com/NUKnightLab/juxtapose">JuxtaposeJS</a>. Add the following to your post by using <a href="https://github.com/NUKnightLab/juxtapose">JuxtaposeJS</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"juxtapose"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/pics/img_forest.jpg"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/pics/img_snow.jpg"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<div class="juxtapose">
+    <img src="/assets/pics/img_forest.jpg" />
+    <img src="/assets/pics/img_snow.jpg" />
+</div>
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css" />
+
+<h2 id="how-to-embed-a-map">How to embed a map</h2>
+
+<h3 id="a-own-map---geojson-map">a own map - geoJSON map</h3>
+<ul>
+  <li>
+    <p>Place the following in any HTML page that supports javascript:</p>
+
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://embed.github.com/view/geojson/&lt;username&gt;/&lt;repo&gt;/&lt;ref&gt;/&lt;path_to_file&gt;"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Set height and weight, default 420px (h) x 620px (w)</p>
+
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://embed.github.com/view/geojson/&lt;username&gt;/&lt;repo&gt;/&lt;ref&gt;/&lt;path_to_file&gt;?width=&lt;width&gt;&amp;height=&lt;height&gt;"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Example</p>
+    <div align="center">
+      <script src="https://embed.github.com/view/geojson/longavailable/georepo/main/geojson/afg.json?width=600&amp;height=600"></script>
+  </div>
+  </li>
+</ul>
+
+<h3 id="a-3rd-party-map---google-map">a 3rd party map - google map</h3>
+<ul>
+  <li><a href="https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&amp;hl=en">Tutorial to get the embed link of a google map or directions</a>
+    <div align="center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5938.9807235220605!2d12.447683826439667!3d41.903816266880455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60660c3e3925%3A0x498c3835506c3c!2s00120%20Vatican%20City!5e0!3m2!1sen!2snl!4v1576946140498!5m2!1sen!2snl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  </div>
+  </li>
+</ul>
+
+<h2 id="how-to-assign-a-variable">How to assign a variable</h2>
+
+<p>Assigning a variable in Github Markdown:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ % assign variableTest = "This is a string variable." % }
+{ % capture variableTest2 % }This is a string variable for syntax 2.{ % endcapture % }
+</code></pre></div></div>
+
+<ul>
+  <li>Note that, there is no space between curly bracket <code class="language-plaintext highlighter-rouge">{</code>, <code class="language-plaintext highlighter-rouge">}</code> and percent sign <code class="language-plaintext highlighter-rouge">%</code>.</li>
+</ul>
+
+<p>The content of variableTest is “ This is a string variable. “.</p>
+
+<p>The content of variableTest2 is “ This is a string variable for syntax 2. “.</p>
+
+<p>The​content test.</p>
+
+<h1 id="how-to-add-a-emoji-">How to add a emoji 🙈</h1>
+
+<ul>
+  <li>
+    <p>The easiest way is copy and paste</p>
+
+    <p>Visit <a href="https://emojipedia.org/">Emojipedia</a>, search , copy, and paste.</p>
+  </li>
+  <li>
+    <p>Use <a href="https://github.com/jekyll/jemoji">Jemoji</a></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jemoji
+</code></pre></div>    </div>
+
+    <p>Add <code class="language-plaintext highlighter-rouge">gem 'jemoji'</code> to gemfile.</p>
+
+    <p>Add it as a plugin in <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+    <p>Note: It may cause other problem. For my site, it will confict with lunr.js.</p>
+  </li>
+</ul>
+
+<h1 id="add-a-revealjs-presentation">Add a reveal.js presentation</h1>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;iframe</span> <span class="na">frameborder=</span><span class="s">"no"</span> <span class="na">border=</span><span class="s">"0"</span> <span class="na">marginwidth=</span><span class="s">"0"</span> <span class="na">marginheight=</span><span class="s">"0"</span> <span class="na">width=</span><span class="s">500</span> <span class="na">height=</span><span class="s">400</span> <span class="na">src=</span><span class="s">"/slides/2020-08-07-demo-from-revealjs.html#/"</span><span class="nt">&gt;&lt;/iframe&gt;</span>
+</code></pre></div></div>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="500" height="400" src="/slides/2020-08-07-demo-from-revealjs.html#/"></iframe>
+
+<p>Press <strong>F</strong> to fullscreen mode.</p>
+
+<h1 id="reference">Reference</h1>
+<ul>
+  <li><a href="https://www.markdownguide.org/basic-syntax/">Basic syntax - Markdown guide</a></li>
+  <li><a href="https://markdown-guide.readthedocs.io/en/latest/index.html">markdown-guide</a></li>
+  <li><a href="https://hiltmon.com/blog/2017/01/28/mathjax-in-markdown/">MathJax in Markdown</a></li>
+  <li><a href="https://www.codecogs.com/latex/eqneditor.php">Equation Editor</a></li>
+  <li><a href="https://www.bytedude.com/jekyll-previous-and-next-posts/">Jekyll: Previous And Next Posts</a></li>
+  <li><a href="https://jekyllcodex.org/without-plugins/">Jekyll without plugins</a></li>
+  <li><a href="https://shopify.github.io/liquid/basics/introduction/">Basic syntax - Liquid template language</a></li>
+  <li><a href="https://emojipedia.org/">Emojipedia</a></li>
+  <li><a href="https://www.w3schools.com/howto/howto_js_image_comparison.asp">How TO - Image Comparison Slider</a></li>
+  <li><a href="https://juxtapose.knightlab.com/">JuxtaposeJS - Easy-to-make frame comparisons</a></li>
+  <li><a href="https://github.com/Naereen/badges">List of Badges, in Markdown</a></li>
+  <li><a href="https://www.websiteplanet.com/blog/html-guide-beginners/">Basic HTML Codes for Beginners</a></li>
+  <li><a href="https://aframe.io/examples/showcase/sky/">360° image - A-Frame</a></li>
+  <li><a href="https://longqian.me/2017/07/25/vrview-with-jekyll/">Google VRView with Jekyll</a></li>
+</ul>]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="first blog" /><category term="Jekyll" /><category term="markdown" /><category term="map" /><category term="picture" /><category term="emoji" /><summary type="html"><![CDATA[Hello, Jekyll!]]></summary></entry><entry><title type="html">The detailed steps of installing Home Assistant Operating System on Ubuntu</title><link href="https://longlovemyu.com/install-haos-on-ubuntu" rel="alternate" type="text/html" title="The detailed steps of installing Home Assistant Operating System on Ubuntu" /><published>2023-07-26T16:40:00+00:00</published><updated>2023-07-26T16:40:00+00:00</updated><id>https://longlovemyu.com/ha-os-installation</id><content type="html" xml:base="https://longlovemyu.com/install-haos-on-ubuntu"><![CDATA[<p>As the title, this is the detailed steps.</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<h2 id="install-virt-manager">Install <a href="https://help.ubuntu.com/community/KVM/VirtManager">virt-manager</a></h2>
+
+<p><code class="language-plaintext highlighter-rouge">apt install virt-manager</code> or <code class="language-plaintext highlighter-rouge">sudo apt install virt-manager</code></p>
+
+<h2 id="config-internet">Config internet</h2>
+
+<p>Check <a href="https://community.home-assistant.io/t/install-home-assistant-os-with-kvm-on-ubuntu-headless-cli-only/254941#2-set-up-network-8">Aephir’s post</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">apt install net-tools</code> or <code class="language-plaintext highlighter-rouge">sudo apt install net-tools</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">ifconfig</code></p>
+
+<p>Mark the adapter name, <code class="language-plaintext highlighter-rouge">eno1</code>, <code class="language-plaintext highlighter-rouge">enp1s0</code>..</p>
+
+<p>Create a netplan <code class="language-plaintext highlighter-rouge">yaml</code> file as:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># This is the network config written by 'subiquity'</span>
+<span class="na">network</span><span class="pi">:</span>
+  <span class="na">ethernets</span><span class="pi">:</span>
+    <span class="na">eno1</span><span class="pi">:</span>
+      <span class="na">dhcp4</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">version</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">bridges</span><span class="pi">:</span>
+    <span class="na">br0</span><span class="pi">:</span>
+      <span class="na">dhcp4</span><span class="pi">:</span> <span class="s">yes</span>
+      <span class="na">interfaces</span><span class="pi">:</span>
+             <span class="pi">-</span> <span class="s">eno1</span>
+      <span class="na">parameters</span><span class="pi">:</span>
+        <span class="na">stp</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">netplan generate</code> or <code class="language-plaintext highlighter-rouge">sudo netplan generate</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">netplan apply</code> or <code class="language-plaintext highlighter-rouge">sudo netplan apply</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">apt install bridge-utils</code> or <code class="language-plaintext highlighter-rouge">sudo apt install bridge-utils</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">brctl show</code></p>
+
+<p>Mark the bridge adapter name, <code class="language-plaintext highlighter-rouge">br0</code> or something else.</p>
+
+<h2 id="prepare-the-image">Prepare the image</h2>
+
+<ul>
+  <li>
+    <p>Download the <a href="https://github.com/home-assistant/operating-system/releases">latest image</a>.</p>
+  </li>
+  <li>
+    <p>Decompress it, if needed. Note that some <code class="language-plaintext highlighter-rouge">.xz</code> files were broken.</p>
+
+    <p><code class="language-plaintext highlighter-rouge">xz -d -v haos_ova-10.4.qcow2.xz</code></p>
+
+    <p><a href="https://www.360totalsecurity.com/en/360zip/">360 zip</a> works perfect.</p>
+  </li>
+</ul>
+
+<h2 id="install-the-haos-vm">Install the HAOS VM</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>virt-install <span class="nt">--import</span> <span class="nt">--name</span> hass <span class="nt">--description</span> <span class="s2">"Home Assistant OS"</span> <span class="nt">--os-variant</span><span class="o">=</span>generic <span class="se">\</span>
+<span class="nt">--memory</span> 2048 <span class="nt">--vcpus</span> 2 <span class="nt">--cpu</span> host <span class="se">\</span>
+<span class="nt">--disk</span> &lt;path to qcow2 file&gt;,format<span class="o">=</span>qcow2,bus<span class="o">=</span>virtio <span class="se">\</span>
+<span class="nt">--network</span> <span class="nv">bridge</span><span class="o">=</span>br0,model<span class="o">=</span>virtio <span class="se">\</span>
+<span class="nt">--osinfo</span> <span class="nv">detect</span><span class="o">=</span>on,require<span class="o">=</span>off <span class="se">\</span>
+<span class="nt">--graphics</span> none <span class="se">\</span>
+<span class="nt">--noautoconsole</span> <span class="se">\</span>
+<span class="nt">--boot</span> uefi <span class="se">\</span>
+<span class="nt">--autostart</span>
+</code></pre></div></div>
+
+<h2 id="then-wait-patiently">Then wait patiently.</h2>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://community.home-assistant.io/t/install-home-assistant-os-with-kvm-on-ubuntu-headless-cli-only/254941">Install Home Assistant OS with KVM on Ubuntu headless (CLI only)</a></li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="home assistant" /><category term="virsh" /><category term="Ubuntu" /><summary type="html"><![CDATA[As the title, this is the detailed steps.]]></summary></entry><entry><title type="html">Update home assistant core and os</title><link href="https://longlovemyu.com/ha-os-update" rel="alternate" type="text/html" title="Update home assistant core and os" /><published>2023-06-24T05:20:00+00:00</published><updated>2023-06-24T05:20:00+00:00</updated><id>https://longlovemyu.com/ha-os-core-update</id><content type="html" xml:base="https://longlovemyu.com/ha-os-update"><![CDATA[<p>Recently I installed homeassistant os VM on my Ubuntu. When I tried to update the latest core and os, it return <code class="language-plaintext highlighter-rouge">'HomeAssistantCore.update' blocked from execution, no host internet connection</code> and <code class="language-plaintext highlighter-rouge">'OSManager.update' blocked from execution, no supervisor internet connection</code>. I posted the solutions in this post.</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<h2 id="errors-when-i-update-my-home-assistant-operating-system">Errors when I update my <a href="https://www.home-assistant.io">Home Assistant</a> <a href="https://github.com/home-assistant/operating-system">Operating System</a></h2>
+
+<ul>
+  <li>
+    <p>‘HomeAssistantCore.update’ blocked from execution, no host internet connection</p>
+  </li>
+  <li>
+    <p>‘OSManager.update’ blocked from execution, no supervisor internet connection</p>
+  </li>
+</ul>
+
+<p><strong>Comments:</strong> They may be caused by <code class="language-plaintext highlighter-rouge">bridge</code> internet connection.</p>
+
+<p>Check the internet infomation from terminal:</p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh console hass</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">root</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">ha network info</code></p>
+
+<p>It will show that <code class="language-plaintext highlighter-rouge">host_internet: false</code> and <code class="language-plaintext highlighter-rouge">supervisor_internet: false</code>. That’s the point.</p>
+
+<h2 id="solutions">Solutions</h2>
+
+<p><code class="language-plaintext highlighter-rouge">virsh console hass</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">root</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">ha jobs options --ignore-conditions internet_host</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">ha jobs options --ignore-conditions internet_system</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">ha core update</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">ha os update</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">ha jobs reset</code></p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+    <p><a href="https://community.home-assistant.io/t/supervisor-no-internet/305929">Supervisor no internet?</a></p>
+  </li>
+  <li>
+    <p><a href="https://community.home-assistant.io/t/error-updating-home-assistant-core-homeassistantcore-update-blocked-from-execution-no-host-internet-connection/453293/16">Error updating Home Assistant Core ‘HomeAssistantCore.update’ blocked from execution, no host internet connection</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.home-assistant.io/more-info/unsupported/job_conditions">Ignored job conditions</a></p>
+  </li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="home assistant" /><category term="virsh" /><category term="Ubuntu" /><summary type="html"><![CDATA[Recently I installed homeassistant os VM on my Ubuntu. When I tried to update the latest core and os, it return 'HomeAssistantCore.update' blocked from execution, no host internet connection and 'OSManager.update' blocked from execution, no supervisor internet connection. I posted the solutions in this post.]]></summary></entry><entry><title type="html">Github actions jobs/workflows/repository depend on each other</title><link href="https://longlovemyu.com/workflow-depends" rel="alternate" type="text/html" title="Github actions jobs/workflows/repository depend on each other" /><published>2023-05-26T12:00:00+00:00</published><updated>2023-05-26T12:00:00+00:00</updated><id>https://longlovemyu.com/github-action-workflow-depend-on</id><content type="html" xml:base="https://longlovemyu.com/workflow-depends"><![CDATA[<p>If you are using GitHub Actions to automate your workflows, you might want to trigger a workflow based on another workflow’s completion or status. For example, you might want to run some tests after a build workflow finishes, or deploy your application only if the tests pass. In this blog post, I will show you three methods to achieve this functionality.</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<p>There are different ways to trigger a workflow based on the completion or status of another workflow in GitHub Actions. One method is to use the keyword <a href="https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds"><code class="language-plaintext highlighter-rouge">needs</code></a> in the same YAML file to specify the dependencies between jobs. Another method is to use the <a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run"><code class="language-plaintext highlighter-rouge">workflow_run</code></a> event to run a workflow after another workflow has been completed or requested. A third method is to use the <a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch"><code class="language-plaintext highlighter-rouge">repository_dispatch</code></a> event to send a custom webhook event to a repository and trigger a workflow.</p>
+
+<h2 id="needs-method"><a href="https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds"><code class="language-plaintext highlighter-rouge">needs</code></a> method</h2>
+
+<p>All-in-one YAML file:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">test of needs method</span>
+
+<span class="na">on</span><span class="pi">:</span> <span class="s">push</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">job1</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+
+    <span class="na">steps</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v3</span>
+    
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Do something</span>
+      <span class="na">run</span><span class="pi">:</span> <span class="s">...</span>
+
+  <span class="na">job2</span><span class="pi">:</span>
+    <span class="na">needs</span><span class="pi">:</span> <span class="s">job1</span><span class="err">	</span>        <span class="c1"># keyword</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v3</span>
+
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Do something</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">...</span>
+</code></pre></div></div>
+
+<h2 id="workflow_run-method"><a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run"><code class="language-plaintext highlighter-rouge">workflow_run</code></a> method</h2>
+
+<p>YAML file for job1:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">job1's name</span>
+
+<span class="na">on</span><span class="pi">:</span> <span class="s">push</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">job1</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+
+    <span class="na">steps</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v3</span>
+    
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Do something</span>
+      <span class="na">run</span><span class="pi">:</span> <span class="s">...</span>
+</code></pre></div></div>
+
+<p>YAML file for job2:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">job2's name</span>
+
+<span class="na">on</span><span class="pi">:</span> 
+  <span class="na">workflow_run</span><span class="pi">:</span>
+    <span class="na">workflows</span><span class="pi">:</span> <span class="pi">[</span><span class="s1">'</span><span class="s">job1'</span><span class="nv">s name'</span><span class="pi">]</span>
+    <span class="na">types</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">completed</span>
+	  
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">job2</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+
+    <span class="na">steps</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v3</span>
+    
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Do something</span>
+      <span class="na">run</span><span class="pi">:</span> <span class="s">...</span>
+</code></pre></div></div>
+
+<h2 id="repository_dispatch-method"><a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch"><code class="language-plaintext highlighter-rouge">repository_dispatch</code></a> method</h2>
+
+<p>YAML file for job1:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">job1's name</span>
+
+<span class="na">on</span><span class="pi">:</span> <span class="s">push</span>
+
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">job1</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+
+    <span class="na">steps</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v3</span>
+    
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Do something</span>
+      <span class="na">run</span><span class="pi">:</span> <span class="s">...</span>
+
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">send a POST request to the GitHub API</span>
+      <span class="na">run</span><span class="pi">:</span> <span class="pi">|</span>
+        <span class="s">curl -X POST \</span>
+        <span class="s">-H "Accept: application/vnd.github.v3+json" \</span>
+        <span class="s">-H "Authorization: token &lt;your token&gt;" \	# $</span>
+        <span class="s">--data '{"event_type": "job1-event"}' \</span>
+        <span class="s">https://api.github.com/repos/&lt;owner&gt;/&lt;repo&gt;/dispatches		# repository which job2 file is located</span>
+</code></pre></div></div>
+
+<p>YAML file for job2:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">job2's name</span>
+
+<span class="na">on</span><span class="pi">:</span> 
+  <span class="na">repository_dispatch</span><span class="pi">:</span>
+    <span class="s">types:['job1-event']</span>
+	  
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">job2</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+
+    <span class="na">steps</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v3</span>
+    
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Do something</span>
+      <span class="na">run</span><span class="pi">:</span> <span class="s">...</span>
+</code></pre></div></div>
+
+<p>Of course, you can trigger the job2 from the terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl -X POST \
+-H "Accept: application/vnd.github.v3+json" \
+-H "Authorization: token &lt;your token&gt;" \
+--data '{"event_type": "job1-event"}' \
+https://api.github.com/repos/&lt;owner&gt;/&lt;repo&gt;/dispatches
+</code></pre></div></div>
+
+<p>Or python <a href="https://requests.readthedocs.io/en/latest/">requests</a> …</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+    <p><a href="https://stackoverflow.com/a/68407424/12371819">Trigger GitHub actions if push in another repo</a></p>
+  </li>
+  <li>
+    <p><a href="https://confluence.atlassian.com/bitbucketserver080/permanently-authenticating-with-git-repositories-1115142281.html">Permanently authenticating with Git repositories</a></p>
+  </li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="Github" /><category term="workflow" /><category term="Github Action" /><summary type="html"><![CDATA[If you are using GitHub Actions to automate your workflows, you might want to trigger a workflow based on another workflow’s completion or status. For example, you might want to run some tests after a build workflow finishes, or deploy your application only if the tests pass. In this blog post, I will show you three methods to achieve this functionality.]]></summary></entry><entry><title type="html">计算机软件著作权登记流程</title><link href="https://longlovemyu.com/register-computer-software-copyright" rel="alternate" type="text/html" title="计算机软件著作权登记流程" /><published>2023-04-06T08:00:00+00:00</published><updated>2023-04-06T08:00:00+00:00</updated><id>https://longlovemyu.com/register-copyright</id><content type="html" xml:base="https://longlovemyu.com/register-computer-software-copyright"><![CDATA[<p>作为一个自由开发者，如何通过官方的渠道来对自己的计算机软件进行著作权登记（申请软著）呢？本文为亲测+搬砖。</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<p>最重要的事情：官方网站是<a href="https://www.ccopyright.com.cn">https://www.ccopyright.com.cn</a>。</p>
+
+<h2 id="注册账号">注册账号</h2>
+
+<ul>
+  <li>注册链接：<a href="https://register.ccopyright.com.cn/register.html">https://register.ccopyright.com.cn/register.html</a></li>
+  <li>按部就班进行注册</li>
+  <li>然后登陆：<a href="https://register.ccopyright.com.cn/login.html">https://register.ccopyright.com.cn/login.html</a></li>
+</ul>
+
+<h2 id="实名认证">实名认证</h2>
+
+<ul>
+  <li>登陆后，一眼看见的就是<strong>登记业务办理</strong>，选择计算机软件著作权相关登记；</li>
+  <li>跳转后，直接选择第一个<strong>R11 计算机软件著作权登记申请</strong>，跳出<strong>实名认证</strong>；</li>
+  <li>按要求进行认证；</li>
+  <li>可以在<code class="language-plaintext highlighter-rouge">用户中心</code>（右上角）→<code class="language-plaintext highlighter-rouge">账号管理</code>（最上面第2个按钮）→认证信息来查看认证状态。</li>
+</ul>
+
+<h2 id="准备材料">准备材料</h2>
+
+<p><a href="https://ruanzhu.51lookup.top/">https://ruanzhu.51lookup.top/</a>
+<a href="https://github.com/soultoolman/pyerz">https://github.com/soultoolman/pyerz</a></p>
+
+<p>##</p>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="计算机软件著作权" /><category term="软著" /><summary type="html"><![CDATA[作为一个自由开发者，如何通过官方的渠道来对自己的计算机软件进行著作权登记（申请软著）呢？本文为亲测+搬砖。]]></summary></entry></feed>
