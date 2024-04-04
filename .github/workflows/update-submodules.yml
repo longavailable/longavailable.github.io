@@ -1,0 +1,26 @@
+name: Update submodules mannually
+
+on:
+  workflow_dispatch:
+    
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: checkout repos
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          token: ${{ secrets.GH_TOKEN }} 
+        
+      - name: Update submodules recursively
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
+          
+      - name: commit and push
+        uses: longavailable/simple-push-action@longavailable
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          message: "Update submodules from Action `date`"
