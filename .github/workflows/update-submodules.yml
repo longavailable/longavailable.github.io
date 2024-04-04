@@ -16,8 +16,8 @@ jobs:
         
       - name: Update submodules recursively
         run: |
-          git submodule update --init --recursive
-          git submodule update --recursive --remote
+          git submodule update --init --recursive -c submodule.myCollections/_publications.update=none
+          git submodule update --remote -c submodule.myCollections/_publications.update=none
           
       - name: commit and push
         uses: longavailable/simple-push-action@longavailable
