@@ -5,5 +5,5 @@ permalink: /ha
 redirect_from:
   - /home
   - /homeassistant
-redirect_to: http://23.tcp.cpolar.top:11671
+redirect_to: http://23.tcp.cpolar.top:13828
 ---
