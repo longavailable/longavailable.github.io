@@ -3,7 +3,7 @@ layout: post
 title:  Sites worth sharing
 author: Bruce Liu
 # last update date
-date:   2020-12-02 23:20:00 +0100
+date:   2024-08-06 22:00:00 +0800
 # first published date
 published: 2020-02-13 13:08:00 +0100
 categories: [post]
@@ -60,3 +60,7 @@ Be careful! Geeky!
 	[ 🆕 <img src="/assets/pics/blog_35by27.png" height="20">](https://retire50blog.wang)
 	&nbsp;&nbsp;
 	[ 🛑 <img src="/assets/pics/blog_35by27.png" height="20">](https://blog1.jyzzj.online)
+
+<b>JSDELIVR</b> 
+	&nbsp;&nbsp;
+	[ 🆕 <img src="https://www.jsdelivr.com/assets/195d6b8d39a78fb24d8acef7d0ed4c80365e4a9f/img/jsdelivr-horizontal-regular.svg" height="20">](https://www.jsdelivr.com)
