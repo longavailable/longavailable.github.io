@@ -153,9 +153,9 @@ You can find the takeaway repository from <https://github.com/longavailable/empt
 
 - [Starting a blank Jekyll site with Tailwind CSS in 2022](https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022)
 
-- [Installation | Jekyll](https://jekyllrb.com/docs/installation)
+- [Installation - Jekyll](https://jekyllrb.com/docs/installation)
 
-- [Creating a new repository | Github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
+- [Creating a new repository - Github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
 
 <!--links-->
 [Ruby]:https://www.ruby-lang.org/en/documentation/installation
