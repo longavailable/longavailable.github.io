@@ -113,7 +113,7 @@ This guide outlines the steps to set up a new Jekyll site on a Linux system.
 
   `bundle exec jekyll serve`
 
-  Open <localhost:4000> in your browser. If you see something like this.
+  Open <https://localhost:4000> in your browser. If you see something like this.
 
   ![readytogo](assets/pics/readytogo.png)
 
