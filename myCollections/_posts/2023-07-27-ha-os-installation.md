@@ -3,7 +3,7 @@ layout: post
 title:  The detailed steps of installing Home Assistant Operating System on Ubuntu
 author: Bruce Liu
 #last update date
-date:   2023-07-27 00:40:00 +0800
+date:   2024-08-22 14:10:00 +0800
 #first published date
 published:   2023-07-27 00:40:00 +0800
 categories: [post]
@@ -32,9 +32,9 @@ Check [Aephir's post](https://community.home-assistant.io/t/install-home-assista
 
 `ifconfig` 
 
-Mark the adapter name, `eno1`, `enp1s0`..
+Mark the network interface, `eno1`, `enp1s0`..
 
-Create a netplan `yaml` file as:
+Create a netplan `yaml` file in the `/etc/netplan/` directory with the following content.
 
 ```yaml
 # This is the network config written by 'subiquity'
@@ -51,6 +51,8 @@ network:
       parameters:
         stp: true
 ```
+
+Note replacing `eno1` with your bridge interface.
 
 `netplan generate` or `sudo netplan generate`
 
