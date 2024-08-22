@@ -90,6 +90,40 @@ virt-install --import --name hass --description "Home Assistant OS" --os-variant
 
 ## Then wait patiently.
 
+## `virsh` commands
+
+  List domains/VMs:
+  
+  `virsh list` or `virsh list --all`
+  
+  Start a domian:
+  
+  `virsh start <domain name>`
+  
+  Immediately shutdown a domain:
+  
+  `virsh destory <domain name>`
+  
+  Gracefully shutdown a domain:
+  
+  `virsh shutdown <domain name>` or `virsh destory <domain name> --graceful`
+  
+  Get domain information:
+  
+  `virsh dominfo <domain name>`
+  
+  Connect to the domain's guest console:
+  
+  `virsh console <domain name>`
+  
+  Remove a domain:
+  
+  `virsh undefine <domain name>  --remove-all-storage`
+  
+  `virsh undefine <domain name>  --remove-all-storage --nvram` (error: Requested operation is not valid: cannot undefine domain with nvram)
+  
+  
+
 ## References
 
 - [Install Home Assistant OS with KVM on Ubuntu headless (CLI only)](https://community.home-assistant.io/t/install-home-assistant-os-with-kvm-on-ubuntu-headless-cli-only/254941)
