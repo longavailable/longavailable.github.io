@@ -70,7 +70,7 @@ Mark the bridge adapter name, `br0` or something else.
 
 - Decompress it, if needed. Note that some `.xz` files were broken. 
 
-  `xz -d -v haos_ova-10.4.qcow2.xz`
+  `xz -d -v haos_ova-10.4.qcow2.xz` or `unxz haos_ova-10.4.qcow2.xz`
   
   [360 zip](https://www.360totalsecurity.com/en/360zip/) works perfect.
 
@@ -88,7 +88,7 @@ virt-install --import --name hass --description "Home Assistant OS" --os-variant
 --autostart
 ```
 
-## Then wait patiently.
+Then wait patiently.
 
 ## `virsh` commands
 
