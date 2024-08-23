@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Set a application-level proxy via proxychains
+title:  Set up an application-level proxy via proxychains
 author: Bruce Liu
 #last update date
 date:   2024-08-23 16:00:00 +0800
