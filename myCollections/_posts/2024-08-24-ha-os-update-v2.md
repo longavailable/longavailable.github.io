@@ -77,7 +77,7 @@ List images:
 
 ## References
 
-- [home-assistant/version/update-supervisor.txt]https://github.com/home-assistant/version/blob/83f290b0a3d39a58efc26b1a452d31cc538abfba/update-supervisor.txt
+- [home-assistant/version/update-supervisor.txt](https://github.com/home-assistant/version/blob/83f290b0a3d39a58efc26b1a452d31cc538abfba/update-supervisor.txt)
 
 - [DaoCloud/public-image-mirror]
 
