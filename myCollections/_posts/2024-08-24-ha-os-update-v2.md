@@ -30,7 +30,7 @@ Place the image sorce as a title with the format of `<domian>/<owner>/<image>:<t
 > 镜像 ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0 同步完成
 > 请使用 m.daocloud.io/ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0 替代源镜像
 
-Go to pull the image as normal.
+Let's go to pull the image with the new source.
 
 ## Update supervisor from a guest console
 
