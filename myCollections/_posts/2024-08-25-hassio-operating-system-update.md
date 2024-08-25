@@ -75,7 +75,7 @@ class SupervisorOSUpdateEntity(HassioOSEntity, UpdateEntity):
 
 There is a `release_url` function to generate the part of the link for the release. Then we have to modifying it to
 
-```
+```python
     @property
     def release_url(self) -> str | None:
         """URL to the full release notes of the latest version available."""
@@ -110,7 +110,7 @@ find . -path \*/usr/src/homeassistant/homeassistant/components/hassio/update.py
 
 It will list all full path for this file. For example,
 
-```
+```shell
 ./mnt/data/docker/overlay2/356af2cef9b08a2162030badae8304fa4f2ae7f6544efb1a78b88e45472f7c90/diff/usr/src/homeassistant/homeassistant/components/hassio/update.py
 ./mnt/data/docker/overlay2/cc97cec3597fd6ed024f0f1af2a7e06e60df7a27ec03304342198257c7bb688d/diff/usr/src/homeassistant/homeassistant/components/hassio/update.py
 ./mnt/data/docker/overlay2/f8c72160e7488a7c152815e67a7f220f052e7b50d7fc606ee778099c2256237a/merged/usr/src/homeassistant/homeassistant/components/hassio/update.py
