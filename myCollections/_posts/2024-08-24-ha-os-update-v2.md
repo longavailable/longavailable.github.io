@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  Update home assistant os from virsh guest console
+title:  Update home assistant supervisor from virsh guest console
 author: Bruce Liu
 #last update date
-date:   2024-08-24 13:20:00 +0800
+date:   2024-08-25 11:00:00 +0800
 #first published date
 published:   2024-08-24 13:20:00 +0800
 categories: [post]
 tags: [home assistant, virsh, Ubuntu, Docker, ghcr, DaoCloud]
 description: 
 header-image: 
-permalink: /haos-update
+permalink: /hassio-supervisor-update
 ---
 
 [homeassistant] migrates image registry from [Docker Hub] to [Github] container registry. For example, the image link of supervisor changes from `home-assistant/amd64-hassio-supervisor:2024.08.0` to `ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0`. It is very difficult to access ghcr.io directly in China. Therefore, it is impossible to directly update supervisor, etc. This post show a temporary solution.
