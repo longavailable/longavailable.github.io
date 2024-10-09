@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		
+		<link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
+
+		<!--Title-->
+    <title>
+      
+        reveal.js – The HTML Presentation Framework | LONGLOVEMYU
+      
+    </title>
+		
+		<!--Author-->
+		
+			<meta name="author" content="Hakim El Hattab">
+		
+				
+    <!-- Description/excerpt -->
+    
+      <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    
+		
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link rel="stylesheet" href="/js/reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="/js/reveal.js/dist/reset.css">
+		
+		<!--Default theme-->
+		
+			<link rel="stylesheet" href="/js/reveal.js/dist/theme/black.css" id="theme">
+		
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="/js/reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section data-markdown data-separator="&lt;!--horizontal--&gt;" data-separator-vertical="&lt;!--vertical--&gt;" data-notes="^Notes:">
+					<script type="text/template">
+<a href="https://revealjs.com">
+	<img src="https://static.slid.es/reveal/logo-v1/reveal-white-text.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+</a>
+
+### The HTML Presentation Framework
+
+<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> and <a href="https://github.com/hakimel/reveal.js/graphs/contributors">contributors</a></small>
+
+<!--horizontal-->
+
+## Hello There
+
+reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+
+<!--horizontal-->
+
+## Vertical Slides
+
+Slides can be nested inside of each other.
+
+Use the *Space* key to navigate through all slides.
+
+<a href="#" class="navigate-down">
+	<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+</a>
+
+<!--vertical-->
+
+## Basement Level 1
+
+Nested slides are useful for adding additional detail underneath a high level horizontal slide.
+
+<!--vertical-->
+
+## Basement Level 2
+
+That's it, time to go back up.
+
+<a href="#/2">
+	<img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+</a>
+
+<!--horizontal-->
+
+## Slides
+
+Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at https://slides.com.
+
+<!--horizontal-->
+
+## Pretty Code
+
+```javascript []
+import React, { useState } from 'react';
+
+function Example() {
+	const [count, setCount] = useState(0);
+
+	return (
+		...
+	);
+}
+```
+
+Code syntax highlighting courtesy of [highlight.js](https://highlightjs.org/usage/).
+
+<!--horizontal-->
+
+## With animations
+
+```javascript [|4,8-11|17|22-24]
+import React, { useState } from 'react';
+
+function Example() {
+	const [count, setCount] = useState(0);
+
+	return (
+		&lt;div&gt;
+			&lt;p&gt;You clicked {count} times&lt;/p&gt;
+			&lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+				Click me
+			&lt;/button&gt;
+		&lt;/div&gt;
+	);
+}
+
+function SecondExample() {
+	const [count, setCount] = useState(0);
+
+	return (
+		&lt;div&gt;
+			&lt;p&gt;You clicked {count} times&lt;/p&gt;
+			&lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+				Click me
+			&lt;/button&gt;
+		&lt;/div&gt;
+	);
+}
+```
+
+<!--horizontal-->
+
+## Point of View
+
+Press **ESC** to enter the slide overview.
+
+Hold down the **alt** key (**ctrl** in Linux) and click on any element to zoom towards it using [zoom.js](http://lab.hakim.se/zoom-js). Click again to zoom back out.
+
+(NOTE that use ctrl + click in Linux.)
+
+<!--horizontal-->
+
+<!-- .slide: data-auto-animate -->
+<!-- .slide: data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" -->
+
+## Auto-Animate
+
+Automatically animate matching elements across slides with [Auto-Animate](https://revealjs.com/auto-animate/).
+
+<div class="r-hstack justify-center">
+	<div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+	<div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+	<div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+</div>
+
+<!--horizontal-->
+
+<!-- .slide: data-auto-animate -->
+<!-- .slide: data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" -->
+
+<div class="r-hstack justify-center">
+	<div data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"></div>
+	<div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"></div>
+	<div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"></div>
+</div>
+
+## Auto-Animate
+
+<!--horizontal-->
+
+<!-- .slide: data-auto-animate -->
+<!-- .slide: data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" -->
+
+<div class="r-stack">
+	<div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"></div>
+	<div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"></div>
+	<div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"></div>
+</div>
+
+## Auto-Animate
+
+<!--horizontal-->
+
+## Touch Optimized
+
+Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+
+<!--horizontal-->
+
+## Markdown support
+
+Write content using inline or external Markdown.
+Instructions and more info available in the [readme](https://revealjs.com/markdown/).
+
+```javascript []
+<section data-markdown>
+	## Markdown support
+
+	Write content using inline or external Markdown.
+	Instructions and more info available in the [readme](https://revealjs.com/markdown/).
+</section>
+```
+
+<!--horizontal-->
+
+## Fragments
+
+Hit the next arrow...
+
+... to step through ...<!-- .element: class="fragment" -->
+
+<span class="fragment">...a </span>
+<span class="fragment">fragmented </span>
+<span class="fragment">slide.</span>
+
+
+Notes: This slide has fragments which are also stepped through in the notes window.
+
+<!--horizontal-->
+
+## Fragment Styles
+
+There's different types of fragments, like:
+
+grow<!-- .element: class="fragment grow" -->
+
+shrink<!-- .element: class="fragment shrink" -->
+
+fade-out<!-- .element: class="fragment fade-out" -->
+
+<span style="display: inline-block;" class="fragment fade-right">fade-right, </span>
+<span style="display: inline-block;" class="fragment fade-up">up, </span>
+<span style="display: inline-block;" class="fragment fade-down">down, </span>
+<span style="display: inline-block;" class="fragment fade-left">left<span>
+
+fade-in-then-out<!-- .element: class="fragment fade-in-then-out" -->
+
+fade-in-then-semi-out<!-- .element: class="fragment fade-in-then-semi-out" -->
+
+Highlight
+<span class="fragment highlight-red">red </span>
+<span class="fragment highlight-blue">blue </span>
+<span class="fragment highlight-green">green</span>
+
+
+<!--horizontal-->
+
+## Transition Styles
+
+You can select from different transitions, like:<br>
+[None](?transition=none#/transitions) -
+[Fade](?transition=fade#/transitions) -
+[Slide](?transition=slide#/transitions) -
+[Convex](?transition=convex#/transitions) -
+[Concave](?transition=concave#/transitions) -
+[Zoom](?transition=zoom#/transitions)
+
+<!--horizontal-->
+
+## Themes
+
+reveal.js comes with a few themes built in: <br>
+<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/black.css'); return false;">Black (default)</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/white.css'); return false;">White</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/league.css'); return false;">League</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/sky.css'); return false;">Sky</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/beige.css'); return false;">Beige</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/simple.css'); return false;">Simple</a> <br>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/serif.css'); return false;">Serif</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/blood.css'); return false;">Blood</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/night.css'); return false;">Night</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/moon.css'); return false;">Moon</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','/js/reveal.js/dist/theme/solarized.css'); return false;">Solarized</a>
+
+<!--horizontal-->
+
+<!-- .slide: data-background="#dddddd" -->
+
+## Slide Backgrounds
+
+Set `data-background="#dddddd"` on a slide to change the background color. All CSS color formats are supported.
+
+<a href="#" class="navigate-down">
+	<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+</a>
+
+<!--vertical-->
+
+<!-- .slide: data-background="https://static.slid.es/reveal/image-placeholder.png" -->
+
+## Image Backgrounds
+
+<pre><code class="hljs html">&lt;section data-background="image.png"&gt;</code></pre>
+
+<!--vertical-->
+
+<!-- .slide: data-background="https://static.slid.es/reveal/image-placeholder.png" -->
+<!-- .slide: data-background-repeat="repeat" -->
+<!-- .slide: data-background-size="100px" -->
+
+## Tiled Backgrounds
+
+<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+
+<!--vertical-->
+
+<!-- .slide: data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4" -->
+<!-- .slide: data-background-color="#000000" -->
+
+<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+	<h2>Video Backgrounds</h2>
+	<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+</div>
+
+<!--vertical-->
+
+<!-- .slide: data-background="http://i.giphy.com/90F8aUepslB84.gif" -->
+
+## ... and GIFs
+
+<!--horizontal-->
+
+<!-- .slide: data-transition="slide" -->
+<!-- .slide: data-background="#4d7e65" -->
+<!-- .slide: data-background-transition="zoom" -->
+
+## Background Transitions
+
+Different background transitions are available via the backgroundTransition option. This one's called "zoom".
+
+<pre><code class="hljs javascript">Reveal.initialize({ backgroundTransition: 'zoom' })</code></pre>
+
+<!--horizontal-->
+
+<!-- .slide: data-transition="slide" -->
+<!-- .slide: data-background="#b5533c" -->
+<!-- .slide: data-background-transition="zoom" -->
+
+## Background Transitions
+
+You can override background transitions per-slide.
+
+<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+
+<!--horizontal-->
+
+<!-- .slide: data-background-iframe="/jekyll_blog/" data-background-interactive -->
+
+<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+	<h2>Iframe Backgrounds</h2>
+	<p>Since reveal.js runs on the web, you can easily embed other web content. Try interacting with the page in the background.</p>
+</div>
+
+<!--horizontal-->
+
+## Marvelous List
+
+- No order here
+- Or here
+- Or here
+- Or here
+
+<!--horizontal-->
+
+## Fantastic Ordered List
+
+1. One is smaller than...
+1. Two is smaller than...
+1. Three!
+
+<!--horizontal-->
+
+## Tabular Tables
+
+|Item|Value|Quantity|
+|---|---|---|
+|Apples|$1|7|
+|Lemonade|$2|18|
+|Bread|$3|2|
+
+<!--horizontal-->
+
+## Clever Quotes
+
+These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">The nice thing about standards is that there are so many to choose from</q> and block:
+> &ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
+
+<!--horizontal-->
+
+## Intergalactic Interconnections
+
+You can link between slides internally, [like this](#/2/3)
+
+<!--horizontal-->
+
+## Speaker View
+
+There's a [speaker view][1]. It includes a timer, preview of the upcoming slide as well as your speaker notes.
+
+Press the **S** key to try it out.
+
+[1]: https://revealjs.com/speaker-view/
+
+Notes:
+
+Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+
+<!--horizontal-->
+
+## Export to PDF
+
+Presentations can be [exported to PDF][1], here's an example:
+
+<iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+[1]: https://revealjs.com/pdf-export/
+
+<!--horizontal-->
+
+## Global State
+
+Set `data-state="something"` on a slide and `"something"`
+will be added as a class to the document element when the slide is open. This lets you
+apply broader style changes, like switching the page background.
+		
+<!--horizontal-->
+
+<!-- .slide: data-state="customevent" -->
+
+## State Events
+
+Additionally custom events can be triggered on a per slide basis by binding to the `data-state` name.
+
+<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
+Reveal.on( 'customevent', function() {
+console.log( '"customevent" has fired' );
+} );
+</code></pre>
+
+<!--horizontal-->
+
+## Take a Moment
+
+Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
+
+<!--horizontal-->
+
+## Much more
+
+- Right-to-left support
+- [Extensive JavaScript API](https://revealjs.com/api/)
+- [Auto-progression](https://revealjs.com/auto-slide/)
+- [Parallax backgrounds](https://revealjs.com/backgrounds/#parallax-background)
+- [Custom keyboard bindings](https://revealjs.com/keyboard/)
+
+<!--horizontal-->
+
+<!-- .slide: style="text-align: left;" -->
+
+# THE END
+
+- [Try the online editor](https://slides.com)
+- [Source code &amp; documentation](https://github.com/hakimel/reveal.js)
+
+          </script>
+				</section>
+			</div>
+		</div>
+
+		<script src="/js/reveal.js/dist/reveal.js"></script>
+		<script src="/js/reveal.js/plugin/zoom/zoom.js"></script>
+		<script src="/js/reveal.js/plugin/notes/notes.js"></script>
+		<script src="/js/reveal.js/plugin/search/search.js"></script>
+		<script src="/js/reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="/js/reveal.js/plugin/highlight/highlight.js"></script>
+		
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				hash: true,
+
+				// transition styles: https://revealjs.com/transitions/#styles
+				// none/fade/slide/convex/concave/zoom
+				transition: 'slide',
+				backgroundTransition: 'slide', 
+				
+				width: 960, 
+				height: 720, 
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
