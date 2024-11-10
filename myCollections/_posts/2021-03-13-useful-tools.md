@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2024-06-20 13:30:00 +0800
+date:   2024-11-10 16:30:00 +0800
 #first published date
 published: 2021-03-13 10:10:00 +0800
 categories: [post]
@@ -38,6 +38,8 @@ permalink: /useful-tools/
 | 文件收集[收件夹](http://xzc.cn/) | <http://xzc.cn/> |
 | PDF对比[ParePdf](https://www.parepdf.com/zh-CN/) | <https://www.parepdf.com/zh-CN/> |
 | 证件照剪切制作工具[证件照大师](https://id-photo.cn/maker/) | <https://id-photo.cn/maker/> |
+| **My tools** ||
+| [RUNSENSE View / NeoRun / EPSON View](https://go-wellness.epson.com/neo-run/user/view/) | EPSON View apk<https://wwru.lanzoub.com/b010bb6hc>蓝奏云密码:888> |
 
 
 ## References
