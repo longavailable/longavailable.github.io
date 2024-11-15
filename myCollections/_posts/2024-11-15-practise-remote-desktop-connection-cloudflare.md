@@ -3,9 +3,9 @@ layout: post
 title:  利用Cloudflare Tunnel实现远程桌面访问
 author: Bruce Liu
 #last update date
-date:   2024-10-15 15:00:00 +0800
+date:   2024-11-15 15:00:00 +0800
 #first published date
-published:   2024-10-15 15:00:00 +0800
+published:   2024-11-15 15:00:00 +0800
 categories: [post]
 tags: [Cloudflare, Windows, Remote Desktop, 内网穿透]
 description: 
@@ -90,8 +90,8 @@ permalink: /remote-desktop-connection-using-cloudfare-tunnel
 
 ## 参考
 
-- [Create a tunnel | Cloudflare Zero Trust](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/#1-create-a-tunnel)
-- [Connect as a user | Cloudflare Zero Trust](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/rdp/#2-connect-as-a-user)
+- [Create a tunnel - Cloudflare Zero Trust](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/#1-create-a-tunnel)
+- [Connect as a user - Cloudflare Zero Trust](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/rdp/#2-connect-as-a-user)
 
 <!--links-->
 
