@@ -3,7 +3,7 @@ layout: post
 title:  Academic conferences on water and environment
 author: Bruce Liu
 #last update date
-date:   2020-12-30 00:40:00 +0100
+date:   2024-11-29 00:90:50 +0800
 #first published date
 published: 2020-12-30 00:40:00 +0100
 categories: [post]
@@ -22,14 +22,15 @@ It posted a list of academic conferences on water and environment.
 | Conference  			| Host    			| Frequency | Events     |
 |:-------------------|:--------------|:-----------|:------------|
 | AGU Fall Meeting	| [AGU]					| Yearly		| [2020](https://www.agu.org/fall-meeting)	|
-| EGU General Assembly   | [EGU]   	| Yearly  	| [2021](https://www.egu21.eu/), [2020](https://egu2020.eu/)	|
+| EGU General Assembly   | [EGU]   	| Yearly  	| [2025](https://www.egu25.eu/), [2021](https://www.egu21.eu/), [2020](https://egu2020.eu/)	|
 | IAHS Scientific Assembly	| [IAHS]	| Biennially	| [2022](http://www.iahs2022.org/index.asp)	|
 | IUGG General Assembly		|	[IUGG]	| Quadrennially	| [2019](http://iugg2019montreal.com/)	|
-| AOGS Annual Meeting	| [AOGS]	| Yearly	| [2021](https://www.asiaoceania.org/aogs2021/)	|
+| AOGS Annual Meeting	| [AOGS]	| Yearly	| [2025](https://www.asiaoceania.org/aogs2025/), [2021](https://www.asiaoceania.org/aogs2021/) |
 | Conference on hydroinformatics (HIC)	| [IAHR], [IWA]	|	Biennially	|	[2021](https://hic2020.org/)	|
 | World Environmental & Water Resources Congress	| [EWRI], ASCE		| Yearly		| [2021](https://www.ewricongress.org/) |
-| International Conference on Flood Management (ICFM)	| [ICFM]	| Triennially	| [2021](https://icfm2020.org/)	|
+| International Conference on Flood Management (ICFM)	| [ICFM]	| Triennially	| [2026](https://icfm10.com/), [2021](https://icfm2020.org/)	|
 | IWA World Water Congress & Exhibition (WWCE)	| [IWA]	| Biennially	| [2022](https://worldwatercongress.org/)	|
+| 中非水论坛/China-Africa Water Forum	| [中非水协]	| Yearly	| [2025](http://www.cawater.com.cn)	|
 
 
 <!--institute links-->
@@ -42,6 +43,7 @@ It posted a list of academic conferences on water and environment.
 [IUGG]: http://www.iugg.org
 [IAHS]: https://iahs.info
 [ICFM]: https://www.icfm.world
+[中非水协]: http://www.cawater.com.cn
 
 
 
