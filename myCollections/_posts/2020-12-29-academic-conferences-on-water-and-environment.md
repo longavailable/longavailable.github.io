@@ -3,7 +3,7 @@ layout: post
 title:  Academic conferences on water and environment
 author: Bruce Liu
 #last update date
-date:   2024-11-29 00:90:50 +0800
+date:   2024-11-29 09:50:00 +0800
 #first published date
 published: 2020-12-30 00:40:00 +0100
 categories: [post]
