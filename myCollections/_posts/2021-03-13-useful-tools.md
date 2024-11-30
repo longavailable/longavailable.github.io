@@ -38,6 +38,7 @@ permalink: /useful-tools/
 | 文件收集[收件夹](http://xzc.cn/) | <http://xzc.cn/> |
 | PDF对比[ParePdf](https://www.parepdf.com/zh-CN/) | <https://www.parepdf.com/zh-CN/> |
 | 证件照剪切制作工具[证件照大师](https://id-photo.cn/maker/) | <https://id-photo.cn/maker/> |
+| 手写体在线生成[第一字体转换器](http://m.diyiziti.com/shouxie) | <http://m.diyiziti.com/shouxie> |
 | **My tools** ||
 | [RUNSENSE View / NeoRun / EPSON View](https://go-wellness.epson.com/neo-run/user/view/) | EPSON View apk<https://wwru.lanzoub.com/b010bb6hc>蓝奏云密码:888> |
 
