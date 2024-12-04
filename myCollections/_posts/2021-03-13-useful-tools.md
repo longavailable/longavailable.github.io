@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2024-11-30 14:10:00 +0800
+date:   2024-12-04 22:40:00 +0800
 #first published date
 published: 2021-03-13 10:10:00 +0800
 categories: [post]
@@ -37,6 +37,7 @@ permalink: /useful-tools/
 | 视频、语音、图片转文字[悦录-同花顺出品](http://www.voiceclub.cn) | <http://www.voiceclub.cn> |
 | 文件收集[收件夹](http://xzc.cn/) | <http://xzc.cn/> |
 | PDF对比[ParePdf](https://www.parepdf.com/zh-CN/) | <https://www.parepdf.com/zh-CN/> |
+| PDF转图片/长图片[依奇在线超级转换工具](https://www.wdku.net/) | <https://pdf.wdku.net/pdftoimage> |
 | 证件照剪切制作工具[证件照大师](https://id-photo.cn/maker/) | <https://id-photo.cn/maker/> |
 | 手写体在线生成[第一字体转换器](http://m.diyiziti.com/shouxie) | <http://m.diyiziti.com/shouxie> |
 | **My tools** ||
