@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Update home assistant supervisor from virsh guest console
+title:  Update home assistant supervisor/core from virsh guest console
 author: Bruce Liu
 #last update date
-date:   2024-08-25 11:00:00 +0800
+date:   2024-12-19 09:40:00 +0800
 #first published date
 published:   2024-08-24 13:20:00 +0800
 categories: [post]
@@ -13,15 +13,17 @@ header-image:
 permalink: /hassio-supervisor-update
 ---
 
-[homeassistant] migrates image registry from [Docker Hub] to [Github] container registry. For example, the image link of supervisor changes from `home-assistant/amd64-hassio-supervisor:2024.08.0` to `ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0`. It is very difficult to access ghcr.io directly in China. Therefore, it is impossible to directly update supervisor, etc. This post show a temporary solution.
+[homeassistant] migrates image registry from [Docker Hub] to [Github] container registry. For example, the image link of supervisor changes from `home-assistant/amd64-hassio-supervisor:2024.08.0` to `ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0`. It is very difficult to access ghcr.io directly in China. Therefore, it is impossible to directly update supervisor, etc. This post show a temporary solution. By the way, it works for [Homeassistant core] as well.
 
 <!--the above is the excerpt-->
 <!--more-->
 <!--the following is the text-->
 
+## [Supervisor]
+
 [homeassistant] migrates image registry from [Docker Hub] to [Github] container registry. For example, the image link of supervisor changes from `home-assistant/amd64-hassio-supervisor:2024.08.0` to `ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0`. It is very difficult to access ghcr.io directly in China. Therefore, it is impossible to directly update supervisor, etc. This post show a temporary solution based on [DaoCloud/public-image-mirror].
 
-## Set up a ready-to-go `ghcr` image source
+### Set up a ready-to-go `ghcr` image source
 
 Open a `sync-image` [issue](https://github.com/DaoCloud/public-image-mirror/issues/new?labels=sync+image&template=sync-image.yml).
 
@@ -32,7 +34,7 @@ Place the image sorce as a title with the format of `<domian>/<owner>/<image>:<t
 
 Let's go to pull the image with the new source.
 
-## Update supervisor from a guest console
+### Update supervisor from a guest console
 
 Open a guest console via [virsh].
 
@@ -55,9 +57,11 @@ Stop current `hassio_supervisor` container.
 
 `docker stop hassio_supervisor`
 
-And reboot homeassistant os. hassos-supervisor script will recreate the container automatically. The deprecated images will be removed automatically as well.
+And reboot homeassistant os. hassos-supervisor script will recreate the container automatically. The deprecated images will be removed automatically as well. 
 
-## Useful commands
+Note that, you can do this on Terminal addon from [homeassistant] lovelace.
+
+### Useful commands
 
 Normal method to update `hassio_supervisor`.
 
@@ -75,6 +79,21 @@ List images:
 
 `docker images`
 
+## [Core] commands
+
+`docker pull m.daocloud.io/ghcr.io/home-assistant/qemux86-64-homeassistant:2024.12.4`
+
+`docker tag m.daocloud.io/ghcr.io/home-assistant/qemux86-64-homeassistant:2024.12.4 ghcr.io/home-assistant/qemux86-64-homeassistant:2024.12.4`
+
+`ha core update`
+
+I place a script to make it on [Github Gist]. And you can run it directly from terminal.
+
+`curl -l https://gh.api.99988866.xyz/https://gist.githubusercontent.com/longavailable/44af7d42ac76ac501fe7d7e832519084/raw/9adda982dc74d95ce5dfe2c1faa36829411f72c8/update-ha-core-qemux86-64-homeassistant.sh | bash`
+
+Both [virsh] and Terminal addon work.
+
+
 ## References
 
 - [home-assistant/version/update-supervisor.txt](https://github.com/home-assistant/version/blob/83f290b0a3d39a58efc26b1a452d31cc538abfba/update-supervisor.txt)
@@ -83,8 +102,12 @@ List images:
 
 <!--links-->
 [homeassistant]: https://www.home-assistant.io
+[Homeassistant core]: https://github.com/home-assistant/core
+[Core]: https://github.com/home-assistant/core
+[Supervisor]: https://github.com/home-assistant/supervisor
 [Github]: https://github.com
 [Docker Hub]: https://hub.docker.com
 [DaoCloud/public-image-mirror]: https://github.com/DaoCloud/public-image-mirror
 [virsh]: https://libvirt.org/manpages/virsh.html
+[Github Gist]: https://gist.github.com/longavailable/44af7d42ac76ac501fe7d7e832519084
 
