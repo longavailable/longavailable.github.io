@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://longlovemyu.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://longlovemyu.com/" rel="alternate" type="text/html" /><updated>2024-12-20T21:27:33+00:00</updated><id>https://longlovemyu.com/feed.xml</id><title type="html">LONGLOVEMYU</title><subtitle>Sharing and recoding something useful, trying to make things simple, and looking for some fun.</subtitle><author><name>LONGAVAILABLE</name><email>liuxiaolong125@gmail.com</email></author><entry><title type="html">Update home assistant supervisor/core from virsh guest console</title><link href="https://longlovemyu.com/hassio-supervisor-update" rel="alternate" type="text/html" title="Update home assistant supervisor/core from virsh guest console" /><published>2024-12-19T01:40:00+00:00</published><updated>2024-12-19T01:40:00+00:00</updated><id>https://longlovemyu.com/hassio-supervisor-update</id><content type="html" xml:base="https://longlovemyu.com/hassio-supervisor-update"><![CDATA[<p><a href="https://www.home-assistant.io">homeassistant</a> migrates image registry from <a href="https://hub.docker.com">Docker Hub</a> to <a href="https://github.com">Github</a> container registry. For example, the image link of supervisor changes from <code class="language-plaintext highlighter-rouge">home-assistant/amd64-hassio-supervisor:2024.08.0</code> to <code class="language-plaintext highlighter-rouge">ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0</code>. It is very difficult to access ghcr.io directly in China. Therefore, it is impossible to directly update supervisor, etc. This post show a temporary solution. By the way, it works for <a href="https://github.com/home-assistant/core">Homeassistant core</a> as well.</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<h2 id="supervisor"><a href="https://github.com/home-assistant/supervisor">Supervisor</a></h2>
+
+<p><a href="https://www.home-assistant.io">homeassistant</a> migrates image registry from <a href="https://hub.docker.com">Docker Hub</a> to <a href="https://github.com">Github</a> container registry. For example, the image link of supervisor changes from <code class="language-plaintext highlighter-rouge">home-assistant/amd64-hassio-supervisor:2024.08.0</code> to <code class="language-plaintext highlighter-rouge">ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0</code>. It is very difficult to access ghcr.io directly in China. Therefore, it is impossible to directly update supervisor, etc. This post show a temporary solution based on <a href="https://github.com/DaoCloud/public-image-mirror">DaoCloud/public-image-mirror</a>.</p>
+
+<h3 id="set-up-a-ready-to-go-ghcr-image-source">Set up a ready-to-go <code class="language-plaintext highlighter-rouge">ghcr</code> image source</h3>
+
+<p>Open a <code class="language-plaintext highlighter-rouge">sync-image</code> <a href="https://github.com/DaoCloud/public-image-mirror/issues/new?labels=sync+image&amp;template=sync-image.yml">issue</a>.</p>
+
+<p>Place the image sorce as a title with the format of <code class="language-plaintext highlighter-rouge">&lt;domian&gt;/&lt;owner&gt;/&lt;image&gt;:&lt;tag&gt;</code>. For example, <code class="language-plaintext highlighter-rouge">ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0</code>. Mark the checkbox. And wait one or two minutes. You will received a email with the following content.</p>
+
+<blockquote>
+  <p>镜像 ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0 同步完成
+请使用 m.daocloud.io/ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0 替代源镜像</p>
+</blockquote>
+
+<p>Let’s go to pull the image with the new source.</p>
+
+<h3 id="update-supervisor-from-a-guest-console">Update supervisor from a guest console</h3>
+
+<p>Open a guest console via <a href="https://libvirt.org/manpages/virsh.html">virsh</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh console hass</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">root</code></p>
+
+<p>Pull the supervisor image from the alternative source.</p>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull m.daocloud.io/ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0</code></p>
+
+<p>Add the recognizable tags.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker tag "m.daocloud.io/ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0" "ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0"
+docker tag "ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0" "ghcr.io/home-assistant/amd64-hassio-supervisor:latest"
+</code></pre></div></div>
+
+<p>Stop current <code class="language-plaintext highlighter-rouge">hassio_supervisor</code> container.</p>
+
+<p><code class="language-plaintext highlighter-rouge">docker stop hassio_supervisor</code></p>
+
+<p>And reboot homeassistant os. hassos-supervisor script will recreate the container automatically. The deprecated images will be removed automatically as well.</p>
+
+<p>Note that, you can do this on Terminal addon from <a href="https://www.home-assistant.io">homeassistant</a> lovelace.</p>
+
+<h3 id="useful-commands">Useful commands</h3>
+
+<p>Normal method to update <code class="language-plaintext highlighter-rouge">hassio_supervisor</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">ha su update</code> or <code class="language-plaintext highlighter-rouge">ha supervisor update</code></p>
+
+<p>Check jobs running on haos.</p>
+
+<p><code class="language-plaintext highlighter-rouge">ha job info</code></p>
+
+<p>List all containers:</p>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps -a</code></p>
+
+<p>List images:</p>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<h2 id="core-commands"><a href="https://github.com/home-assistant/core">Core</a> commands</h2>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull m.daocloud.io/ghcr.io/home-assistant/qemux86-64-homeassistant:2024.12.4</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">docker tag m.daocloud.io/ghcr.io/home-assistant/qemux86-64-homeassistant:2024.12.4 ghcr.io/home-assistant/qemux86-64-homeassistant:2024.12.4</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">ha core update</code></p>
+
+<p>I place a script to make it on <a href="https://gist.github.com/longavailable/44af7d42ac76ac501fe7d7e832519084">Github Gist</a>. And you can run it directly from terminal.</p>
+
+<p><code class="language-plaintext highlighter-rouge">curl -l https://gh.api.99988866.xyz/https://gist.githubusercontent.com/longavailable/44af7d42ac76ac501fe7d7e832519084/raw/9adda982dc74d95ce5dfe2c1faa36829411f72c8/update-ha-core-qemux86-64-homeassistant.sh | bash</code></p>
+
+<p>Both <a href="https://libvirt.org/manpages/virsh.html">virsh</a> and Terminal addon work.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/home-assistant/version/blob/83f290b0a3d39a58efc26b1a452d31cc538abfba/update-supervisor.txt">home-assistant/version/update-supervisor.txt</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/DaoCloud/public-image-mirror">DaoCloud/public-image-mirror</a></p>
+  </li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="home assistant" /><category term="virsh" /><category term="Ubuntu" /><category term="Docker" /><category term="ghcr" /><category term="DaoCloud" /><summary type="html"><![CDATA[homeassistant migrates image registry from Docker Hub to Github container registry. For example, the image link of supervisor changes from home-assistant/amd64-hassio-supervisor:2024.08.0 to ghcr.io/home-assistant/amd64-hassio-supervisor:2024.08.0. It is very difficult to access ghcr.io directly in China. Therefore, it is impossible to directly update supervisor, etc. This post show a temporary solution. By the way, it works for Homeassistant core as well.]]></summary></entry><entry><title type="html">Useful tools</title><link href="https://longlovemyu.com/useful-tools/" rel="alternate" type="text/html" title="Useful tools" /><published>2024-12-04T14:40:00+00:00</published><updated>2024-12-04T14:40:00+00:00</updated><id>https://longlovemyu.com/useful-tools</id><content type="html" xml:base="https://longlovemyu.com/useful-tools/"><![CDATA[<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<table>
+  <thead>
+    <tr>
+      <th>**Windows Application** |</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Application / Softs</td>
+      <td>Download links / Webpages</td>
+    </tr>
+    <tr>
+      <td>S*h*a*d*ows$oc&amp;ks / v#2r@ay*N</td>
+      <td>[s&amp;s](https://shadowsocks.org/en/download/clients.html), [v2&amp;&amp;ray&amp;*N](https://github.com/2dust/v2rayN/releases), [蓝奏云密码666](https://wwe.lanzous.com/b01099klg)</td>
+    </tr>
+    <tr>
+      <td>DWG FastView for Windows</td>
+      <td>[官网](https://en.dwgfastview.com/cloud/download/)</td>
+    </tr>
+    <tr>
+      <td>CiteHist/CiteHist pro</td>
+      <td>[CiteHist官网](https://support.clarivate.com/ScientificandAcademicResearch/s/article/HistCite-No-longer-in-active-development-or-officially-supported?language=en_US), [CiteHist Pro官网](https://zhuanlan.zhihu.com/p/20902898), [蓝奏云密码666](https://wwe.lanzous.com/b010bc9dc)</td>
+    </tr>
+    <tr>
+      <td>视频录制、屏幕录制、直播录制[OBS Studio](https://obsproject.com/)</td>
+      <td><a href="https://obsproject.com/">https://obsproject.com/</a></td>
+    </tr>
+    <tr>
+      <td>虚拟形象、面部捕捉、动作捕捉[小K直播姬](https://www.yunboai.com/)</td>
+      <td><a href="https://www.yunboai.com/">https://www.yunboai.com/</a></td>
+    </tr>
+    <tr>
+      <td>**Web-based Application** |</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>[KinhDown](http://kinhdown.kinh.cc/)</td>
+      <td>[在线解析](https://pan.kdbaidu.com/), [在线解析](https://yun.kdbaidu.com/), [在线解析](https://www.kdbaidu.com/)</td>
+    </tr>
+    <tr>
+      <td>[56网盘搜索](https://www.56wangpan.com/)</td>
+      <td>[官网](https://www.56wangpan.com/)</td>
+    </tr>
+    <tr>
+      <td>Official Windows OS, Office, and language packs</td>
+      <td>[官网](https://tb.rg-adguard.net/public.php)</td>
+    </tr>
+    <tr>
+      <td>MalvaStyle USB Repair</td>
+      <td>[官网](https://malvastyle.com/disk-repair-application-by-malvastyle/), [蓝奏云密码666](https://www.lanzouq.com/b01139k8d)</td>
+    </tr>
+    <tr>
+      <td>[Prettier](https://github.com/prettier/prettier): An online code formatter</td>
+      <td>[官网](https://prettier.io/), [GitHub](https://github.com/prettier/prettier)</td>
+    </tr>
+    <tr>
+      <td>[在线图片拼接](https://www.qtool.net/picstitching)</td>
+      <td><a href="https://www.qtool.net/picstitching">https://www.qtool.net/picstitching</a></td>
+    </tr>
+    <tr>
+      <td>[图像中裁剪圆圈](https://crop-circle.imageonline.co/cn/)</td>
+      <td><a href="https://crop-circle.imageonline.co/cn/">https://crop-circle.imageonline.co/cn/</a></td>
+    </tr>
+    <tr>
+      <td>视频字幕、语音转文字、文档翻译、图片翻译[网易见外工作台](https://jianwai.youdao.com)</td>
+      <td><a href="https://jianwai.youdao.com">https://jianwai.youdao.com</a></td>
+    </tr>
+    <tr>
+      <td>视频、语音、图片转文字[悦录-同花顺出品](http://www.voiceclub.cn)</td>
+      <td><a href="http://www.voiceclub.cn">http://www.voiceclub.cn</a></td>
+    </tr>
+    <tr>
+      <td>文件收集[收件夹](http://xzc.cn/)</td>
+      <td><a href="http://xzc.cn/">http://xzc.cn/</a></td>
+    </tr>
+    <tr>
+      <td>PDF对比[ParePdf](https://www.parepdf.com/zh-CN/)</td>
+      <td><a href="https://www.parepdf.com/zh-CN/">https://www.parepdf.com/zh-CN/</a></td>
+    </tr>
+    <tr>
+      <td>PDF转图片/长图片[依奇在线超级转换工具](https://www.wdku.net/)</td>
+      <td><a href="https://pdf.wdku.net/pdftoimage">https://pdf.wdku.net/pdftoimage</a></td>
+    </tr>
+    <tr>
+      <td>证件照剪切制作工具[证件照大师](https://id-photo.cn/maker/)</td>
+      <td><a href="https://id-photo.cn/maker/">https://id-photo.cn/maker/</a></td>
+    </tr>
+    <tr>
+      <td>手写体在线生成[第一字体转换器](http://m.diyiziti.com/shouxie)</td>
+      <td><a href="http://m.diyiziti.com/shouxie">http://m.diyiziti.com/shouxie</a></td>
+    </tr>
+    <tr>
+      <td>**My tools** |</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>[RUNSENSE View / NeoRun / EPSON View](https://go-wellness.epson.com/neo-run/user/view/)</td>
+      <td>EPSON View apk<a href="https://wwru.lanzoub.com/b010bb6hc">https://wwru.lanzoub.com/b010bb6hc</a>蓝奏云密码:888&gt;</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://github.com/jeffreytse/jekyll-spaceship">jekyll-spaceship</a></li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="百度网盘" /><category term="网盘搜索" /><category term="网盘加速下载" /><category term="科学上网" /><category term="Windows" /><category term="Office" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Academic conferences on water and environment</title><link href="https://longlovemyu.com/conference-list/" rel="alternate" type="text/html" title="Academic conferences on water and environment" /><published>2024-11-29T01:50:00+00:00</published><updated>2024-11-29T01:50:00+00:00</updated><id>https://longlovemyu.com/academic-conferences-on-water-and-environment</id><content type="html" xml:base="https://longlovemyu.com/conference-list/"><![CDATA[<p>It posted a list of academic conferences on water and environment.
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text--></p>
+
+<h1 id="general">General</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Conference</th>
+      <th style="text-align: left">Host</th>
+      <th style="text-align: left">Frequency</th>
+      <th style="text-align: left">Events</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">AGU Fall Meeting</td>
+      <td style="text-align: left">[AGU](https://www.agu.org)</td>
+      <td style="text-align: left">Yearly</td>
+      <td style="text-align: left">[2020](https://www.agu.org/fall-meeting)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">EGU General Assembly</td>
+      <td style="text-align: left">[EGU](https://www.egu.eu)</td>
+      <td style="text-align: left">Yearly</td>
+      <td style="text-align: left">[2025](https://www.egu25.eu/), [2021](https://www.egu21.eu/), [2020](https://egu2020.eu/)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">IAHS Scientific Assembly</td>
+      <td style="text-align: left">[IAHS](https://iahs.info)</td>
+      <td style="text-align: left">Biennially</td>
+      <td style="text-align: left">[2022](http://www.iahs2022.org/index.asp)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">IUGG General Assembly</td>
+      <td style="text-align: left">[IUGG](http://www.iugg.org)</td>
+      <td style="text-align: left">Quadrennially</td>
+      <td style="text-align: left">[2019](http://iugg2019montreal.com/)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">AOGS Annual Meeting</td>
+      <td style="text-align: left">[AOGS](https://www.asiaoceania.org)</td>
+      <td style="text-align: left">Yearly</td>
+      <td style="text-align: left">[2025](https://www.asiaoceania.org/aogs2025/), [2021](https://www.asiaoceania.org/aogs2021/)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Conference on hydroinformatics (HIC)</td>
+      <td style="text-align: left">[IAHR](https://www.iahr.org), [IWA](https://iwa-network.org)</td>
+      <td style="text-align: left">Biennially</td>
+      <td style="text-align: left">[2021](https://hic2020.org/)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">World Environmental &amp; Water Resources Congress</td>
+      <td style="text-align: left">[EWRI](https://www.asce.org/environmental-and-water-resources-engineering/environmental-and-water-resources-institute/), ASCE</td>
+      <td style="text-align: left">Yearly</td>
+      <td style="text-align: left">[2021](https://www.ewricongress.org/)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">International Conference on Flood Management (ICFM)</td>
+      <td style="text-align: left">[ICFM](https://www.icfm.world)</td>
+      <td style="text-align: left">Triennially</td>
+      <td style="text-align: left">[2026](https://icfm10.com/), [2021](https://icfm2020.org/)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">IWA World Water Congress &amp; Exhibition (WWCE)</td>
+      <td style="text-align: left">[IWA](https://iwa-network.org)</td>
+      <td style="text-align: left">Biennially</td>
+      <td style="text-align: left">[2022](https://worldwatercongress.org/)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">中非水论坛/China-Africa Water Forum</td>
+      <td style="text-align: left">[中非水协](http://www.cawater.com.cn)</td>
+      <td style="text-align: left">Yearly</td>
+      <td style="text-align: left">[2025](http://www.cawater.com.cn)</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--institute links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="conferences" /><category term="water" /><category term="water resources" /><category term="environment" /><summary type="html"><![CDATA[It posted a list of academic conferences on water and environment.]]></summary></entry><entry><title type="html">利用Cloudflare Tunnel实现远程桌面访问</title><link href="https://longlovemyu.com/remote-desktop-connection-using-cloudfare-tunnel" rel="alternate" type="text/html" title="利用Cloudflare Tunnel实现远程桌面访问" /><published>2024-11-15T07:00:00+00:00</published><updated>2024-11-15T07:00:00+00:00</updated><id>https://longlovemyu.com/practise-remote-desktop-connection-cloudflare</id><content type="html" xml:base="https://longlovemyu.com/remote-desktop-connection-using-cloudfare-tunnel"><![CDATA[<p>如题，本文主要介绍利用Cloudflare Tunnel来实现Windows远程桌面访问。</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<h2 id="创建一个cloudflare-tunnel">创建一个Cloudflare tunnel</h2>
+
+<ol>
+  <li>
+    <p>登录<a href="https://one.dash.cloudflare.com/">Cloudflare Zero Trust</a></p>
+  </li>
+  <li>
+    <p>左侧导航栏依次进入Networks→Tunnel</p>
+  </li>
+  <li>
+    <p>创建一个隧道（Create a Tunnel）</p>
+  </li>
+  <li>
+    <p>选择Cloudflared类型</p>
+
+    <p><img src="/assets/pics/cloudflare-tunnel-type.png" alt="Cloudflared类型" /></p>
+  </li>
+  <li>
+    <p>设置隧道名称（简洁、好记），并保存隧道</p>
+  </li>
+</ol>
+
+<p>之后，网页自动进入配置页面（configure），不要关掉浏览器</p>
+
+<h2 id="配置被访问主机服务器端">配置被访问主机/服务器端</h2>
+
+<p>在隧道配置页面选择远程被访问主机/服务器端的运行系统、处理器架构（以window、64-bit为例）。</p>
+
+<ol>
+  <li>
+    <p>在远程被访问主机/服务器端下载安装Cloudflared</p>
+
+    <p>两种方法：</p>
+
+    <ul>
+      <li>在<a href="https://github.com/cloudflare/cloudflared">cloudflare/cloudflared</a> Releases页下载msi安装文件</li>
+    </ul>
+    <p><a href="https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.msi">https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.msi</a>
+ 直接运行安装</p>
+
+    <ul>
+      <li>在终端（PS）用winget命理安装：<code class="language-plaintext highlighter-rouge">winget install --id Cloudflare.cloudflared</code></li>
+    </ul>
+  </li>
+  <li>
+    <p>使用管理员方法打开终端（PS或cmd）</p>
+  </li>
+  <li>
+    <p>运行隧道连接服务，命令见配置网页（包含token，每个账户的都不一样）</p>
+
+    <p><img src="/assets/pics/cloudflare-tunnel-configure.png" alt="Cloudflared连接服务" /></p>
+  </li>
+</ol>
+
+<p>该服务随系统启动，后台自动运行。至此，远程被访问主机/服务器端配置完成。</p>
+
+<h2 id="回到第一步最后的浏览器继续完成配置">回到第一步最后的浏览器，继续完成配置</h2>
+
+<p>在cloudflare上配置域名过程省略。</p>
+
+<ol>
+  <li>
+    <p>点击next，选择连接一个应用（connect an application）</p>
+  </li>
+  <li>
+    <p>设置子域名（subdomain），选择域名（domain）</p>
+  </li>
+  <li>
+    <p>选择服务类型RDP，设置URL为localhost:3389</p>
+  </li>
+  <li>
+    <p>保存主机名后，cloudflare会自动在域名管理中创建一个cname类型的DNS记录（record）。</p>
+  </li>
+  <li>
+    <p>查看隧道状况。</p>
+  </li>
+</ol>
+
+<h2 id="配置本地电脑客户端机">配置本地电脑/客户端机</h2>
+
+<ol>
+  <li>
+    <p>在客户端机下载安装Cloudflared，方法同前</p>
+  </li>
+  <li>
+    <p>运行RDP监听，命令如下</p>
+
+    <p><code class="language-plaintext highlighter-rouge">cloudflared access rdp --hostname rdp.example.com --url rdp://localhost:3389</code></p>
+
+    <p>注：如果3389端口被window自带服务监听，则可以改成其他端口</p>
+  </li>
+  <li>
+    <p>打开远程桌面连接<strong>Remote Desktop Connection</strong>应用</p>
+  </li>
+  <li>
+    <p>计算机输入localhost:3389，开始连接</p>
+
+    <p>用户名、密码为远程主机用户名、密码</p>
+  </li>
+</ol>
+
+<h2 id="参考">参考</h2>
+
+<ul>
+  <li><a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/#1-create-a-tunnel">Create a tunnel - Cloudflare Zero Trust</a></li>
+  <li><a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/rdp/#2-connect-as-a-user">Connect as a user - Cloudflare Zero Trust</a></li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="Cloudflare" /><category term="Windows" /><category term="Remote Desktop" /><category term="内网穿透" /><summary type="html"><![CDATA[如题，本文主要介绍利用Cloudflare Tunnel来实现Windows远程桌面访问。]]></summary></entry><entry><title type="html">Update home assistant operating system from virsh guest console</title><link href="https://longlovemyu.com/hassio-operating-system-update" rel="alternate" type="text/html" title="Update home assistant operating system from virsh guest console" /><published>2024-08-25T06:00:00+00:00</published><updated>2024-08-25T06:00:00+00:00</updated><id>https://longlovemyu.com/hassio-operating-system-update</id><content type="html" xml:base="https://longlovemyu.com/hassio-operating-system-update"><![CDATA[<p>Update to <a href="https://github.com/home-assistant/operating-system">Home Assistant Operating System</a> is based on the release in <a href="https://github.com">Github</a>. It means we may fall in the <code class="language-plaintext highlighter-rouge">Error updating Home Assistant Operating System: Can't fetch OTA update from https://github.com/home-assistant/operating-system/releases/download/13.1/haos_ova-13.1.raucb</code> in the place where <a href="https://github.com">GitHub</a> is not accessible.
+This post show a temporary solution.</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<p>Update to <a href="https://github.com/home-assistant/operating-system">Home Assistant Operating System</a> is based on its <a href="https://github.com/home-assistant/operating-system/releases">release</a> in <a href="https://github.com">Github</a>. It means we may fall in the <code class="language-plaintext highlighter-rouge">Error updating Home Assistant Operating System: Can't fetch OTA update from https://github.com/home-assistant/operating-system/releases/download/13.1/haos_ova-13.1.raucb</code> in the place where <a href="https://github.com">GitHub</a> is not accessible.</p>
+
+<p>So we can make it by modifying the <code class="language-plaintext highlighter-rouge">release_url</code>.</p>
+
+<h2 id="proxying-github">Proxying <a href="https://github.com">Github</a></h2>
+
+<p>Check my another post <a href="https://longlovemyu.com/fasten-github/" target="_blank">如何解决github访问慢的问题（中文）</a>.</p>
+
+<p>For example, add proxy link <code class="language-plaintext highlighter-rouge">https://gh.api.99988866.xyz/</code> ahead of the original release link.</p>
+
+<h2 id="deep-track-it">Deep track it</h2>
+
+<p>Check the error log again.</p>
+
+<blockquote>
+  <p>2024-08-24 21:33:44.051 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [139950367721920] Error updating Home Assistant Operating System: Can’t fetch OTA update from https://github.com/home-assistant/operating-system/releases/download/13.1/haos_ova-13.1.raucb:
+Traceback (most recent call last):
+File “/usr/src/homeassistant/homeassistant/components/hassio/update.py”, line 213, in async_install
+await async_update_os(self.hass, version)
+…</p>
+</blockquote>
+
+<p>This script file <code class="language-plaintext highlighter-rouge">/usr/src/homeassistant/homeassistant/components/hassio/update.py</code> will be the key.</p>
+
+<p>Let’s have a look in its <a href="https://github.com/home-assistant/core/blob/b63fb9f17f963221cb979316c40b46e896eabb0c/homeassistant/components/hassio/update.py">source</a>.
+It’s easy to find out the following code snippet.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">SupervisorOSUpdateEntity</span><span class="p">(</span><span class="n">HassioOSEntity</span><span class="p">,</span> <span class="n">UpdateEntity</span><span class="p">):</span>
+    <span class="s">"""Update entity to handle updates for the Home Assistant Operating System."""</span>
+
+    <span class="p">...</span>
+
+    <span class="o">@</span><span class="nb">property</span>
+    <span class="k">def</span> <span class="nf">release_url</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span> <span class="o">|</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="s">"""URL to the full release notes of the latest version available."""</span>
+        <span class="n">version</span> <span class="o">=</span> <span class="n">AwesomeVersion</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">latest_version</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">version</span><span class="p">.</span><span class="n">dev</span> <span class="ow">or</span> <span class="n">version</span><span class="p">.</span><span class="n">strategy</span> <span class="o">==</span> <span class="n">AwesomeVersionStrategy</span><span class="p">.</span><span class="n">UNKNOWN</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s">"https://github.com/home-assistant/operating-system/commits/dev"</span>
+        <span class="k">return</span> <span class="p">(</span>
+            <span class="sa">f</span><span class="s">"https://github.com/home-assistant/operating-system/releases/tag/</span><span class="si">{</span><span class="n">version</span><span class="si">}</span><span class="s">"</span>
+        <span class="p">)</span>
+
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">async_install</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">version</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="bp">None</span><span class="p">,</span> <span class="n">backup</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Any</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="s">"""Install an update."""</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">await</span> <span class="n">async_update_os</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">hass</span><span class="p">,</span> <span class="n">version</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">HassioAPIError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">HomeAssistantError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s">"Error updating Home Assistant Operating System: </span><span class="si">{</span><span class="n">err</span><span class="si">}</span><span class="s">"</span>
+            <span class="p">)</span> <span class="k">from</span> <span class="n">err</span>
+</code></pre></div></div>
+
+<p>There is a <code class="language-plaintext highlighter-rouge">release_url</code> function to generate the part of the link for the release. Then we have to modifying it to</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="o">@</span><span class="nb">property</span>
+    <span class="k">def</span> <span class="nf">release_url</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span> <span class="o">|</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="s">"""URL to the full release notes of the latest version available."""</span>
+        <span class="n">version</span> <span class="o">=</span> <span class="n">AwesomeVersion</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">latest_version</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">version</span><span class="p">.</span><span class="n">dev</span> <span class="ow">or</span> <span class="n">version</span><span class="p">.</span><span class="n">strategy</span> <span class="o">==</span> <span class="n">AwesomeVersionStrategy</span><span class="p">.</span><span class="n">UNKNOWN</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s">"https://gh.api.99988866.xyz/https://github.com/home-assistant/operating-system/commits/dev"</span>
+        <span class="k">return</span> <span class="p">(</span>
+            <span class="sa">f</span><span class="s">"https://gh.api.99988866.xyz/https://github.com/home-assistant/operating-system/releases/tag/</span><span class="si">{</span><span class="n">version</span><span class="si">}</span><span class="s">"</span>
+        <span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="config-it-from-virsh-guest-console">Config it from <a href="https://libvirt.org/manpages/virsh.html">virsh</a> guest console</h2>
+
+<p>Open a guest console via <a href="https://libvirt.org/manpages/virsh.html">virsh</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh console hass</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">root</code></p>
+
+<p>Check docker root directory.</p>
+
+<p><code class="language-plaintext highlighter-rouge">docker info</code></p>
+
+<p>We can see the <code class="language-plaintext highlighter-rouge">Docker Root Dir</code> item. Mostly, it should be <code class="language-plaintext highlighter-rouge">/mnt/data/docker</code>.</p>
+
+<p>Find the script file <code class="language-plaintext highlighter-rouge">/usr/src/homeassistant/homeassistant/components/hassio/update.py</code> with:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /
+find <span class="nb">.</span> <span class="nt">-path</span> <span class="se">\*</span>/usr/src/homeassistant/homeassistant/components/hassio/update.py
+</code></pre></div></div>
+
+<p>It will list all full path for this file. For example,</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./mnt/data/docker/overlay2/356af2cef9b08a2162030badae8304fa4f2ae7f6544efb1a78b88e45472f7c90/diff/usr/src/homeassistant/homeassistant/components/hassio/update.py
+./mnt/data/docker/overlay2/cc97cec3597fd6ed024f0f1af2a7e06e60df7a27ec03304342198257c7bb688d/diff/usr/src/homeassistant/homeassistant/components/hassio/update.py
+./mnt/data/docker/overlay2/f8c72160e7488a7c152815e67a7f220f052e7b50d7fc606ee778099c2256237a/merged/usr/src/homeassistant/homeassistant/components/hassio/update.py
+./var/lib/docker/overlay2/356af2cef9b08a2162030badae8304fa4f2ae7f6544efb1a78b88e45472f7c90/diff/usr/src/homeassistant/homeassistant/components/hassio/update.py
+./var/lib/docker/overlay2/cc97cec3597fd6ed024f0f1af2a7e06e60df7a27ec03304342198257c7bb688d/diff/usr/src/homeassistant/homeassistant/components/hassio/update.py
+./var/lib/docker/overlay2/f8c72160e7488a7c152815e67a7f220f052e7b50d7fc606ee778099c2256237a/merged/usr/src/homeassistant/homeassistant/components/hassio/update.py
+</code></pre></div></div>
+
+<p>I cannot recognize which is the right one. Then I modified the first three files (they are all under the Docker root directory).</p>
+
+<p><code class="language-plaintext highlighter-rouge">vi /mnt/data/docker/overlay2/356af2cef9b08a2162030badae8304fa4f2ae7f6544efb1a78b88e45472f7c90/diff/usr/src/homeassistant/homeassistant/components/hassio/update.py</code></p>
+
+<h2 id="retry-to-update">Retry to update</h2>
+
+<p>Go back to <a href="https://www.home-assistant.io">homeassistant</a> lovelace and you can see the update task under the <code class="language-plaintext highlighter-rouge">Settings</code>.</p>
+
+<p>It works this time for me. And best wishes to you.</p>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="home assistant" /><category term="virsh" /><category term="Ubuntu" /><category term="Docker" /><category term="Github" /><summary type="html"><![CDATA[Update to Home Assistant Operating System is based on the release in Github. It means we may fall in the Error updating Home Assistant Operating System: Can't fetch OTA update from https://github.com/home-assistant/operating-system/releases/download/13.1/haos_ova-13.1.raucb in the place where GitHub is not accessible. This post show a temporary solution.]]></summary></entry><entry><title type="html">Set up an application-level proxy via proxychains</title><link href="https://longlovemyu.com/proxy-via-proxychains" rel="alternate" type="text/html" title="Set up an application-level proxy via proxychains" /><published>2024-08-23T08:00:00+00:00</published><updated>2024-08-23T08:00:00+00:00</updated><id>https://longlovemyu.com/set-a-proxy-via-proxychains</id><content type="html" xml:base="https://longlovemyu.com/proxy-via-proxychains"><![CDATA[<p>This is a short guide to set up a proxy on a Linux system.</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<h2 id="install-proxychains">Install <a href="https://proxychains.sourceforge.net">ProxyChains</a></h2>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install proxychains</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">apk add proxychains-ng</code>	<a href="https://pkgs.alpinelinux.org/package">alpine linux</a></p>
+
+<h2 id="configure-proxychains">Configure <a href="https://proxychains.sourceforge.net">ProxyChains</a></h2>
+
+<p>Add the following content in the configuration file <code class="language-plaintext highlighter-rouge">/etc/proxychains.conf</code> or <code class="language-plaintext highlighter-rouge">/etc/proxychains/proxychains.conf</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">http	&lt;your server ip&gt;	&lt;port&gt;</code> For example, <code class="language-plaintext highlighter-rouge">http	192.168.31.138	10811</code></p>
+
+<h2 id="use--test-proxychains">Use / test <a href="https://proxychains.sourceforge.net">ProxyChains</a></h2>
+
+<p><code class="language-plaintext highlighter-rouge">proxychains curl ifconfig.me/ip</code></p>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="proxychains" /><category term="proxy" /><category term="linux" /><summary type="html"><![CDATA[This is a short guide to set up a proxy on a Linux system.]]></summary></entry><entry><title type="html">The detailed steps of installing Home Assistant Operating System on Ubuntu</title><link href="https://longlovemyu.com/install-haos-on-ubuntu" rel="alternate" type="text/html" title="The detailed steps of installing Home Assistant Operating System on Ubuntu" /><published>2024-08-22T06:10:00+00:00</published><updated>2024-08-22T06:10:00+00:00</updated><id>https://longlovemyu.com/ha-os-installation</id><content type="html" xml:base="https://longlovemyu.com/install-haos-on-ubuntu"><![CDATA[<p>As the title, this is the detailed steps.</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<h2 id="install-virt-manager">Install <a href="https://help.ubuntu.com/community/KVM/VirtManager">virt-manager</a></h2>
+
+<p><code class="language-plaintext highlighter-rouge">apt install virt-manager</code> or <code class="language-plaintext highlighter-rouge">sudo apt install virt-manager</code></p>
+
+<h2 id="config-internet">Config internet</h2>
+
+<p>Check <a href="https://community.home-assistant.io/t/install-home-assistant-os-with-kvm-on-ubuntu-headless-cli-only/254941#2-set-up-network-8">Aephir’s post</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">apt install net-tools</code> or <code class="language-plaintext highlighter-rouge">sudo apt install net-tools</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">ifconfig</code></p>
+
+<p>Mark the network interface, <code class="language-plaintext highlighter-rouge">eno1</code>, <code class="language-plaintext highlighter-rouge">enp1s0</code>..</p>
+
+<p>Create a netplan <code class="language-plaintext highlighter-rouge">yaml</code> file in the <code class="language-plaintext highlighter-rouge">/etc/netplan/</code> directory with the following content.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># This is the network config written by 'subiquity'</span>
+<span class="na">network</span><span class="pi">:</span>
+  <span class="na">ethernets</span><span class="pi">:</span>
+    <span class="na">eno1</span><span class="pi">:</span>
+      <span class="na">dhcp4</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">version</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">bridges</span><span class="pi">:</span>
+    <span class="na">br0</span><span class="pi">:</span>
+      <span class="na">dhcp4</span><span class="pi">:</span> <span class="s">yes</span>
+      <span class="na">interfaces</span><span class="pi">:</span>
+             <span class="pi">-</span> <span class="s">eno1</span>
+      <span class="na">parameters</span><span class="pi">:</span>
+        <span class="na">stp</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Note replacing <code class="language-plaintext highlighter-rouge">eno1</code> with your bridge interface.</p>
+
+<p><code class="language-plaintext highlighter-rouge">netplan generate</code> or <code class="language-plaintext highlighter-rouge">sudo netplan generate</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">netplan apply</code> or <code class="language-plaintext highlighter-rouge">sudo netplan apply</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">apt install bridge-utils</code> or <code class="language-plaintext highlighter-rouge">sudo apt install bridge-utils</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">brctl show</code></p>
+
+<p>Mark the bridge adapter name, <code class="language-plaintext highlighter-rouge">br0</code> or something else.</p>
+
+<h2 id="prepare-the-image">Prepare the image</h2>
+
+<ul>
+  <li>
+    <p>Download the <a href="https://github.com/home-assistant/operating-system/releases">latest image</a>.</p>
+  </li>
+  <li>
+    <p>Decompress it, if needed. Note that some <code class="language-plaintext highlighter-rouge">.xz</code> files were broken.</p>
+
+    <p><code class="language-plaintext highlighter-rouge">xz -d -v haos_ova-10.4.qcow2.xz</code> or <code class="language-plaintext highlighter-rouge">unxz haos_ova-10.4.qcow2.xz</code></p>
+
+    <p><a href="https://www.360totalsecurity.com/en/360zip/">360 zip</a> works perfect.</p>
+  </li>
+</ul>
+
+<h2 id="install-the-haos-vm">Install the HAOS VM</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>virt-install <span class="nt">--import</span> <span class="nt">--name</span> hass <span class="nt">--description</span> <span class="s2">"Home Assistant OS"</span> <span class="nt">--os-variant</span><span class="o">=</span>generic <span class="se">\</span>
+<span class="nt">--memory</span> 2048 <span class="nt">--vcpus</span> 2 <span class="nt">--cpu</span> host <span class="se">\</span>
+<span class="nt">--disk</span> &lt;path to qcow2 file&gt;,format<span class="o">=</span>qcow2,bus<span class="o">=</span>virtio <span class="se">\</span>
+<span class="nt">--network</span> <span class="nv">bridge</span><span class="o">=</span>br0,model<span class="o">=</span>virtio <span class="se">\</span>
+<span class="nt">--osinfo</span> <span class="nv">detect</span><span class="o">=</span>on,require<span class="o">=</span>off <span class="se">\</span>
+<span class="nt">--graphics</span> none <span class="se">\</span>
+<span class="nt">--noautoconsole</span> <span class="se">\</span>
+<span class="nt">--boot</span> uefi <span class="se">\</span>
+<span class="nt">--autostart</span>
+</code></pre></div></div>
+
+<p>Then wait patiently.</p>
+
+<h2 id="virsh-commands"><code class="language-plaintext highlighter-rouge">virsh</code> commands</h2>
+
+<p>List domains/VMs:</p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh list</code> or <code class="language-plaintext highlighter-rouge">virsh list --all</code></p>
+
+<p>Start a domian:</p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh start &lt;domain name&gt;</code></p>
+
+<p>Immediately shutdown a domain:</p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh destory &lt;domain name&gt;</code></p>
+
+<p>Gracefully shutdown a domain:</p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh shutdown &lt;domain name&gt;</code> or <code class="language-plaintext highlighter-rouge">virsh destory &lt;domain name&gt; --graceful</code></p>
+
+<p>Get domain information:</p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh dominfo &lt;domain name&gt;</code></p>
+
+<p>Connect to the domain’s guest console:</p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh console &lt;domain name&gt;</code></p>
+
+<p>Remove a domain:</p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh undefine &lt;domain name&gt;  --remove-all-storage</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">virsh undefine &lt;domain name&gt;  --remove-all-storage --nvram</code> (error: Requested operation is not valid: cannot undefine domain with nvram)</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://community.home-assistant.io/t/install-home-assistant-os-with-kvm-on-ubuntu-headless-cli-only/254941">Install Home Assistant OS with KVM on Ubuntu headless (CLI only)</a></li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="home assistant" /><category term="virsh" /><category term="Ubuntu" /><summary type="html"><![CDATA[As the title, this is the detailed steps.]]></summary></entry><entry><title type="html">Create an empty Jekyll site step by step</title><link href="https://longlovemyu.com/empty-jekll-site" rel="alternate" type="text/html" title="Create an empty Jekyll site step by step" /><published>2024-08-18T03:20:00+00:00</published><updated>2024-08-18T03:20:00+00:00</updated><id>https://longlovemyu.com/create-an-empty-jekyll-site</id><content type="html" xml:base="https://longlovemyu.com/empty-jekll-site"><![CDATA[<p>This guide outlines the steps to set up a new Jekyll site on a Linux system.</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<h2 id="development-environment">development environment</h2>
+
+<ul>
+  <li>
+    <p>Linux</p>
+  </li>
+  <li>
+    <p><a href="https://git-scm.com">git</a></p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>git
+git <span class="nt">-v</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://www.ruby-lang.org/en/documentation/installation">Ruby</a> (and <a href="https://github.com/rubygems/rubygems?tab=readme-ov-file#installation">RubyGems</a>)</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>ruby
+ruby <span class="nt">-v</span>
+gem <span class="nt">-v</span>
+</code></pre></div>    </div>
+
+    <p>Maybe gem source have to be changed.</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem sources <span class="nt">--add</span> https://gems.ruby-china.com/ <span class="nt">--remove</span> https://rubygems.org/
+gem sources <span class="nt">-l</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://bundler.io">Bundler</a></p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>bundler
+bundle <span class="nt">-v</span>
+</code></pre></div>    </div>
+
+    <p>Maybe bundler source have to be changed as well.</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+bundle config
+bundle config mirror.https://rubygems.org
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://jekyllrb.com">Jekyll</a></p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>jekyll
+jekyll <span class="nt">-v</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="start-a-new-jekyll-project">Start a new <a href="https://jekyllrb.com">Jekyll</a> project</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  jekyll new &lt;YOUR PROJECT NAME&gt; <span class="nt">--blank</span>
+</code></pre></div></div>
+
+<h2 id="set-up-git">Set up git</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nb">cd</span> &lt;YOUR PROJECT NAME&gt;
+  git init
+</code></pre></div></div>
+
+<p>Maybe rename the branch.</p>
+
+<p><code class="language-plaintext highlighter-rouge">git branch -m &lt;OLD BRANCH NAME&gt; &lt;NEW BRANCH NAME&gt;</code></p>
+
+<p>Create a file named <code class="language-plaintext highlighter-rouge">.gitignore</code> and paste the following in it:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  _site/
+  .sass-cache/
+  .jekyll-cache/
+  .jekyll-metadata
+  node_modules
+</code></pre></div></div>
+
+<h2 id="install-ruby-gems">Install <a href="https://www.ruby-lang.org/en/documentation/installation">Ruby</a> gems</h2>
+
+<p>Create a <code class="language-plaintext highlighter-rouge">Gemfile</code> which is a list of gems used by your site. Add it to the root directory with the following content:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  source 'https://rubygems.org'
+
+  gem 'jekyll'
+  gem 'webrick'
+</code></pre></div></div>
+
+<p>Now install those gems by <a href="https://bundler.io">Bundler</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">bundle</code></p>
+
+<h2 id="build-the-jekyll-site">Build the <a href="https://jekyllrb.com">Jekyll</a> site</h2>
+
+<p><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></p>
+
+<p>Open <a href="https://localhost:4000">https://localhost:4000</a> in your browser. If you see something like this.</p>
+
+<p><img src="assets/pics/readytogo.png" alt="readytogo" /></p>
+
+<h2 id="publish-to-github-optional">Publish to <a href="https://github.com">Github</a> (optional)</h2>
+
+<p>Add files to the staging area and commit your changes.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git add <span class="nb">.</span>
+  git commit <span class="nt">-m</span> <span class="s1">'Your commit message'</span>
+</code></pre></div></div>
+<p>Create a <a href="https://github.com">Github</a> repository.</p>
+
+<ul>
+  <li>
+    <p>Go to GitHub.com and sign in to your account.</p>
+  </li>
+  <li>
+    <p>Click on the “+” button in the top right corner and select “New repository.”</p>
+  </li>
+  <li>
+    <p>Give your repository a name and description.</p>
+  </li>
+  <li>
+    <p>Choose whether you want the repository to be public or private.</p>
+  </li>
+  <li>
+    <p>Click “Create repository.”</p>
+  </li>
+</ul>
+
+<p>Connect the local repository to <a href="https://github.com">Github</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">git remote add origin https://github.com/&lt;your_username&gt;/&lt;your_repository_name&gt;.git</code></p>
+
+<p>Push your local changes to <a href="https://github.com">Github</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">git push origin main</code></p>
+
+<p>You’r made it.</p>
+
+<p>You can find the takeaway repository from <a href="https://github.com/longavailable/empty-jekyll-site">https://github.com/longavailable/empty-jekyll-site</a>.</p>
+
+<h2 id="usefull-links">Usefull links</h2>
+
+<ul>
+  <li>
+    <p><a href="https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022">Starting a blank Jekyll site with Tailwind CSS in 2022</a></p>
+  </li>
+  <li>
+    <p><a href="https://jekyllrb.com/docs/installation">Installation - Jekyll</a></p>
+  </li>
+  <li>
+    <p><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository">Creating a new repository - Github</a></p>
+  </li>
+</ul>
+
+<!--links-->]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="Jekyll" /><category term="Github" /><category term="Ruby" /><category term="Bundler" /><category term="linux" /><summary type="html"><![CDATA[This guide outlines the steps to set up a new Jekyll site on a Linux system.]]></summary></entry><entry><title type="html">Sites worth sharing</title><link href="https://longlovemyu.com/helpful_sites/" rel="alternate" type="text/html" title="Sites worth sharing" /><published>2024-08-06T14:00:00+00:00</published><updated>2024-08-06T14:00:00+00:00</updated><id>https://longlovemyu.com/helpful-sites</id><content type="html" xml:base="https://longlovemyu.com/helpful_sites/"><![CDATA[<p>Those sites were worth sharing.
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+Be careful! Geeky!</p>
+
+<p><b>Tim Dettmers</b>
+	  
+	<a href="https://timdettmers.com"><img src="/assets/pics/blog_35by27.png" height="20" /></a></p>
+
+<p><b>高金的博客</b>
+	  
+	<a href="https://jin10086.github.io"><img src="/assets/pics/blog_35by27.png" height="20" /></a>
+	  
+	<a href="https://igaojin.me/"><img src="/assets/pics/blog_35by27.png" height="20" /></a>
+	  
+	<a href="https://github.com/jin10086"><img src="/assets/pics/github_marker_32px.png" height="20" /></a></p>
+
+<p><b>静能生慧</b> 
+	  
+	<a href="https://wsxq2.github.io"><img src="/assets/pics/blog_35by27.png" height="20" /></a>
+	  
+	<a href="https://wsxq2.55555.io/"><img src="/assets/pics/blog_35by27.png" height="20" /></a>
+	  
+	<a href="https://github.com/wsxq2"><img src="/assets/pics/github_marker_32px.png" height="20" /></a></p>
+
+<p><b>吹泡泡的小猫</b>
+	  
+	<a href="https://blog.csdn.net/orbit"><img src="/assets/pics/blog_35by27.png" height="20" /></a>
+	  
+	<a href="https://github.com/inte2000"><img src="/assets/pics/github_marker_32px.png" height="20" /></a></p>
+
+<p><b>GISer空间</b> 
+	  
+	<a href="https://huanglii.github.io"><img src="/assets/pics/blog_35by27.png" height="20" /></a>
+	  
+	<a href="https://giser.xyz/"><img src="/assets/pics/blog_35by27.png" height="20" /></a>
+	  
+	<a href="https://github.com/huanglii"><img src="/assets/pics/github_marker_32px.png" height="20" /></a></p>
+
+<p><b>啊哈磊</b>
+	  
+	<a href="https://blog.51cto.com/ahalei"><img src="/assets/pics/blog_35by27.png" height="20" /></a></p>
+
+<p><b>博弈BLOG</b> 
+	  
+	<a href="https://retire50blog.wang"> 🆕 <img src="/assets/pics/blog_35by27.png" height="20" /></a>
+	  
+	<a href="https://blog1.jyzzj.online"> 🛑 <img src="/assets/pics/blog_35by27.png" height="20" /></a></p>
+
+<p><b>JSDELIVR</b> 
+	  
+	<a href="https://www.jsdelivr.com"> 🆕 <img src="https://www.jsdelivr.com/assets/195d6b8d39a78fb24d8acef7d0ed4c80365e4a9f/img/jsdelivr-horizontal-regular.svg" height="20" /></a></p>]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="sites" /><summary type="html"><![CDATA[Those sites were worth sharing.]]></summary></entry><entry><title type="html">在线证件照制作-最佳实践</title><link href="https://longlovemyu.com/online-id-photo-maker" rel="alternate" type="text/html" title="在线证件照制作-最佳实践" /><published>2024-06-20T07:00:00+00:00</published><updated>2024-06-20T07:00:00+00:00</updated><id>https://longlovemyu.com/id-photo-maker</id><content type="html" xml:base="https://longlovemyu.com/online-id-photo-maker"><![CDATA[<p>证件照最繁琐的是如何抠出最理想的人像图片，比如人物衣服边缘、头发丝等。本实践借助removebg免费版实现了自助制作证件照的最佳实践。</p>
+
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<p>主要步骤如下：</p>
+
+<h2 id="准备原始照片">准备原始照片</h2>
+
+<ul>
+  <li>
+    <p>工具：手机</p>
+  </li>
+  <li>
+    <p>要求：尽量背景干净，面部光线均匀，衣服整洁…</p>
+  </li>
+</ul>
+
+<h2 id="裁剪照片">裁剪照片</h2>
+
+<ul>
+  <li>
+    <p>工具：有图片裁剪功能的工具均可，如手机照片裁剪，<a href="https://picpick.app/">PicPick</a></p>
+  </li>
+  <li>
+    <p>要求：尽量将无效区域（头部以上区域、肩膀两侧区域、半身以下区域）都裁剪掉</p>
+  </li>
+</ul>
+
+<h2 id="调整亮度如有需要">调整亮度（如有需要）</h2>
+
+<ul>
+  <li>工具：手机照片编辑器、<a href="https://www.faststone.org/">FastStone Image Viewer</a></li>
+</ul>
+
+<h2 id="去除背景">去除背景</h2>
+
+<ul>
+  <li>
+    <p>工具：<a href="https://www.remove.bg/upload">removebg</a></p>
+  </li>
+  <li>
+    <p>操作：免费下载即可满足证件照像素要求</p>
+  </li>
+</ul>
+
+<h2 id="证件照制作">证件照制作</h2>
+
+<ul>
+  <li>
+    <p>工具：<a href="https://id-photo.cn/png/">证件照大师</a></p>
+  </li>
+  <li>
+    <p>主要操作：（重新）选择照片、增加头部留白（补充前面的过度裁剪）、选择证件照尺寸及颜色、保存最终证件照。</p>
+  </li>
+</ul>]]></content><author><name>Bruce Liu</name></author><category term="post" /><category term="ID photo" /><category term="证件照" /><summary type="html"><![CDATA[证件照最繁琐的是如何抠出最理想的人像图片，比如人物衣服边缘、头发丝等。本实践借助removebg免费版实现了自助制作证件照的最佳实践。]]></summary></entry></feed>
