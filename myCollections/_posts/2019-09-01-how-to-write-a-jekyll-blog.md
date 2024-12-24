@@ -3,7 +3,7 @@ layout: post
 title:  How to write a Jekyll blog
 author: Bruce Liu
 # last update date
-date:   2023-08-24 16:40:00 +0800
+date:   2024-12-24 14:20:00 +0800
 # first published date
 published: 2019-09-01 00:50:00 +0200 
 categories: [post]
@@ -233,6 +233,7 @@ Press **F** to fullscreen mode.
 - [markdown-guide](https://markdown-guide.readthedocs.io/en/latest/index.html)
 - [MathJax in Markdown](https://hiltmon.com/blog/2017/01/28/mathjax-in-markdown/)
 - [Equation Editor](https://www.codecogs.com/latex/eqneditor.php)
+- [Host Math](https://www.hostmath.com)
 - [Jekyll: Previous And Next Posts](https://www.bytedude.com/jekyll-previous-and-next-posts/)
 - [Jekyll without plugins](https://jekyllcodex.org/without-plugins/)
 - [Basic syntax - Liquid template language](https://shopify.github.io/liquid/basics/introduction/)
