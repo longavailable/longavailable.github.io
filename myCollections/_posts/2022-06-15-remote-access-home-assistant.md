@@ -3,7 +3,7 @@ layout: post
 title:  Free ways to access home assistant remotely
 author: Bruce Liu
 #last update date
-date:   2022-06-15 09:50:00 +0800
+date:   2025-03-27 15:50:00 +0800
 #first published date
 published: 2022-06-15 09:50:00 +0800
 categories: [post]
@@ -83,6 +83,14 @@ I cloudflared <longlovemyu.com>. So I did a forwarding test by using [cloudflare
 ![cpolar channel](/assets/pics/ha-forward-cpolar-link.png)
 
 Enjoy it!
+
+## Commands for [screen]
+
+`screen -ls`
+
+`killall screen`
+
+`screen -x <screen id>`
 
 
 <!--links-->
