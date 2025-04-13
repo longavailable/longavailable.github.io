@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2024-12-04 22:40:00 +0800
+date:   2025-04-13 11:50:00 +0800
 #first published date
 published: 2021-03-13 10:10:00 +0800
 categories: [post]
@@ -35,7 +35,8 @@ permalink: /useful-tools/
 | [图像中裁剪圆圈](https://crop-circle.imageonline.co/cn/) | <https://crop-circle.imageonline.co/cn/> |
 | 视频字幕、语音转文字、文档翻译、图片翻译[网易见外工作台](https://jianwai.youdao.com) | <https://jianwai.youdao.com> |
 | 视频、语音、图片转文字[悦录-同花顺出品](http://www.voiceclub.cn) | <http://www.voiceclub.cn> |
-| 文件收集[收件夹](http://xzc.cn/) | <http://xzc.cn/> |
+| 文件收集[收件夹](http://xzc.cn/)(失效) | <http://xzc.cn/> |
+| [坚果云](https://www.jianguoyun.com/)[收件箱](https://workspace.jianguoyun.com/) | <https://workspace.jianguoyun.com/>, 查看收集结果<https://www.jianguoyun.com/> |
 | PDF对比[ParePdf](https://www.parepdf.com/zh-CN/) | <https://www.parepdf.com/zh-CN/> |
 | PDF转图片/长图片[依奇在线超级转换工具](https://www.wdku.net/) | <https://pdf.wdku.net/pdftoimage> |
 | 证件照剪切制作工具[证件照大师](https://id-photo.cn/maker/) | <https://id-photo.cn/maker/> |
