@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2025-04-23 15:10:00 +0800
+date:   2025-05-18 10:30:00 +0800
 #first published date
 published: 2021-03-13 10:10:00 +0800
 categories: [post]
@@ -20,6 +20,8 @@ permalink: /useful-tools/
 | **Windows Application** ||
 | ---------------------------|----------------------------|
 | Application / Softs        | Download links / Webpages  |
+| [Mermaid Live Editor](https://mermaid.live/) | <https://mermaid.live/> |
+| [Xmind Online](https://xmind.ai/) | <https://xmind.ai/> |
 | S*h*a*d*ows$oc&ks / v#2r@ay*N | [s&s](https://shadowsocks.org/en/download/clients.html), [v2&&ray&*N](https://github.com/2dust/v2rayN/releases), [蓝奏云密码666](https://wwe.lanzous.com/b01099klg) |
 | DWG FastView for Windows | [官网](https://en.dwgfastview.com/cloud/download/) |
 | CiteHist/CiteHist pro | [CiteHist官网], [CiteHist Pro官网], [蓝奏云密码666](https://wwe.lanzous.com/b010bc9dc) |
