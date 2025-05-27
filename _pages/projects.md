@@ -36,6 +36,12 @@ permalink: /projects/
 	
 - # [polygon](/Polygon/)(for test)
 
+- # [南科Robin的工具箱]
+
+    - # [钢筋混凝土结构设计工具箱]
+    
+    - # [建筑设备安装工程工具箱]
+
 
 [Voronoi diagram for polygons]: /voronoi-diagram-for-polygons
 [adaptive-curvefitting]: /adaptive-curvefitting
@@ -45,6 +51,9 @@ permalink: /projects/
 [empty-omegat-project]: /empty-omegat-project
 [generate-publication-overview]: /generate-publication-overview
 [nanjing-lulc-modified-sankey]: /nanjing-lulc-modified-sankey
+[南科Robin的工具箱]: /njpi-robin-toolbox
+[钢筋混凝土结构设计工具箱]: /reinforced-concrete-structure
+[建筑设备安装工程工具箱]: /construction-equipment-installation-engineering
 
 [scipy]: https://scipy.org/scipylib/
 [numpy]: https://numpy.org/
