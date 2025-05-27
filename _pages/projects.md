@@ -38,9 +38,9 @@ permalink: /projects/
 
 - # [南科Robin的工具箱]
 
-    - # [钢筋混凝土结构设计工具箱]
+    - [钢筋混凝土结构设计工具箱]
     
-    - # [建筑设备安装工程工具箱]
+    - [建筑设备安装工程工具箱]
 
 
 [Voronoi diagram for polygons]: /voronoi-diagram-for-polygons
