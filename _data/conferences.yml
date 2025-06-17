@@ -1,0 +1,23 @@
+# 学术会议信息
+
+- title: "摄影测量与遥感2025学术年会"
+  start_date: "2025-07-28"
+  end_date: "2025-07-30"
+  location: "昆明云安会都酒店"
+  registration_deadline: "2025-07-10"
+  url: "https://CLYG2025.scimeeting.cn"
+  cost: 会议费2000元/人+食宿自理
+  reminder_cycle: 14 # 提前14天提醒
+  status: "potential" # 表示尚未注册
+
+- title: "第二届城市生命线国际研讨会"
+  start_date: "2025-07-18"
+  end_date: "2025-07-20"
+  location: "日本琦玉"
+  registration_deadline: "2025-06-30"
+  url: "https://isul.org.cn/saitama/index.html"
+  cost: 会议费80000JPY/人+食宿自理
+  reminder_cycle: 7 # 提前7天提醒
+  status: "potential"
+  
+# 更多会议...
