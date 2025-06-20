@@ -1,31 +1,31 @@
 # 学术会议信息
 
 - title: 2025中国水利学术大会
-  start_date: 2025-10-25
-  end_date: 2025-10-26
+  start_date: "2025-10-25"
+  end_date: "2025-10-26"
   location: 河海大学
-  registration_deadline: 2025-10-15
+  registration_deadline: "2025-10-15"
   url: https://ches2025.scimeeting.cn/cn/web/index/28152
   cost: 会议费待定+食宿自理
   reminder_cycle: 14 # 提前14天提醒
-  status: "potential" # 表示尚未注册
+  status: potential # 表示尚未注册
 
-- title: 第八届城市水安全与水管理学术交流会
-  start_date: 2025-09-20
-  end_date: 2025-09-21
-  location: 南京信息工程大学
-  registration_deadline: 2025-09-15
-  url: http://zgfxkh.xml-journal.net/fileZGFXKH/news/zgfxkh/a6fe17d9-bf85-4305-b631-c1ffa418c859.pdf
+- title: "第八届城市水安全与水管理学术交流会"
+  start_date: "2025-09-20"
+  end_date: "2025-09-21"
+  location: "南京信息工程大学"
+  registration_deadline: "2025-09-15"
+  url: "http://zgfxkh.xml-journal.net/fileZGFXKH/news/zgfxkh/a6fe17d9-bf85-4305-b631-c1ffa418c859.pdf"
   cost: 会议费2000元/人+食宿自理
   reminder_cycle: 14 # 提前14天提醒
   status: "potential" # 表示尚未注册
 
-- title: 第十三届全国高校青年教师GIS教学研修班
-  start_date: 2025-08-11
-  end_date: 2025-08-15
-  location: 安徽滁州
-  registration_deadline: 2025-07-25
-  url: https://www.cagis.org.cn/Lists/content/id/4455.html
+- title: "第十三届全国高校青年教师GIS教学研修班"
+  start_date: "2025-08-11"
+  end_date: "2025-08-15"
+  location: "安徽滁州"
+  registration_deadline: "2025-07-25"
+  url: "https://www.cagis.org.cn/Lists/content/id/4455.html"
   cost: 免培训费+食宿自理
   reminder_cycle: 14 # 提前14天提醒
   status: "potential" # 表示尚未注册
