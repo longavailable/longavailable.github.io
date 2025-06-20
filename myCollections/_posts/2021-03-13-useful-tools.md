@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2025-05-30 15:30:00 +0800
+date:   2025-06-20 14:40:00 +0800
 #first published date
 published: 2021-03-13 10:10:00 +0800
 categories: [post]
@@ -22,7 +22,6 @@ permalink: /useful-tools/
 | Application / Softs        | Download links / Webpages  |
 | [Mermaid Live Editor](https://mermaid.live/) | <https://mermaid.live/> |
 | [Xmind Online](https://xmind.ai/) | <https://xmind.ai/> |
-| S*h*a*d*ows$oc&ks / v#2r@ay*N | [s&s](https://shadowsocks.org/en/download/clients.html), [v2&&ray&*N](https://github.com/2dust/v2rayN/releases), [蓝奏云密码666](https://wwe.lanzous.com/b01099klg) |
 | DWG FastView for Windows | [官网](https://en.dwgfastview.com/cloud/download/) |
 | CiteHist/CiteHist pro | [CiteHist官网], [CiteHist Pro官网], [蓝奏云密码666](https://wwe.lanzous.com/b010bc9dc) |
 | 视频录制、屏幕录制、直播录制[OBS Studio](https://obsproject.com/) | <https://obsproject.com/> |
@@ -44,8 +43,7 @@ permalink: /useful-tools/
 | PDF转图片/长图片[依奇在线超级转换工具](https://www.wdku.net/) | <https://pdf.wdku.net/pdftoimage> |
 | 证件照剪切制作工具[证件照大师](https://id-photo.cn/maker/) | <https://id-photo.cn/maker/> |
 | 手写体在线生成[第一字体转换器](http://m.diyiziti.com/shouxie) | <http://m.diyiziti.com/shouxie> |
-| **My tools** ||
-| [RUNSENSE View / NeoRun / EPSON View](https://go-wellness.epson.com/neo-run/user/view/) | EPSON View apk<https://wwru.lanzoub.com/b010bb6hc>蓝奏云密码:888> |
+
 
 
 ## References
