@@ -3,7 +3,7 @@ layout: post
 title:  Update home assistant supervisor/core from virsh guest console
 author: Bruce Liu
 #last update date
-date:   2024-12-19 09:40:00 +0800
+date:   2025-08-05 09:30:00 +0800
 #first published date
 published:   2024-08-24 13:20:00 +0800
 categories: [post]
@@ -87,7 +87,15 @@ List images:
 
 `ha core update`
 
-I place a script to make it on [Github Gist]. And you can run it directly from terminal.
+## Derect scripts
+
+I place two ready-to-go scripts to make them on [Github Gist]. And you can run it directly from terminal.
+
+[Supervisor]:
+
+`curl -l https://gh.api.99988866.xyz/https://gist.githubusercontent.com/longavailable/40df661bb53da392e5bd136fdc0481f9/raw/77bd64b4efc55029d4ee670f24aca748acf5781f/update-ha-supervisor-amd64-hassio-supervisor.sh | bash`
+
+[Core]:
 
 `curl -l https://gh.api.99988866.xyz/https://gist.githubusercontent.com/longavailable/44af7d42ac76ac501fe7d7e832519084/raw/9adda982dc74d95ce5dfe2c1faa36829411f72c8/update-ha-core-qemux86-64-homeassistant.sh | bash`
 
