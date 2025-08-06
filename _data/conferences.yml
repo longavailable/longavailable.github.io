@@ -1,4 +1,13 @@
 # 学术会议信息
+- title: 第十一届江苏省测绘地理信息学会青年科技论坛
+  start_date: "2025-11-01"
+  end_date: "2025-11-01"
+  location: 扬州职业技术大学高邮湖校区
+  registration_deadline: "2025-09-20"
+  url: http://www.chxh.cn/tzgg1/20250730/4e073a1e-d444-477f-a9e1-9fb0dda778a6.html
+  cost: 会议费500元/人+食宿自理
+  reminder_cycle: 14 # 提前14天提醒
+  status: potential # 表示尚未注册
 
 - title: 2025中国水利学术大会
   start_date: "2025-10-25"
