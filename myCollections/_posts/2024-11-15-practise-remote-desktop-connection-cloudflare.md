@@ -3,7 +3,7 @@ layout: post
 title:  利用Cloudflare Tunnel实现远程桌面访问
 author: Bruce Liu
 #last update date
-date:   2024-11-15 15:00:00 +0800
+date:   2025-08-18 10:40:00 +0800
 #first published date
 published:   2024-11-15 15:00:00 +0800
 categories: [post]
@@ -87,11 +87,34 @@ permalink: /remote-desktop-connection-using-cloudfare-tunnel
 1. 计算机输入localhost:3389，开始连接
     
 	用户名、密码为远程主机用户名、密码
+	
+## 更新Cloudflared（被访问主机/服务器端、使用过程中）
+
+1. 与前文相同，两种方法升级Cloudflared
+
+    - 在[cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) Releases页下载msi最新安装文件
+	<https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.msi>
+	直接运行安装更新
+    
+    - 在终端（PS）用winget命令更新：`winget upgrade --id Cloudflare.cloudflared`
+
+1. 重启服务
+
+	- Services → cloudflared → restart
+	
+	或者
+	
+	- 在终端（PS）用winget命令更新（管理员模式）：`net start cloudflared`
+	
+	或
+	
+	- 重启系统，自动重启服务。
 
 ## 参考
 
 - [Create a tunnel - Cloudflare Zero Trust](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/#1-create-a-tunnel)
 - [Connect as a user - Cloudflare Zero Trust](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/rdp/#2-connect-as-a-user)
+- [Update cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/update-cloudflared/)
 
 <!--links-->
 
