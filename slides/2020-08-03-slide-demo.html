@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		
+		<link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
+
+		<!--Title-->
+    <title>
+      
+        slide demo _ example from jekyll-revealjs | LONGLOVEMYU
+      
+    </title>
+		
+		<!--Author-->
+		
+			<meta name="author" content="dploeger/jekyll-revealjs">
+		
+				
+    <!-- Description/excerpt -->
+    
+      <meta name="description" content="This is a demo for combination of Jekyll and Reveal.js. It is the example from jekyll-revealjs.">
+    
+		
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link rel="stylesheet" href="/js/reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="/js/reveal.js/dist/reset.css">
+		
+		<!--Default theme-->
+		
+			<link rel="stylesheet" href="/js/reveal.js/dist/theme/black.css" id="theme">
+		
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="/js/reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section data-markdown data-separator="&lt;!--horizontal--&gt;" data-separator-vertical="&lt;!--vertical--&gt;" data-notes="^Notes:">
+					<script type="text/template">
+## Welcome
+
+Welcome to the jekyll-reveal.js example presentation.
+
+<!--horizontal-->
+
+## Slide 2
+
+This is the second slide. And it's just another file inside the _posts-directory.
+
+It is identified as slide 2, because it has a "2" after the mandatory date-part (0000-01-01) in its
+filename. (It's called 0000-01-02-slides.md)
+
+<!--vertical-->
+
+This is a third slide, although we're still in 0000-01-02-slides.md.
+
+<!--horizontal-->
+
+## Fragments
+
+It's also possible to do fragments.
+
+- Start the line with ‘+’ instead of ‘-’ for your fragment item like this:
+  `+ This is a fragment`
++ <!-- .element: class="fragment" --> This is a fragment
++ <!-- .element: class="fragment" --> Your fragment may contain the ‘+’ character
+    + <!-- .element: class="fragment" --> You can also indent fragments
+
+<fragment/>You can use &lt;fragment/&gt; to step other content.
+
+<!--horizontal-->
+
+## Vertical Slides
+
+Or
+
+<!--vertical-->
+
+Even
+
+<!--vertical-->
+
+Vertical
+
+<!--vertical-->
+
+Slides
+
+<!--horizontal-->
+
+# Backgrounds
+
+<!-- .slide: data-background="green" --> 
+
+Or use different backgrounds.
+
+&lt;background&gt;green&lt;/background&gt;
+
+<!--horizontal-->
+
+With syntax highlighting for your code:
+
+```python
+import pprint
+
+class MyClass(object):
+    def __init__(self):
+        self.a = 1
+
+    @classmethod
+    def some_classmethod(cls, a):
+        self.a = a
+
+if __name__ == "__main__":
+    # This is a comment
+    pprint.pprint({'Key1': 0x34, 'Key2': 'Hi'})
+```
+
+<!--horizontal-->
+
+# A hidden treasure
+
+This slide has a hidden treasure. Press "s" to see the speaker notes.
+
+Note:
+
+THIS TEXT IS HIDDEEEEEEEN! :)
+
+<!--horizontal-->
+
+# Image Backgrounds
+
+<backgroundimage>https://farm4.staticflickr.com/3743/11167478016_1714b57b28_b.jpg</backgroundimage>
+<!-- .slide: data-background-opacity="0.25" -->
+
+You can also set image backgrounds.
+
+&lt;backgroundimage&gt;
+&#123;&#123; '/images/image.jpg' | relative_url &#125;&#125;/
+&lt;/backgroundimage&gt;
+&lt;backgroundimageopacity&gt;0.25&lt;/backgroundimageopacity&gt;
+
+<small><a href="https://www.flickr.com/photos/31518985@N04/11167478016">"Light through autumn leaves, Alice Holt Forest, Surrey, UK"</a> by <a href="https://www.flickr.com/photos/31518985@N04">ambabheg</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0"> CC BY 2.0 </a></small>
+
+          </script>
+				</section>
+			</div>
+		</div>
+
+		<script src="/js/reveal.js/dist/reveal.js"></script>
+		<script src="/js/reveal.js/plugin/zoom/zoom.js"></script>
+		<script src="/js/reveal.js/plugin/notes/notes.js"></script>
+		<script src="/js/reveal.js/plugin/search/search.js"></script>
+		<script src="/js/reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="/js/reveal.js/plugin/highlight/highlight.js"></script>
+		
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				hash: true,
+
+				// transition styles: https://revealjs.com/transitions/#styles
+				// none/fade/slide/convex/concave/zoom
+				transition: 'slide',
+				backgroundTransition: 'slide', 
+				
+				
+				
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
