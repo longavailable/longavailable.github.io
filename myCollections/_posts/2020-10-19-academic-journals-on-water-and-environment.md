@@ -3,7 +3,7 @@ layout: post
 title:  Academic journals on water and environment
 author: Bruce Liu
 #last update date
-date:   2023-02-11 20:35:00 +0800
+date:   2025-09-18 18:55:00 +0800
 #first published date
 published: 2020-10-19 06:00:00 +0200
 categories: [post]
@@ -58,6 +58,7 @@ It posted a list of academic journals on water and environment with LetPub links
 | 0143-6228   | [Applied Geography]   						| Q1  		| 3.508  	|
 | 2469-4452   | [Annals of the American Association of Geographers]  	| Q1  		| 3.302  |
 | 0198-9715   | [Computers, Environment and Urban Systems]  | Q1  		| 4.655  	|
+| 2399-8083   | [Environment and Planning B-Urban Analytics and City Science]  | Q1  		| 3.8  	|
 
 # References
 
@@ -89,6 +90,7 @@ It posted a list of academic journals on water and environment with LetPub links
 [Environmental Research]: https://www.letpub.com.cn/index.php?journalid=2562&page=journalapp&view=detail
 [Environmental Modelling & Software]: https://www.letpub.com.cn/index.php?journalid=2558&page=journalapp&view=detail
 [Remote Sensing Of Environment]: https://www.letpub.com.cn/index.php?journalid=7128&page=journalapp&view=detail
+[Environment and Planning B-Urban Analytics and City Science]： https://www.letpub.com.cn/index.php?journalid=11654&page=journalapp&view=detail
 
 
 
