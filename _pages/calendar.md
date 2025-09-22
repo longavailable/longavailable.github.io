@@ -12,7 +12,8 @@ permalink: /calendar/
         {% assign today = "now" | date: "%Y-%m-%d" %}
         {% for conference in site.data.conferences %}
             {% if conference.status == "potential" %}
-                {% assign reg_deadline = conference.registration_deadline %}
+                {# liquid注释 {% assign reg_deadline = conference.registration_deadline %} #}
+                {% assign reg_deadline = conference.start_date %}
                 {% if reg_deadline >= today %}
                     <div class="conference-item">
                         <h4>{{ conference.title }}</h4>
