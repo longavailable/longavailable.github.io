@@ -90,7 +90,7 @@ It posted a list of academic journals on water and environment with LetPub links
 [Environmental Research]: https://www.letpub.com.cn/index.php?journalid=2562&page=journalapp&view=detail
 [Environmental Modelling & Software]: https://www.letpub.com.cn/index.php?journalid=2558&page=journalapp&view=detail
 [Remote Sensing Of Environment]: https://www.letpub.com.cn/index.php?journalid=7128&page=journalapp&view=detail
-[Environment and Planning B-Urban Analytics and City Science]： https://www.letpub.com.cn/index.php?journalid=11654&page=journalapp&view=detail
+[Environment and Planning B-Urban Analytics and City Science]: https://www.letpub.com.cn/index.php?journalid=11654&page=journalapp&view=detail
 
 
 
