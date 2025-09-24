@@ -157,6 +157,8 @@ You can find the takeaway repository from <https://github.com/longavailable/empt
 
 - [Creating a new repository - Github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
 
+- [Windows-jekyll-install](https://hoytpr.github.io/Windows-jekyll-install/readme.html)
+
 <!--links-->
 [Ruby]:https://www.ruby-lang.org/en/documentation/installation
 [RubyGems]:https://github.com/rubygems/rubygems?tab=readme-ov-file#installation
