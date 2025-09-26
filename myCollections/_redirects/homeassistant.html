@@ -1,0 +1,66 @@
+---
+layout: page
+title: My Homeassistant
+permalink: /ha
+redirect_from:
+  - /home
+  - /homeassistant
+---
+
+<div id="debug" style="display:none;margin:2rem auto;max-width:800px;font-family:monospace;background:#f5f5f5;padding:1rem;border-left:4px solid #c00;line-height:1.4"></div>
+<div id="status" style="margin:3rem auto;text-align:center;font-family:sans-serif">正在获取最新 HomeAssistant 隧道地址……</div>
+
+<script>
+  const CSV_URL = 'https://raw.githubusercontent.com/longavailable/cpolar-url/cpolar-tunnel-url/cpolar-tunnel-url.csv';
+  const dbg = (k,v) => {
+      document.getElementById('debug').style.display='block';
+      document.getElementById('debug').innerHTML += `<div><b>${k}</b>: ${v===undefined?'undefined':v===''?'空字符串':v}</div>`;
+  };
+
+  fetch(CSV_URL)
+    .then(r => {
+      dbg('HTTP 状态', `${r.status} ${r.statusText}`);
+      if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+      return r.text();
+    })
+    .then(txt => {
+      dbg('原始文本', txt);
+      const lines = txt.split(/\r?\n/).filter(Boolean);
+      dbg('过滤后行数组', JSON.stringify(lines));
+      if (!lines.length) throw new Error('CSV 文件为空');
+      const last = lines.pop();
+      dbg('最后一行', last);
+      // 按逗号分，最多两列；没有逗号就当成只有一列
+      const cols = last.split(',').map(s => s.trim());
+      dbg('分割后列数组', JSON.stringify(cols));
+
+      // 取最后一列（无论 1 列还是 2 列）
+      let addr = cols[cols.length - 1];
+      dbg('取用地址', addr);
+      if (!/^https?:\/\//.test(addr)) {   // 没有协议头就补上 http
+        addr = 'http://' + addr;
+        dbg('自动补协议', addr);
+      }
+      // 简单二次校验
+      try { new URL(addr); } catch {
+        throw new Error('无法解析为合法 URL');
+      }
+      // 探活
+      dbg('开始探测', addr);
+      return fetch(addr, { method: 'HEAD', mode: 'no-cors', cache: 'no-store', timeout: 8000 })
+        .then(resp => {
+          // no-cors 状态下 resp.status 恒为 0，但只要没抛网络错误就认为“通了”
+          dbg('探测完成', 'TCP 连接成功（或浏览器允许范围）');
+          return addr;   // 把地址继续向下传
+        });
+    })
+    .then(addr => {
+      dbg('即将跳转', addr);
+      // 成功
+      location.replace(addr);
+    })
+    .catch(err => {
+      document.getElementById('status').innerHTML = `<p style="color:#c00">获取或探测隧道地址失败</p>`;
+      dbg('异常捕获', err.message);
+    });
+</script>
