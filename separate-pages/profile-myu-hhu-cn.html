@@ -1,0 +1,427 @@
+<style>
+	table, th, th {
+		border: 1px solid black;
+		border-collapse: collapse;
+		word-break:break-all;
+		border-color:#d8d8d8;
+		background-color:#ffffff;
+	}
+	.basic {
+		text-align:center;
+		height:28px;
+		line-height:1.6;
+	}
+	.left {
+		text-align:left;
+		height:28px;
+	}
+  img.photo {
+			max-width: 104px;
+			max-height:133px;
+			width:auto;
+			height:auto;
+		}
+	.zeromargin {
+			margin-top:0px;
+			margin-bottom:0px
+		}
+	.smallmargin {
+			margin-bottom:5px;
+			margin-top:5px;
+		}
+	.text_indent_2ch {
+			text-indent: 4ch;
+		}
+	.small {
+			line-height:1.6;
+			font-size:14px;
+		}
+	.medium {
+		line-height:1.6;
+		font-size:16px;
+	}
+	.en {
+		font-family:"times new roman";
+	}
+	.cn {
+		font-family:宋体, simsun;
+	}
+	.cn_hei {
+		font-family:黑体, simhei;
+	}
+	.cn_simkai {
+		font-family:楷体, 楷体_gb2312, simkai;
+	}
+	ol {
+		position: relative;
+		margin-left: 0;
+		padding-left: 40px;
+	}
+	ul {
+		position: relative;
+		margin-left: 0;
+		padding-left: 20px;
+	}
+	li {
+		line-height:1.6;
+		font-size:14px;
+	}
+	.ol1 li::marker {
+		content:counter(list-item) "、";
+		font-size:14px;
+		padding-left: 20px;
+		line-height:1.6;
+	}
+	.ol2 li::marker {
+		content:"[" counter(list-item) "] ";
+		font-size:14px;
+		padding-left: 20px;
+		line-height:1.6;
+	}
+	.ul1 li::marker {
+		font-size:14px;
+		padding-left: 20px;
+		line-height:1.6;
+	}
+
+</style>
+
+<!--
+注意事项：
+1、<b> tag在河海大学个人主页中无效，https://shxy.hhu.edu.cn/2017/0307/c3223a45183/page.htm
+2、small、medium 在河海大学个人主页中的<p> tag内无效，将其放在<span>标签中，
+3、emoji无效；
+-->
+
+<!--latest article-->
+<!--
+<p class="small zeromargin en">
+	<img src="https://img.shields.io/badge/NEW-red.svg" alt="New article" style="display:inline">&nbsp;
+	Liu, X.; Fu, D.; Zevenbergen, C.; Busker, T.; <u><b>Yu, M.</b></u>&nbsp;
+	<u><a target="_blank" href="https://www.mdpi.com/2072-4292/13/4/580" title="Assessing Sponge Cities Performance at City Scale Using Remotely Sensed LULC Changes: Case Study Nanjing">Assessing Sponge Cities Performance at City Scale Using Remotely Sensed LULC Changes: Case Study Nanjing. </a></u>
+	Remote Sens. 2021, 13, 580. DOI:10.3390/rs13040580
+</p>
+<br>
+-->
+<!--table-->
+
+<table width="100%" class="small cn">
+	<colgroup>
+		<col span="1" style="width: 18%;">
+		<col span="1" style="width: 23%;">
+		<col span="1" style="width: 18%;">
+		<col span="1" style="width: 23%;">
+		<col span="1" style="width: 18%;">
+	</colgroup>
+	<tbody>
+		<tr>
+			<th class="basic">姓 名</th>
+			<th class="basic">虞美秀</th>
+			<th class="basic">性 别</th>
+			<th class="basic">女</th>
+			<th rowspan="6" class="basic">
+				<!--
+				<img src="http://shxy.hhu.edu.cn/_upload/article/images/85/6e/76bec10649b8a5c3ff121dc3257e/977c8934-8c39-4d84-89d8-8a4f2c11121f.jpg" class="photo" />
+				-->
+				<img id="myu-photo" src="/_upload/article/images/85/6e/76bec10649b8a5c3ff121dc3257e/5d2e9ce4-4658-47dd-a766-383120beb471.jpg" class="photo" original_name="meixiuyu-20221020.jpg" />				
+			</th>
+		</tr>
+		<tr>
+			<th class="basic">民 族</th>
+			<th class="basic">汉</th>
+			<th class="basic">出生日期</th>
+			<th class="basic en">1985.11</th>
+		</tr>
+		<tr>
+			<th class="basic">政治面貌</th>
+			<th class="basic">中共党员</th>
+			<th class="basic">教 龄</th>
+			<th class="basic">2014年起</th>
+		</tr>
+		<tr>
+			<th class="basic">学 历</th>
+			<th class="basic">博士研究生</th>
+			<th class="basic">学 位</th>
+			<th class="basic">博士</th>
+		</tr>
+		<tr>
+			<th class="basic">现任职务</th>
+			<th class="basic"></th>
+			<th class="basic">技术职称</th>
+			<th class="basic">副教授</th>
+		</tr>
+		<tr>
+			<th class="basic">通讯地址</th>
+			<th class="basic" colspan="3">南京市西康路一号刘光文馆712室</th>
+		</tr>
+		<tr>
+			<th class="basic">邮 编</th>
+			<th class="basic en">210098</th>
+			<th class="basic">电 话</th>
+			<th class="basic en" colspan="2">+86 17625929768</th>
+		</tr>
+		<tr>
+			<th class="basic en">Email</th>
+			<th class="basic en" colspan="4">
+				<u><a target="_blank" href="mailto:meixiuyu@hhu.edu.cn">meixiuyu@hhu.edu.cn</a></u>
+			</th>
+		</tr>
+		<tr>
+			<th class="basic medium"><b>个人学术网站</b></th>
+			<th class="left" colspan="4">
+				<p>
+					<a target="_blank" href="https://www.researchgate.net/profile/Meixiu_Yu"><img src="https://img.shields.io/badge/ResearchGate-brightgreen" alt="ResearchGate" style="display:inline"></a>&nbsp;
+					<u><a target="_blank" href="https://www.researchgate.net/profile/Meixiu_Yu">https://www.researchgate.net/profile/Meixiu_Yu</a></u>
+				</p>
+				<p>
+					<a target="_blank" href="https://longavailable.github.io/publications"><img src="https://img.shields.io/badge/LONGLOVEMYU-red" alt="LONGLOVEMYU" style="display:inline"></a>&nbsp;
+					<u><a target="_blank" href="https://longavailable.github.io/publications">https://longlovemyu.com/publications</a></u>
+				</p>
+				<p>
+					<a target="_blank" href="https://scholar.google.com/citations?user=ly9d4IgAAAAJ&amp;hl=en&amp;oi=ao"><img src="https://img.shields.io/badge/GoogleScholar-blue" alt="GoogleScholar" style="display:inline"></a>&nbsp;
+					<u><a target="_blank" href="https://scholar.google.com/citations?user=ly9d4IgAAAAJ&amp;hl=en&amp;oi=ao">https://scholar.google.com/citations?user=ly9d4IgAAAAJ&amp;hl=en&amp;oi=ao</a></u>
+				</p>
+			</th>
+		</tr>
+	</tbody>
+</table>
+
+<!--part2 profile-->
+
+<p class="smallmargin cn_simkai text_indent_2ch"><span class="medium">
+	虞美秀，工学博士，硕导，副教授，分别于<span class="en">2008</span>年、<span class="en">2013</span>年获河海大学水文与水资源工程学士学位、河海大学水文学及水资源博士学位；<span class="en">2011.8-2012.9</span>在美国国家干旱减灾中心开展联合研究；<span class="en">2016.1-2017.12</span>挂职江苏省沿海开发集团有限公司，担任总经理助理；<span class="en">2019.10-2020.10</span>访学荷兰代尔夫特理工大学。主持国家自然科学基金青年项目、江苏省自然科学基金青年项目、江苏省博士后科学基金、江西省水利科技项目等科研项目；参与国家重点研发计划项目、江苏省水利科技项目-重点专项、水利部公益行业专项等多项科研项目；获教育部高等学校自然科学奖二等奖、河南省水利科技进步一等奖各一项。发表学术论文<span class="en">60</span>余篇，<span class="en">SCI</span>论文被引频次<span class="en">928</span>次，一作单篇最高他引<span class="en">460</span>余次，入选<span class="en">ESI top 1%</span>（一作）、<span class="en">3%</span>（二作）高被引论文各<span class="en">1</span>篇；专著<span class="en">1</span>部；软件著作权<span class="en">1</span>项；授权发明专利<span class="en">2</span>项，实用新型<span class="en">1</span>项；美国地球物理联合会（<span class="en">AGU</span>）和欧洲地球科学联合会（<span class="en">EGU</span>）会员；多个国际期刊审稿人。《人民珠江》特约编委。
+</span></p>
+<p class="smallmargin cn_simkai text_indent_2ch"><span class="medium">
+	每年招生计划：学硕<span class="en">1</span>名、专硕<span class="en">1-2</span>名
+</span></p>
+<p class="smallmargin cn_simkai text_indent_2ch"><span class="medium">
+	主要研究方向：流域水文物理规律模拟(农业/水文/气象干旱、水文预报)、城市/河湖生态水文、一二维耦合水动力模拟
+</span></p>
+<p class="smallmargin cn_simkai text_indent_2ch"><span class="medium">
+	研究团队：江苏高校哲学社会科学优秀创新团队“长江保护与高质量发展研究团队”骨干（<span class="en">2021</span>）
+</span></p>
+
+<!--part3 experience-->
+
+<p><span class="smallmargin cn_hei"><span class="medium"><u>工作经历</u></sapn></p>
+
+<ul class="ul1">
+<li><span class="small cn"><span class="en">2019.10-2020.10</span> 荷兰代尔夫特理工大学 访问学者</span></li>
+<li><span class="small cn"><span class="en">2016.01-2017.12</span> 江苏省沿海开发集团有限公司 挂职总经理助理</span></li>
+<li><span class="small cn"><span class="en">2014.03-</span>至今 河海大学水文水资源学院 讲师、副教授</span></li>
+<li><span class="small cn"><span class="en">2011.08-2012.09</span> 美国国家干旱减灾中心（NDMC）访问学者</span></li>
+</ul>
+
+<!--part3 experience-->
+
+<p class="smallmargin cn_hei"><span class="medium"><u>教学及获奖</u></span></p>
+
+<ol class="ol1">
+<li><span class="small cn">主讲课程：水文学原理（本科）、生态水文学（本科、研究生）</span></li>
+<li><span class="small cn">河海大学讲课竞赛青年组三等奖（<span class="en">2018</span>）</span></li>
+<li><span class="small cn">中国大学<span class="en">MOOC</span>在线课程《水文学原理》主讲人之一</span></li>
+<li><span class="small cn">主讲的《水文学原理》被认定为江苏省首批省级一流本科课程（<span class="en">2021.7</span>）</span></li>
+<li><span class="small cn">主持教改项目1项并参与两项</span></p>
+</ol>
+
+<!--part4 research-->
+
+<p class="smallmargin cn_hei"><span class="medium"><u>主持科研项目</u></span></p>
+
+<ol class="ol1">
+<li><span class="small cn">国家自然科学青年基金，有效不透水面积空间布局对城市降雨径流过程的影响机理，<span class="en">2020.1-2022.12</span>，主持。</span></li>
+<li><span class="small cn"><span class="en">2020</span>年度中央高校基本科研业务费项目（<span class="en">A</span>），不同流域产流模式下水文干旱对气象干旱的响应机理，<span class="en">2020.1-2021.12</span>，主持。</span></li>
+<li><span class="small cn">江苏省自然科学青年基金，基于水动力-水质（泥沙）耦合模型的江苏沿海感潮河段生态环境需水量研究，<span class="en">2016.7-2019.6</span>，主持。</span></li>
+<li><span class="small cn"><span class="en">2017</span>年度中央高校基本科研业务费项目（<span class="en">A</span>类），考虑生态健康的湿润半湿润地区综合干旱指数研究，<span class="en">2018.1-2019.12</span>，主持。</span></li>
+<li><span class="small cn">江西省水利科技项目，不同五河来水、长江来水及区间降雨情景下鄱阳湖出湖流量模拟研究，<span class="en">2017.12-2019.12</span>，主持。</span></li>
+<li><span class="small cn">中央高校基本科研业务费项目，淮河上游土地利用变化对产沙影响的模拟研究，<span class="en">2014.5-2017.3</span>，主持。</span></li>
+<li><span class="small cn">技术咨询，条子泥湿地生态修复可行性研究，<span class="en">2016-2017</span>，主持。</span></li>
+<li><span class="small cn">镇江市不同空间尺度海绵城市建设导则研究，<span class="en">2018-2019</span>，分项主持。</span></li>
+<li><span class="small cn">三亚市大中型水库洪水预报模型率定及软件维护，<span class="en">2015-2016</span>，主持。</span></li>
+</ol>
+
+<!--part5 research-->
+
+<p class="smallmargin cn_hei"><span class="medium"><u>参与的部分科研项目</u></span></p>
+
+<ol class="ol1">
+<li><span class="small cn">江苏省水利科技项目-重点专项 基于精细化河湖调度的江苏省生态需水与供给保障研究 （<span class="en">2018-2020</span>）</span></li>
+<li><span class="small cn">江苏省水利科技项目-重点专项 调水引流抑藻控藻技术研究（<span class="en">2018-2020</span>）</span></li>
+<li><span class="small cn">水利部公益性项目专项经费项目 华北多年连续干旱条件下水资源保障研究（<span class="en">2009-2014</span>已结题）。</span></li>
+<li><span class="small cn">国家自然科学基金重大项目“大型水利工程对重要生物资源不利影响的补偿途径”（<span class="en">30490235</span>）的资助下开展了长江中下游重要江段生态径流过程及水文水力学特征研究（已结题）</span></li>
+<li><span class="small cn">美国国家干旱减灾中心<span class="en">U.S. Drought Monitor</span>的改进以及<span class="en">VegDRI</span>植被干旱响应指数在中国的拓展应用研究（<span class="en">2011-2012</span>）</span></li>
+<li><span class="small cn">国家计划支撑项目 江苏沿海围垦区水资源保障关键技术研究 （<span class="en">2012-2015</span>）</span></li>
+<li><span class="small cn">国家自然科学基金项目 基于新安江模型的淮河上游土地利用变化对产水产沙的影响模拟研究（<span class="en">2012 - 2015</span>）</span></li>
+</ol>
+
+<!--part6 publications-->
+
+<p class="smallmargin cn_hei"><span class="medium"><u>部分学术论文</u></span></p>
+
+<p class="zeromargin cn"><span class="small">
+	发表学术论文<span class="en">60</span>余篇，其中<span class="en">SCI</span>检索<span class="en">22</span>篇，<span class="en">EI</span>检索<span class="en">16</span>篇，<span class="en">ESI top 1% </span>和<span class="en">ESI top 3%</span>高被引论文各一篇。部分论文如下：
+</span></p>
+
+<ol class="ol2">
+<li><span class="small en">
+	<u><b>Yu, M.</b></u>, Zhang, J., Wei L., Wang G., Dong W., and Liu X. 2023. 
+	<u><a target="_blank" href="https://doi.org/10.1016/j.jhydrol.2023.130257" title="Impact of soil textures on agricultural drought evolution and field capacity estimation in humid regions">Impact of soil textures on agricultural drought evolution and field capacity estimation in humid regions. </a></u>
+	Journal of Hydrology. In Press, Journal Pre-proof. DOI: 10.1016/j.jhydrol.2023.130257.
+	<br>
+	<span class="small en">
+	<img src="https://img.shields.io/badge/SCI-010101.svg" alt="sci" style="display:inline">&nbsp;
+	<a target="_blank" href="https://doi.org/10.1016/j.jhydrol.2023.130257"><img src="https://img.shields.io/badge/DOI-10.1016/j.jhydrol.2023.130257-blue.svg" alt="DOI" style="display:inline"></a>
+	</span>
+</span></li>
+
+<li><span class="small en">
+	<u><b>Yu, M.</b></u>, Liu, X., Wood P., Wei L., Wang G., Zhang J., and Li Q. 2022. 
+	<u><a target="_blank" href=" https://doi.org/10.1111/jfr3.12806" title="Simulation of Poyang Lake water levels and outflow under historical extreme hydrological scenarios">Simulation of Poyang Lake water levels and outflow under historical extreme hydrological scenarios. </a></u>
+	Journal of Flood Risk Management. 15(3). DOI: 10.1111/jfr3.12806.
+	<br>
+	<span class="small en">
+	<img src="https://img.shields.io/badge/SCI-010101.svg" alt="sci" style="display:inline">&nbsp;
+	<a target="_blank" href="https://onlinelibrary.wiley.com/toc/1753318x/2022/15/3"><img src="https://img.shields.io/badge/Front%20Cover%20Image-封面文章-important.svg" alt="sci" style="display:inline"></a>&nbsp;
+	<a target="_blank" href="https://doi.org/10.1111/jfr3.12806"><img src="https://img.shields.io/badge/DOI-10.1111/jfr3.12806-blue.svg" alt="DOI" style="display:inline"></a>
+	</span>
+</span></li>
+
+<li><span class="small en">
+	<u><b>虞美秀</b></u>, 付婷, 张建云, 王国庆, 董吴欣. 2022. 
+	<u><a target="_blank" href="http://skxjz.nhri.cn/cn/article/doi/10.14042/j.cnki.32.1309.2022.06.004" title="长三角地区典型海绵设施水文效益试验研究">长三角地区典型海绵设施水文效益试验研究. </a></u>
+	水科学进展. 33(6): 894-903. DOI: 10.14042/j.cnki.32.1309.2022.06.004.
+	<br>
+	<span class="small en">
+	<img src="https://img.shields.io/badge/EI-010101.svg" alt="ei" style="display:inline">&nbsp;
+	<img src="https://img.shields.io/badge/中文三高-顶刊-important.svg" alt="ei" style="display:inline">&nbsp;
+	<a target="_blank" href="http://skxjz.nhri.cn/cn/article/doi/10.14042/j.cnki.32.1309.2022.06.004"><img src="https://img.shields.io/badge/DOI-10.14042/j.cnki.32.1309.2022.06.004-blue.svg" alt="DOI" style="display:inline"></a>
+	</span>
+</span></li>
+
+<li><span class="small en">
+	<u><b>虞美秀</b></u>, 董吴欣, 张建云, 韦丽, 吴智, 王国庆. 2022. 
+	<u><a target="_blank" href="http://skxjz.nhri.cn/cn/article/doi/10.14042/j.cnki.32.1309.2022.02.003" title="基于大范围地面墒情监测的鄱阳湖流域农业干旱">基于大范围地面墒情监测的鄱阳湖流域农业干旱. </a></u>
+	水科学进展. 33(2): 185-195. DOI: 10.14042/j.cnki.32.1309.2022.02.003.
+	<br>
+	<span class="small en">
+	<img src="https://img.shields.io/badge/EI-010101.svg" alt="ei" style="display:inline">&nbsp;
+	<img src="https://img.shields.io/badge/中文三高-顶刊-important.svg" alt="ei" style="display:inline">&nbsp;
+	<a target="_blank" href="http://skxjz.nhri.cn/cn/article/doi/10.14042/j.cnki.32.1309.2022.02.003"><img src="https://img.shields.io/badge/DOI-10.14042/j.cnki.32.1309.2022.02.003-blue.svg" alt="DOI" style="display:inline"></a>
+	</span>
+</span></li>
+
+<li><span class="small en">
+	<u><b>Yu, M.</b></u>, Li, Q., Hayes,M., Svoboda, M., and Heim, R. 2014. 
+	<u><a target="_blank" href=" https://doi.org/10.1002/joc.3701" title="Are droughts becoming more frequent or severe in China based on the Standardized Precipitation Evapotranspiration Index (SPEI):1951-2010?">Are droughts becoming more frequent or severe in China based on the Standardized Precipitation Evapotranspiration Index (SPEI): 1951-2010?. </a></u>
+	International Journal of Climatology. 34(3),545-558. DOI: 10.1002/joc.3701.
+	<br>
+	<span class="small en">
+	<img src="https://img.shields.io/badge/SCI-010101.svg" alt="sci" style="display:inline">&nbsp;
+	<img src="https://img.shields.io/badge/ESI%20highly%20cited%20paper-1%25-red.svg" alt="esi" style="display:inline">&nbsp;
+	<a target="_blank" href="https://scholar.google.com/scholar?cites=17492942855493621736&as_sdt=2005&sciodt=0,5&hl=en"><img src="https://img.shields.io/badge/Citations->530-green.svg" alt="citations" style="display:inline">&nbsp;</a>
+	<a target="_blank" href="https://doi.org/10.1002/joc.3701"><img src="https://img.shields.io/badge/DOI-10.1002/joc.3701-blue.svg" alt="DOI" style="display:inline"></a>
+	</span>
+</span></li>
+
+<li><span class="small en">
+	Li, Q.,<u><b>Yu, M.</b></u>, Lu, G., Cai, T., Xia, Z., and Ren, L. 2011. 
+	<u><a target="_blank" href="https://doi.org/10.1016/j.jhydrol.2011.03.043" title="Impacts of the Gezhouba and the Three Gorges reservoirs on the sediment regime of the Yangtze River">Impacts of the Gezhouba and the Three Gorges reservoirs on the sediment regime of the Yangtze River. </a></u>
+	Journal of Hydrology. 403, 224-233. DOI: 10.1016/j.jhydrol.2011.03.043
+	<br>
+	<span class="small en">
+	<img src="https://img.shields.io/badge/SCI-010101.svg" alt="sci" style="display:inline">&nbsp;
+	<img src="https://img.shields.io/badge/ESI%20highly%20cited%20paper-3%25-red.svg" alt="esi" style="display:inline">&nbsp;
+	<a target="_blank" href="https://scholar.google.com/scholar?cites=16660842714440860646&as_sdt=2005&sciodt=0,5&hl=en"><img src="https://img.shields.io/badge/Citations->170-green.svg" alt="citations" style="display:inline">&nbsp;</a>
+	<a target="_blank" href="https://doi.org/10.1016/j.jhydrol.2011.03.043"><img src="https://img.shields.io/badge/DOI-10.1016/j.jhydrol.2011.03.043-blue.svg" alt="DOI" style="display:inline"></a>
+	</span>
+</span></li>
+
+<li><span class="small en">
+	<u><b>Yu, M.</b></u>, Li, Q., Lu, G., Cai t., Xie, W., and Bai, X. 2013. 
+	<a target="_blank" href="https://doi.org/10.1061/(ASCE)HE.1943-5584.0000545" title="Investigation to the impacts of the Gezhouba and the Three Gorges reservoirs on the flow regime of the Yangtze River">Investigation to the impacts of the Gezhouba and the Three Gorges reservoirs on the flow regime of the Yangtze River. </a>
+	Journal of Hydrologic Engineering. 18(9), 1098-1106. DOI: 10.1061/(ASCE)HE.1943-5584.0000545
+	<br>
+	<span class="small en">
+	<img src="https://img.shields.io/badge/SCI-010101.svg" alt="sci" style="display:inline">&nbsp;
+	<a target="_blank" href="https://scholar.google.com/scholar?cites=13693064965646713689&as_sdt=2005&sciodt=0,5&hl=en"><img src="https://img.shields.io/badge/Citations-47-green.svg" alt="citations" style="display:inline">&nbsp;</a>
+	<a target="_blank" href="https://doi.org/10.1061/(ASCE)HE.1943-5584.0000545"><img src="https://img.shields.io/badge/DOI-10.1061/(ASCE)HE.1943--5584.0000545-blue" alt="DOI" style="display:inline"></a>
+	</span>
+</span></li>
+
+<li><span class="small en">
+	<u><b>Yu, M.</b></u>, Liu, X., and Li Q. 2020. 
+	<u><a target="_blank" href="https://doi.org/10.1007/s11356-019-06413-2" title="Responses of meteorological drought-hydrological drought propagation to watershed scales in the upper Huaihe River basin, China">Responses of meteorological drought-hydrological drought propagation to watershed scales in the upper Huaihe River basin, China. </a></u>
+	Environmental Science and Pollution Research. 27(15):17561-17570. DOI: 10.1007/s11356-019-06413-2
+	<br>
+	<span class="small en">
+	<img src="https://img.shields.io/badge/SCI-010101.svg" alt="sci" style="display:inline">&nbsp;
+	<a target="_blank" href="https://doi.org/10.1007/s11356-019-06413-2"><img src="https://img.shields.io/badge/DOI-10.1007/s11356--019--06413--2-blue" alt="DOI" style="display:inline"></a>
+	</span>
+</span></li>
+
+<li><span class="small en">
+	Li, Q., <u><b>Yu, M.</b></u>, Zhao, J., Cai t., Lu, G., Xie, W., and Bai, X. 2012.
+	<u><a target="_blank" href="https://doi.org/10.2166/nh.2011.121" title="Impact of the Three Gorges reservoir operation on downstream ecological water requirements">Impact of the Three Gorges reservoir operation on downstream ecological water requirements.</a></u>
+	Hydrology Research. 43 (1-2), 48-53. DOI: 10.2166/nh.2011.121
+	<br>
+	<span class="small en">
+	<img src="https://img.shields.io/badge/SCI-010101.svg" alt="sci" style="display:inline">&nbsp;
+	<a target="_blank" href="https://scholar.google.com/scholar?cites=4770365416306198369&as_sdt=2005&sciodt=0,5&hl=en"><img src="https://img.shields.io/badge/Citations-35-green.svg" alt="citations" style="display:inline">&nbsp;</a>
+	<a target="_blank" href="https://doi.org/10.2166/nh.2011.121"><img src="https://img.shields.io/badge/DOI-10.2166/nh.2011.121-blue" alt="DOI" style="display:inline"></a>
+	</span>
+</span></li>
+</ol>
+
+<p class="zeromargin cn"><span class="small">
+	<u><i><a target="_blank" href="http://longavailable.github.io/publications/">更多最新论文请点击这里</a></i></u>
+</span></p>
+
+<!--Python应用-->
+
+<p class="smallmargin cn_heicn_hei"><span class="medium"><u>Python应用</u></span></p>
+
+<ol class="ol2">
+<li><span class="small en">
+	Liu, X., <u><b>Yu, M.</b></u> 2020.
+	<u><a target="_blank" href="https://doi.org/10.5281/zenodo.3893596" title="longavailable/adaptive-curvefitting">longavailable/adaptive-curvefitting.</a></u>
+	Zenodo. DOI: 10.5281/zenodo.3893596
+	<br>
+	<span class="small en">
+	<a target="_blank" href="https://github.com/longavailable/adaptive-curvefitting"><img src="https://img.shields.io/badge/github%20host%3F-yes-green.svg" alt="GitHub" style="display:inline">&nbsp;</a>
+	<a target="_blank" href="https://badge.fury.io/py/adaptive-curvefitting"><img src="https://badge.fury.io/py/adaptive-curvefitting.svg" alt="pypi" style="display:inline">&nbsp;</a>
+	<a target="_blank" href="https://doi.org/10.5281/zenodo.3893596"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3893596.svg" alt="DOI" style="display:inline"></a>
+	</span>
+</span></li>
+
+<li><span class="small en">
+	Liu, X., <u><b>Yu, M.</b></u> 2020.
+	<u><a target="_blank" href="https://doi.org/10.5281/zenodo.3960405" title="longavailable/adaptive-curvefitting">longavailable/voronoi-diagram-for-polygons.</a></u>
+	Zenodo. DOI: 10.5281/zenodo.3960405
+	<br>
+	<span class="small en">
+	<a target="_blank" href="https://github.com/longavailable/voronoi-diagram-for-polygons"><img src="https://img.shields.io/badge/github%20host%3F-yes-green.svg" alt="GitHub" style="display:inline">&nbsp;</a>
+	<a target="_blank" href="https://badge.fury.io/py/voronoi-diagram-for-polygons"><img src="https://badge.fury.io/py/voronoi-diagram-for-polygons.svg" alt="pypi" style="display:inline">&nbsp;</a>
+	<a target="_blank" href="https://doi.org/10.5281/zenodo.3960405"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3960405.svg" alt="DOI" style="display:inline"></a>
+	</span>
+</span></p>
+</ol>
+
+
+
+<br><br>
+<script>
+	var baseUrl = window.location.hostname;
+	if (baseUrl == "shxy.hhu.edu.cn") {
+	  document.getElementById("myu-photo").src = "/_upload/article/images/85/6e/76bec10649b8a5c3ff121dc3257e/5d2e9ce4-4658-47dd-a766-383120beb471.jpg";
+	} else if (baseUrl == "longlovemyu.com") {
+	  document.getElementById("myu-photo").src = "/assets/pics/myu.jpg";
+	}
+</script>
+
+<!--
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" _ue_org_tagname="script"></script><script _ue_org_tagname="script">addBackToTop({
+  diameter: 56,
+  backgroundColor: 'rgb(255, 82, 82)',
+  textColor: '#fff'
+})</script>
+-->
