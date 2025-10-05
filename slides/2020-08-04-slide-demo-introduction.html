@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		
+		<link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
+
+		<!--Title-->
+    <title>
+      
+        slide demo - getting started with Jekyll and Revel.js | LONGLOVEMYU
+      
+    </title>
+		
+		<!--Author-->
+		
+			<meta name="author" content="Bruce Liu">
+		
+				
+    <!-- Description/excerpt -->
+    
+      <meta name="description" content="This is a demo for combination of Jekyll and Reveal.js">
+    
+		
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link rel="stylesheet" href="/js/reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="/js/reveal.js/dist/reset.css">
+		
+		<!--Default theme-->
+		
+			<link rel="stylesheet" href="/js/reveal.js/dist/theme/white.css" id="theme">
+		
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="/js/reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section data-markdown data-separator="&lt;!--horizontal--&gt;" data-separator-vertical="&lt;!--vertical--&gt;" data-notes="^Notes:">
+					<script type="text/template">
+<!-- .slide: data-background="black" -->
+
+# This is a demo for Jekyll-Reveal.js slide
+
+<!--horizontal-->
+
+<!-- .slide: data-background="blue" -->
+
+### basic usage
+
+- type 'o' (embeded) or 'F11' (reveal slide-only) for fullscreen mode
+- type 'ese' (embeded) or 'F11' (reveal slide-only) to quit fullscreen mode
+- type 'o' or 'Esc' for overview mode
+
+<!--vertical-->
+
+<!-- .slide: data-background="red" -->
+
+### basic usage
+
+- use space bar to step through slides in order
+- use arrow keys to navigate presentation
+- type 's' for speaker mode
+
+<!--horizontal-->
+
+<!-- .slide: data-background="green" -->
+
+### Known issues/bugs
+
+- Markdown syntax with a `.html` extension
+
+	If a `.md` extension has been used:
+	- syntax highlighted code will render the converted **html**.
+	- fragment will not working.
+
+- Markdown hyperlink must follow current slide. It won't work for cross-slides. (horizontal/vertical slides)
+
+<!--horizontal-->
+
+<!-- .slide: data-background="white" -->
+
+### References
+
+- [hakimel/reveal.js][1] 
+	- [Github repo][1]
+	- [live demo][2]
+- [dploeger/jekyll-revealjs][3]
+	- [Github repo][3]
+	- [deme][4]
+	
+[1]: https://github.com/hakimel/reveal.js
+[2]: https://revealjs.com/
+[3]: https://github.com/dploeger/jekyll-revealjs
+[4]: http://dploeger.github.io/jekyll-revealjs/example/#/
+	
+<!--vertical-->
+
+<!-- .slide: data-background="white" -->
+
+### References
+
+- [luugiathuy/luugiathuy.github.io][5]
+	- [Github repo][5]
+	- [deployment][6]
+- [jdmoorman/jacob.moorman.me][7]
+	- [Github repo][7]
+	- [deployment][8]
+
+
+[5]: https://github.com/luugiathuy/luugiathuy.github.io
+[6]: https://luugiathuy.com/slides/
+[7]: https://github.com/jdmoorman/jacob.moorman.me
+[8]: https://jacob.moorman.me/slides/
+
+          </script>
+				</section>
+			</div>
+		</div>
+
+		<script src="/js/reveal.js/dist/reveal.js"></script>
+		<script src="/js/reveal.js/plugin/zoom/zoom.js"></script>
+		<script src="/js/reveal.js/plugin/notes/notes.js"></script>
+		<script src="/js/reveal.js/plugin/search/search.js"></script>
+		<script src="/js/reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="/js/reveal.js/plugin/highlight/highlight.js"></script>
+		
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				hash: true,
+
+				// transition styles: https://revealjs.com/transitions/#styles
+				// none/fade/slide/convex/concave/zoom
+				transition: 'slide',
+				backgroundTransition: 'slide', 
+				
+				width: 960, 
+				height: 720, 
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>

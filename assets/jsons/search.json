@@ -1,0 +1,775 @@
+[
+  
+    {
+      "title"    : "Academic journals on water and environment",
+      "category" : "post",
+      "tags"     : "journal, LetPub, water, water resources, environment",
+      "url"      : "/journal-list/",
+      "date"     : "2025-09-18 10:55:00 +0000"
+    } ,
+  
+    {
+      "title"    : "利用Cloudflare Tunnel实现远程桌面访问",
+      "category" : "post",
+      "tags"     : "Cloudflare, Windows, Remote Desktop, 内网穿透",
+      "url"      : "/remote-desktop-connection-using-cloudfare-tunnel",
+      "date"     : "2025-08-18 02:40:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Update home assistant supervisor/core from virsh guest console",
+      "category" : "post",
+      "tags"     : "home assistant, virsh, Ubuntu, Docker, ghcr, DaoCloud",
+      "url"      : "/hassio-supervisor-update",
+      "date"     : "2025-08-05 01:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Useful tools",
+      "category" : "post",
+      "tags"     : "百度网盘, 网盘搜索, 网盘加速下载, 科学上网, Windows, Office",
+      "url"      : "/useful-tools/",
+      "date"     : "2025-06-20 06:40:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Free ways to access home assistant remotely",
+      "category" : "post",
+      "tags"     : "home assistant, cpolar, cloudflare, intranet penetration",
+      "url"      : "/remote-ha-access/",
+      "date"     : "2025-03-27 07:50:00 +0000"
+    } ,
+  
+    {
+      "title"    : "How to write a Jekyll blog",
+      "category" : "post",
+      "tags"     : "first blog, Jekyll, markdown, map, picture, emoji",
+      "url"      : "/jekyll_blog/",
+      "date"     : "2024-12-24 06:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Academic conferences on water and environment",
+      "category" : "post",
+      "tags"     : "conferences, water, water resources, environment",
+      "url"      : "/conference-list/",
+      "date"     : "2024-11-29 01:50:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Update home assistant operating system from virsh guest console",
+      "category" : "post",
+      "tags"     : "home assistant, virsh, Ubuntu, Docker, Github",
+      "url"      : "/hassio-operating-system-update",
+      "date"     : "2024-08-25 06:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Set up an application-level proxy via proxychains",
+      "category" : "post",
+      "tags"     : "proxychains, proxy, linux",
+      "url"      : "/proxy-via-proxychains",
+      "date"     : "2024-08-23 08:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "The detailed steps of installing Home Assistant Operating System on Ubuntu",
+      "category" : "post",
+      "tags"     : "home assistant, virsh, Ubuntu",
+      "url"      : "/install-haos-on-ubuntu",
+      "date"     : "2024-08-22 06:10:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Create an empty Jekyll site step by step",
+      "category" : "post",
+      "tags"     : "Jekyll, Github, Ruby, Bundler, linux",
+      "url"      : "/empty-jekll-site",
+      "date"     : "2024-08-18 03:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Sites worth sharing",
+      "category" : "post",
+      "tags"     : "sites",
+      "url"      : "/helpful_sites/",
+      "date"     : "2024-08-06 14:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "在线证件照制作-最佳实践",
+      "category" : "post",
+      "tags"     : "ID photo, 证件照",
+      "url"      : "/online-id-photo-maker",
+      "date"     : "2024-06-20 07:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "GPT ports",
+      "category" : "post",
+      "tags"     : "ChatGPT, OpenAI, Auto-GPT, Jarvis",
+      "url"      : "/gpt-ports",
+      "date"     : "2024-05-21 05:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Deply python and install dependencies within Node-RED-addon in Homeassistant",
+      "category" : "post",
+      "tags"     : "home assistant, Nodered, Node RED, Python, linux",
+      "url"      : "/python-nodered-in-hass",
+      "date"     : "2024-01-05 03:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "如何解决github访问慢的问题（中文）",
+      "category" : "post",
+      "tags"     : "github, China, 中文",
+      "url"      : "/fasten-github/",
+      "date"     : "2023-12-10 01:50:00 +0000"
+    } ,
+  
+    {
+      "title"    : "鄱阳湖三部曲",
+      "category" : "post",
+      "tags"     : "research, Poyang Lake, Meixiu Yu",
+      "url"      : "/research-articles-on-poyanglake",
+      "date"     : "2023-11-02 02:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Update home assistant core and os",
+      "category" : "post",
+      "tags"     : "home assistant, virsh, Ubuntu",
+      "url"      : "/ha-os-update",
+      "date"     : "2023-06-24 05:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Github actions jobs/workflows/repository depend on each other",
+      "category" : "post",
+      "tags"     : "Github, workflow, Github Action",
+      "url"      : "/workflow-depends",
+      "date"     : "2023-05-26 12:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "计算机软件著作权登记流程",
+      "category" : "post",
+      "tags"     : "计算机软件著作权, 软著",
+      "url"      : "/register-computer-software-copyright",
+      "date"     : "2023-04-06 08:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Ports of free hydrodynamic models/softwares",
+      "category" : "post",
+      "tags"     : "hydrodynamics, HEC-RAS, Delft3D",
+      "url"      : "/hydrodynamic_models/",
+      "date"     : "2023-03-31 07:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Execute Javascript code in Python",
+      "category" : "post",
+      "tags"     : "Python, Javascript",
+      "url"      : "/execute-javascript-in-python/",
+      "date"     : "2023-02-15 02:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Academic journals on climate change",
+      "category" : "post",
+      "tags"     : "journal, LetPub, climate, climate change",
+      "url"      : "/journal-list-climate/",
+      "date"     : "2023-02-11 12:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Debugging in Python",
+      "category" : "post",
+      "tags"     : "Python, pdb, pudb",
+      "url"      : "/debugging-in-python/",
+      "date"     : "2022-08-05 08:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Calculator for loan and repay",
+      "category" : "post",
+      "tags"     : "load, repay, bank",
+      "url"      : "/loan-repay-cal/",
+      "date"     : "2022-06-27 04:45:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Home Assistant On Android 6",
+      "category" : "post",
+      "tags"     : "home assistant, android, Redmi Pro, Termux, Ubuntu",
+      "url"      : "/ha-on-redmipro/",
+      "date"     : "2022-06-23 03:50:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Quick Conversion on GIS Metrics",
+      "category" : "post",
+      "tags"     : "GIS, metrics conversion",
+      "url"      : "/metrics_gis/",
+      "date"     : "2022-05-12 07:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Add a search bar in Jekyll blogsite",
+      "category" : "post",
+      "tags"     : "Jekyll, search, Lunr, Google Custom Search engine",
+      "url"      : "/search_bar/",
+      "date"     : "2021-12-06 15:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Colon, double colon and ellipsis",
+      "category" : "post",
+      "tags"     : "python",
+      "url"      : "/colon-ellipsis/",
+      "date"     : "2021-11-08 07:50:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Comparison of three functors on similarity in DinamicaEGO",
+      "category" : "post",
+      "tags"     : "DinamicaEGO, similarity, land use change",
+      "url"      : "/similarity-dinamicaego/",
+      "date"     : "2021-04-13 07:50:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Ports of python geospatial analysis tools",
+      "category" : "post",
+      "tags"     : "python, gis, gdal, geos, jts, rasterio, shapely",
+      "url"      : "/python_geo_tools/",
+      "date"     : "2021-03-29 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Hydrological Model lists",
+      "category" : "post",
+      "tags"     : "hydrology, hydrological model, SWAT, VIC",
+      "url"      : "/hydro-models/",
+      "date"     : "2021-03-25 01:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "How to run an AppImage on WSL",
+      "category" : "post",
+      "tags"     : "WSL, linux, appimage, Xming, VcXsrv",
+      "url"      : "/appimage_wsl/",
+      "date"     : "2021-03-19 05:10:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Set up and serve Jekyll",
+      "category" : "post",
+      "tags"     : "Jekyll, rubygems, Github Pages",
+      "url"      : "/serve-jekyll/",
+      "date"     : "2021-02-28 02:40:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Vie of Delft&amp;#58; 2019 - 2020",
+      "category" : "post",
+      "tags"     : "life, journey, Delfland, Den Haag, Delft, Netherlands",
+      "url"      : "/view-of-delft/",
+      "date"     : "2021-02-02 07:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Add text or annotation into the axes in matplotlib",
+      "category" : "post",
+      "tags"     : "python, matplotlib, text, annotate",
+      "url"      : "/matplotlib-annotate/",
+      "date"     : "2020-09-22 23:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Setup font size and other groups in matplotlib",
+      "category" : "post",
+      "tags"     : "python, matplotlib, font",
+      "url"      : "/matplotlib-font-setup/",
+      "date"     : "2020-09-18 06:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "First release of voronoi-diagram-for-polygons",
+      "category" : "post",
+      "tags"     : "python, Voronoi diagram, Thiessen polygons",
+      "url"      : "/voronoi-diagram/",
+      "date"     : "2020-07-26 00:40:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Differences between dissolve and union in geoproceesing",
+      "category" : "post",
+      "tags"     : "gis, gee, ArcGIS, GeoPandas",
+      "url"      : "/dissolve_and_union/",
+      "date"     : "2020-07-20 22:35:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Load context from html",
+      "category" : "post",
+      "tags"     : "html",
+      "url"      : "/load_content_from_html/",
+      "date"     : "2020-07-10 09:50:00 +0000"
+    } ,
+  
+    {
+      "title"    : "First release of adaptive-curvefitting",
+      "category" : "post",
+      "tags"     : "python, curvefitting",
+      "url"      : "/curvefitting/",
+      "date"     : "2020-06-14 15:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Difference between list.sort() and sorted() in Python",
+      "category" : "post",
+      "tags"     : "python",
+      "url"      : "/py_sort_sorted/",
+      "date"     : "2020-05-27 10:40:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Get started with Selenium",
+      "category" : "post",
+      "tags"     : "selenium, webdriver, python, chrome, wsl",
+      "url"      : "/selenium_guide/",
+      "date"     : "2020-05-24 00:25:00 +0000"
+    } ,
+  
+    {
+      "title"    : "FAQ for Docker in Chinese",
+      "category" : "post",
+      "tags"     : "docker, windows",
+      "url"      : "/docker_issues/",
+      "date"     : "2020-05-12 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Guides for docker installation",
+      "category" : "post",
+      "tags"     : "docker, win10, win7, ubuntu",
+      "url"      : "/docker_installation/",
+      "date"     : "2020-05-11 15:21:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Docker commands in Chinese",
+      "category" : "post",
+      "tags"     : "docker, 中文",
+      "url"      : "/docker_commands/",
+      "date"     : "2020-05-11 14:50:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Access files using github api",
+      "category" : "post",
+      "tags"     : "github, python, PyGithub, GitHub REST API v3",
+      "url"      : "/githubapi/",
+      "date"     : "2020-03-26 14:54:00 +0000"
+    } ,
+  
+    {
+      "title"    : "How to change the color of first word in Windows PowerShell",
+      "category" : "post",
+      "tags"     : "PowerShell, cmder",
+      "url"      : "/first_word_color_ps/",
+      "date"     : "2020-02-28 12:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "A simple way to map landuse",
+      "category" : "post",
+      "tags"     : "ArcGIS, GIS",
+      "url"      : "/simple_landuse/",
+      "date"     : "2020-02-25 10:08:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Remote desktop connection",
+      "category" : "post",
+      "tags"     : "teamviewer, remote desktop connection, windows os",
+      "url"      : "/remote_connection/",
+      "date"     : "2020-02-12 21:04:00 +0000"
+    } ,
+  
+    {
+      "title"    : "General concepts of matplotlib",
+      "category" : "post",
+      "tags"     : "python, matplotlib",
+      "url"      : "/matplotlib_concepts/",
+      "date"     : "2020-02-11 10:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Plotting fonts when using matplotlib",
+      "category" : "post",
+      "tags"     : "python, matplotlib, font",
+      "url"      : "/matplotlib_font/",
+      "date"     : "2020-01-14 10:20:00 +0000"
+    } ,
+  
+    {
+      "title"    : "How to Enable Copy and Paste Keyboard Shortcuts in WSL",
+      "category" : "post",
+      "tags"     : "WSL, linux",
+      "url"      : "/wsl-copy-paster/",
+      "date"     : "2019-11-23 18:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Free ebooks on deep learning",
+      "category" : "post",
+      "tags"     : "deep learning, machine learning, ML, neural networks",
+      "url"      : "/free_ebooks_on_DL/",
+      "date"     : "2019-11-18 21:06:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Key steps for case degine under the SCC / 海绵方案设计核心步骤 (中文)",
+      "category" : "post",
+      "tags"     : "Sponge City, SCC, 海绵城市, 中文",
+      "url"      : "/post/2019/09/18/site-design-under-SCC-concept.html",
+      "date"     : "2019-09-18 09:02:03 +0000"
+    } ,
+  
+    {
+      "title"    : "神奇的Copy Raster",
+      "category" : "post",
+      "tags"     : "ArcGIS, GIS, tools",
+      "url"      : "/post/2019/09/12/copy-raster-in-arcmap.html",
+      "date"     : "2019-09-12 22:50:03 +0000"
+    } ,
+  
+    {
+      "title"    : "Welcome to Jekyll!",
+      "category" : "post",
+      "tags"     : "Jekyll",
+      "url"      : "/post/2019/09/01/welcome-to-jekyll.html",
+      "date"     : "2019-09-01 23:50:00 +0000"
+    } 
+   ,
+  
+  
+    {
+      "title"    : "Impact of human activities on the flow regime of the Hanjiang",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2009-01-01-Impact-of-human-activities-on.html"
+    } ,
+  
+    {
+      "title"    : "Spatial-temporal variations of evapotranspiration in the upper Huaihe River basin",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2009-01-01-Spatial-temporal-variations-of-evapotranspiration-in.html"
+    } ,
+  
+    {
+      "title"    : "Are droughts becoming more frequent or severe in China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2011-01-01-Are-droughts-becoming-more-frequent.html"
+    } ,
+  
+    {
+      "title"    : "Genetic algorithms based hydropower optimization of the Three Gorges reservoir operation under two reservoir storing water schemes",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2011-01-01-Genetic-algorithms-based-hydropower-optimization.html"
+    } ,
+  
+    {
+      "title"    : "Impacts of Three Gorges-Gezhouba reservoir cascade on the heat flux regime of the Yangtze River",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2011-01-01-Impacts-of-Three-Gorges-Gezhouba-reservoir.html"
+    } ,
+  
+    {
+      "title"    : "Impacts of the Gezhouba and Three Gorges reservoirs on the sediment regime in the Yangtze River China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2011-01-01-Impacts-of-the-Gezhouba-and.html"
+    } ,
+  
+    {
+      "title"    : "Impacts of the Three Gorges-Gezhouba reservoir cascade on the stream temperature regime of the Yangtze River",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2011-01-01-Impacts-of-the-Three-Gorges-Gezhouba.html"
+    } ,
+  
+    {
+      "title"    : "Influence analysis of meteorological variation trends on potential evaporation",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2011-01-01-Influence-analysis-of-meteorological-variation.html"
+    } ,
+  
+    {
+      "title"    : "Impact of the Three Gorges reservoir operation on downstream ecological water requirements",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2012-01-01-Impact-of-the-Three-Gorges.html"
+    } ,
+  
+    {
+      "title"    : "Impacts of Danjiangkou reservoir on sediment regime of the Hanjiang River",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2012-01-01-Impacts-of-Danjiangkou-reservoir-on.html"
+    } ,
+  
+    {
+      "title"    : "Investigation into the impacts of land-use change on sediment yield characteristics in the upper Huaihe River basin China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2012-01-01-Investigation-into-the-impacts-of.html"
+    } ,
+  
+    {
+      "title"    : "Variation trends of meteorological variables and their impacts on potential evaporation in Hailar region",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2012-01-01-Variation-trends-of-meteorological-variables.html"
+    } ,
+  
+    {
+      "title"    : "Investigation into the impacts of land-use change on runoff generation characteristics in the upper Huaihe River Basin China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2013-01-01-Investigation-into-the-impacts-of.html"
+    } ,
+  
+    {
+      "title"    : "Investigation into the Impacts of the Gezhouba and the Three Gorges Reservoirs on the Flow Regime of the Yangtze River",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2013-01-02-Investigation-into-the-Impacts-of.html"
+    } ,
+  
+    {
+      "title"    : "Are droughts becoming more frequent or severe in China based on the standardized precipitation evapotranspiration index&amp;#58; 1951-2010?",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2014-01-01-Are-droughts-becoming-more-frequent.html"
+    } ,
+  
+    {
+      "title"    : "Development and application of a short-long-term composited drought index in the upper Huaihe River basin China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2015-01-01-Development-and-application-of-a.html"
+    } ,
+  
+    {
+      "title"    : "Drought assessment using a multivariate drought index in the Luanhe River basin of Northern China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2015-01-01-Drought-assessment-using-a-multivariate.html"
+    } ,
+  
+    {
+      "title"    : "Drought assessment using a multivariate drought index in the Huaihe River basin of Eastern China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2015-01-01-Drought-assessment-using-a-multivariate02.html"
+    } ,
+  
+    {
+      "title"    : "Investigation into impacts of land-use changes on floods in the upper Huaihe River basin China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2015-01-01-Investigation-into-impacts-of-land-use.html"
+    } ,
+  
+    {
+      "title"    : "Drought Assessment by a ShortLongTerm Composited Drought Index in the Upper Huaihe River Basin China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2016-01-01-Drought-Assessment-by-a-ShortLongTerm.html"
+    } ,
+  
+    {
+      "title"    : "Hydrological drought forecasting and assessment based on the standardized stream index in the Southwest China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2016-01-01-Hydrological-drought-forecasting-and-assessment.html"
+    } ,
+  
+    {
+      "title"    : "Potential evapotranspiration estimation in the upper Huaihe River basin China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2016-01-01-Potential-evapotranspiration-estimation-in-the.html"
+    } ,
+  
+    {
+      "title"    : "Quantifying the effect on flood regime of land-use pattern changes via hydrological simulation in the upper Huaihe River basin China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2016-01-01-Quantifying-the-effect-on-flood.html"
+    } ,
+  
+    {
+      "title"    : "Is the water level during dry season in Poyang Lake really lower than before",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2017-01-01-Is-the-water-level-during.html"
+    } ,
+  
+    {
+      "title"    : "Impacts of the Three Gorges Reservoir on its immediate downstream hydrological drought regime during 19502016",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2019-01-01-Impacts-of-the-Three-Gorges.html"
+    } ,
+  
+    {
+      "title"    : "Potential impact of a large-scale cascade reservoir on the spawning conditions of critical species in the Yangtze River China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2019-01-01-Potential-impact-of-a-large-scale.html"
+    } ,
+  
+    {
+      "title"    : "Assessment of potential ecological risk due to hydrological flow regime modification in the Hanjiang River basin 1950-2017",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2020-01-01-Assessment-of-potential-ecological-risk.html"
+    } ,
+  
+    {
+      "title"    : "Enhanced potential ecological risk induced by a large scale water diversion project",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2020-01-01-Enhanced-potential-ecological-risk-induced.html"
+    } ,
+  
+    {
+      "title"    : "Responses of meteorological drought-hydrological drought propagation to watershed scales in the upper Huaihe River basin China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2020-01-01-Responses-of-meteorological-drought-hydrological-drought.html"
+    } ,
+  
+    {
+      "title"    : "Responses of storm-based soil erosion processes to land use changes in the upper Huaihe River basin China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2020-01-01-Responses-of-storm-based-soil-erosion.html"
+    } ,
+  
+    {
+      "title"    : "Assessing sponge cities performance at city scale using remotely sensed LULC changes Case study Nanjing",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2021-01-01-Assessing-sponge-cities-performance-at.html"
+    } ,
+  
+    {
+      "title"    : "Agricultural drought of the Poyang Lake basin based on large-scale ground monitoring of soil water content",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2022-01-01-Agricultural-drought-of-the-Poyang.html"
+    } ,
+  
+    {
+      "title"    : "Comparison of runoff control performance by five permeable pavement systems in Zhenjiang Yangtze River Delta of China",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2022-01-01-Comparison-of-runoff-control-performance.html"
+    } ,
+  
+    {
+      "title"    : "Field experiment-based investigation on hydrological benefits of typical sponge facilities in the Yangtze Delta region",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2022-01-01-Field-experiment-based-investigation-on-hydrological.html"
+    } ,
+  
+    {
+      "title"    : "Precipitation Trends Analysis Using Gridded Dynamic Sampling Zones Case Study Yangtze Delta Megalopolis",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2022-01-01-Precipitation-Trends-Analysis-Using-Gridded.html"
+    } ,
+  
+    {
+      "title"    : "Simulation of Poyang Lake water levels and outflow under historical extreme hydrological scenarios",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2022-01-01-Simulation-of-Poyang-Lake-water.html"
+    } ,
+  
+    {
+      "title"    : "Streamflow droughts aggravated by human activities despite management",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2022-01-01-Streamflow-droughts-aggravated-by-human.html"
+    } ,
+  
+    {
+      "title"    : "Impact of soil textures on agricultural drought evolution and field capacity estimation in humid regions",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2023-01-01-Impact-of-soil-textures-on.html"
+    } ,
+  
+    {
+      "title"    : "Ecological environmental flow estimation for rivers with complicated hydraulic conditions",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2024-01-01-Ecological-environmental-flow-estimation-for.html"
+    } ,
+  
+    {
+      "title"    : "Forecasting environmental water availability of lakes using temporal fusion transformer case studies of Chinas two largest freshwater lakes",
+      "category" : "publication",
+      "tags"     : "",
+      "url"      : "/publications/2024-01-01-Forecasting-environmental-water-availability-of.html"
+    } 
+   ,
+  
+  
+    {
+      "title"    : "slide demo _ example from jekyll-revealjs",
+      "category" : "slide",
+      "tags"     : "slide, reveal.js, demo",
+      "url"      : "/slides/2020-08-03-slide-demo.html",
+      "date"     : "2020-08-03 11:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "slide demo - getting started with Jekyll and Revel.js",
+      "category" : "slide",
+      "tags"     : "slide, reveal.js, demo",
+      "url"      : "/slides/2020-08-04-slide-demo-introduction.html",
+      "date"     : "2020-08-04 16:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "reveal.js – The HTML Presentation Framework",
+      "category" : "slide",
+      "tags"     : "slide, reveal.js, markdown, demo",
+      "url"      : "/slides/2020-08-07-demo-from-revealjs.html",
+      "date"     : "2020-08-07 21:30:00 +0000"
+    } ,
+  
+    {
+      "title"    : "View of Delft&amp;#58; 2019 - 2020",
+      "category" : "slide",
+      "tags"     : "life, journey, Delfland, Den Haag, Delft, Netherlands",
+      "url"      : "/slides/2021-01-15-view-of-Delft.html",
+      "date"     : "2021-04-02 01:00:00 +0000"
+    } 
+  
+]

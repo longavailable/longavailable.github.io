@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>如何解决github访问慢的问题（中文） | LONGLOVEMYU</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="如何解决github访问慢的问题（中文）">
+<meta name="author" content="Bruce Liu">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="最近回到国内，不知什么原因，访问Github时出现“无法下载release”、“克隆速度慢”、“raw文件无法查看”等问题。网上搜索后发现还有很多网友也碰到这一问题。在此梳理下解决方法。">
+<meta property="og:description" content="最近回到国内，不知什么原因，访问Github时出现“无法下载release”、“克隆速度慢”、“raw文件无法查看”等问题。网上搜索后发现还有很多网友也碰到这一问题。在此梳理下解决方法。">
+<link rel="canonical" href="https://longlovemyu.com/fasten-github/">
+<meta property="og:url" content="https://longlovemyu.com/fasten-github/">
+<meta property="og:site_name" content="LONGLOVEMYU">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-12-10T01:50:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="如何解决github访问慢的问题（中文）">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bruce Liu"},"dateModified":"2023-12-10T01:50:00+00:00","datePublished":"2023-12-10T01:50:00+00:00","description":"最近回到国内，不知什么原因，访问Github时出现“无法下载release”、“克隆速度慢”、“raw文件无法查看”等问题。网上搜索后发现还有很多网友也碰到这一问题。在此梳理下解决方法。","headline":"如何解决github访问慢的问题（中文）","mainEntityOfPage":{"@type":"WebPage","@id":"https://longlovemyu.com/fasten-github/"},"url":"https://longlovemyu.com/fasten-github/"}</script>
+<!-- End Jekyll SEO tag -->
+<link id="main-stylesheet" rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="https://longlovemyu.com/feed.xml" title="LONGLOVEMYU">
+<link rel="shortcut icon" type="image/png" href="/assets/icon/favicon.ico">
+
+
+</head>
+<body>
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+	<!---->
+	<!--site-logo-->
+    <a class="site-title" href="/">
+	<img width="150" height="22" src="/assets/icon/siteLogo150by22.png"></a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/">Home</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/projects">Projects</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/publications">Publications</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/slides">Slides</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/calendar">Calendar</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/archive">Archive</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/search">Search</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/team">Team</a>
+				
+			
+        </div>
+
+      </nav>
+	
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- Post Header -->
+<style type="text/css">
+	header.intro-header{
+		background-image: url('/')
+	}
+	div.post-nav {
+		font-size: 20px;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		display: flex;
+	}
+	div.post-nav div {
+		/* flex-grow, flex-shrink, flex-basis */
+		flex: 1 1 0;
+	}
+	div.post-nav-next {
+		text-align: right;
+	}
+	div.spacing-2x {
+		line-height: 200%;
+	}
+	h3-publication { 
+		display: block;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 1.5em;
+		margin-top: 0;
+		margin-bottom: 0.4em;
+		margin-left: 0;
+		margin-right: 0;
+		font-weight: bold;
+		color:grey;
+	}
+</style>
+
+<!--style for table of contents--->
+<link rel="stylesheet" href="/assets/css/sidebar.css">
+
+<header class="intro-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="post-heading">
+					<!-- for post -->
+					
+						<!-- tile -->
+						<h1>如何解决github访问慢的问题（中文）</h1>
+						
+						<!-- meta: author, date, etc -->
+						<div class="meta"><div class="spacing-2x"><p>
+							Posted by 
+								
+									Bruce Liu
+								
+								
+							
+								on
+									February 28, 2021
+								, updated on 
+									December 10, 2023
+							
+						</p></div></div>
+						<!-- tags -->
+						<div class="tags"><div class="spacing-2x"><p>
+							🏷️ Tags:
+							
+								<a class="tag" href="/tags/#github" title="github">github</a>
+								,	<!-- split with ',' -->
+							
+								<a class="tag" href="/tags/#China" title="China">China</a>
+								,	<!-- split with ',' -->
+							
+								<a class="tag" href="/tags/#%E4%B8%AD%E6%96%87" title="中文">中文</a>
+									<!-- split with ',' -->
+							
+						</p></div></div>
+					
+
+					<!-- for publication -->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+		
+<!--table-of-contents-->
+<div class="sidebar">
+	<div class="toc" id="table-of-contents">
+		<ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#%E8%87%AA%E5%BB%BA%E9%95%9C%E5%83%8F">自建镜像</a></li>
+<li class="toc-entry toc-h1">
+<a href="#%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F">国内镜像加速</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#ghproxycom">ghproxy.com</a></li>
+<li class="toc-entry toc-h2"><a href="#fastgitorg">fastgit.org</a></li>
+<li class="toc-entry toc-h2"><a href="#githubcomcnpmjsorg">github.com.cnpmjs.org</a></li>
+<li class="toc-entry toc-h2"><a href="#gitclonecom">gitclone.com</a></li>
+<li class="toc-entry toc-h2"><a href="#7ednet-gra">7ed.net GRA</a></li>
+<li class="toc-entry toc-h2"><a href="#ghapi99988866xyz">gh.api.99988866.xyz</a></li>
+<li class="toc-entry toc-h2"><a href="#toolwacomgithub">toolwa.com/github</a></li>
+<li class="toc-entry toc-h2"><a href="#dserctlcom">d.serctl.com</a></li>
+<li class="toc-entry toc-h2"><a href="#ghproxyagraymangay">ghproxy.agrayman.gay</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#%E4%BF%AE%E6%94%B9hosts%E6%96%87%E4%BB%B6">修改hosts文件</a></li>
+<li class="toc-entry toc-h1"><a href="#%E7%A0%81%E4%BA%91gitee%E6%9B%B2%E7%BA%BF%E5%8A%A0%E9%80%9F">码云（Gitee）曲线加速</a></li>
+<li class="toc-entry toc-h1"><a href="#%E5%8F%82%E8%80%83references">参考/References</a></li>
+</ul>
+	</div>
+</div>
+	
+<!-- Post Content -->
+<article>
+	
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+
+				<!--<p>最近回到国内，不知什么原因，访问Github时出现“无法下载release”、“克隆速度慢”、“raw文件无法查看”等问题。网上搜索后发现还有很多网友也碰到这一问题。在此梳理下解决方法。
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<p>以<a href="https://github.com/longavailable/voronoi-diagram-for-polygons">voronoi-diagram-for-polygons</a>项目为例</p>
+
+<p>项目链接：<a href="https://github.com/longavailable/voronoi-diagram-for-polygons">https://github.com/longavailable/voronoi-diagram-for-polygons</a></p>
+
+<p>克隆命令：<code class="language-plaintext highlighter-rouge">git clone https://github.com/longavailable/voronoi-diagram-for-polygons.git</code></p>
+
+<p>release链接：<a href="https://github.com/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip">https://github.com/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip</a></p>
+
+<p>raw链接（示例）：<a href="https://raw.githubusercontent.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png">https://raw.githubusercontent.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png</a></p>
+
+<h1 id="自建镜像">自建镜像</h1>
+
+<ul>
+  <li>
+<a href="https://github.com/hunshcn/gh-proxy">hunshcn/gh-proxy</a>, <a href="https://github.com/hacs-china/gh-proxy">hacs-china/gh-proxy</a> (<code class="language-plaintext highlighter-rouge">/api/</code> supported), and <a href="https://github.com/crazypeace/gh-proxy">crazypeace/gh-proxy</a> (<code class="language-plaintext highlighter-rouge">api.github.com</code> supported)</li>
+</ul>
+
+<p>使用自己的域名创建镜像，当然也可以使用<a href="https://freenom.com"><code class="language-plaintext highlighter-rouge">freenom.com</code></a>的免费域名。</p>
+
+<ul>
+  <li>利用<a href="https://github.com/hacs-china/gh-proxy">hacs-china/gh-proxy</a>创建自己的镜像：
+    <ul>
+      <li>登陆或注册<a href="https://cloudflare.com"><code class="language-plaintext highlighter-rouge">Cloudflare</code></a>添加自己的域名，并修改域名的NS记录</li>
+      <li>
+<a href="https://dash.cloudflare.com/?account=workers">创建<code class="language-plaintext highlighter-rouge">Worker</code>服务</a>，选择<code class="language-plaintext highlighter-rouge">HTTP 处理程序</code>（默认）</li>
+      <li>复制<a href="https://raw.githubusercontent.com/hacs-china/gh-proxy/master/index.js"><code class="language-plaintext highlighter-rouge">index.js</code></a>中的代码，并张贴至Worker的代码编辑器中</li>
+      <li>部署并在触发器中添加自定义域名，Worker分配的域名是无法被访问的</li>
+      <li>访问<code class="language-plaintext highlighter-rouge">https://your.mirror.domain/api/</code>检查是否生效</li>
+      <li>在HA的集成与服务页面找到已添加的HACS，点击<code class="language-plaintext highlighter-rouge">选项</code>
+</li>
+      <li>填入镜像地址<code class="language-plaintext highlighter-rouge">https://your.mirror.domain/api</code>
+</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="国内镜像加速">国内镜像加速</h1>
+
+<h2 id="ghproxycom"><a href="https://ghproxy.com">ghproxy.com</a></h2>
+
+<h2 id="fastgitorg"><a href="https://doc.fastgit.org/en-us/#about-fastgit">fastgit.org</a></h2>
+
+<p>作用：加速访问；加速克隆；加速release下载</p>
+
+<p>使用方法：将<code class="language-plaintext highlighter-rouge">github.com</code>替换为<code class="language-plaintext highlighter-rouge">hub.fastgit.org</code>即可加速。</p>
+
+<p>项目加速链接：<a href="https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons">https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons</a></p>
+
+<p>加速克隆命令：<code class="language-plaintext highlighter-rouge">git clone https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons.git</code></p>
+
+<p>release加速下载链接：<a href="https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip">https://hub.fastgit.org/longavailable/voronoi-diagram-for-polygons/archive/v0.1.1.zip</a></p>
+
+<p>raw加速访问链接：<a href="https://raw.fastgit.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png">https://raw.fastgit.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png</a></p>
+
+<h2 id="githubcomcnpmjsorg"><a href="https://github.com.cnpmjs.org/">github.com.cnpmjs.org</a></h2>
+
+<p>作用：加速访问；加速克隆；加速release下载</p>
+
+<p>使用方法：与<a href="https://doc.fastgit.org/en-us/#about-fastgit">fastgit.org</a>相似，将<code class="language-plaintext highlighter-rouge">github.com</code>替换为<code class="language-plaintext highlighter-rouge">github.com.cnpmjs.org</code>即可加速。</p>
+
+<h2 id="gitclonecom"><a href="https://www.gitclone.com/">gitclone.com</a></h2>
+
+<p>作用：加速克隆</p>
+
+<p>使用方法：将<code class="language-plaintext highlighter-rouge">https://github.com</code>替换为<code class="language-plaintext highlighter-rouge">https://gitclone.com/github.com</code>即可加速。</p>
+
+<p>加速克隆命令：<code class="language-plaintext highlighter-rouge">git clone https://gitclone.com/github.com/longavailable/voronoi-diagram-for-polygons.git</code></p>
+
+<h2 id="7ednet-gra"><a href="https://7ed.net/gra/">7ed.net GRA</a></h2>
+
+<p>作用：加速raw访问</p>
+
+<p>使用方法：将<code class="language-plaintext highlighter-rouge">raw.githubusercontent.com</code>替换为<code class="language-plaintext highlighter-rouge">raw.sevencdn.com</code>。</p>
+
+<p>raw加速访问链接：<a href="https://raw.sevencdn.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png">https://raw.sevencdn.com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs.png</a></p>
+
+<h2 id="ghapi99988866xyz"><a href="https://gh.api.99988866.xyz/">gh.api.99988866.xyz</a></h2>
+
+<p>作用：加速release下载；加速文件下载</p>
+
+<p>使用方法：拷贝相应链接到该网站进行下载。</p>
+
+<h2 id="toolwacomgithub"><a href="https://toolwa.com/github/">toolwa.com/github</a></h2>
+
+<p>作用：加速release下载；加速文件下载</p>
+
+<p>使用方法：拷贝相应链接到该网站进行下载。</p>
+
+<h2 id="dserctlcom"><a href="https://d.serctl.com/">d.serctl.com</a></h2>
+
+<p>作用：加速项目下载/克隆；</p>
+
+<p>使用方法：拷贝相应链接到该网站进行下载。</p>
+
+<h2 id="ghproxyagraymangay"><a href="https://ghproxy.agrayman.gay">ghproxy.agrayman.gay</a></h2>
+
+<h1 id="修改hosts文件">修改hosts文件</h1>
+
+<p>参考<a href="https://blog.csdn.net/qianglei6077/article/details/90051554">国内加速访问Github的办法，超级简单</a>。</p>
+
+<h1 id="码云gitee曲线加速">码云（Gitee）曲线加速</h1>
+
+<p>利用Gitee的“从github导入仓库”功能，再从Gitee克隆到本地。</p>
+
+<h1 id="参考references">参考/References</h1>
+
+<ul>
+  <li><a href="https://blog.csdn.net/networken/article/details/105122778">Github国内mirror加速</a></li>
+  <li><a href="https://blog.csdn.net/qianglei6077/article/details/90051554">国内加速访问Github的办法，超级简单</a></li>
+  <li><a href="https://zhuanlan.zhihu.com/p/112697807">一招搞定GitHub下载加速</a></li>
+  <li><a href="http://ipaddress.com/">IPAddress.com</a></li>
+</ul>
+
+<!--helping links-->
+
+ <!-- This line can not delete-->
+				 	<!-- remove excerpt from posts -->
+				
+				<!-- add a python tools hyperlink if 'python' appears in tags-->
+				
+			</div>
+		</div>
+	</div>
+	
+	<!-- Related contents -->
+	<div class="relatedPosts">
+
+		<!-- for post -->
+		
+		
+			<h2>Related</h2>
+
+			
+			
+			
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/docker_commands/">Docker commands in Chinese <span class="label label-default">中文</span> </a>
+					</div>
+					
+					
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/githubapi/">Access files using github api <span class="label label-default">github</span> </a>
+					</div>
+					
+					
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/post/2019/09/18/site-design-under-SCC-concept.html">Key steps for case degine under the SCC / 海绵方案设计核心步骤 (中文) <span class="label label-default">中文</span> </a>
+					</div>
+					
+					
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+		
+	</div>
+
+	<!-- share buttons -->
+	<br> <!-- br 是空行，hr是加一条直线-->
+	<div align="right">
+		
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+    position: relative;
+    text-align: left; 
+    height: 36px; 
+    width: 32px; 
+    float: left; 
+    text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+</style>
+
+<span style="color: silver;">Share on: </span><div id="share-buttons">
+    <div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https://longlovemyu.com/fasten-github/');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path></svg></div>
+    <div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=https://longlovemyu.com/fasten-github/');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path></svg></div>
+    <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://longlovemyu.com/fasten-github/&amp;title=&amp;summary=&amp;source=');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path></svg></div>
+    
+    <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&amp;body=https://longlovemyu.com/fasten-github/');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"></path></svg></div>
+</div>
+	</div>
+	
+	<!-- mathjax -->
+	
+	
+	<!-- back to top button -->
+	<script src="/js/vanilla-back-to-top.min.js"></script>
+	<script>addBackToTop()</script>
+	
+	<!-- page-piganation-->
+	<hr>	<!-- br 是空行，hr是加一条直线-->
+	<div class="post-nav">
+		<div>
+			
+				<a href="/research-articles-on-poyanglake">« PREVIOUS: 鄱阳湖三部曲</a>
+			
+		</div>
+		<div class="post-nav-next">
+			
+				<a href="/python-nodered-in-hass">NEXT: Deply python and install dependencies within Node-RED-addon in Homeassistant »</a>
+			
+		</div>
+	</div>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+	
+    <h2 class="footer-heading">LONGLOVEMYU</h2>
+	
+    <div class="footer-col-wrapper">
+		<!--logo-->
+		<div style="width: 40%">
+			<a href="/">
+				<img src="/assets/icon/siteicon40.png" height="40" width="40">
+			</a>
+		</div>
+		
+		<div class="footer-col footer-col-1">
+			<ul class="contact-list">
+				<li class="p-name">LONGAVAILABLE</li>
+<li><a class="u-email" href="mailto:liuxiaolong125@gmail.com">liuxiaolong125@gmail.com</a></li>
+</ul>
+		</div>
+		<!--
+		<div class="footer-col footer-col-2"><ul class="social-media-list"><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li>
+  <li>
+    <a href="https://longlovemyu.com/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+		-->
+		<div class="footer-col footer-col-2">
+			<p>Sharing and recoding something useful, trying to make things simple, and looking for some fun.</p>
+		</div>
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

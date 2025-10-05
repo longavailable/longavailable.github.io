@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How to write a Jekyll blog | LONGLOVEMYU</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="How to write a Jekyll blog">
+<meta name="author" content="Bruce Liu">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Hello, Jekyll!">
+<meta property="og:description" content="Hello, Jekyll!">
+<link rel="canonical" href="https://longlovemyu.com/jekyll_blog/">
+<meta property="og:url" content="https://longlovemyu.com/jekyll_blog/">
+<meta property="og:site_name" content="LONGLOVEMYU">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-12-24T06:20:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="How to write a Jekyll blog">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bruce Liu"},"dateModified":"2024-12-24T06:20:00+00:00","datePublished":"2024-12-24T06:20:00+00:00","description":"Hello, Jekyll!","headline":"How to write a Jekyll blog","mainEntityOfPage":{"@type":"WebPage","@id":"https://longlovemyu.com/jekyll_blog/"},"url":"https://longlovemyu.com/jekyll_blog/"}</script>
+<!-- End Jekyll SEO tag -->
+<link id="main-stylesheet" rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="https://longlovemyu.com/feed.xml" title="LONGLOVEMYU">
+<link rel="shortcut icon" type="image/png" href="/assets/icon/favicon.ico">
+
+
+</head>
+<body>
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+	<!---->
+	<!--site-logo-->
+    <a class="site-title" href="/">
+	<img width="150" height="22" src="/assets/icon/siteLogo150by22.png"></a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/">Home</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/projects">Projects</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/publications">Publications</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/slides">Slides</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/calendar">Calendar</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/archive">Archive</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/search">Search</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/team">Team</a>
+				
+			
+        </div>
+
+      </nav>
+	
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- Post Header -->
+<style type="text/css">
+	header.intro-header{
+		background-image: url('/')
+	}
+	div.post-nav {
+		font-size: 20px;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		display: flex;
+	}
+	div.post-nav div {
+		/* flex-grow, flex-shrink, flex-basis */
+		flex: 1 1 0;
+	}
+	div.post-nav-next {
+		text-align: right;
+	}
+	div.spacing-2x {
+		line-height: 200%;
+	}
+	h3-publication { 
+		display: block;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 1.5em;
+		margin-top: 0;
+		margin-bottom: 0.4em;
+		margin-left: 0;
+		margin-right: 0;
+		font-weight: bold;
+		color:grey;
+	}
+</style>
+
+<!--style for table of contents--->
+<link rel="stylesheet" href="/assets/css/sidebar.css">
+
+<header class="intro-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="post-heading">
+					<!-- for post -->
+					
+						<!-- tile -->
+						<h1>How to write a Jekyll blog</h1>
+						
+						<!-- meta: author, date, etc -->
+						<div class="meta"><div class="spacing-2x"><p>
+							Posted by 
+								
+									Bruce Liu
+								
+								
+							
+								on
+									September 1, 2019
+								, updated on 
+									December 24, 2024
+							
+						</p></div></div>
+						<!-- tags -->
+						<div class="tags"><div class="spacing-2x"><p>
+							🏷️ Tags:
+							
+								<a class="tag" href="/tags/#first%20blog" title="first blog">first blog</a>
+								,	<!-- split with ',' -->
+							
+								<a class="tag" href="/tags/#Jekyll" title="Jekyll">Jekyll</a>
+								,	<!-- split with ',' -->
+							
+								<a class="tag" href="/tags/#markdown" title="markdown">markdown</a>
+								,	<!-- split with ',' -->
+							
+								<a class="tag" href="/tags/#map" title="map">map</a>
+								,	<!-- split with ',' -->
+							
+								<a class="tag" href="/tags/#picture" title="picture">picture</a>
+								,	<!-- split with ',' -->
+							
+								<a class="tag" href="/tags/#emoji" title="emoji">emoji</a>
+									<!-- split with ',' -->
+							
+						</p></div></div>
+					
+
+					<!-- for publication -->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+		
+<!--table-of-contents-->
+<div class="sidebar">
+	<div class="toc" id="table-of-contents">
+		<ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#how-to-test-a-blog-using-bundle">How to test a blog using bundle:</a></li>
+<li class="toc-entry toc-h1">
+<a href="#markdown-skills">Markdown skills</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#space-tab-and-blank-line">Space, tab, and blank line</a></li>
+<li class="toc-entry toc-h2">
+<a href="#how-to-add-a-picture">How to add a picture</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#NOTWORKING">The picture from the repository which the site belongs to</a></li>
+<li class="toc-entry toc-h3"><a href="#the-picture-from-internet">The picture from internet</a></li>
+<li class="toc-entry toc-h3"><a href="#360-image">360° image</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#how-to-compare-two-pictures">How to compare two pictures</a></li>
+<li class="toc-entry toc-h2">
+<a href="#how-to-embed-a-map">How to embed a map</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#a-own-map---geojson-map">a own map - geoJSON map</a></li>
+<li class="toc-entry toc-h3"><a href="#a-3rd-party-map---google-map">a 3rd party map - google map</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#how-to-assign-a-variable">How to assign a variable</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#how-to-add-a-emoji-">How to add a emoji 🙈</a></li>
+<li class="toc-entry toc-h1"><a href="#add-a-revealjs-presentation">Add a reveal.js presentation</a></li>
+<li class="toc-entry toc-h1"><a href="#reference">Reference</a></li>
+</ul>
+	</div>
+</div>
+	
+<!-- Post Content -->
+<article>
+	
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+
+				<!--<p>This is a templete to show how to write a post.
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<h1 id="how-to-test-a-blog-using-bundle">How to test a blog using bundle:</h1>
+
+<ul>
+  <li>
+    <p>Navigate to path of the githubpages repository.</p>
+
+    <div class="language-sh highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>D:<span class="se">\g</span>it<span class="se">\g</span>ithubPages<span class="se">\l</span>ongavailable.github.io
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Execute the following command:</p>
+
+    <div class="language-sh highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div>    </div>
+
+    <p>or with <code class="language-plaintext highlighter-rouge">--drafts</code> tag.</p>
+
+    <div class="language-sh highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve <span class="nt">--drafts</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Check the githubpages website from <a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Ctrl + C </code> quit the bundle serve.</p>
+  </li>
+</ul>
+
+<h1 id="markdown-skills">Markdown skills</h1>
+
+<h2 id="space-tab-and-blank-line">Space, tab, and blank line</h2>
+
+<ul>
+  <li>
+    <p><a href="https://markdown-guide.readthedocs.io/en/latest/basics.html#paragraphs">Paragraph: text line + blank line + text line</a></p>
+  </li>
+  <li>
+    <p><a href="https://markdown-guide.readthedocs.io/en/latest/basics.html?highlight=space#code-block">Plain code block: paragraph text line (+ blank line) + 1 Tab or 4 spaces + code + blank line</a></p>
+  </li>
+  <li>
+    <p><a href="https://markdown-guide.readthedocs.io/en/latest/basics.html?highlight=space#code-block">Plain code block in list (indented): (blank line) + ‘1 Tab + 2 spaces’ or 6 spaces  + code (+ blank line)</a></p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>Hello, world in list
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Fenced code block: (blank line) +  ` ` `  + language identifier + enter + code + enter + ` ` ` (+ blank line)</a></p>
+  </li>
+</ul>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gu">## Header line h2.</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p><a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Fenced code block in list (indented): (blank line) + 1 Tab or 4 spaces +  ` ` `  + language identifier + enter + code + enter + 1 Tab or 4 spaces + ` ` ` (+ blank line)</a>. It didnot work for <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code>, see <a href="#NOTWORKING">here</a> 2nd item. Why?</p>
+
+    <div class="language-md highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="gu">### Header line h3.</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://stackoverflow.com/a/15721400/12371819">More than 1 space in a text snippet (non-breaking space): <code class="language-plaintext highlighter-rouge">&amp;nbsp;</code> is 2 spaces, <code class="language-plaintext highlighter-rouge">&amp;nbsp;&amp;nbsp;</code> 4 spaces</a></p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Zero-width_space">Zero-width space: <code class="language-plaintext highlighter-rouge">&amp;#8203;</code></a></p>
+  </li>
+</ul>
+
+<!--<a class="headerlink" href="#code-inline" title="Permalink to this headline">¶</a>-->
+
+<h2 id="how-to-add-a-picture">How to add a picture</h2>
+
+<h3 id="NOTWORKING">The picture from the repository which the site belongs to</h3>
+
+<ul>
+  <li>
+    <p>Just the picture</p>
+
+    <div class="language-md highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Pic01</span><span class="p">](</span><span class="sx">/assets/pics/pic01_green_test.png</span><span class="p">)</span>
+</code></pre></div>    </div>
+    <p><img src="/assets/pics/pic01_green_test.png" alt="Pic01"></p>
+  </li>
+  <li>
+    <p>A picture with defined position and size</p>
+  </li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">align=</span><span class="s">"center"</span><span class="nt">&gt;&lt;img</span> <span class="na">width=</span><span class="s">"165"</span> <span class="na">height=</span><span class="s">"75"</span> <span class="na">src=</span><span class="s">"/assets/pics/pic01_green_test.png"</span><span class="nt">/&gt;&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<div align="center"><img width="165" height="75" src="/assets/pics/pic01_green_test.png"></div>
+
+<h3 id="the-picture-from-internet">The picture from internet</h3>
+<ul>
+  <li>
+    <p>Just the picture</p>
+
+    <div class="language-md highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Pic01</span><span class="p">](</span><span class="sx">https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png</span><span class="p">)</span>
+</code></pre></div>    </div>
+    <p><img src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png" alt="Pic01"></p>
+  </li>
+  <li>
+    <p>A picture with defined position and size</p>
+  </li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">align=</span><span class="s">"center"</span><span class="nt">&gt;&lt;img</span> <span class="na">width=</span><span class="s">"65"</span> <span class="na">height=</span><span class="s">"75"</span> <span class="na">alt=</span><span class="s">"Demo pic for test"</span> <span class="na">src=</span><span class="s">"https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"</span><span class="nt">/&gt;&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<div align="center"><img width="65" height="75" alt="Demo pic for test" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"></div>
+
+<h3 id="360-image">360° image</h3>
+
+<p>Place a <code class="language-plaintext highlighter-rouge">&lt;a-scene&gt;</code> tag and its scripts supported by <a href="https://aframe.io/">A-Frame</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://aframe.io/releases/1.3.0/aframe.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+<span class="nt">&lt;a-scene</span> <span class="na">style=</span><span class="s">"aspect-ratio:1/1;width:100%"</span> <span class="na">embedded</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a-sky</span> <span class="na">src=</span><span class="s">"/assets/pics/puydesancy.jpg"</span> <span class="na">rotation=</span><span class="s">"0 -130 0"</span><span class="nt">&gt;&lt;/a-sky&gt;</span>
+  <span class="nt">&lt;a-text</span> <span class="na">font=</span><span class="s">"kelsonsans"</span> <span class="na">value=</span><span class="s">"Puy de Sancy, France"</span> <span class="na">width=</span><span class="s">"6"</span> <span class="na">position=</span><span class="s">"-2.5 0.25 -1.5"</span>
+		  <span class="na">rotation=</span><span class="s">"0 15 0"</span><span class="nt">&gt;&lt;/a-text&gt;</span>
+<span class="nt">&lt;/a-scene&gt;</span>
+</code></pre></div></div>
+
+<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+
+<a-scene style="aspect-ratio:1/1;width:100%" embedded="">
+  <a-sky src="/assets/pics/puydesancy.jpg" rotation="0 -130 0"></a-sky>
+  <a-text font="kelsonsans" value="Puy de Sancy, France" width="6" position="-2.5 0.25 -1.5" rotation="0 15 0"></a-text>
+</a-scene>
+
+<p>Image courtesy: <a href="https://github.com/aframevr/aframe/tree/v1.0.4/examples/boilerplate/panorama">A-Frame example</a></p>
+
+<h2 id="how-to-compare-two-pictures">How to compare two pictures</h2>
+
+<p>There are ways to create a comparative iframe. For example, <a href="https://www.w3schools.com/howto/howto_js_image_comparison.asp">How TO - Image Comparison Slider</a>, <a href="https://github.com/NUKnightLab/juxtapose">JuxtaposeJS</a>. Add the following to your post by using <a href="https://github.com/NUKnightLab/juxtapose">JuxtaposeJS</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"juxtapose"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/pics/img_forest.jpg"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/pics/img_snow.jpg"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<div class="juxtapose">
+    <img src="/assets/pics/img_forest.jpg">
+    <img src="/assets/pics/img_snow.jpg">
+</div>
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+
+<h2 id="how-to-embed-a-map">How to embed a map</h2>
+
+<h3 id="a-own-map---geojson-map">a own map - geoJSON map</h3>
+<ul>
+  <li>
+    <p>Place the following in any HTML page that supports javascript:</p>
+
+    <div class="language-html highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://embed.github.com/view/geojson/&lt;username&gt;/&lt;repo&gt;/&lt;ref&gt;/&lt;path_to_file&gt;"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Set height and weight, default 420px (h) x 620px (w)</p>
+
+    <div class="language-html highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://embed.github.com/view/geojson/&lt;username&gt;/&lt;repo&gt;/&lt;ref&gt;/&lt;path_to_file&gt;?width=&lt;width&gt;&height=&lt;height&gt;"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Example</p>
+    <div align="center">
+      <script src="https://embed.github.com/view/geojson/longavailable/georepo/main/geojson/afg.json?width=600&height=600"></script>
+  </div>
+  </li>
+</ul>
+
+<h3 id="a-3rd-party-map---google-map">a 3rd party map - google map</h3>
+<ul>
+  <li>
+<a href="https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en">Tutorial to get the embed link of a google map or directions</a>
+    <div align="center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5938.9807235220605!2d12.447683826439667!3d41.903816266880455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60660c3e3925%3A0x498c3835506c3c!2s00120%20Vatican%20City!5e0!3m2!1sen!2snl!4v1576946140498!5m2!1sen!2snl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  </div>
+  </li>
+</ul>
+
+<h2 id="how-to-assign-a-variable">How to assign a variable</h2>
+
+<p>Assigning a variable in Github Markdown:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ % assign variableTest = "This is a string variable." % }
+{ % capture variableTest2 % }This is a string variable for syntax 2.{ % endcapture % }
+</code></pre></div></div>
+
+<ul>
+  <li>Note that, there is no space between curly bracket <code class="language-plaintext highlighter-rouge">{</code>, <code class="language-plaintext highlighter-rouge">}</code> and percent sign <code class="language-plaintext highlighter-rouge">%</code>.</li>
+</ul>
+
+<p>The content of variableTest is “ This is a string variable. “.</p>
+
+<p>The content of variableTest2 is “ This is a string variable for syntax 2. “.</p>
+
+<p>The​content test.</p>
+
+<h1 id="how-to-add-a-emoji-">How to add a emoji 🙈</h1>
+
+<ul>
+  <li>
+    <p>The easiest way is copy and paste</p>
+
+    <p>Visit <a href="https://emojipedia.org/">Emojipedia</a>, search , copy, and paste.</p>
+  </li>
+  <li>
+    <p>Use <a href="https://github.com/jekyll/jemoji">Jemoji</a></p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>gem install jemoji
+</code></pre></div>    </div>
+
+    <p>Add <code class="language-plaintext highlighter-rouge">gem 'jemoji'</code> to gemfile.</p>
+
+    <p>Add it as a plugin in <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+    <p>Note: It may cause other problem. For my site, it will confict with lunr.js.</p>
+  </li>
+</ul>
+
+<h1 id="add-a-revealjs-presentation">Add a reveal.js presentation</h1>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;iframe</span> <span class="na">frameborder=</span><span class="s">"no"</span> <span class="na">border=</span><span class="s">"0"</span> <span class="na">marginwidth=</span><span class="s">"0"</span> <span class="na">marginheight=</span><span class="s">"0"</span> <span class="na">width=</span><span class="s">500</span> <span class="na">height=</span><span class="s">400</span> <span class="na">src=</span><span class="s">"/slides/2020-08-07-demo-from-revealjs.html#/"</span><span class="nt">&gt;&lt;/iframe&gt;</span>
+</code></pre></div></div>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="500" height="400" src="/slides/2020-08-07-demo-from-revealjs.html#/"></iframe>
+
+<p>Press <strong>F</strong> to fullscreen mode.</p>
+
+<h1 id="reference">Reference</h1>
+<ul>
+  <li><a href="https://www.markdownguide.org/basic-syntax/">Basic syntax - Markdown guide</a></li>
+  <li><a href="https://markdown-guide.readthedocs.io/en/latest/index.html">markdown-guide</a></li>
+  <li><a href="https://hiltmon.com/blog/2017/01/28/mathjax-in-markdown/">MathJax in Markdown</a></li>
+  <li><a href="https://www.codecogs.com/latex/eqneditor.php">Equation Editor</a></li>
+  <li><a href="https://www.hostmath.com">Host Math</a></li>
+  <li><a href="https://www.bytedude.com/jekyll-previous-and-next-posts/">Jekyll: Previous And Next Posts</a></li>
+  <li><a href="https://jekyllcodex.org/without-plugins/">Jekyll without plugins</a></li>
+  <li><a href="https://shopify.github.io/liquid/basics/introduction/">Basic syntax - Liquid template language</a></li>
+  <li><a href="https://emojipedia.org/">Emojipedia</a></li>
+  <li><a href="https://www.w3schools.com/howto/howto_js_image_comparison.asp">How TO - Image Comparison Slider</a></li>
+  <li><a href="https://juxtapose.knightlab.com/">JuxtaposeJS - Easy-to-make frame comparisons</a></li>
+  <li><a href="https://github.com/Naereen/badges">List of Badges, in Markdown</a></li>
+  <li><a href="https://www.websiteplanet.com/blog/html-guide-beginners/">Basic HTML Codes for Beginners</a></li>
+  <li><a href="https://aframe.io/examples/showcase/sky/">360° image - A-Frame</a></li>
+  <li><a href="https://longqian.me/2017/07/25/vrview-with-jekyll/">Google VRView with Jekyll</a></li>
+</ul>
+
+ <!-- This line can not delete-->
+				 	<!-- remove excerpt from posts -->
+				
+				<!-- add a python tools hyperlink if 'python' appears in tags-->
+				
+			</div>
+		</div>
+	</div>
+	
+	<!-- Related contents -->
+	<div class="relatedPosts">
+
+		<!-- for post -->
+		
+		
+			<h2>Related</h2>
+
+			
+			
+			
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/empty-jekll-site">Create an empty Jekyll site step by step <span class="label label-default">Jekyll</span> </a>
+					</div>
+					
+					
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/search_bar/">Add a search bar in Jekyll blogsite <span class="label label-default">Jekyll</span> </a>
+					</div>
+					
+					
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/serve-jekyll/">Set up and serve Jekyll <span class="label label-default">Jekyll</span> </a>
+					</div>
+					
+					
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/post/2019/09/01/welcome-to-jekyll.html">Welcome to Jekyll! <span class="label label-default">Jekyll</span> </a>
+					</div>
+					
+					
+						
+		
+	</div>
+
+	<!-- share buttons -->
+	<br> <!-- br 是空行，hr是加一条直线-->
+	<div align="right">
+		
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+    position: relative;
+    text-align: left; 
+    height: 36px; 
+    width: 32px; 
+    float: left; 
+    text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+</style>
+
+<span style="color: silver;">Share on: </span><div id="share-buttons">
+    <div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https://longlovemyu.com/jekyll_blog/');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path></svg></div>
+    <div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=https://longlovemyu.com/jekyll_blog/');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path></svg></div>
+    <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://longlovemyu.com/jekyll_blog/&amp;title=&amp;summary=&amp;source=');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path></svg></div>
+    
+    <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&amp;body=https://longlovemyu.com/jekyll_blog/');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"></path></svg></div>
+</div>
+	</div>
+	
+	<!-- mathjax -->
+	
+	
+	<!-- back to top button -->
+	<script src="/js/vanilla-back-to-top.min.js"></script>
+	<script>addBackToTop()</script>
+	
+	<!-- page-piganation-->
+	<hr>	<!-- br 是空行，hr是加一条直线-->
+	<div class="post-nav">
+		<div>
+			
+				<a href="/conference-list/">« PREVIOUS: Academic conferences on water and environment</a>
+			
+		</div>
+		<div class="post-nav-next">
+			
+				<a href="/remote-ha-access/">NEXT: Free ways to access home assistant remotely »</a>
+			
+		</div>
+	</div>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+	
+    <h2 class="footer-heading">LONGLOVEMYU</h2>
+	
+    <div class="footer-col-wrapper">
+		<!--logo-->
+		<div style="width: 40%">
+			<a href="/">
+				<img src="/assets/icon/siteicon40.png" height="40" width="40">
+			</a>
+		</div>
+		
+		<div class="footer-col footer-col-1">
+			<ul class="contact-list">
+				<li class="p-name">LONGAVAILABLE</li>
+<li><a class="u-email" href="mailto:liuxiaolong125@gmail.com">liuxiaolong125@gmail.com</a></li>
+</ul>
+		</div>
+		<!--
+		<div class="footer-col footer-col-2"><ul class="social-media-list"><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li>
+  <li>
+    <a href="https://longlovemyu.com/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+		-->
+		<div class="footer-col footer-col-2">
+			<p>Sharing and recoding something useful, trying to make things simple, and looking for some fun.</p>
+		</div>
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

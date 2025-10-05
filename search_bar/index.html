@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Add a search bar in Jekyll blogsite | LONGLOVEMYU</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="Add a search bar in Jekyll blogsite">
+<meta name="author" content="Bruce Liu">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Hello, Jekyll!">
+<meta property="og:description" content="Hello, Jekyll!">
+<link rel="canonical" href="https://longlovemyu.com/search_bar/">
+<meta property="og:url" content="https://longlovemyu.com/search_bar/">
+<meta property="og:site_name" content="LONGLOVEMYU">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2021-12-06T15:30:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Add a search bar in Jekyll blogsite">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bruce Liu"},"dateModified":"2021-12-06T15:30:00+00:00","datePublished":"2021-12-06T15:30:00+00:00","description":"Hello, Jekyll!","headline":"Add a search bar in Jekyll blogsite","mainEntityOfPage":{"@type":"WebPage","@id":"https://longlovemyu.com/search_bar/"},"url":"https://longlovemyu.com/search_bar/"}</script>
+<!-- End Jekyll SEO tag -->
+<link id="main-stylesheet" rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="https://longlovemyu.com/feed.xml" title="LONGLOVEMYU">
+<link rel="shortcut icon" type="image/png" href="/assets/icon/favicon.ico">
+
+
+</head>
+<body>
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+	<!---->
+	<!--site-logo-->
+    <a class="site-title" href="/">
+	<img width="150" height="22" src="/assets/icon/siteLogo150by22.png"></a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/">Home</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/projects">Projects</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/publications">Publications</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/slides">Slides</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/calendar">Calendar</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/archive">Archive</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/search">Search</a>
+				
+			
+				<!-- If has submenues -->
+				
+					<a class="page-link" href="/team">Team</a>
+				
+			
+        </div>
+
+      </nav>
+	
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- Post Header -->
+<style type="text/css">
+	header.intro-header{
+		background-image: url('/')
+	}
+	div.post-nav {
+		font-size: 20px;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		display: flex;
+	}
+	div.post-nav div {
+		/* flex-grow, flex-shrink, flex-basis */
+		flex: 1 1 0;
+	}
+	div.post-nav-next {
+		text-align: right;
+	}
+	div.spacing-2x {
+		line-height: 200%;
+	}
+	h3-publication { 
+		display: block;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 1.5em;
+		margin-top: 0;
+		margin-bottom: 0.4em;
+		margin-left: 0;
+		margin-right: 0;
+		font-weight: bold;
+		color:grey;
+	}
+</style>
+
+<!--style for table of contents--->
+<link rel="stylesheet" href="/assets/css/sidebar.css">
+
+<header class="intro-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="post-heading">
+					<!-- for post -->
+					
+						<!-- tile -->
+						<h1>Add a search bar in Jekyll blogsite</h1>
+						
+						<!-- meta: author, date, etc -->
+						<div class="meta"><div class="spacing-2x"><p>
+							Posted by 
+								
+									Bruce Liu
+								
+								
+							
+								on
+									February 15, 2020
+								, updated on 
+									December 6, 2021
+							
+						</p></div></div>
+						<!-- tags -->
+						<div class="tags"><div class="spacing-2x"><p>
+							🏷️ Tags:
+							
+								<a class="tag" href="/tags/#Jekyll" title="Jekyll">Jekyll</a>
+								,	<!-- split with ',' -->
+							
+								<a class="tag" href="/tags/#search" title="search">search</a>
+								,	<!-- split with ',' -->
+							
+								<a class="tag" href="/tags/#Lunr" title="Lunr">Lunr</a>
+								,	<!-- split with ',' -->
+							
+								<a class="tag" href="/tags/#Google%20Custom%20Search%20engine" title="Google Custom Search engine">Google Custom Search engine</a>
+									<!-- split with ',' -->
+							
+						</p></div></div>
+					
+
+					<!-- for publication -->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+		
+<!--table-of-contents-->
+<div class="sidebar">
+	<div class="toc" id="table-of-contents">
+		<ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#christians-simple-jekyll-search">Christian’s Simple-Jekyll-Search</a></li>
+<li class="toc-entry toc-h1"><a href="#lunr">Lunr</a></li>
+<li class="toc-entry toc-h1"><a href="#google---invoke-googlecom">Google - invoke google.com</a></li>
+<li class="toc-entry toc-h1"><a href="#google-custom-search-engine">Google Custom Search Engine</a></li>
+<li class="toc-entry toc-h1"><a href="#reference">Reference:</a></li>
+</ul>
+	</div>
+</div>
+	
+<!-- Post Content -->
+<article>
+	
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+
+				<!--<p>There are ways to add a search bar. This post shows my way.
+<!--the above is the excerpt-->
+<!--more-->
+<!--the following is the text-->
+
+<h1 id="christians-simple-jekyll-search">Christian’s <a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a>
+</h1>
+
+<ul>
+  <li>Find the guide <a href="https://blog.webjeda.com/instant-jekyll-search/">here</a>.</li>
+</ul>
+
+<h1 id="lunr">Lunr</h1>
+
+<ul>
+  <li>
+    <p>Add <a href="https://raw.githubusercontent.com/jhvanderschee/jekyllcodex/gh-pages/js/lunr.js">Lunr.js</a> to your project.</p>
+  </li>
+  <li>
+    <p>Add <a href="https://raw.githubusercontent.com/jhvanderschee/jekyllcodex/gh-pages/_includes/search-lunr.html">search-lunr.html</a> to <code class="language-plaintext highlighter-rouge">_includes</code> of your project</p>
+  </li>
+  <li>
+    <p>Add the following statement to your page</p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>{ % include search-lunr.html % }
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<script src="/js/lunr.js"></script>
+
+<script>
+
+var documents = [{
+    "id": 0,
+    "url": "https://longlovemyu.com/archive/",
+    "title": "Archive",
+    "body": "Archived by Post Date, Categories and Tags. Archived by:  Post Date Categories TagsPost Date	{% for post in site. posts %}		{% capture y %}{{post. date | date: %Y }}{% endcapture %}		{% if year != y %}			{% assign year = y %}			 {{ y }} 			&nbsp;		{% endif %}	{% endfor %}{% for post in site. posts %} {% capture y %}{{post. date | date: %Y }}{% endcapture %} {% if year != y %}  {% assign year = y %}  {{ y }} {% endif %}						&lt;time datetime= {{ post. date | date: %Y-%m-%d  }} &gt; {{ post. date | date: %Y-%m-%d  }} &lt;/time&gt;			 {{ post. title }} 			{% endfor %}Categories		{% for category in site. categories %}		 {{ category[0] }} 		&nbsp;	{% endfor %}			 publication 		&nbsp;		{% for category in site. categories %}	{{ category[0] }}			{% for post in category[1] %}			{{ post. title }}		{% endfor %}		{% endfor %}			 publication 			{% for publication in site. publications %}			{{ publication. title }}		{% endfor %}	Tags	{% for tag in site. tags %}		{{ tag[0] }}		&nbsp;	{% endfor %}	{% for tag in site. tags %}		{{ tag[0] }}					{% for post in tag[1] %}									&lt;time datetime= {{ post. date | date: %Y-%m-%d  }} &gt;{{ post. date | date: %Y-%m-%d  }}&lt;/time&gt;					{{ post. title }}							{% endfor %}			{% endfor %}"
+    }, {
+    "id": 1,
+    "url": "https://longlovemyu.com/calendar/",
+    "title": "学术会议日历",
+    "body": "			即将开始的会议		已结束的会议	        即将开始的会议:     {% assign today =  now  | date:  %Y-%m-%d  %}    {% for conference in site. data. conferences %}      {% if conference. status ==  potential  %}        {% comment %}				{% assign reg_deadline = conference. registration_deadline %}        {% endcomment %}        {% assign reg_deadline = conference. start_date %}        {% if reg_deadline &gt;= today %}                      {{ conference. title }}:             时间：{{ conference. start_date }} -- {{ conference. end_date }}             地点：{{ conference. location }}             费用：{{ conference. cost }}             注册截止日期：{{ conference. registration_deadline }}             状态：尚未注册             立即注册                  {% endif %}      {% endif %}    {% endfor %}          已结束的会议:     {% assign today =  now  | date:  %Y-%m-%d  %}    {% for conference in site. data. conferences %}      {% if conference. status ==  potential  %}        {% assign end_date = conference. end_date %}        {% if end_date &lt; today %}                      {{ conference. title }}:             时间：{{ conference. start_date }} - {{ conference. end_date }}             地点：{{ conference. location }}                   {% endif %}      {% endif %}    {% endfor %}    "
+    }, {
+    "id": 2,
+    "url": "https://longlovemyu.com/categories/",
+    "title": "Categories",
+    "body": "	{% for category in site. categories %}		 {{ category[0] }} 		&nbsp;	{% endfor %}	{% for category in site. categories %}	{{ category[0] }}			{% for post in category[1] %}			{{ post. title }}		{% endfor %}		{% endfor %}"
+    }, {
+    "id": 3,
+    "url": "https://longlovemyu.com/categories/",
+    "title": "Categories",
+    "body": "		{% for category in site. categories %}		 {{ category[0] }} 		&nbsp;	{% endfor %}			 publication 		&nbsp;		{% for category in site. categories %}	{{ category[0] }}			{% for post in category[1] %}			{{ post. title }}		{% endfor %}		{% endfor %}			 publication 			{% for publication in site. publications %}			{{ publication. title }}		{% endfor %}	"
+    }, {
+    "id": 4,
+    "url": "https://longlovemyu.com/",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 5,
+    "url": "https://longlovemyu.com/postdate/",
+    "title": "Post Date",
+    "body": "	{% for post in site. posts %}		{% capture y %}{{post. date | date: %Y }}{% endcapture %}		{% if year != y %}			{% assign year = y %}			 {{ y }} 			&nbsp;		{% endif %}	{% endfor %}{% for post in site. posts %} {% capture y %}{{post. date | date: %Y }}{% endcapture %} {% if year != y %}  {% assign year = y %}  {{ y }} {% endif %}						&lt;time datetime= {{ post. date | date: %Y-%m-%d  }} &gt; {{ post. date | date: %Y-%m-%d  }} &lt;/time&gt;			 {{ post. title }} 			{% endfor %}"
+    }, {
+    "id": 6,
+    "url": "https://longlovemyu.com/projects/",
+    "title": "Projects",
+    "body": "   Voronoi diagram for polygons  Voronoi diagram for polygons is a tool to create a Voronoi diagram also known as Thiessen polygons for polygons. It’s based on Shapely and GeoPandas. There are lots of tools to create a Voronoi diagram for points, for example Create Thiessen Polygons (Analysis) in ArcGIS Pro or ArcGIS Desktop, Voronoi Polygons in QGIS, or voronoi_diagram in Shapely. All of them are really cool. How about a Voronoi diagram for polygons? That’s what this tool does.     adaptive-curvefitting  Adaptive curvefitting is a tool to find potentially optimal models for your research data. It’s based on scipy, numpy, and matplotlib.     nanjing-lulc-modified-sankey  The modified Sankey chart to visualize the landuse/landcover change flow in Nanjing.     cscbank  Banks/ATMs near your place which works for CSC debit cards.     deep-learning-network-architectures  A collection of some useful architectures/frameworks of deep learning / neural network.     empty-omegat-project  A template of OmegaT team project.     generate-publication-overview  Scripts to generate Meixiu Yu’s publications automatically for the Jekyll website https://www. longlovemyu. com. Although it is a special case, there are also something to be learned.     Calculator for loan and repay    polygon(for test)    南科Robin的工具箱         钢筋混凝土结构设计工具箱           建筑设备安装工程工具箱       "
+    }, {
+    "id": 7,
+    "url": "https://longlovemyu.com/publications/",
+    "title": "Publications",
+    "body": "	{% for publication in site. publications reversed %}										{{ publication. title }}: 											📰 			{{publication. journal}} &nbsp; 			📅 			{% if publication. published %}				{{ publication. published | date: '%Y' }}			{% else %}				{{ publication. date | date: '%Y' }}			{% endif %}		 						{{ publication. excerpt | strip_html}} 🔗 Read more. . . 		{% endfor %}"
+    }, {
+    "id": 8,
+    "url": "https://longlovemyu.com/search/",
+    "title": "Search",
+    "body": "{% include search-christian-fei. html %} "
+    }, {
+    "id": 9,
+    "url": "https://longlovemyu.com/slides/",
+    "title": "Slides",
+    "body": "	{% for slide in site. slides reversed %}										{{ slide. title }}: 											🧑 			{{ slide. author }} &nbsp; 			📅 			{% if slide. published %}				{{ slide. published | date: '%B %d %Y' }}			{% else %}				{{ slide. date | date: '%B %d %Y' }}			{% endif %}		 											🏷️ Keywords:			{% for tag in slide. tags %}				{{tag}}				{% if tag != slide. tags. last %},{% endif %}				{% endfor %}		 						{{ slide. excerpt | strip_html}} ▶️ Show now 		{% endfor %}"
+    }, {
+    "id": 10,
+    "url": "https://longlovemyu.com/tags/",
+    "title": "Tags",
+    "body": "	{% for tag in site. tags %}		{{ tag[0] }}		&nbsp;	{% endfor %}	{% for tag in site. tags %}		{{ tag[0] }}					{% for post in tag[1] %}									&lt;time datetime= {{ post. date | date: %Y-%m-%d  }} &gt;{{ post. date | date: %Y-%m-%d  }}&lt;/time&gt;					{{ post. title }}							{% endfor %}			{% endfor %}"
+    }, {
+    "id": 11,
+    "url": "https://longlovemyu.com/team/",
+    "title": "",
+    "body": "Dr Meixiu Yu / 虞美秀中文简介Chief scientist of LONGLOVEMYU, hydrologist, associate professor of Hohai University Dr Bruce / Xiaolong Liu / 刘小龙Maintainer of LONGLOVEMYU, civil engineer, Pythoner, GISer, PhD from Southeast University AnmAgathokakological monsterHellboy-like destroyerTough cowboy "
+    }, {
+    "id": 12,
+    "url": "https://longlovemyu.com/home",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 13,
+    "url": "https://longlovemyu.com/homeassistant",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 14,
+    "url": "https://longlovemyu.com/sing-rein-rect-beam",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 15,
+    "url": "https://longlovemyu.com/storm",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 16,
+    "url": "https://longlovemyu.com/valv-mode-desi",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 17,
+    "url": "https://longlovemyu.com/redirects.json",
+    "title": "",
+    "body": "{“/home”:”https://longlovemyu. com/ha”,”/homeassistant”:”https://longlovemyu. com/ha”,”/sing-rein-rect-beam”:”https://longlovemyu. com/singly-reinforced-rectangular-beam”,”/singly-reinforced-rectangular-beam”:”https://longlovemyu. com/reinforced-concrete-structure/tools/singly-reinforced-rectangular-beam. html”,”/storm”:”https://longlovemyu. com/storm-design-tianditu”,”/storm-design-tianditu”:”https://longlovemyu. com/storm-design/html/tianditu. html”,”/valv-mode-desi”:”https://longlovemyu. com/valves-model-designation”,”/valves-model-designation”:”https://longlovemyu. com/construction-equipment-installation-engineering/tools/valves-model-designation. html”} "
+    }, {
+    "id": 18,
+    "url": "https://longlovemyu.com/robots.txt",
+    "title": "",
+    "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
+    }, {
+    "id": 19,
+    "url": "https://longlovemyu.com/page2/",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 20,
+    "url": "https://longlovemyu.com/page3/",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 21,
+    "url": "https://longlovemyu.com/page4/",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 22,
+    "url": "https://longlovemyu.com/page5/",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 23,
+    "url": "https://longlovemyu.com/page6/",
+    "title": "",
+    "body": ""
+    }, {
+    "id": 24,
+    "url": "https://longlovemyu.com/journal-list/",
+    "title": "Academic journals on water and environment",
+    "body": "2025/09/18 - It posted a list of academic journals on water and environment with LetPub links. Journal search engineDOAJ SJR SCI journals      ISSN   Name   JCR分区   中科院分区   IF         0169-2046   Landscape and Urban Planning   Q1   2区   5. 441       1009-637X   Journal of Geographical Sciences   Q1   3区   2. 851       0920-4741   Water Resources Management   Q1   2区   2. 924       1027-5606   Hydrology and Earth System Sciences   Q1   1区   5. 153       1462-9011   Environmental Science and Policy   Q1   2区   4. 767       1753-318X   Journal of Flood Risk Management   Q1   3区   3. 066       0885-6087   Hydrological Processes   Q1   2区   3. 256       0899-8418   International Journal of Climatology   Q1   3区   3. 928       1558-8424   Journal of Applied Meteorology and Climatology   Q2   3区   2. 506       1525-755X   Journal of Hydrometeorology   Q1   2区   3. 891       2169-897X   Journal of Geophysical Research: Atmospheres   Q2   2区   3. 821       0169-8095   Atmospheric Research   Q1   2区   4. 676       2212-0955   Urban Climate   Q1       3. 834       1087-3562   Earth Interactions   Q1   3区   2. 167       0094-8276   Geophysical Research Letters   Q1   1区   4. 497       0262-6667   Hydrological Sciences Journal   Q1   4区   2. 186       0273-1177   Advances in Space Research   Q2   4区   2. 177       2072-4292   Remote Sensing   Q1   2区   4. 509       1548-1603   GIScience &amp; Remote Sensing   Q1   1区   5. 965       0034-4257   Remote Sensing Of Environment   Q1   1区   9. 763       0013-9351   Environmental Research   Q1   2区   5. 715       1364-8152   Environmental Modelling &amp; Software   Q1   2区   4. 807   SSCI journals      ISSN   Name   JCR分区   IF         0143-6228   Applied Geography   Q1   3. 508       2469-4452   Annals of the American Association of Geographers   Q1   3. 302       0198-9715   Computers, Environment and Urban Systems   Q1   4. 655       2399-8083   Environment and Planning B-Urban Analytics and City Science   Q1   3. 8   References LetPub SCI Journal Web of Science Master Journal List"
+    }, {
+    "id": 25,
+    "url": "https://longlovemyu.com/remote-desktop-connection-using-cloudfare-tunnel",
+    "title": "利用Cloudflare Tunnel实现远程桌面访问",
+    "body": "2025/08/18 - 如题，本文主要介绍利用Cloudflare Tunnel来实现Windows远程桌面访问。 创建一个Cloudflare tunnel:    登录Cloudflare Zero Trust     左侧导航栏依次进入Networks→Tunnel     创建一个隧道（Create a Tunnel）     选择Cloudflared类型       设置隧道名称（简洁、好记），并保存隧道  之后，网页自动进入配置页面（configure），不要关掉浏览器 配置被访问主机/服务器端: 在隧道配置页面选择远程被访问主机/服务器端的运行系统、处理器架构（以window、64-bit为例）。    在远程被访问主机/服务器端下载安装Cloudflared   两种方法：      在cloudflare/cloudflared Releases页下载msi安装文件    https://github. com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64. msi 直接运行安装      在终端（PS）用winget命理安装：winget install --id Cloudflare. cloudflared      使用管理员方法打开终端（PS或cmd）     运行隧道连接服务，命令见配置网页（包含token，每个账户的都不一样）    该服务随系统启动，后台自动运行。至此，远程被访问主机/服务器端配置完成。 回到第一步最后的浏览器，继续完成配置: 在cloudflare上配置域名过程省略。    点击next，选择连接一个应用（connect an application）     设置子域名（subdomain），选择域名（domain）     选择服务类型RDP，设置URL为localhost:3389     保存主机名后，cloudflare会自动在域名管理中创建一个cname类型的DNS记录（record）。     查看隧道状况。  配置本地电脑/客户端机:    在客户端机下载安装Cloudflared，方法同前     运行RDP监听，命令如下   cloudflared access rdp --hostname rdp. example. com --url rdp://localhost:3389   注：如果3389端口被window自带服务监听，则可以改成其他端口     打开远程桌面连接Remote Desktop Connection应用     计算机输入localhost:3389，开始连接   用户名、密码为远程主机用户名、密码  更新Cloudflared（被访问主机/服务器端、使用过程中）:    与前文相同，两种方法升级Cloudflared      在cloudflare/cloudflared Releases页下载msi最新安装文件    https://github. com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64. msi 直接运行安装更新      在终端（PS）用winget命令更新：winget upgrade --id Cloudflare. cloudflared      重启服务      Services → cloudflared → restart    或者      在终端（PS）用winget命令更新（管理员模式）：net start cloudflared    或      重启系统，自动重启服务。   参考:  Create a tunnel - Cloudflare Zero Trust Connect as a user - Cloudflare Zero Trust Update cloudflared"
+    }, {
+    "id": 26,
+    "url": "https://longlovemyu.com/hassio-supervisor-update",
+    "title": "Update home assistant supervisor/core from virsh guest console",
+    "body": "2025/08/05 - homeassistant migrates image registry from Docker Hub to Github container registry. For example, the image link of supervisor changes from home-assistant/amd64-hassio-supervisor:2024. 08. 0 to ghcr. io/home-assistant/amd64-hassio-supervisor:2024. 08. 0. It is very difficult to access ghcr. io directly in China. Therefore, it is impossible to directly update supervisor, etc. This post show a temporary solution. By the way, it works for Homeassistant core as well. Supervisor: homeassistant migrates image registry from Docker Hub to Github container registry. For example, the image link of supervisor changes from home-assistant/amd64-hassio-supervisor:2024. 08. 0 to ghcr. io/home-assistant/amd64-hassio-supervisor:2024. 08. 0. It is very difficult to access ghcr. io directly in China. Therefore, it is impossible to directly update supervisor, etc. This post show a temporary solution based on DaoCloud/public-image-mirror. Set up a ready-to-go ghcr image source: Open a sync-image issue. Place the image sorce as a title with the format of &lt;domian&gt;/&lt;owner&gt;/&lt;image&gt;:&lt;tag&gt;. For example, ghcr. io/home-assistant/amd64-hassio-supervisor:2024. 08. 0. Mark the checkbox. And wait one or two minutes. You will received a email with the following content.  镜像 ghcr. io/home-assistant/amd64-hassio-supervisor:2024. 08. 0 同步完成请使用 m. daocloud. io/ghcr. io/home-assistant/amd64-hassio-supervisor:2024. 08. 0 替代源镜像 Let’s go to pull the image with the new source. Update supervisor from a guest console: Open a guest console via virsh. virsh console hass root Pull the supervisor image from the alternative source. docker pull m. daocloud. io/ghcr. io/home-assistant/amd64-hassio-supervisor:2024. 08. 0 Add the recognizable tags. docker tag  m. daocloud. io/ghcr. io/home-assistant/amd64-hassio-supervisor:2024. 08. 0   ghcr. io/home-assistant/amd64-hassio-supervisor:2024. 08. 0 docker tag  ghcr. io/home-assistant/amd64-hassio-supervisor:2024. 08. 0   ghcr. io/home-assistant/amd64-hassio-supervisor:latest Stop current hassio_supervisor container. docker stop hassio_supervisor And reboot homeassistant os. hassos-supervisor script will recreate the container automatically. The deprecated images will be removed automatically as well. Note that, you can do this on Terminal addon from homeassistant lovelace. Useful commands: Normal method to update hassio_supervisor. ha su update or ha supervisor update Check jobs running on haos. ha job info List all containers: docker ps -a List images: docker images Core commands: docker pull m. daocloud. io/ghcr. io/home-assistant/qemux86-64-homeassistant:2024. 12. 4 docker tag m. daocloud. io/ghcr. io/home-assistant/qemux86-64-homeassistant:2024. 12. 4 ghcr. io/home-assistant/qemux86-64-homeassistant:2024. 12. 4 ha core update Derect scripts: I place two ready-to-go scripts to make them on Github Gist. And you can run it directly from terminal. Supervisor: curl -l https://gh. api. 99988866. xyz/https://gist. githubusercontent. com/longavailable/40df661bb53da392e5bd136fdc0481f9/raw/77bd64b4efc55029d4ee670f24aca748acf5781f/update-ha-supervisor-amd64-hassio-supervisor. sh | bash Core: curl -l https://gh. api. 99988866. xyz/https://gist. githubusercontent. com/longavailable/44af7d42ac76ac501fe7d7e832519084/raw/9adda982dc74d95ce5dfe2c1faa36829411f72c8/update-ha-core-qemux86-64-homeassistant. sh | bash Both virsh and Terminal addon work. References:    home-assistant/version/update-supervisor. txt     DaoCloud/public-image-mirror  "
+    }, {
+    "id": 27,
+    "url": "https://longlovemyu.com/useful-tools/",
+    "title": "Useful tools",
+    "body": "2025/06/20 -       Windows Application             Application / Softs   Download links / Webpages       Mermaid Live Editor   https://mermaid. live/       Xmind Online   https://xmind. ai/       DWG FastView for Windows   官网       CiteHist/CiteHist pro   CiteHist官网, CiteHist Pro官网, 蓝奏云密码666       视频录制、屏幕录制、直播录制OBS Studio   https://obsproject. com/       虚拟形象、面部捕捉、动作捕捉小K直播姬   https://www. yunboai. com/       Web-based Application           KinhDown   在线解析, 在线解析, 在线解析       56网盘搜索   官网       Official Windows OS, Office, and language packs   官网       MalvaStyle USB Repair   官网, 蓝奏云密码666       Prettier: An online code formatter   官网, GitHub       在线图片拼接、九宫格图片在线制作   https://www. qtool. net/picstitching、https://www. tutieshi. com/tools/gongge2       图像中裁剪圆圈   https://crop-circle. imageonline. co/cn/       视频字幕、语音转文字、文档翻译、图片翻译网易见外工作台   https://jianwai. youdao. com       视频、语音、图片转文字悦录-同花顺出品   http://www. voiceclub. cn       文件收集收件夹(失效)   http://xzc. cn/       坚果云收件箱   https://workspace. jianguoyun. com/, 查看收集结果https://www. jianguoyun. com/       MD to DOCX Converter   CloudConvert , ZAMZAR       PDF对比ParePdf   https://www. parepdf. com/zh-CN/       PDF转图片/长图片依奇在线超级转换工具   https://pdf. wdku. net/pdftoimage       证件照剪切制作工具证件照大师   https://id-photo. cn/maker/       手写体在线生成第一字体转换器   http://m. diyiziti. com/shouxie   References:  jekyll-spaceship"
+    }, {
+    "id": 28,
+    "url": "https://longlovemyu.com/remote-ha-access/",
+    "title": "Free ways to access home assistant remotely",
+    "body": "2025/03/27 - Home Assistant alives the devices at our home. That’s really cool! Here are a few free ways to access Home Assistant remotely. cpolarInstallation: China source: curl -L https://www. cpolar. com/static/downloads/install-release-cpolar. sh | sudo bashOther: curl -sL https://git. io/cpolar | sudo bashRegistration and configuration:    Register from my referral link https://i. cpolar. com/m/4OZZ,     Copy your authtoken https://dashboard. cpolar. com/auth,     Config your local cpolar by   cpolar authtoken &lt;place your token here&gt;   Intranet penetration:    Start a session with screen   screen -R ha      Build a cpolar channel with the local port (defaut 8123) for home assistant   cpolar tcp 8123      That’s enough!  Remote access:    Get your public link (refered as cpolar link below) from:          Live screen/terminal for cpolar channel               cpolar online channel status https://dashboard. cpolar. com/status          Visit it starting with a http:// anywhere.  Advance! Your domain!: If you have a domain, such , you can forward a custom link to the cpolar link. I cloudflared . So I did a forwarding test by using [cloudflare] rules.  Enjoy it! Commands for screen: screen -ls killall screen screen -x &lt;screen id&gt; "
+    }, {
+    "id": 29,
+    "url": "https://longlovemyu.com/jekyll_blog/",
+    "title": "How to write a Jekyll blog",
+    "body": "2024/12/24 - This is a templete to show how to write a post. How to test a blog using bundle:   Navigate to path of the githubpages repository.   cd D:\git\githubPages\longavailable. github. io      Execute the following command:   bundle exec jekyll serve    or with --drafts tag.   bundle exec jekyll serve --drafts      Check the githubpages website from http://127. 0. 0. 1:4000.     Ctrl + C quit the bundle serve.  Markdown skillsSpace, tab, and blank line:    Paragraph: text line + blank line + text line     Plain code block: paragraph text line (+ blank line) + 1 Tab or 4 spaces + code + blank line     Plain code block in list (indented): (blank line) + ‘1 Tab + 2 spaces’ or 6 spaces + code (+ blank line)   Hello, world in list      Fenced code block: (blank line) + ` ` ` + language identifier + enter + code + enter + ` ` ` (+ blank line)  ## Header line h2.    Fenced code block in list (indented): (blank line) + 1 Tab or 4 spaces + ` ` ` + language identifier + enter + code + enter + 1 Tab or 4 spaces + ` ` ` (+ blank line). It didnot work for &lt;img&gt;, see here 2nd item. Why?   ### Header line h3.       More than 1 space in a text snippet (non-breaking space): &amp;nbsp; is 2 spaces, &amp;nbsp;&amp;nbsp; 4 spaces     Zero-width space: &amp;#8203;  How to add a picture: The picture from the repository which the site belongs to:    Just the picture   ![Pic01](/assets/pics/pic01_green_test. png)         A picture with defined position and size  &lt;div align= center &gt;&lt;img width= 165  height= 75  src= /assets/pics/pic01_green_test. png /&gt;&lt;/div&gt;The picture from internet:    Just the picture   ![Pic01](https://raw. githubusercontent. com/mzlogin/mzlogin. github. io/master/images/posts/markdown/demo. png)         A picture with defined position and size  &lt;div align= center &gt;&lt;img width= 65  height= 75  alt= Demo pic for test  src= https://raw. githubusercontent. com/mzlogin/mzlogin. github. io/master/images/posts/markdown/demo. png /&gt;&lt;/div&gt;360° image: Place a &lt;a-scene&gt; tag and its scripts supported by A-Frame. &lt;script src= https://aframe. io/releases/1. 3. 0/aframe. min. js &gt;&lt;/script&gt;&lt;a-scene style= aspect-ratio:1/1;width:100%  embedded&gt; &lt;a-sky src= /assets/pics/puydesancy. jpg  rotation= 0 -130 0 &gt;&lt;/a-sky&gt; &lt;a-text font= kelsonsans  value= Puy de Sancy, France  width= 6  position= -2. 5 0. 25 -1. 5 		 rotation= 0 15 0 &gt;&lt;/a-text&gt;&lt;/a-scene&gt;  Image courtesy: A-Frame example How to compare two pictures: There are ways to create a comparative iframe. For example, How TO - Image Comparison Slider, JuxtaposeJS. Add the following to your post by using JuxtaposeJS. &lt;div class= juxtapose &gt;  &lt;img src= /assets/pics/img_forest. jpg  /&gt;  &lt;img src= /assets/pics/img_snow. jpg  /&gt;&lt;/div&gt;&lt;script src= https://cdn. knightlab. com/libs/juxtapose/latest/js/juxtapose. min. js &gt;&lt;/script&gt;&lt;link rel= stylesheet  href= https://cdn. knightlab. com/libs/juxtapose/latest/css/juxtapose. css &gt;    How to embed a map: a own map - geoJSON map:    Place the following in any HTML page that supports javascript:   &lt;script src= https://embed. github. com/view/geojson/&lt;username&gt;/&lt;repo&gt;/&lt;ref&gt;/&lt;path_to_file&gt; &gt;&lt;/script&gt;      Set height and weight, default 420px (h) x 620px (w)   &lt;script src= https://embed. github. com/view/geojson/&lt;username&gt;/&lt;repo&gt;/&lt;ref&gt;/&lt;path_to_file&gt;?width=&lt;width&gt;&amp;height=&lt;height&gt; &gt;&lt;/script&gt;      Example        a 3rd party map - google map:  Tutorial to get the embed link of a google map or directions       How to assign a variable: Assigning a variable in Github Markdown:{% assign variableTest = “This is a string variable. ” %}{% capture variableTest2 %}This is a string variable for syntax 2. {% endcapture %} { % assign variableTest =  This is a string variable.   % }{ % capture variableTest2 % }This is a string variable for syntax 2. { % endcapture % } Note that, there is no space between curly bracket {, } and percent sign %. The content of variableTest is “ {{variableTest}} “. The content of variableTest2 is “ {{variableTest2}} “. The​content test. How to add a emoji 🙈   The easiest way is copy and paste   Visit Emojipedia, search , copy, and paste.     Use Jemoji   gem install jemoji    Add gem 'jemoji' to gemfile.   Add it as a plugin in _config. yml.   Note: It may cause other problem. For my site, it will confict with lunr. js.  Add a reveal. js presentation&lt;iframe frameborder= no  border= 0  marginwidth= 0  marginheight= 0  width=500 height=400 src= /slides/2020-08-07-demo-from-revealjs. html#/ &gt;&lt;/iframe&gt;Press F to fullscreen mode. Reference Basic syntax - Markdown guide markdown-guide MathJax in Markdown Equation Editor Host Math Jekyll: Previous And Next Posts Jekyll without plugins Basic syntax - Liquid template language Emojipedia How TO - Image Comparison Slider JuxtaposeJS - Easy-to-make frame comparisons List of Badges, in Markdown Basic HTML Codes for Beginners 360° image - A-Frame Google VRView with Jekyll"
+    }, {
+    "id": 30,
+    "url": "https://longlovemyu.com/conference-list/",
+    "title": "Academic conferences on water and environment",
+    "body": "2024/11/29 - It posted a list of academic conferences on water and environment. General      Conference   Host   Frequency   Events         AGU Fall Meeting   AGU   Yearly   2020       EGU General Assembly   EGU   Yearly   2025, 2021, 2020       IAHS Scientific Assembly   IAHS   Biennially   2022       IUGG General Assembly   IUGG   Quadrennially   2019       AOGS Annual Meeting   AOGS   Yearly   2025, 2021       Conference on hydroinformatics (HIC)   IAHR, IWA   Biennially   2021       World Environmental &amp; Water Resources Congress   EWRI, ASCE   Yearly   2021       International Conference on Flood Management (ICFM)   ICFM   Triennially   2026, 2021       IWA World Water Congress &amp; Exhibition (WWCE)   IWA   Biennially   2022       中非水论坛/China-Africa Water Forum   中非水协   Yearly   2025   "
+    }, {
+    "id": 31,
+    "url": "https://longlovemyu.com/hassio-operating-system-update",
+    "title": "Update home assistant operating system from virsh guest console",
+    "body": "2024/08/25 - Update to Home Assistant Operating System is based on the release in Github. It means we may fall in the Error updating Home Assistant Operating System: Can't fetch OTA update from https://github. com/home-assistant/operating-system/releases/download/13. 1/haos_ova-13. 1. raucb in the place where GitHub is not accessible. This post show a temporary solution. Update to Home Assistant Operating System is based on its release in Github. It means we may fall in the Error updating Home Assistant Operating System: Can't fetch OTA update from https://github. com/home-assistant/operating-system/releases/download/13. 1/haos_ova-13. 1. raucb in the place where GitHub is not accessible. So we can make it by modifying the release_url. Proxying Github: Check my another post 如何解决github访问慢的问题（中文）. For example, add proxy link https://gh. api. 99988866. xyz/ ahead of the original release link. Deep track it: Check the error log again.  2024-08-24 21:33:44. 051 ERROR (MainThread) [homeassistant. components. websocket_api. http. connection] [139950367721920] Error updating Home Assistant Operating System: Can’t fetch OTA update from https://github. com/home-assistant/operating-system/releases/download/13. 1/haos_ova-13. 1. raucb:Traceback (most recent call last):File “/usr/src/homeassistant/homeassistant/components/hassio/update. py”, line 213, in async_installawait async_update_os(self. hass, version)… This script file /usr/src/homeassistant/homeassistant/components/hassio/update. py will be the key. Let’s have a look in its source. It’s easy to find out the following code snippet. class SupervisorOSUpdateEntity(HassioOSEntity, UpdateEntity):     Update entity to handle updates for the Home Assistant Operating System.      . . .   @property  def release_url(self) -&gt; str | None:       URL to the full release notes of the latest version available.        version = AwesomeVersion(self. latest_version)    if version. dev or version. strategy == AwesomeVersionStrategy. UNKNOWN:      return  https://github. com/home-assistant/operating-system/commits/dev     return (      f https://github. com/home-assistant/operating-system/releases/tag/{version}     )  async def async_install(    self, version: str | None, backup: bool, **kwargs: Any  ) -&gt; None:       Install an update.        try:      await async_update_os(self. hass, version)    except HassioAPIError as err:      raise HomeAssistantError(        f Error updating Home Assistant Operating System: {err}       ) from errThere is a release_url function to generate the part of the link for the release. Then we have to modifying it to   @property  def release_url(self) -&gt; str | None:       URL to the full release notes of the latest version available.        version = AwesomeVersion(self. latest_version)    if version. dev or version. strategy == AwesomeVersionStrategy. UNKNOWN:      return  https://gh. api. 99988866. xyz/https://github. com/home-assistant/operating-system/commits/dev     return (      f https://gh. api. 99988866. xyz/https://github. com/home-assistant/operating-system/releases/tag/{version}     )Config it from virsh guest console: Open a guest console via virsh. virsh console hass root Check docker root directory. docker info We can see the Docker Root Dir item. Mostly, it should be /mnt/data/docker. Find the script file /usr/src/homeassistant/homeassistant/components/hassio/update. py with: cd /find . -path \*/usr/src/homeassistant/homeassistant/components/hassio/update. pyIt will list all full path for this file. For example, . /mnt/data/docker/overlay2/356af2cef9b08a2162030badae8304fa4f2ae7f6544efb1a78b88e45472f7c90/diff/usr/src/homeassistant/homeassistant/components/hassio/update. py. /mnt/data/docker/overlay2/cc97cec3597fd6ed024f0f1af2a7e06e60df7a27ec03304342198257c7bb688d/diff/usr/src/homeassistant/homeassistant/components/hassio/update. py. /mnt/data/docker/overlay2/f8c72160e7488a7c152815e67a7f220f052e7b50d7fc606ee778099c2256237a/merged/usr/src/homeassistant/homeassistant/components/hassio/update. py. /var/lib/docker/overlay2/356af2cef9b08a2162030badae8304fa4f2ae7f6544efb1a78b88e45472f7c90/diff/usr/src/homeassistant/homeassistant/components/hassio/update. py. /var/lib/docker/overlay2/cc97cec3597fd6ed024f0f1af2a7e06e60df7a27ec03304342198257c7bb688d/diff/usr/src/homeassistant/homeassistant/components/hassio/update. py. /var/lib/docker/overlay2/f8c72160e7488a7c152815e67a7f220f052e7b50d7fc606ee778099c2256237a/merged/usr/src/homeassistant/homeassistant/components/hassio/update. pyI cannot recognize which is the right one. Then I modified the first three files (they are all under the Docker root directory). vi /mnt/data/docker/overlay2/356af2cef9b08a2162030badae8304fa4f2ae7f6544efb1a78b88e45472f7c90/diff/usr/src/homeassistant/homeassistant/components/hassio/update. py Retry to update: Go back to homeassistant lovelace and you can see the update task under the Settings. It works this time for me. And best wishes to you. "
+    }, {
+    "id": 32,
+    "url": "https://longlovemyu.com/proxy-via-proxychains",
+    "title": "Set up an application-level proxy via proxychains",
+    "body": "2024/08/23 - This is a short guide to set up a proxy on a Linux system. Install ProxyChains: sudo apt install proxychains apk add proxychains-ng	alpine linux Configure ProxyChains: Add the following content in the configuration file /etc/proxychains. conf or /etc/proxychains/proxychains. conf. http	&lt;your server ip&gt;	&lt;port&gt; For example, http	192. 168. 31. 138	10811 Use / test ProxyChains: proxychains curl ifconfig. me/ip "
+    }, {
+    "id": 33,
+    "url": "https://longlovemyu.com/install-haos-on-ubuntu",
+    "title": "The detailed steps of installing Home Assistant Operating System on Ubuntu",
+    "body": "2024/08/22 - As the title, this is the detailed steps. Install virt-manager: apt install virt-manager or sudo apt install virt-manager Config internet: Check Aephir’s post. apt install net-tools or sudo apt install net-tools ifconfig Mark the network interface, eno1, enp1s0. . Create a netplan yaml file in the /etc/netplan/ directory with the following content. # This is the network config written by 'subiquity'network: ethernets:  eno1:   dhcp4: true version: 2 bridges:  br0:   dhcp4: yes   interfaces:       - eno1   parameters:    stp: trueNote replacing eno1 with your bridge interface. netplan generate or sudo netplan generate netplan apply or sudo netplan apply apt install bridge-utils or sudo apt install bridge-utils brctl show Mark the bridge adapter name, br0 or something else. Prepare the image:    Download the latest image.     Decompress it, if needed. Note that some . xz files were broken.   xz -d -v haos_ova-10. 4. qcow2. xz or unxz haos_ova-10. 4. qcow2. xz   360 zip works perfect.  Install the HAOS VM: virt-install --import --name hass --description  Home Assistant OS  --os-variant=generic \--memory 2048 --vcpus 2 --cpu host \--disk &lt;path to qcow2 file&gt;,format=qcow2,bus=virtio \--network bridge=br0,model=virtio \--osinfo detect=on,require=off \--graphics none \--noautoconsole \--boot uefi \--autostartThen wait patiently. virsh commands: List domains/VMs: virsh list or virsh list --all Start a domian: virsh start &lt;domain name&gt; Immediately shutdown a domain: virsh destory &lt;domain name&gt; Gracefully shutdown a domain: virsh shutdown &lt;domain name&gt; or virsh destory &lt;domain name&gt; --graceful Get domain information: virsh dominfo &lt;domain name&gt; Connect to the domain’s guest console: virsh console &lt;domain name&gt; Remove a domain: virsh undefine &lt;domain name&gt; --remove-all-storage virsh undefine &lt;domain name&gt; --remove-all-storage --nvram (error: Requested operation is not valid: cannot undefine domain with nvram) References:  Install Home Assistant OS with KVM on Ubuntu headless (CLI only)"
+    }, {
+    "id": 34,
+    "url": "https://longlovemyu.com/empty-jekll-site",
+    "title": "Create an empty Jekyll site step by step",
+    "body": "2024/08/18 - This guide outlines the steps to set up a new Jekyll site on a Linux system. development environment:    Linux     git   sudo apt install gitgit -v      Ruby (and RubyGems)   sudo apt install rubyruby -vgem -v    Maybe gem source have to be changed.   gem sources --add https://gems. ruby-china. com/ --remove https://rubygems. org/gem sources -l      Bundler   gem install bundlerbundle -v    Maybe bundler source have to be changed as well.   bundle config mirror. https://rubygems. org https://gems. ruby-china. combundle configbundle config mirror. https://rubygems. org      Jekyll   gem install jekylljekyll -v   Start a new Jekyll project:  jekyll new &lt;YOUR PROJECT NAME&gt; --blankSet up git:  cd &lt;YOUR PROJECT NAME&gt; git initMaybe rename the branch. git branch -m &lt;OLD BRANCH NAME&gt; &lt;NEW BRANCH NAME&gt; Create a file named . gitignore and paste the following in it:  _site/ . sass-cache/ . jekyll-cache/ . jekyll-metadata node_modulesInstall Ruby gems: Create a Gemfile which is a list of gems used by your site. Add it to the root directory with the following content:  source 'https://rubygems. org' gem 'jekyll' gem 'webrick'Now install those gems by Bundler. bundle Build the Jekyll site: bundle exec jekyll serve Open https://localhost:4000 in your browser. If you see something like this.  Publish to Github (optional): Add files to the staging area and commit your changes.  git add .  git commit -m 'Your commit message'Create a Github repository.    Go to GitHub. com and sign in to your account.     Click on the “+” button in the top right corner and select “New repository. ”     Give your repository a name and description.     Choose whether you want the repository to be public or private.     Click “Create repository. ”  Connect the local repository to Github. git remote add origin https://github. com/&lt;your_username&gt;/&lt;your_repository_name&gt;. git Push your local changes to Github. git push origin main You’r made it. You can find the takeaway repository from https://github. com/longavailable/empty-jekyll-site. Usefull links:    Starting a blank Jekyll site with Tailwind CSS in 2022     Installation - Jekyll     Creating a new repository - Github     Windows-jekyll-install  "
+    }, {
+    "id": 35,
+    "url": "https://longlovemyu.com/helpful_sites/",
+    "title": "Sites worth sharing",
+    "body": "2024/08/06 - Those sites were worth sharing. Be careful! Geeky! Tim Dettmers	  	 高金的博客	  		  		  	 静能生慧 	  		  		  	 吹泡泡的小猫	  		  	 GISer空间 	  		  		  	 啊哈磊	  	 博弈BLOG 	  	 🆕 	  	 🛑 JSDELIVR 	  	 🆕 "
+    }, {
+    "id": 36,
+    "url": "https://longlovemyu.com/online-id-photo-maker",
+    "title": "在线证件照制作-最佳实践",
+    "body": "2024/06/20 - 证件照最繁琐的是如何抠出最理想的人像图片，比如人物衣服边缘、头发丝等。本实践借助removebg免费版实现了自助制作证件照的最佳实践。 主要步骤如下： 准备原始照片:    工具：手机     要求：尽量背景干净，面部光线均匀，衣服整洁…  裁剪照片:    工具：有图片裁剪功能的工具均可，如手机照片裁剪，PicPick     要求：尽量将无效区域（头部以上区域、肩膀两侧区域、半身以下区域）都裁剪掉  调整亮度（如有需要）:  工具：手机照片编辑器、FastStone Image Viewer去除背景:    工具：removebg     操作：免费下载即可满足证件照像素要求  证件照制作:    工具：证件照大师     主要操作：（重新）选择照片、增加头部留白（补充前面的过度裁剪）、选择证件照尺寸及颜色、保存最终证件照。  "
+    }, {
+    "id": 37,
+    "url": "https://longlovemyu.com/gpt-ports",
+    "title": "GPT ports",
+    "body": "2024/05/21 - GPTs and autonomous Agent tools. GPT:    ChatGPT, TalkAI - 3rd port of ChatGPT without registration.     Microsoft Copilot     Google Gemini     HuggingChat     Pi AI     月之暗面     天工AI  Autonomous AI Agent:    Auto-GPTgithub     BabyAGIgithub     AgentGPTgithub, env     HuggingGPT/JARVISgithub, env  "
+    }, {
+    "id": 38,
+    "url": "https://longlovemyu.com/python-nodered-in-hass",
+    "title": "Deply python and install dependencies within Node-RED-addon in Homeassistant",
+    "body": "2024/01/05 - Node RED can be deployed within Home Assistant OS by using the community addon-node-red. Python is not a dependency for the running of node-red, so it was not a built-in in the image. How to add python and install needed dependencies in the addon container. Frenck, the maintainer of node-red-addon declared,  Python is not needed to run node-red. https://github. com/hassio-addons/addon-node-red/issues/1450#issuecomment-1260433209 So Python is not built in the node-red addon. Athough it support the options of system_packages, npm_packages, and init_commands to extend its function. While a explicit method to implement Python script is still needed. Nevigate to node-red-addon contianer from Terminal in HA: docker exec -it addon_&lt;your addon id&gt;_nodered /bin/bash Choose a comfortable source of Alpine Linux (skip if it’s not needed): sed -i 's/dl-cdn. alpinelinux. org/mirrors. tuna. tsinghua. edu. cn/g' /etc/apk/repositories Add python and pip: apk add py3-pip Choose a comfortable source of PyPI (skip if it’s not needed): pip3 config set global. index-url https://pypi. tuna. tsinghua. edu. cn/simple/ Install necessary Python packages: pip3 install requests beautifulsoup4 Implement the above in a flow: [{ id : 05fbd5fa4cea99e8 , type : exec , z : 6defd24b07e25d51 , command : sed -i 's/dl-cdn. alpinelinux. org/mirrors. tuna. tsinghua. edu. cn/g' /etc/apk/repositories &amp;&amp; apk add py3-pip &amp;&amp; pip3 config set global. index-url https://pypi. tuna. tsinghua. edu. cn/simple/ &amp;&amp; pip3 install requests beautifulsoup4 , addpay :  , append :  , useSpawn : false , timer :  , winHide :false, oldrc :false, name : 安装python脚本依赖项 , x :440, y :260, wires :[[ 9bf90b61cf6ca404 ],[ 9bf90b61cf6ca404 ],[ 9bf90b61cf6ca404 ]]}]"
+    }, {
+    "id": 39,
+    "url": "https://longlovemyu.com/fasten-github/",
+    "title": "如何解决github访问慢的问题（中文）",
+    "body": "2023/12/10 - 最近回到国内，不知什么原因，访问Github时出现“无法下载release”、“克隆速度慢”、“raw文件无法查看”等问题。网上搜索后发现还有很多网友也碰到这一问题。在此梳理下解决方法。 以voronoi-diagram-for-polygons项目为例 项目链接：https://github. com/longavailable/voronoi-diagram-for-polygons 克隆命令：git clone https://github. com/longavailable/voronoi-diagram-for-polygons. git release链接：https://github. com/longavailable/voronoi-diagram-for-polygons/archive/v0. 1. 1. zip raw链接（示例）：https://raw. githubusercontent. com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs. png 自建镜像 hunshcn/gh-proxy, hacs-china/gh-proxy (/api/ supported), and crazypeace/gh-proxy (api. github. com supported)使用自己的域名创建镜像，当然也可以使用freenom. com的免费域名。  利用hacs-china/gh-proxy创建自己的镜像：     登陆或注册Cloudflare添加自己的域名，并修改域名的NS记录   创建Worker服务，选择HTTP 处理程序（默认）   复制index. js中的代码，并张贴至Worker的代码编辑器中   部署并在触发器中添加自定义域名，Worker分配的域名是无法被访问的   访问https://your. mirror. domain/api/检查是否生效   在HA的集成与服务页面找到已添加的HACS，点击选项   填入镜像地址https://your. mirror. domain/api   国内镜像加速ghproxy. com: fastgit. org: 作用：加速访问；加速克隆；加速release下载 使用方法：将github. com替换为hub. fastgit. org即可加速。 项目加速链接：https://hub. fastgit. org/longavailable/voronoi-diagram-for-polygons 加速克隆命令：git clone https://hub. fastgit. org/longavailable/voronoi-diagram-for-polygons. git release加速下载链接：https://hub. fastgit. org/longavailable/voronoi-diagram-for-polygons/archive/v0. 1. 1. zip raw加速访问链接：https://raw. fastgit. com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs. png github. com. cnpmjs. org: 作用：加速访问；加速克隆；加速release下载 使用方法：与fastgit. org相似，将github. com替换为github. com. cnpmjs. org即可加速。 gitclone. com: 作用：加速克隆 使用方法：将https://github. com替换为https://gitclone. com/github. com即可加速。 加速克隆命令：git clone https://gitclone. com/github. com/longavailable/voronoi-diagram-for-polygons. git 7ed. net GRA: 作用：加速raw访问 使用方法：将raw. githubusercontent. com替换为raw. sevencdn. com。 raw加速访问链接：https://raw. sevencdn. com/longavailable/voronoi-diagram-for-polygons/master/docs/pics/outputs. png gh. api. 99988866. xyz: 作用：加速release下载；加速文件下载 使用方法：拷贝相应链接到该网站进行下载。 toolwa. com/github: 作用：加速release下载；加速文件下载 使用方法：拷贝相应链接到该网站进行下载。 d. serctl. com: 作用：加速项目下载/克隆； 使用方法：拷贝相应链接到该网站进行下载。 ghproxy. agrayman. gay: 修改hosts文件参考国内加速访问Github的办法，超级简单。 码云（Gitee）曲线加速利用Gitee的“从github导入仓库”功能，再从Gitee克隆到本地。 参考/References Github国内mirror加速 国内加速访问Github的办法，超级简单 一招搞定GitHub下载加速 IPAddress. com"
+    }, {
+    "id": 40,
+    "url": "https://longlovemyu.com/research-articles-on-poyanglake",
+    "title": "鄱阳湖三部曲",
+    "body": "2023/11/02 - 近年来，河海大学虞美秀博士围绕我国最大的淡水湖泊——鄱阳湖开展了干旱、防洪、生态等方面的研究工作，部分成果发表在国内外行业顶级期刊。    Yu, M. , Zhang, J. , Wei L. , Wang G. , Dong W. , and Liu X. 2023. Impact of soil textures on agricultural drought evolution and field capacity estimation in humid regions. Journal of Hydrology. 626. DOI: 10. 1016/j. jhydrol. 2023. 130257.     Yu, M. , Liu, X. , Wood P. , Wei L. , Wang G. , Zhang J. , and Li Q. 2022. Simulation of Poyang Lake water levels and outflow under historical extreme hydrological scenarios. Journal of Flood Risk Management. 15(3). DOI: 10. 1111/jfr3. 12806.     虞美秀, 董吴欣, 张建云, 韦丽, 吴智, 王国庆. 2022. 基于大范围地面墒情监测的鄱阳湖流域农业干旱. 水科学进展. 33(2): 185-195. DOI: 10. 14042/j. cnki. 32. 1309. 2022. 02. 003.  相关阅读:    虞美秀个人主页          河海大学           ResearchGate           Google Scholar          我院虞美秀副教授在农业干旱监测预警研究领域取得进展  "
+    }, {
+    "id": 41,
+    "url": "https://longlovemyu.com/ha-os-update",
+    "title": "Update home assistant core and os",
+    "body": "2023/06/24 - Recently I installed homeassistant os VM on my Ubuntu. When I tried to update the latest core and os, it return 'HomeAssistantCore. update' blocked from execution, no host internet connection and 'OSManager. update' blocked from execution, no supervisor internet connection. I posted the solutions in this post. Errors when I update my Home Assistant Operating System:    ‘HomeAssistantCore. update’ blocked from execution, no host internet connection     ‘OSManager. update’ blocked from execution, no supervisor internet connection  Comments: They may be caused by bridge internet connection. Check the internet infomation from terminal: virsh console hass root ha network info It will show that host_internet: false and supervisor_internet: false. That’s the point. Solutions: virsh console hass root ha jobs options --ignore-conditions internet_host ha jobs options --ignore-conditions internet_system ha core update ha os update ha jobs reset References:    Supervisor no internet?     Error updating Home Assistant Core ‘HomeAssistantCore. update’ blocked from execution, no host internet connection     Ignored job conditions  "
+    }, {
+    "id": 42,
+    "url": "https://longlovemyu.com/workflow-depends",
+    "title": "Github actions jobs/workflows/repository depend on each other",
+    "body": "2023/05/26 - If you are using GitHub Actions to automate your workflows, you might want to trigger a workflow based on another workflow’s completion or status. For example, you might want to run some tests after a build workflow finishes, or deploy your application only if the tests pass. In this blog post, I will show you three methods to achieve this functionality. There are different ways to trigger a workflow based on the completion or status of another workflow in GitHub Actions. One method is to use the keyword needs in the same YAML file to specify the dependencies between jobs. Another method is to use the workflow_run event to run a workflow after another workflow has been completed or requested. A third method is to use the repository_dispatch event to send a custom webhook event to a repository and trigger a workflow. needs method: All-in-one YAML file: name: test of needs methodon: pushjobs: job1:  runs-on: ubuntu-latest  steps:  - uses: actions/checkout@v3    - name: Do something   run: . . .  job2:  needs: job1	    # keyword  runs-on: ubuntu-latest  steps:   - uses: actions/checkout@v3   - name: Do something    run: . . . workflow_run method: YAML file for job1: name: job1's nameon: pushjobs: job1:  runs-on: ubuntu-latest  steps:  - uses: actions/checkout@v3    - name: Do something   run: . . . YAML file for job2: name: job2's nameon:  workflow_run:  workflows: ['job1's name']  types:   - completed	 jobs: job2:  runs-on: ubuntu-latest  steps:  - uses: actions/checkout@v3    - name: Do something   run: . . . repository_dispatch method: YAML file for job1: name: job1's nameon: pushjobs: job1:  runs-on: ubuntu-latest  steps:  - uses: actions/checkout@v3    - name: Do something   run: . . .   - name: send a POST request to the GitHub API   run: |    curl -X POST \    -H  Accept: application/vnd. github. v3+json  \    -H  Authorization: token &lt;your token&gt;  \	# ${{ secrets. GITHUB_API_TOKEN }}    --data '{ event_type :  job1-event }' \    https://api. github. com/repos/&lt;owner&gt;/&lt;repo&gt;/dispatches		# repository which job2 file is locatedYAML file for job2: name: job2's nameon:  repository_dispatch:  types:['job1-event']	 jobs: job2:  runs-on: ubuntu-latest  steps:  - uses: actions/checkout@v3    - name: Do something   run: . . . Of course, you can trigger the job2 from the terminal: curl -X POST \-H  Accept: application/vnd. github. v3+json  \-H  Authorization: token &lt;your token&gt;  \--data '{ event_type :  job1-event }' \https://api. github. com/repos/&lt;owner&gt;/&lt;repo&gt;/dispatchesOr python requests … References:    Trigger GitHub actions if push in another repo     Permanently authenticating with Git repositories  "
+    }, {
+    "id": 43,
+    "url": "https://longlovemyu.com/register-computer-software-copyright",
+    "title": "计算机软件著作权登记流程",
+    "body": "2023/04/06 - 作为一个自由开发者，如何通过官方的渠道来对自己的计算机软件进行著作权登记（申请软著）呢？本文为亲测+搬砖。 最重要的事情：官方网站是https://www. ccopyright. com. cn。 注册账号:  注册链接：https://register. ccopyright. com. cn/register. html 按部就班进行注册 然后登陆：https://register. ccopyright. com. cn/login. html实名认证:  登陆后，一眼看见的就是登记业务办理，选择计算机软件著作权相关登记； 跳转后，直接选择第一个R11 计算机软件著作权登记申请，跳出实名认证； 按要求进行认证； 可以在用户中心（右上角）→账号管理（最上面第2个按钮）→认证信息来查看认证状态。准备材料: https://ruanzhu. 51lookup. top/https://github. com/soultoolman/pyerz ## "
+    }, {
+    "id": 44,
+    "url": "https://longlovemyu.com/hydrodynamic_models/",
+    "title": "Ports of free hydrodynamic models/softwares",
+    "body": "2023/03/31 - This post lists some hydrodynamic models/softwares.       Organization/Team   Models/Softwares   Webpages   Open source         US Army Corps of Engineers (USACE), Hydrologic Engineering Center (HEC)   HEC-RAS   https://www. hec. usace. army. mil/software/hec-ras   No       Deltares   Delft3D   https://oss. deltares. nl/web/delft3d/source-code   Yes       U. S. Bureau of Reclamation, Technical Service Center (TSC)   SRH-1D, SRH-2D, SRH-Capacity, SRH-Mesh, U^2^RANS   https://www. usbr. gov/tsc/techreferences/computer%20software/compsoft. html   No       iRIC   Nays1D+, CERI1D, River2D, Nays2DH, Nays2Dv, Nays2DFlood, SToRM, Mflow_02, NaysCUBE, NaysEddy, FaSTMECH,   https://i-ric. org/en/download/   No       Iberaula   Iber, IberHABITAT   https://iberaula. es/54/iber-model/downloads   No       U. S. National Center for Computational Hydroscience and Engineering (NCCHE)   CCHE2D-Flow, CCHE2D-Flood, CCHE2D-Sed, CCHE2D-CHEM, CCHE2D-WQ, CCHE-MESH   https://www. ncche. olemiss. edu/downloads/   No       Jonathan Richard Shewchuk   Not a model Triangle   https://www. cs. cmu. edu/~quake/triangle. html   No       AED research group, University of Western Australia (UWA)   GLM, GLM-AED   https://github. com/AquaticEcoDynamics/GLM, https://github. com/AquaticEcoDynamics/glm-aed   Yes       Biogeochemical modelling   MyLake   Matlab: https://github. com/biogeochemistry/MyLake_public, R: https://github. com/aemon-j/MyLakeR   Partially yes       GOTM volunteers   GOTM   Fortran: https://github. com/gotm-model/code   Yes   "
+    }, {
+    "id": 45,
+    "url": "https://longlovemyu.com/execute-javascript-in-python/",
+    "title": "Execute Javascript code in Python",
+    "body": "2023/02/15 - Python packages and implementation ways to execute JavaScript code in Python. Python packages: Js2Py: PyExecJS - unmaintained. : Ways to implement: Firstly, install Js2Py then import js2py module: import js2pyjs code in place: js_code = '''function add(a, b) { return a + b;}'''add = js2py. eval_js(js_code)add(1,2) + 3js code in a file: Create a js file nameed with add. js: function add(a, b) { return a + b;}Then, with open('add. js') as f:	add = js2py. eval_js(f. read())add(1,2) + 3online js code: There is a public link for the add function https://raw. githubusercontent. com/longavailable/datarepo02/main/code/javascript/add. js and, import requestsjs_link = 'https://raw. githubusercontent. com/longavailable/datarepo02/main/code/javascript/add. js'add = js2py. eval_js(requests. get(js_link). text)add(1,2) + 3"
+    }, {
+    "id": 46,
+    "url": "https://longlovemyu.com/journal-list-climate/",
+    "title": "Academic journals on climate change",
+    "body": "2023/02/11 - It posted a list of academic journals on climate change with LetPub links. Journal search engineDOAJ SJR SCI journals      ISSN   Name   JCR分区   中科院分区   IF         1758-678X   Nature Climate Change   Q1   1区   25. 29       2198-6061   Current Climate Change Reports   Q1   1区   9. 077       2397-3722   npj Climate and Atmospheric Science   Q1   1区   8. 624       1757-7780   Wiley Interdisciplinary Reviews-Climate Change   Q1   1区   7. 385       2212-0955   Urban Climate   Q1   2/3区   5. 731       2405-8807   Climate Services   Q1   -   5. 656       2212-0947   Weather and Climate Extremes   Q1   1/2区   5. 338       0894-8755   Journal of Climate   Q1   1/2区   5. 148       1469-3062   Climate Policy   Q1   2/3区   5. 085       0930-7575   Climate Dynamics   Q1   2区   4. 375       1814-9324   Climate of the Past   Q1   1/2/3区   4. 295       1674-9278   Advances in Climate Change Research   Q2   2/4区   4. 13       2212-0963   Climate Risk Management   Q2   2/3区   4. 09       2115-7251   Journal of Space Weather and Space Climate   Q2   2/3区   3. 584   SSCI journals      ISSN   Name   JCR分区   中科院分区   IF         1756-5529   Climate and Development   Q1   4区   4. 28   References LetPub SCI Journal Web of Science Master Journal List"
+    }, {
+    "id": 47,
+    "url": "https://longlovemyu.com/debugging-in-python/",
+    "title": "Debugging in Python",
+    "body": "2022/08/05 - pdb - the Python Debugger:    Invoke pbd from terminal to debug the entire script.   python -m pdb mytest. py      Insert import pdb; pdb. set_trace() in a specific line of the script.     Insert breakpoint() in the script. The built-in breakpoint() is a equivalent way of import pdb; pdb. set_trace().     Commands: c(ontinue), s(tep), n(ext), r(eturn), j(ump), q(uit) . . more.  PuDB - a console-based visual debugger for Python: Installing: Install PuDB by pip install pudb or conda install -c conda-forge pudb. Usage: Similar to pdb,    Debug the entire script with:   pudb mytest. py    or   python -m pudb mytest. py      Insert in a specific line with:   from pudb import set_trace; set_trace()    or   import pudb; pu. db      Integrate pudb with breakpoint() function. Add:   export PYTHONBREAKPOINT= pudb. set_trace     in your . bashrc or . zshrc. Then use breakpoint() in your script.     Commands: tyep ‘?’ in the console to check the conmand list.  References:  pdb — The Python Debugger Getting Started: pudb 2020. 1 dicumentation Python 3. 7’s new builtin breakpoint — a quick tour"
+    }, {
+    "id": 48,
+    "url": "https://longlovemyu.com/loan-repay-cal/",
+    "title": "Calculator for loan and repay",
+    "body": "2022/06/27 - Calculator for loan and repay"
+    }, {
+    "id": 49,
+    "url": "https://longlovemyu.com/ha-on-redmipro/",
+    "title": "Home Assistant On Android 6",
+    "body": "2022/06/23 - Recently, I am trying to make devices alive in my room. And I found Home Assistant the cool bean. It’s easily to depoly it on a desktop of Windows or Linux. While, I prefer to choose a low-cost server without extra expense. So, I dug out my old android phone (Redmi Pro) from my treasure chest. Let’s see what I can do. A glimpse of Redmi Pro   Released in August 2016,     OS: Android 6. 0, MIUI 10 9. 3. 28,     Rooted.  Terminal emulator   Termux          . . from Google Play: Absolutely NOT!           . . from F-Droid: No. The latest version on F-Droid was released in January 2022. It is for only android &gt;= 7.           . . from Artifacts section of Github Build action workflows (A Github account logged in is necessary). Download termux-app_v***+***-apt-android-5-github-debug_universal and install it on Redmi Pro.          Linux Deploy   It is a potential solution. I tried a few times, but failed to deploy a linux on my Redmi Pro.  So Termux for android 5 was which I chose finally. Home Assistant Operating System, Container, Supervised, and CoreThere is a table to compare these installation methods. https://www. home-assistant. io/installation/#compare-installation-methods Normally, I’d like a most powerful Home assistant. So I tried Operating System, Supervised, Container, and Core, sequentially.    Operating System - Not working!   Failed to install a virtual machine.     Supervised - Not working!   apt, pkg, and … were permanenently locked against running as root.   I can NOT install any package from my root access.   I tried install the dependencies using current user. Failed to isntall udisks2, libglib2. 0-bin, network-manager, and 	dbus.     Container - Not working!   Failed to install docker-compose.     Core - Not working!   Current user again (not root user).   Python 3. 9 or newer is suggested. https://www. home-assistant. io/installation/linux#install-home-assistant-core   While, the latest python in the repos supported by Termux is 3. 8 and there is no plan for support or package updates. https://github. com/termux/termux-app/wiki/Termux-on-android-5-or-6   That’s OK. I just ignored them and go on.   Some denpendencies are Not supported. Ignore again.   Finally, pip install homeassistant   And failed at ERROR: Failed building wheel for cryptography. It need a rust &gt;=1. 41, while the latest rust is 1. 38.   Failed again.  All were not working on Termux for android 5. PRoot   proot-distro is NOT supported on android 5/6.  💩   Almost no way to proceed.     ubuntu-in-termux   Lucky. I’ve found a ready-to-use script to install Ubuntu from Termux.   It works like a charm.   So I have a Jellyfish on my Redmi Pro. It will be easily to go on.  Home Assistant Core on ubuntu-in-termux   su user access,     latest python (3. 10),     python3-dev, python3-venv, python3-pip, libffi-dev, libssl-dev, libjpeg-dev, zlib1g-dev, autoconf, build-essential, libopenjp2-7, libtiff5, libturbojpeg0-dev, and tzdata. All dependancies are supported. Perfect!     pip install homeassistant worked as well.     Go with your hass.  Note: Maybe a few bugs. I ignored them. Enjoy Home Assistant on my Redmi Pro! Brainstorm   Not root? Is it possible to work for ubuntu-in-termux?     Refer to the script of ubuntu-in-termux, is it to deply some other Linux distros?  No plan to test. Reference   Install Home Assistant (HASS) on Android (NO ROOT)     Home Assistant Core on Android Tablet  "
+    }, {
+    "id": 50,
+    "url": "https://longlovemyu.com/metrics_gis/",
+    "title": "Quick Conversion on GIS Metrics",
+    "body": "2022/05/12 - How to quick convert some GIS metrics? The formula for arc length of a circle: \[arc length=2\pi r\left ( \frac{\theta }{360} \right )=p\left ( \frac{\theta }{360} \right )\]If the equatorial plane is looked as a circle, then the arc length at the equator is calculated by: \[arc length=P\left ( \frac{longitude}{360} \right )=40075* \left ( \frac{longitude}{360} \right )=111*longitude\]Note taht the radius (R) and perimeter (P) of the earth at the equator is 6378 km, 40075km separately. And the arc length on a specific parallel/latitude is calculated by: \[\begin{eqnarray}arc length &amp; = &amp; 2\pi R\cos(latitude)\left ( \frac{longitude}{360} \right ) \\ &amp; = &amp; P\left ( \frac{longitude}{360} \right )\cos(latitude) \\ &amp; = &amp; 40075* \left ( \frac{longitude}{360} \right )\cos(latitude)\\ &amp; = &amp; 111*longitude \cos(latitude) \end{eqnarray}\]      longitude   quick check of arc length at (latitude)                   ^^   equator   25°   36°   44°         1 arc degree   111. 32 km   100 km   90 km   80 km       0. 5 arc degree (30 arc minutes)   55. 66 km   50 km   45 km   40 km       0. 25 arc degree (15 arc minutes)   27. 83 km   25 km   23 km   20 km       0. 1 arc degree (6 arc minutes)   11. 13 km   10 km   9 km   8 km       \(0. 08\dot{3}\) arc degree (5 arc minutes)   9. 28 km   8. 5 km   7. 5 km   6. 7 km       0. 05 arc degree (3 arc minutes)   5. 566 km   5 km   4. 5 km   4 km       \(0. 01\dot{6}\) arc degree (1 arc minutes)   1. 855 km   1. 7 km   1. 5 km   1. 3 km       0. 01 arc degree (36 arc seconds)   1. 113 km   1 km   900 m   800 m       \(0. 008\dot{3}\) arc degree (30 arc seconds)   928 m   850 m   750 m   670 m       \(0. 0041\dot{6}\) arc degree (15 arc seconds)   464 m   425 m   375 m   335 m       \(0. 001\dot{6}\) arc degree (6 arc seconds)   186 m   170 m   150 m   130 m       0. 001 arc degree (3. 6 arc seconds)   111 m   100 m   90 m   80 m       \(0. 0002\dot{7}\) arc degree (1 arc seconds)   31 m   30 km   25 km   22 km    坐地日行八万里。By毛泽东 The arc length i. e. perimeter of the Earth is about 40,000 km, which equals 80,000 Li (Chinese mile). Our planet rotates per day. According to elative motion, a people stays at the surface will have a 360 arc degrees motion. In some way, the people moves 40,000 km per day. Roughly, 1 arc degree equals 100 km at the surface of earth.  Arc Length Calculator    Reference:  Jekyll Supports Math Notation MathJax in Markdown Equation Editor Syntax for entering math using ASCIIMathML Arc Length Calculator - online  Earth radius - Wikipedia"
+    }, {
+    "id": 51,
+    "url": "https://longlovemyu.com/search_bar/",
+    "title": "Add a search bar in Jekyll blogsite",
+    "body": "2021/12/06 - There are ways to add a search bar. This post shows my way. Christian’s Simple-Jekyll-Search Find the guide here. Lunr   Add Lunr. js to your project.     Add search-lunr. html to _includes of your project     Add the following statement to your page   { % include search-lunr. html % }   {% include search-lunr. html %} Google - invoke google. com   Add search-google. html to _includes of your project     Change the domain name with yours     Add the following statement to your page   { % include search-google. html % }   {% include search-google. html %} Google Custom Search Engine   Create a new search engine for your site https://cse. google. com/cse/create/new.     Add the following   &lt;script async src= put your public url here &gt;&lt;/script&gt;&lt;div class= gcse-search &gt;&lt;/div&gt;   Reference: Search with Lunr. js Search with Google Google Custom Search engine"
+    }, {
+    "id": 52,
+    "url": "https://longlovemyu.com/colon-ellipsis/",
+    "title": "Colon, double colon and ellipsis",
+    "body": "2021/11/08 - Experiences of slicing operation :, ::, and . . . . Lista = list(range(10))a[:]a[::]a[. . . ]a[:] is equivalent to a[::]. a[. . . ] was not working. numpy. arrayimport numpy as npa = np. arange(10)a[:]a[::]a[. . . ]a[:], a[::], and a[. . . ] are equivalent for a numpy. array object. For s[start<img class="emoji" title=":end:" alt=":end:" raw="🔚" src="https://github.githubassets.com/images/icons/emoji/unicode/1f51a.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))"></img>step] operation, the default value of start, end, and step is 0, -1, and 1 separately. "
+    }, {
+    "id": 53,
+    "url": "https://longlovemyu.com/similarity-dinamicaego/",
+    "title": "Comparison of three functors on similarity in DinamicaEGO",
+    "body": "2021/04/13 -       functor   inputs   outputs   Window size   Decay function         [Calc Reciprocal Similarity Map](http://www. csr. ufmg. br/dinamica/dokuwiki/doku. php?id=calc_reciprocal_similarity_map)   First map or simulated map,   Two reciprocal similarity maps,   Single window   Constant or exponential       ^^   ^^ second map or observed map   ^^ mean similarities of similarity map   ^^   ^^       [Calc Similarity of Differences](https://www. csr. ufmg. br/dinamica/dokuwiki/doku. php?id=calc_similarity_of_differences)   Initial map,   Minimun similarity map of two reciprocal similarity maps,   Single window   Constant or exponential       ^^   ^^ simulated map,   ^^ minimum of mean similarities of two reciprocal similarity maps [**]   ^^   ^^       ^^   ^^ observed map   ^^   ^^   ^^       [Calc Multi Window Similarity of Differences](https://www. csr. ufmg. br/dinamica/dokuwiki/doku. php?id=calc_multi_window_similarity_of_differences)   Initial map,   Minimun of mean similarities of two reciprocal similarity maps [**],   Multi windows   Constant       ^^   ^^ simulated map,   ^^ maximum of mean similarities of two reciprocal similarity maps   ^^   ^^       ^^   ^^ observed map   ^^   ^^   ^^   Note that the items of [**] would return same result for a specific window size. "
+    }, {
+    "id": 54,
+    "url": "https://longlovemyu.com/python_geo_tools/",
+    "title": "Ports of python geospatial analysis tools",
+    "body": "2021/03/29 - There are lots of python packages for geospatial analysis. This post lists some famous ones. Ports of python packages: geopy  contextily  pyproj  pyepsg  GDAL Python API  Rasterio  Fiona  Shapely  GeoPandas  geoplot  Cartopy  Folium   Ports of galleries: GeoPandas  GeoPlot  Cartopy   Fundamental tools/libraries GDAL:   Main site GitHub GDAL python api autotest / example OGR: With the GDAL 2. 0 release, the GDAL and OGR components were integrated together. GDAL is equivalent to GDAL / OGR in this context. JTS Topology Suite:  GitHub (v1. 15 ~ current) SourceForge (previous ~ v1. 14)GEOS:  A C++ port of the JTS Topology Suite .  GitHubPython packages GDAL Python API:  Dependencies:     Non-python denpendencies: GDAL including gdal-bin and libgdal-dev   Python denpendencies: NumPy    GitHub PyPI Python GDAL/OGR CookbookRasterio:  Dependencies:     Non-python denpendencies: GDAL   Python denpendencies: NumPy and more.     GitHub PyPIFiona:  Dependencies:     Non-python denpendencies: GDAL   Python denpendencies: six and more.     GitHub PyPIShapely:  Dependencies:     Non-python denpendencies: GEOS   Python denpendencies: None.     GitHub PyPIGeoPandas:  Dependencies:     Non-python denpendencies (indirectly): GEOS, GDAL and PROJ.    Python denpendencies: NumPy, pandas, Shapely, Fiona, pyproj; optinally, Matplotlib and more.     GitHub PyPI Gallerygeoplot:  Dependencies:     Python denpendencies: Matplotlib, seaborn, pandas, GeoPandas and more.     GitHub PyPI Gallery, moreCartopy:  Dependencies:     Non-python denpendencies: GEOS and PROJ; optinally, GDAL   Python denpendencies: NumPy, Cython, Shapely, pyshp, and six; optinally, Matplotlib and more.     GitHub PyPI GalleryFolium:  Python implementation of Leaflet. js GitHub PyPIArcPy: Python module of ArcGIS. Need an ArcGIS license. QGIS Python API: Python module of QGIS. Reference Data Analysis in Python GIS in Python"
+    }, {
+    "id": 55,
+    "url": "https://longlovemyu.com/hydro-models/",
+    "title": "Hydrological Model lists",
+    "body": "2021/03/25 -       **Existing Lists / Repositories** ||                 Organization/Team   List / repository / models / tools   Webpages       [CSDMS](https://csdms. colorado. edu/wiki/Main_Page)   Repository for numerical models and scientific software tools   https://csdms. colorado. edu/wiki/Model%5Fdownload%5Fportal       ^^   ^^   ^^ https://csdms. colorado. edu/wiki/Hydrological%5FModels       [TAMU](https://aglifesciences. tamu. edu/)   list   https://hydrologicmodels. tamu. edu/models. htm/       [陈昌春](http://blog. sciencenet. cn/home. php?mod=space&amp;uid=350729)   水文模型大本营 - List   http://blog. sciencenet. cn/blog-350729-686420. html   "
+    }, {
+    "id": 56,
+    "url": "https://longlovemyu.com/appimage_wsl/",
+    "title": "How to run an AppImage on WSL",
+    "body": "2021/03/19 - Generally, an AppImage will work well on Linux. So how about a Windows Subsystem for Linux (WSL)? Not sure. Here is a way to solve my error. Here was my error: fuse: device not found, try 'modprobe fuse' firstCannot mount AppImage, please check your FUSE setup. I solved it as follows: Step1: install Linux GUI Apps on Windows. :  Xming X Server for Windows VcXsrv Windows X ServerStep2: install GTK graphical user interface library (libgtk2. 0-0 or libgtk-3-0) in wsl: sudo apt-get install libgtk2. 0-0 sudo apt-get install libgtk-3-0 libgtk2. 0-0 is an old version, and libgtk-3-0 is the new version. While both works in the new release of ubuntu. More about GTK GUI library. Step3: set the default display in wsl. : export DISPLAY=:0 Default display number is 0. You can change it in Xlaunch. Of course, you can add it to your . bashrc or . zshrc file. Add followings to it. export DISPLAY= :0  Step4: navigate to your AppImage folder. Dinamica is my case. : cd /mnt/d/dinamicaEGO/v5 Step5: set access mode of AppImage file: chmod a+x Dinamica. AppImage a – all users x – permission to execute the file More about chmod. Step6: extract AppImage. : . /Dinamica. AppImage --appimage-extract Due to windows not support FUSE, AppImage have to be extracted and it will generate a folder named ‘squashfs-root’. Step7: Run it: . /squashfs-root/AppRun Although it works finally, I don’t think it is the way. Reference: Run AppImage on Windows How to run an AppImage using the Terminal Running GUI Linux applications in WSL 2 Running WSL GUI Apps on Windows 10"
+    }, {
+    "id": 57,
+    "url": "https://longlovemyu.com/serve-jekyll/",
+    "title": "Set up and serve Jekyll",
+    "body": "2021/02/28 - Steps to setup a jekyll server. install rubygem: sudo apt install rubygemsinstall bundler and jekyll: sudo gem install bundler jekyllinstall the gems/dependencies specified in the Gemfile: bundle installrun a jekyll site server: bundle exec jekyll serveReferences:  Transform your plain text into static websites and blogs Gem Command not found Bundler: bundle install"
+    }, {
+    "id": 58,
+    "url": "https://longlovemyu.com/view-of-delft/",
+    "title": "Vie of Delft&#58; 2019 - 2020",
+    "body": "2021/02/02 - I have been in the Netherlands for two years. I will leave here soon and return to my motherland. Something unforgettable happened in this period, such as the birth of Ann, the pandemic of COVID-19, and friendly people I met. I’d like to share some photos to document my journey in Delfland.  "
+    }, {
+    "id": 59,
+    "url": "https://longlovemyu.com/matplotlib-annotate/",
+    "title": "Add text or annotation into the axes in matplotlib",
+    "body": "2020/09/22 - How to display the value label in the plot. Try text or annotate function in matplotlib. Save some useful posts here.  Reference: Geographic Visualizations in Python with Cartopy GeoPandas Label Polygons - answer 1 GeoPandas Label Polygons - answer 2 adjustText - github adjustText - examples matplotlib. pyplot. text matplotlib. pyplot. annotate matplotlib. axes. Axes. text matplotlib. axes. Axes. annotate"
+    }, {
+    "id": 60,
+    "url": "https://longlovemyu.com/matplotlib-font-setup/",
+    "title": "Setup font size and other groups in matplotlib",
+    "body": "2020/09/18 - How to control the font size in your graph. By changing ‘rcParams’ globally. It also works for other rc groups. There are 3 equivalent ways to setup rc file. matplotlib. pyplot. rc: import matplotlib. pyplot as pltplt. rc('lines', linewidth=2, color='r')matplotlib. rc: import matplotlib as mplmpl. rc('lines', linewidth=2, color='r')matplotlib. rcParams: import matplotlib as mplmpl. rcParams['lines. linewidth'] = 2mpl. rcParams['lines. color'] = 'r'setup font sizeimport matplotlib. pyplot as pltsfs, mfs, lfs = 8, 10, 12plt. rc('font', size=sfs)plt. rc('axes', titlesize=sfs, labelsize=mfs)plt. rc('xtick', labelsize=sfs)plt. rc('ytick', labelsize=sfs)plt. rc('legend', fontsize=sfs)plt. rc('figure', titlesize=lfs)my custom styleimport matplotlib. pyplot as pltsfs, mfs, lfs = 8, 10, 12	#in pointsplt. rc('figure', figsize=[7, 4], titlesize=lfs)	#width, height in inchesplt. rc('savefig', dpi=300)plt. rc('lines', linewidth=1. 0, markersize=5. 0) #in pointsplt. rc('font', family='Times New Roman', size=sfs)plt. rc('axes', titlesize=sfs, labelsize=mfs)plt. rc('xtick', labelsize=sfs)plt. rc('ytick', labelsize=sfs)plt. rc('legend', fontsize=sfs)plt. rc('figure', titlesize=lfs) Reference: How to change the font size on a matplotlib plot matplotlib. pyplot. rc matplotlib. rc matplotlib. rcParams"
+    }, {
+    "id": 61,
+    "url": "https://longlovemyu.com/voronoi-diagram/",
+    "title": "First release of voronoi-diagram-for-polygons",
+    "body": "2020/07/26 - Voronoi diagram for polygons is a tool to create a Voronoi diagram also known as Thiessen polygons for polygons. It’s based on Shapely and GeoPandas. There are lots of tools to create a Voronoi diagram for points, for example Create Thiessen Polygons (Analysis) in ArcGIS Pro or ArcGIS Desktop, Voronoi Polygons in QGIS, or voronoi_diagram in Shapely. All of them are really cool. How about a Voronoi diagram for polygons? That’s what this tool does.  Voronoi diagram for polygons is a tool to create a Voronoi diagram also known as Thiessen polygons for polygons. It’s based on Shapely and GeoPandas. There are lots of tools to create a Voronoi diagram for points, for example Create Thiessen Polygons (Analysis) in ArcGIS Pro or ArcGIS Desktop, Voronoi Polygons in QGIS, or voronoi_diagram in Shapely. All of them are really cool. How about a Voronoi diagram for polygons? That’s what this tool does.  Table of contents:  Installation, update and uninstallation     Dependencies   To install   To update   To uninstall    Known shortages How to cite? ChangelogInstallation, update and uninstallation: Dependencies: It’s based on voronoi_diagram from Shapely which is new in version 1. 8. dev0. As of today, it is still a deveoping version. (2020-07-26) You can install or upgrade to the latest version by using: pip install git+https://github. com/Toblerity/Shapelypip install --upgrade git+https://github. com/Toblerity/ShapelyTo install: Quick installation with [pip]: pip install voronoi-diagram-for-polygonsOr from github: pip install git+https://github. com/longavailable/voronoi-diagram-for-polygonsAlso, you can just copy related functions from “[/longsgis/longsgis. py]” to your work. To update: pip install --upgrade voronoi-diagram-for-polygonsTo uninstall: pip uninstall voronoi-diagram-for-polygonsKnown shortages:  It may produce some polygons (unconnected polygons) around the boundary. How to cite: If this tool is useful to your research, star and cite it as below: Xiaolong Liu, &amp; Meixiu Yu. (2020, July 26). longavailable/voronoi-diagram-for-polygons. Zenodo. http://doi. org/10. 5281/zenodo. 3960407Easily, you can import it to Mendeley. Changelog: v0. 1. 1:  First release. "
+    }, {
+    "id": 62,
+    "url": "https://longlovemyu.com/dissolve_and_union/",
+    "title": "Differences between dissolve and union in geoproceesing",
+    "body": "2020/07/20 - When geometris intersect, how to union them? And if they aren’t intersected, how would these tools work? Commonly used geographic vector objects include three levels: featureCollection, feature, and geometry. dissolve and union will be compared in the context of geometry. dissolveAggregates some geometris into one geometry.  It works on one object, eg feature or geometryCollection. The latter is a list of geometris and it may be one of multipolygon, multilines, and points.  If two geometris touch, they will be unioned as one geometry.  If two geometris untouch, they will be gathered to one multi-object geometry. Considering the sole input, nothing will change for a geometryCollection.  Due to only one geometry for each feature, it is used to dissolve a multigemotry feature or geometryCollection coverted from multi features.  A similar operation in ArcGIS, Edit -&gt; Select the features to merge -&gt; merge. It may produce a unioned feature or a multigeometry feature.  unary-union in shapely have the same function. unionComputes a geometric union of the input geometris.  It works on at leat two objects.  If two input geometris touch, they will be unioned as one geometry.  If two input geometris untouch, they will be gathered to one multi-object geometry. Two untoched geomtry objects has merged to one multigeometry object.  A similar operation in ArcGIS, Edit -&gt; Select the features to merge -&gt; merge. It may produce a unioned feature or a multigeometry feature.  Note that union of analysis tool box in ArcGIS won’t create a unioned geometry for thoese touched each other. It will put all in one and split them by bounds.  union in shapely have the same function.  At end, we can say, dissolve or unary-union combines the sub-objects for a given geometryCollection object. union works for two independent objects. The outputs of them are very similar. bufferGoogle Earth Engine:  If two geometris touched, they will be unioned as one geometry after ee. Geometry. buffer operation. GeoPandas:  The number of geometris returen by GeoSeries. buffer() remains the same as input object. Reference Union (analysis) in ArcGIS Dissolve (Data Management) in ArcGIS Aggregation with dissolve - GeoPandas Merging features in the same layer - ArcGIS union - shapely unary-union - shapely GeoSeries. buffer()"
+    }, {
+    "id": 63,
+    "url": "https://longlovemyu.com/load_content_from_html/",
+    "title": "Load context from html",
+    "body": "2020/07/10 - How to load/embed a page from a html file in Jekyll post. This is the way. Self-held html file   Place it into _includes.     Add the following Liquid code to where you want to post contents of the html.   { % include load_html_test. html % }    load_html_test. html is the filename for the test html.     View the output.  html held by 3rd-partyThis is a tutial - How TO - Include HTML from W3Schools.    Prepare the HTML you want to include. A html file named myu_hhu_cn. html held on Github in my case.     Place the following javascript into your page.   &lt;script&gt; function includeHTML() {   var z, i, elmnt, file, xhttp;   /*loop through a collection of all HTML elements:*/   z = document. getElementsByTagName( * );   for (i = 0; i &lt; z. length; i++) {     elmnt = z[i];     /*search for elements with a certain atrribute:*/     file = elmnt. getAttribute( w3-include-html );     if (file) {       /*make an HTTP request using the attribute value as the file name:*/       xhttp = new XMLHttpRequest();       xhttp. onreadystatechange = function() {         if (this. readyState == 4) {           if (this. status == 200) {elmnt. innerHTML = this. responseText;}           if (this. status == 404) {elmnt. innerHTML =  Page not found.  ;}           /*remove the attribute, and call this function once more:*/           elmnt. removeAttribute( w3-include-html );           includeHTML();         }       }          xhttp. open( GET , file, true);       xhttp. send();       /*exit the function:*/       return;     }   } };&lt;/script&gt;      Include the HTML by using a w3-include-html attribute.  &lt;div w3-include-html= https://raw. githubusercontent. com/longlovemyu/profile/master/myu_hhu_cn. html &gt;&lt;/div&gt;   Call javascript function includeHTML() at the bottom of the page.   &lt;script&gt;includeHTML();&lt;/script&gt;      View the output.  Reference How TO - Include HTML"
+    }, {
+    "id": 64,
+    "url": "https://longlovemyu.com/curvefitting/",
+    "title": "First release of adaptive-curvefitting",
+    "body": "2020/06/14 - When you have data and model, it’s easy to make a curvefitting. But when you face somedata new and you don’t have idea which model suit to it. Then this tool may be what you are looking for.  Adaptive curvefitting is a tool to find potentially optimal models for your research data. It’s based on scipy, numpy, and matplotlib. Table of contents:  Why is this tool? Installation, update and uninstallation     To install   To update   To uninstall    Usage     Import the required module   Do the curvefitting   Generate a expected model   Re-use the fitted curve    Shortages How to cite? ChangelogWhy is this tool: The very difference of adaptive-curvefitting with numpy. polyfit, scipy. optimize. curve_fit or scipy. optimize. least_squares is the hypothesis you don’t know which model to fit. If you already have the expected model, the methods in scipy and numpy are fantastic tools and better than this one. When you explore something unknown, this will be a maybe. Installation, update and uninstallation: To install: Quick installation with pip: pip install adaptive-curvefittingTo update: pip install --upgrade adaptive-curvefittingTo uninstall: pip uninstall adaptive-curvefittingUsage: Import the required module: In general, import longscurvefittingor import the specified function: from longscurvefitting import oneClickCurveFittingfrom longscurvefitting import generateFunctionfrom longscurvefitting import generateModelsDo the curvefitting: oneClickCurveFitting(xdata, ydata)There are some optional arguments of oneClickCurveFitting.  functions: specified or all (default) basic models(name of models) to fit.      Type: list of string   Default: basicModels_nameList    piecewise: if consider custom a piecewise function. It is mandatory not to ‘piecewise’ when the data size is less than 20.      Type: bool   Default: False    operator: operatation between basic models.      Type: string   Default: ‘+’    maxCombination: max number of combination of basic models.      Type: integer   Default: 2    plot_opt: the number of plot for optimal models.      Type: integer   Default: 10    xscale: one of {“linear”, “log”, “symlog”, “logit”, …}     Type: string   Default: None    yscale: one of {“linear”, “log”, “symlog”, “logit”, …}     Type: string   Default: None    filename_startwith: a custom string mark as part of output filename     Type: string   Default: ‘curvefit’    silent: minimal output to monitor     Type: boolean   Default: False    feedback: if True, return the optimal model(function object), parameters     Type: boolean   Default: False    kwargs: keyword arguments passed to curve_fit_m. Note that bounds and p0 will take no effect when multi-models.      Type: dict   See the complete example “/tests/curvefitting. py”. Generate a expected model: Create a model composited by gaussian and erf function: funcs = ['gaussian','erf']myfunc = generateFunction(funcs, functionName='myfunc', operator='+')['model']See the complete example “/tests/custom_a_model. py”. Re-use the fitted curve: See the complete example “/tests/reuse_the_fitted_model. py”. Shortages:  Based on scipy. optimize. least_squares, it cannot enhance the estimate of specified model. Evenmore, it has more limit than scipy. optimize. least_squares. For example, arguments of bounds, x0 or p0 were not supported due to the basic hypothesis. How to cite: If this tool is useful to your research, star and cite it as below: Xiaolong Liu, &amp; Meixiu Yu. (2020, June 14). longavailable/adaptive-curvefitting (Version v0. 1. 0). Zenodo. http://doi. org/10. 5281/zenodo. 3893596Easily, you can import it to Mendeley. "
+    }, {
+    "id": 65,
+    "url": "https://longlovemyu.com/py_sort_sorted/",
+    "title": "Difference between list.sort() and sorted() in Python",
+    "body": "2020/05/27 - Both sort() and sorted() can be used to sort a list. So what’s the difference? There are 3 main differences between list. sort() and sorted(). What is it?   sort is a method of list.     sorted is a bult-in function.  Suitable object   sort is only for lists.     sorted can be used for any iterable.  Returns   sort sorts the original list in-place and returns None.     sorted returns a list without modification on the original list.  Reference Sorting HOW TO list. sort() sorted() Why does “return list. sort()” return None, not the list?"
+    }, {
+    "id": 66,
+    "url": "https://longlovemyu.com/selenium_guide/",
+    "title": "Get started with Selenium",
+    "body": "2020/05/24 - There are ways to access a web page in python, such as requests, mechanize, urllib and Selenium. This post will give a simple introduction to Selenium. Prerequisites   A browser is a must. One of Chrome, Firefox, Edge, Safari, Opera, IE, etc.     Driver for your browser.          ChromeDriver           geckodriver for Firefox           and …       Further more, there are some nice tools such as webdriver-manager, chromedriver-autoinstaller and geckodriver-autoinstaller to check, download and install a suitable driver from python automatically. Although WSL doesn’t support GUI directly, there are still ways to use WebDrivers/Selenium. Here is a proven method, https://github. com/lackovic/notes/tree/master/Windows/Windows%20Subsystem%20for%20Linux#use-chromedriver-on-wsl. In short, just place ChromeDriver in some system directory in windows for example C:\Windows\System32, and remove . exe extension. After that, your can use from wsl directly. Common usagesfrom selenium import webdriverfrom selenium. webdriver. common. keys import Keys #provide special keys in the keywordsfrom webdriver_manager. chrome import ChromeDriverManager#check ChromeDriver and open a new Chrome browserbrowser = webdriver. Chrome(ChromeDriverManager(). install())#load Yahoo homepagebrowser. get('http://www. yahoo. com')assert 'Yahoo' in browser. title#find the search boxelem = browser. find_element_by_name('p')#input 'seleniumhq' and type 'ENTER'elem. send_keys('seleniumhq' + Keys. RETURN)#elem. send_keys('seleniumhq')#elem. send_keys(Keys. RETURN)#close the browserbrowser. quit()ChromeOptionsselenium. webdriver. ChromeOptions() is equivalent to selenium. webdriver. chrome. options. Options(). #open a new ChromeOptions objectoptions = webdriver. ChromeOptions()#add agrumentsoptions. add_argument('--headless')options. add_argument('--disable-gpu')#open a new Chrome browserdriver = Chrome(options=options)Further more arguments for Chrome, go after here. XPathThere is a fantastic blog to guide the usage of XPath. Click here And you can test a XPath in Chrome Console. F12 –&gt; Console –&gt; Type your XPath like $x(“. //*[@id='id']”) –&gt; ENTER. Cases   submit the daily report to server, see source code.     require cookies from Google Earth Engine, see source code.  Reference Selenium Selenium - github Selenium python API List of Chromium Command Line Switches XPath in Selenium WebDriver: Complete Tutorial"
+    }, {
+    "id": 67,
+    "url": "https://longlovemyu.com/docker_issues/",
+    "title": "FAQ for Docker in Chinese",
+    "body": "2020/05/12 - FAQ for Docker. Docker issues   docker在windows 10上如何实现的？      windows上必须借助Linux Hyper-V Virtual Machine实现docker container架构。      虚拟镜像文件存储位置在哪？如何修改？      vhdx文件默认存储路径：C:\Users\Public\Documents\Hyper-V\Virtual hard disks.    可以通过Docker Desktop在设置(settings)-&gt;高级(advanced)中更改，自动迁移后，docker desktop自动重启。      localhost: 无法访问？      stop contianer       start contianer,如果可以正常重启，稍等几分钟，测试是否可以。如果不能正常重启，可能出现以下问题：     Error1： driver failed programming external connectivity on endpoint          重启docker desktop即可解决。        Error2： invalid mount config for type “bind”: bind mount source path does not exist:          在docker desktop的settings中重新勾选shared driver，重启docker desktop即可解决。             Windows7如何安装docker？   Win7 64为系统上可以安装docker toolbox，其借助虚拟机实现docker的使用，安装方法参见Install Docker Toolbox on Windows。     Windows7的docker环境中如何挂载windows文件夹？      打开Oracle VM VirtualBox   选中’default’虚拟机，设置（setting），打开共享文件夹（shared folders）选项，新建共享文件夹，根据需要设置好路径、文件夹名（例如mysharedfolder）   docker run --mount type=bind,source=/mysharedfolder,target=/mysharedfolder      挂载（mount）使用--volume还是--mount？      参考Choose the -v or –mount flag.    "
+    }, {
+    "id": 68,
+    "url": "https://longlovemyu.com/docker_installation/",
+    "title": "Guides for docker installation",
+    "body": "2020/05/11 - Just as title says, this post collects a few guides to install docker on different os. Windows 10Docker Desktop for Windows is the easiest way to install docker on your win 10 just by ‘double-click’ Windows 7Try Docker Toolbox, or chocolatey packages. UbuntuDocker Engine Just follow the guide. "
+    }, {
+    "id": 69,
+    "url": "https://longlovemyu.com/docker_commands/",
+    "title": "Docker commands in Chinese",
+    "body": "2020/05/11 - How to use docker, follow these commands. Docker commands      Docker commands/命令   Explanation in Chinese/中文解释         docker info   查看整个docker系统信息       docker login -u &lt;username&gt; -p &lt;password&gt;   登陆docker hub       image的查询、新建、删除 					|           docker images   显示所有的image       docker rmi &lt;image ID&gt;   删除一个image       docker build &lt;. . . . . . &gt;   从Dockerfile新建一个image       docker search &lt;keywords&gt;   从ducker hub搜索image       docker pull &lt;image/repository name&gt;   从ducker hub上下载并在本地新建一个image/repository，类似git clone       docker commit &lt;existing-container&gt; &lt;hub-user&gt;/&lt;repo-name&gt;[:&lt;tag&gt;]   从Container新建或更新一个本地image       docker push &lt;hub-user&gt;/&lt;repo-name&gt;:&lt;tag&gt;   将本地image/repository提交给docker hub       container的查询、新建、删除 				 |           docker ps   显示正在运行的(running)container       docker container ls   同上，显示正在运行的(running)container       docker ps -a   显示所有container，包括正在运行的(running)，停止运行的(stop)       docker container ls -a   同上，显示所有container，包括正在运行的(running)，停止运行的(stop)       docker ps -a -f status=exited   显示停止运行的(stop)container, f是筛选filter命令       docker ps -aq   显示所有的container，但只显示ID       docker rm &lt;container ID/name&gt;   删除一个或多个container       docker container rm &lt;container ID/name&gt;   同上，删除一个或多个container       docker rm 'docker ps -aq -f status=exited'   删除所有不在运行的（stopped）container（在win10 cmd中多次尝试未成功）       docker container prune   同上，删除所有不在运行的（stopped）container       docker create &lt;container ID/name&gt;   新建一个container       docker run -it &lt;image&gt;   新建一个container（是否进入命令模式由image预设命令决定，ubuntu image latest可进入）       docker run -it --name &lt;new container name&gt; &lt;image&gt;   新建一个container，并对其命名       docker run -it --mount type=bind,source=&lt;local directory to be mounted&gt;,target=/&lt;&gt; &lt;image&gt;   挂载本地文件（只能在新建container时），[更多信息](https://docs. docker. com/storage/bind-mounts/)       docker start &lt;container ID/name&gt;   启动一个container（后台运行）       docker stop &lt;container ID/name&gt;   停止运行一个container（后台停止）       docker exec -it &lt;container ID/name&gt; /bin/zsh   进入一个正在运行的container的zsh命令模式       docker exec -it &lt;container ID/name&gt; /bin/bash   进入一个正在运行的container的bash命令模式       exit   退出container命令模式       docker rename &lt;container ID/name&gt; &lt;new name&gt;   在新建（run或create）未对container命名时，系统会自动生成名字，如要进入，则每次得查container id，rename命令可以将container name改成自己期望的名字   "
+    }, {
+    "id": 70,
+    "url": "https://longlovemyu.com/githubapi/",
+    "title": "Access files using github api",
+    "body": "2020/03/26 - Upload a file to github repository, and request it. Yes, it is normal. This blog make it more smoothly. Create, update and delete a fileYou can do all of them via Contents API.    get_contents in API v3, PyGithub   Python script as follows:   from github import Githubg = Github(). get_user()g. get_repo(repoName). get_contents(filePath)    Here the filePath can be a path for file or directory. For a file, it will has its encoded content with encoding and content keywords. For a directory, it will return a list-like object contents all infomations of the files or subdirectories except content.   Responce examples of GitHub API v3:   The root directory of cscbank: https://api. github. com/repos/longavailable/cscbank/contents.   README. md of cscbank: https://api. github. com/repos/longavailable/cscbank/contents/README. md.   Important❗          It can be used for a directory and a file.           This API has an upper limit of 1,000 files for a directory. If you need to retrieve more files, use the Git Trees API.           This API supports files up to 1 megabyte in size.           type for a directory is dir, and for a file is file.        Suggestion:   If you do NOT want to access content of a file, then donot get_contents for a file. That is, content is the special of this way. In addition, 1MB seems a little small. My idea is using get_contents for a directory to request sha and download_url keywords, then use requests. get(). Git Blobs API is another solution.     create_file in API v3, PyGithub   Python script as follows:   g. get_repo(repoName). create_file(path=file,message= 'update '+file,content= dataBase64)      update_file in API v3, PyGithub   Python script as follows:   g. get_repo(repoName). update_file(path=file,message= 'update '+file,content= dataBase64,sha=sha)    Notice: update_file need sha parameter, you have to request sha before use it.  Git Trees API and Git Blobs API   get a tree in API v3, PyGithub   If a directory has more than 1,000 files or you want to get the content of a over-1MB-while-below-100MB file directly using Git Blobs API.   Responce examples of GitHub API v3:   The root tree/directory of cscbank: https://api. github. com/repos/longavailable/cscbank/git/trees/master.   Subtree/subdirectory nl/delft of cscbank: https://api. github. com/repos/longavailable/cscbank/git/trees/master:nl/delft.   Notices:          sha is needed to use get_git_tree using PyGithub. Actually, treePath/directory likes master:nl/delft works as well.           type for a directory is tree, and for a file is blob.          get a blob in API v3, PyGithub   Notices:          sha is needed to use get_git_blob using PyGithub.           This API supports blobs/files up to 100 megabytes in size.       Reference GitHub API v3 PyGithub"
+    }, {
+    "id": 71,
+    "url": "https://longlovemyu.com/first_word_color_ps/",
+    "title": "How to change the color of first word in Windows PowerShell",
+    "body": "2020/02/28 - By default, the color of first word in PowerShell is yellow. Sometimes it is not visible, especially when you changes the text background color. See the output first. How to make it? As shown in the above picture, type the command in your terminal directly. While it is one-time effective. Set-PSReadlineOption -TokenKind Command -ForegroundColor BlackPlace it in your profile and it will run when you launch PowerShell.    If it is the first time you set your $profile, you have to enable running unsigned scripts.   set-executionpolicy remotesigned    Then, add this script.   'Set-PSReadlineOption -TokenKind Command -ForegroundColor Black' `|Add-Content $Profile      Alternatively, you can add the followings to Microsoft. PowerShell_profile. ps1 located in C:\Users\&lt;username&gt;\Documents\WindowsPowerShell by yourself.  Set-PSReadlineOption -TokenKind Command -ForegroundColor Black If you use some 3rd party terminal, such as ConEmu. You have to change the corresponding profile. ps1. Reference: Set-PSReadLineOption set-executionpolicy"
+    }, {
+    "id": 72,
+    "url": "https://longlovemyu.com/simple_landuse/",
+    "title": "A simple way to map landuse",
+    "body": "2020/02/25 - Here is a simple way to create a landuse map. Step1: download landcover classification data: There are lots of good quality landcover products, likes GlobeLand30. Step2: extract the area you are interested in: ArcToolBox -&gt; Spactial Analyst Tools -&gt; Extraction -&gt; Extract by Mask Step3: reclassify to reach the landuse: ArcToolBox -&gt; Spactial Analyst Tools -&gt; Reclass -&gt; Reclassify Step4: summarize area of same type: For a relative small area, the grid will be regarded as same cell size. In other words, every grid has same cell area. Then the sum of each type is the cell area multiplied by the count. Select the target layer -&gt; Open Attribute Table -&gt; Add Field -&gt; Set Name and Type as needed -&gt; Right-click at the new field -&gt; Field Calculator -&gt; Tyep [Count] * 300 * 300 (300 is the cell side length) Note the coordinate system. In my opinion, it’s better to set as a local projected coordinate system. "
+    }, {
+    "id": 73,
+    "url": "https://longlovemyu.com/remote_connection/",
+    "title": "Remote desktop connection",
+    "body": "2020/02/12 - How to connect another desktop remotely? The easiest wayIn my experience, the easiest way is to use a third-party tool. TeamViewer can work from Windows, Mac, Linux, Android, iOS, etc.  Windows built-in Remote Desktop ConnectionConnect a desktop in LAN (local area network):  Enable Remote Desktop Connection on the host computer (which you want to connect or access remotely).  Launch Remote Desktop Connection utility on the client computer.  Connect to the host computer. If in LAN, enter the computer name. Connect a desktop in WAN (wide area network):  Enable Remote Desktop Connection on the host computer (which you want to connect or access remotely).  Forward TCP port 3389 to IP address of the host computer in router.  Launch Remote Desktop Connection utility on the client computer.  Connect to the host computer. Enter the public IP followed with the port number. Notice: Microsoft has a Remote Desktop app to support accessing a desktop from Android and iOS.  Reference: Setup a Remote Desktop Connection for LAN/WAN Access How To Allow Remote Desktop Connections From Outside Your Home Or Office Network"
+    }, {
+    "id": 74,
+    "url": "https://longlovemyu.com/matplotlib_concepts/",
+    "title": "General concepts of matplotlib",
+    "body": "2020/02/11 - What is figure, axes and axis in matplotlib? Check the introduction of general concepts firstly. Some concepts of a figure: Figure VS axes: Figure: The whole figure. The figure keeps track of all the child Axes, a smattering of ‘special’ artists (titles, figure legends, etc), and the canvas. A figure can have any number of Axes, but to be useful should have at least one. A figure is everything in a final plot. Axes: This is what you think of as ‘a plot’, it is the region of the image with the data space. A given figure can contain many Axes, but a given Axes object can only be in one Figure. The Axes contains two (or three in the case of 3D) Axis objects (be aware of the difference between Axes and Axis) which take care of the data limits (the data limits can also be controlled via set via the set_xlim() and set_ylim() Axes methods). Each Axes has a title (set via set_title()), an x-label (set via set_xlabel()), and a y-label set via set_ylabel()). A axes concludes two (or three) axis, a x-label, a y-label, a title and the space surrounded by them. Axes VS axis: Axes: Axis: These are the number-line-like objects. They take care of setting the graph limits and generating the ticks (the marks on the axis) and ticklabels (strings labeling the ticks). The location of the ticks is determined by a Locator object and the ticklabel strings are formatted by a Formatter. The combination of the correct Locator and Formatter gives very fine control over the tick locations and labels. SpinesA axis concludes spines, ticks and ticklabels.  Reference: Matplotlib - User’s Guide - Tutorials - Usage Guide Writing mathematical expressions"
+    }, {
+    "id": 75,
+    "url": "https://longlovemyu.com/matplotlib_font/",
+    "title": "Plotting fonts when using matplotlib",
+    "body": "2020/01/14 - When you want to use a font when plotting using matplotlib in python, it returns ‘not found’. The answer maybe here. How to set different font when plotting with matplotlib in python? Set locally, for example set font for title:   tfont = {'fontname':'Times New Roman'} plt. title('title',**tfont)    Set globally:   import matplotlib. pyplot as plt plt. rcParams['font. family'] = 'Times New Roman'    If it works fine, that’s ok. If it return something like the following:    findfont: Font family ['. . . . . '] not found. Falling back to DejaVu Sans.     Then continue.  Check first: Precautiously check matplotlib font cache or let it go:   cd ~/. cache/matplotlib &amp;&amp; ls    There may have a json file as the matplotlib font cache file. Check if the expected font exists.       If the font exists, this is NOT for you and you can STOP here.    If not, continue.     Check if the expected font exists in the system:   fc-list : family | sort    or    fc-list -f '%{file}\n' | sort    or    fc-list : lang=zh    or    fc-list :lang=zh -f  %{family}\n  | sort | uniq    If needed, install fontconfig first.      If the font exists, go here.    If not, go here.    How to install a font in Linux Require preferred font. NOTICE truetype format (. ttc/. ttf) Copy it to the fonts directory   cp &lt;font path&gt; /usr/share/fonts/&lt;somewhere&gt;   Update the font cache in Linux re-generate font cache:   sudo fc-cache -fv    If needed, install fontconfig first.  Remove current matplotlib font cache Precautiously backup first:   cp -r ~/. cache/matplotlib &lt;somewhere&gt;    Remove it:   rm -fr ~/. cache/matplotlib   Re-run the plotting scriptNormally, the matplotlib font cache will re-generate automatically. That’s it.  Reference: How to change fonts in matplotlib (python)? matplotlib. pyplot other parameters - Other keyword arguments Won’t use a font although it can be found by the FontManager Add custom fonts to Matplotlib"
+    }, {
+    "id": 76,
+    "url": "https://longlovemyu.com/wsl-copy-paster/",
+    "title": "How to Enable Copy and Paste Keyboard Shortcuts in WSL",
+    "body": "2019/11/23 - Sometime Ctrl + C and Ctrl + V is a easy way to do things. No mouse operator is the default setting for Ubuntu on Windows 10 WSL. While copy and paste is the most popular command in Windows. How to enable it? It depends. It depends on which console / terminal you use.  If you use the default ubuntu console, then check the ‘QuikEdit Mode’ from properties.  After it, you can pick up what you want by mouse, then copy and paste.  If you use the 3rd party console as cmder, that will be much easy and flexible. Reference:  Windows 10 build 14316: Ctrl + v doesn’t work on Bash on Ubuntu on Windows How to enable Ctrl + Shift + V in Windows Subsystem for Linux (WSL) / command prompt (cmd)?"
+    }, {
+    "id": 77,
+    "url": "https://longlovemyu.com/free_ebooks_on_DL/",
+    "title": "Free ebooks on deep learning",
+    "body": "2019/11/18 - Here is some free ebooks on deep learning. Here is some free ebooks on deep learning. 1. Deep Learning: By Ian Goodfellow, Yoshua Bengio and Aaron Courville 2. First Contact with TensorFlow, get started with Deep Learning Programming: By Jordi Torres 3. Neural Networks and Deep Learning: By Michael NielsenHere is some nice blogsites on deep learning. (To be continued) "
+    }, {
+    "id": 78,
+    "url": "https://longlovemyu.com/post/2019/09/18/site-design-under-SCC-concept.html",
+    "title": "Key steps for case degine under the SCC / 海绵方案设计核心步骤 (中文)",
+    "body": "2019/09/18 - 场地海绵方案如何设计？一步一个脚印即可。 1. 确定设计目标（建设要求），即径流总量控制率是多少，对应的设计降雨是多少。 2. 场地分析，计算海绵设施实施前（常规设计条件下）的径流量V0（也即需要通过增加海绵设施控制的水量）。这一步可以通过swmm等模拟模拟计算，或者径流系数法估算。 3. 海绵设计，即设置海绵设施，重点在于设施选择的合理性与竖向合理性。 4. 评估分析，计算海绵设施的有效控制容积量  Ve ，再与 V0进行对比，若 Ve &gt; V0 即满足设计目标。如果用swmm等模型评估，若不产生径流，即表明方案满足设计要求。 蓝绿设计的目标是尽量使人为开发不改变原自然水文条件。因此为了避免设计目标设置不合理（过高），可进行自然状况（即未开发状况时）场地自然径流量 Vn ​，若 Vn ​&gt;0，则设计目标可能偏高。 兼有空间功能与艺术之美则更需千锤百炼，方有可能得之。 "
+    }, {
+    "id": 79,
+    "url": "https://longlovemyu.com/post/2019/09/12/copy-raster-in-arcmap.html",
+    "title": "神奇的Copy Raster",
+    "body": "2019/09/12 - Copy Raster不仅仅是copy工具，更是一个独特的转换工具 工具位置： Copy Raster &lt;- Raster Dataset &lt;- Raster &lt;- Data Management 功能如下： 1. convert raster to other format /修改数据格式相同于coversion tools中raster to other format raster。在output raster dataset中除了name of output，同时指定要转换成的file&nbsp;extension。如下： . bil&nbsp;for&nbsp;Esri&nbsp;BIL. bip&nbsp;for&nbsp;Esri&nbsp;BIP. bmp&nbsp;for&nbsp;BMP. bsq&nbsp;for&nbsp;Esri&nbsp;BSQ. dat&nbsp;for&nbsp;ENVI&nbsp;DAT. gif&nbsp;for&nbsp;GIF. img&nbsp;for&nbsp;ERDAS&nbsp;IMAGINE. jpg&nbsp;for&nbsp;JPEG. jp2&nbsp;for&nbsp;JPEG&nbsp;2000. png&nbsp;for&nbsp;PNG. tif&nbsp;for&nbsp;TIFF. mrf&nbsp;for&nbsp;MRF. crf&nbsp;for&nbsp;CRFNo&nbsp;extension&nbsp;for&nbsp;Esri&nbsp;Grid2. change “pixel type” /更改数据像素类型 1_BIT&nbsp;—A&nbsp;1-bit&nbsp;unsigned&nbsp;integer. &nbsp;The&nbsp;values&nbsp;can&nbsp;be&nbsp;0&nbsp;or&nbsp;1. 2_BIT&nbsp;—A&nbsp;2-bit&nbsp;unsigned&nbsp;integer. &nbsp;The&nbsp;values&nbsp;supported&nbsp;can&nbsp;be&nbsp;from&nbsp;0&nbsp;to&nbsp;3. 4_BIT&nbsp;—A&nbsp;4-bit&nbsp;unsigned&nbsp;integer. &nbsp;The&nbsp;values&nbsp;supported&nbsp;can&nbsp;be&nbsp;from&nbsp;0&nbsp;to&nbsp;15. 8_BIT_UNSIGNED&nbsp;—An&nbsp;unsigned&nbsp;8-bit&nbsp;data&nbsp;type. &nbsp;The&nbsp;values&nbsp;supported&nbsp;can&nbsp;be&nbsp;from&nbsp;0&nbsp;to&nbsp;255. 8_BIT_SIGNED&nbsp;—A&nbsp;signed&nbsp;8-bit&nbsp;data&nbsp;type. &nbsp;The&nbsp;values&nbsp;supported&nbsp;can&nbsp;be&nbsp;from&nbsp;-128&nbsp;to&nbsp;127. 16_BIT_UNSIGNED&nbsp;—A&nbsp;16-bit&nbsp;unsigned&nbsp;data&nbsp;type. &nbsp;The&nbsp;values&nbsp;can&nbsp;range&nbsp;from&nbsp;0&nbsp;to&nbsp;65,535. 16_BIT_SIGNED&nbsp;—A&nbsp;16-bit&nbsp;signed&nbsp;data&nbsp;type. &nbsp;The&nbsp;values&nbsp;can&nbsp;range&nbsp;from&nbsp;-32,768&nbsp;to&nbsp;32,767. 32_BIT_UNSIGNED&nbsp;—A&nbsp;32-bit&nbsp;unsigned&nbsp;data&nbsp;type. &nbsp;The&nbsp;values&nbsp;can&nbsp;range&nbsp;from&nbsp;0&nbsp;to&nbsp;4,294,967,295. 32_BIT_SIGNED&nbsp;—A&nbsp;32-bit&nbsp;signed&nbsp;data&nbsp;type. &nbsp;The&nbsp;values&nbsp;can&nbsp;range&nbsp;from&nbsp;-2,147,483,648&nbsp;to&nbsp;2,147,483,647. 32_BIT_FLOAT&nbsp;—A&nbsp;32-bit&nbsp;data&nbsp;type&nbsp;supporting&nbsp;decimals. 64_BIT&nbsp;—A&nbsp;64-bit&nbsp;data&nbsp;type&nbsp;supporting&nbsp;decimals. 3. change  NoData Value  /修改NoData值！！更改的是NoData Value（NoData像素的标识值），而不是把NoData改为某个有效的Pixel value。 Reference:&nbsp;https://pro. arcgis. com/en/pro-app/tool-reference/data-management/copy-raster. htm "
+    }, {
+    "id": 80,
+    "url": "https://longlovemyu.com/post/2019/09/01/welcome-to-jekyll.html",
+    "title": "Welcome to Jekyll!",
+    "body": "2019/09/01 - You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title. MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts  Hi, #{name} endprint_hi('Tom')#=&gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk. "
+    }];
+
+var idx = lunr(function () {
+    this.ref('id')
+    this.field('title')
+    this.field('body')
+
+    documents.forEach(function (doc) {
+        this.add(doc)
+    }, this)
+});
+function lunr_search(term) {
+    document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
+    if(term) {
+        document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        if(results.length>0){
+            //console.log(idx.search(term));
+            //if results
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                var body = documents[ref]['body'].substring(0,160)+'...';
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></a></li>";
+            }
+        } else {
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
+        }
+    }
+    return false;
+}
+</script>
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+<form onsubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search with Lunr.js"></p>
+</form>
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<h1 id="google---invoke-googlecom">Google - invoke google.com</h1>
+
+<ul>
+  <li>
+    <p>Add <a href="https://raw.githubusercontent.com/jhvanderschee/jekyllcodex/gh-pages/_includes/search-google.html">search-google.html</a> to <code class="language-plaintext highlighter-rouge">_includes</code> of your project</p>
+  </li>
+  <li>
+    <p>Change the domain name with yours</p>
+  </li>
+  <li>
+    <p>Add the following statement to your page</p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>{ % include search-google.html % }
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<form method="get" id="search-google" action="https://www.google.com/search" target="_blank">
+<input type="hidden" name="sitesearch" value="/"><input type="text" name="q" maxlength="255" value="" placeholder="Search via Google" class="form-control">
+</form>
+
+<h1 id="google-custom-search-engine">Google Custom Search Engine</h1>
+
+<ul>
+  <li>
+    <p>Create a new search engine for your site <a href="https://cse.google.com/cse/create/new">https://cse.google.com/cse/create/new</a>.</p>
+  </li>
+  <li>
+    <p>Add the following</p>
+
+    <div class="language-html highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">async</span> <span class="na">src=</span><span class="s">"put your public url here"</span><span class="nt">&gt;&lt;/script&gt;&lt;div</span> <span class="na">class=</span><span class="s">"gcse-search"</span><span class="nt">&gt;&lt;/div&gt;</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<script async="" src="https://cse.google.com/cse.js?cx=013029827813215097911:1exidgxkr3n"></script>
+
+<div class="gcse-search"></div>
+
+<!-- a horizontal line -->
+
+<hr>
+<h1 id="reference">Reference:</h1>
+<ul>
+  <li><a href="https://jekyllcodex.org/without-plugin/search-lunr/">Search with Lunr.js</a></li>
+  <li><a href="https://jekyllcodex.org/without-plugin/search-google/">Search with Google</a></li>
+  <li><a href="https://www.google.com/cse/">Google Custom Search engine</a></li>
+</ul>
+
+ <!-- This line can not delete-->
+				 	<!-- remove excerpt from posts -->
+				
+				<!-- add a python tools hyperlink if 'python' appears in tags-->
+				
+			</div>
+		</div>
+	</div>
+	
+	<!-- Related contents -->
+	<div class="relatedPosts">
+
+		<!-- for post -->
+		
+		
+			<h2>Related</h2>
+
+			
+			
+			
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/jekyll_blog/">How to write a Jekyll blog <span class="label label-default">Jekyll</span> </a>
+					</div>
+					
+					
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/empty-jekll-site">Create an empty Jekyll site step by step <span class="label label-default">Jekyll</span> </a>
+					</div>
+					
+					
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/serve-jekyll/">Set up and serve Jekyll <span class="label label-default">Jekyll</span> </a>
+					</div>
+					
+					
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+
+			
+
+				
+				
+
+				
+
+				
+					<div>
+						<a href="/post/2019/09/01/welcome-to-jekyll.html">Welcome to Jekyll! <span class="label label-default">Jekyll</span> </a>
+					</div>
+					
+					
+						
+		
+	</div>
+
+	<!-- share buttons -->
+	<br> <!-- br 是空行，hr是加一条直线-->
+	<div align="right">
+		
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+    position: relative;
+    text-align: left; 
+    height: 36px; 
+    width: 32px; 
+    float: left; 
+    text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+</style>
+
+<span style="color: silver;">Share on: </span><div id="share-buttons">
+    <div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https://longlovemyu.com/search_bar/');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path></svg></div>
+    <div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=https://longlovemyu.com/search_bar/');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path></svg></div>
+    <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://longlovemyu.com/search_bar/&amp;title=&amp;summary=&amp;source=');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path></svg></div>
+    
+    <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&amp;body=https://longlovemyu.com/search_bar/');"><svg viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"></path></svg></div>
+</div>
+	</div>
+	
+	<!-- mathjax -->
+	
+	
+	<!-- back to top button -->
+	<script src="/js/vanilla-back-to-top.min.js"></script>
+	<script>addBackToTop()</script>
+	
+	<!-- page-piganation-->
+	<hr>	<!-- br 是空行，hr是加一条直线-->
+	<div class="post-nav">
+		<div>
+			
+				<a href="/colon-ellipsis/">« PREVIOUS: Colon, double colon and ellipsis</a>
+			
+		</div>
+		<div class="post-nav-next">
+			
+				<a href="/metrics_gis/">NEXT: Quick Conversion on GIS Metrics »</a>
+			
+		</div>
+	</div>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+	
+    <h2 class="footer-heading">LONGLOVEMYU</h2>
+	
+    <div class="footer-col-wrapper">
+		<!--logo-->
+		<div style="width: 40%">
+			<a href="/">
+				<img src="/assets/icon/siteicon40.png" height="40" width="40">
+			</a>
+		</div>
+		
+		<div class="footer-col footer-col-1">
+			<ul class="contact-list">
+				<li class="p-name">LONGAVAILABLE</li>
+<li><a class="u-email" href="mailto:liuxiaolong125@gmail.com">liuxiaolong125@gmail.com</a></li>
+</ul>
+		</div>
+		<!--
+		<div class="footer-col footer-col-2"><ul class="social-media-list"><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="" target="_blank" title="">
+      <span class="grey fa-brands fa- fa-lg"></span>
+    </a>
+  </li>
+  <li>
+    <a href="https://longlovemyu.com/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+		-->
+		<div class="footer-col footer-col-2">
+			<p>Sharing and recoding something useful, trying to make things simple, and looking for some fun.</p>
+		</div>
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
