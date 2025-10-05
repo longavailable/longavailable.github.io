@@ -1,0 +1,86 @@
+name: 添加会议
+description: 提交一个新的学术会议信息
+title: "[会议] {{会议名称}}"
+labels: ["conference", "submission"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: 会议名称
+      placeholder: 例如：国际人工智能大会
+      description: 请填写会议的正式名称
+    validations:
+      required: true
+
+  - type: input
+    id: start_date
+    attributes:
+      label: 开始日期
+      placeholder: 2025-11-01
+    validations:
+      required: true
+
+  - type: input
+    id: end_date
+    attributes:
+      label: 结束日期
+      placeholder: 2025-11-03
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: 举办地点
+      placeholder: 北京，中国 或 河海大学
+    validations:
+      required: true
+
+  - type: input
+    id: cost
+    attributes:
+      label: 费用
+      placeholder: 会议费1000元/人+食宿自理 或 免会议费+食宿自理
+    validations:
+      required: false
+
+  - type: input
+    id: registration_deadline
+    attributes:
+      label: 注册截止日期
+      placeholder: 2025-10-15
+    validations:
+      required: false
+
+  - type: input
+    id: url
+    attributes:
+      label: 官方链接
+      placeholder: https://example.com/conference
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: 当前状态
+      options:
+        - potential
+        - registered
+        - attended
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reminder_cycle
+    attributes:
+      label: 提醒周期
+      options:
+        - 5
+        - 10
+        - 15
+        - 20
+      default: 2
+    validations:
+      required: true
