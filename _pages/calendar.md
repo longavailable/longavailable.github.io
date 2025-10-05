@@ -4,7 +4,13 @@ title: "学术会议日历"
 # description:
 permalink: /calendar/
 ---
+
 <div class="calendar-container">
+	<div class="conference-toggle">
+		<button id="show-upcoming" class="active">即将开始的会议</button>
+		<button id="show-expired">已结束的会议</button>
+	</div>
+
     <div id="calendar"></div>
 
     <div class="upcoming-conferences">
@@ -69,9 +75,53 @@ permalink: /calendar/
     }
 
     // 页面加载时检查提醒
-    window.onload = checkReminders;
+    //window.onload = checkReminders;
+	window.onload = function () {
+		checkReminders();
+
+		const upcomingBtn = document.getElementById("show-upcoming");
+		const expiredBtn = document.getElementById("show-expired");
+		const upcomingSection = document.querySelector(".upcoming-conferences");
+		const expiredSection = document.querySelector(".expired-conferences");
+
+		// 默认显示即将开始的会议
+		upcomingSection.style.display = "block";
+		expiredSection.style.display = "none";
+
+		upcomingBtn.addEventListener("click", function () {
+			upcomingSection.style.display = "block";
+			expiredSection.style.display = "none";
+			upcomingBtn.classList.add("active");
+			expiredBtn.classList.remove("active");
+		});
+
+		expiredBtn.addEventListener("click", function () {
+			upcomingSection.style.display = "none";
+			expiredSection.style.display = "block";
+			expiredBtn.classList.add("active");
+			upcomingBtn.classList.remove("active");
+		});
+	};
+
 </script>
 
 <!-- back to top button -->
 <script src="/js/vanilla-back-to-top.min.js"></script>
 <script>addBackToTop()</script>
+
+<!-- css style for switch button -->
+<style>
+.conference-toggle {
+    margin-bottom: 20px;
+}
+.conference-toggle button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.conference-toggle button.active {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+</style>
