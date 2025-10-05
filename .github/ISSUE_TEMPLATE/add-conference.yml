@@ -70,8 +70,8 @@ body:
       options:
         - potential
         - registered
-        - attended
       default: 0
+      description: 选择当前注册状态，potential/未注册，registered/已注册
     validations:
       required: true
 
@@ -85,5 +85,6 @@ body:
         - "15"
         - "20"
       default: 2
+      description: 提前多少天提醒注册截止
     validations:
       required: true
