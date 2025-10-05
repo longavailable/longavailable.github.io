@@ -77,10 +77,10 @@ body:
     attributes:
       label: 提醒周期
       options:
-        - 5
-        - 10
-        - 15
-        - 20
+        - "5"
+        - "10"
+        - "15"
+        - "20"
       default: 2
     validations:
       required: true
