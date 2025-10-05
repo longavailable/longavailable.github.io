@@ -80,10 +80,10 @@ body:
     attributes:
       label: 提醒周期
       options:
-        - "5"
-        - "10"
-        - "15"
-        - "20"
+        - 5
+        - 10
+        - 15
+        - 20
       default: 2
       description: 提前多少天提醒注册截止
     validations:
