@@ -16,7 +16,8 @@ body:
     id: start_date
     attributes:
       label: 开始日期
-      placeholder: 2025-11-01
+      placeholder: "2025-11-01"
+      description: 请填写会议开始日期（格式：YYYY-MM-DD）
     validations:
       required: true
 
@@ -24,7 +25,8 @@ body:
     id: end_date
     attributes:
       label: 结束日期
-      placeholder: 2025-11-03
+      placeholder: "2025-11-03"
+      description: 请填写会议结束日期（格式：YYYY-MM-DD）
     validations:
       required: true
 
@@ -48,7 +50,8 @@ body:
     id: registration_deadline
     attributes:
       label: 注册截止日期
-      placeholder: 2025-10-15
+      placeholder: "2025-10-15"
+      description: 请填写会议注册截止日期（格式：YYYY-MM-DD）
     validations:
       required: false
 
