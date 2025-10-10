@@ -1,3 +1,4 @@
+# deprecated on 2025/10/10
 name: Build and Deploy to Github Pages
 
 on:
