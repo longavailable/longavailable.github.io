@@ -7,7 +7,7 @@ date:   2025-10-10 11:50:00 +0800
 #first published date
 published:   2025-10-10 11:50:00 +0800
 categories: [post]
-tags: [Cloudflare, Windows, Remote Desktop, 内网穿透]
+tags: [journal, scientific writing]
 description: 
 header-image: 
 permalink: /abbreviations-in-scientific-writing
