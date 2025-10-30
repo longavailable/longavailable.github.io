@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2025-06-20 14:40:00 +0800
+date:   2025-10-31 07:50:00 +0800
 #first published date
 published: 2021-03-13 10:10:00 +0800
 categories: [post]
@@ -33,6 +33,7 @@ permalink: /useful-tools/
 | MalvaStyle USB Repair | [官网](https://malvastyle.com/disk-repair-application-by-malvastyle/), [蓝奏云密码666](https://www.lanzouq.com/b01139k8d) |
 | [Prettier]: An online code formatter | [官网](https://prettier.io/), [GitHub](https://github.com/prettier/prettier) |
 | [在线图片拼接](https://www.qtool.net/picstitching)、[九宫格图片在线制作](https://www.tutieshi.com/tools/gongge2) | <https://www.qtool.net/picstitching>、<https://www.tutieshi.com/tools/gongge2> |
+| [Change the DPI of image](https://convert.town/image-dpi) | <https://convert.town/image-dpi> |
 | [图像中裁剪圆圈](https://crop-circle.imageonline.co/cn/) | <https://crop-circle.imageonline.co/cn/> |
 | 视频字幕、语音转文字、文档翻译、图片翻译[网易见外工作台](https://jianwai.youdao.com) | <https://jianwai.youdao.com> |
 | 视频、语音、图片转文字[悦录-同花顺出品](http://www.voiceclub.cn) | <http://www.voiceclub.cn> |
