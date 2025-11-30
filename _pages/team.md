@@ -39,6 +39,7 @@ Chief scientist of [LONGLOVEMYU]{:target="_blank"}, hydrologist, associate profe
 [<img src="/assets/pics/loop-frontiers.svg" height="20" title="Loop">](https://loop.frontiersin.org/people/1640371/overview){:target="_blank"}
 [<img src="/assets/pics/scopus-4k.png" height="20" title="Scopus Author Profile">](https://www.scopus.com/authid/detail.uri?authorId=35197424200){:target="_blank"}
 [<img src="https://cdn.semanticscholar.org/172bdcbe68320368/img/apple-touch-icon-57x57.png" height="20" title="Scinapse">](https://www.semanticscholar.org/author/Meixiu-Yu/101769322){:target="_blank"}
+[<img src="https://sciprofiles.com/images/sciprofiles-primary-logo.svg" height="20" title="SciProfiles">](https://sciprofiles.com/profile/meixiuyu){:target="_blank"}
 
 <img src="/assets/pics/bruce.jpg" alt="Avatar" class="avatar image-left">
 Dr Bruce / Xiaolong Liu / 刘小龙  
