@@ -111,7 +111,7 @@ then:
 
 ## Conclusion
 
-The hybrid approach leverages [Conda]’s strength in compiled libraries and [uv]’s speed in Python dependency management. For hydro-climate and urban modeling projects, this ensures reproducibility, portability, and efficiency across diverse research teams.
+The hybrid approach leverages [Conda]’s strength in compiled libraries and [uv]’s speed in Python dependency management. For geo-related projects, this ensures reproducibility, portability, and efficiency across diverse research teams.
 
 ## Related commands
 
@@ -125,7 +125,7 @@ Check the available [Jupyter] kernels:
 
 ## References
 
-[Working on projects | uv - Astral Docs](https://docs.astral.sh/uv/guides/projects/)
+[Working on projects - uv Astral Docs](https://docs.astral.sh/uv/guides/projects/)
 
 <!--links-->
 [uv]: https://github.com/astral-sh/uv
