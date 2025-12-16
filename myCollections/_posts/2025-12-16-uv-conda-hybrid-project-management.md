@@ -87,6 +87,14 @@ This creates `pyproject.toml` and `uv.lock` inside the project, aligned with [Co
 uv sync
 ```
 
+`uv sync` possibly upgrade newer versions of dependencies and updates `uv.lock`. For a production or research cases to guarantee reproducibility and prevent accidental upgrades, using:
+
+```sh
+uv sync --frozen
+```
+
+It will read `uv.lock` only and enforce exact versions.
+
 - Run Scripts
 
 ```sh
