@@ -66,6 +66,12 @@ or
 conda install conda-forge::uv
 ```
 
+simply, installing `uv` with the virtual environment creating.
+
+```sh
+conda create -n hydro-env -c conda-forge python=3.11 gdal proj uv
+```
+
 - Initialize [uv] Project
 
 Navigating into the project directory, and initializing it:
@@ -115,13 +121,22 @@ The hybrid approach leverages [Conda]’s strength in compiled libraries and [uv
 
 ## Related commands
 
-Export the [Conda] environment to a YAML file using this command:
+- Export the [Conda] environment to a YAML file using this command:
 
 `conda env export > environment.yml`
 
-Check the available [Jupyter] kernels: 
+- Check the available [Jupyter] kernels: 
 
 `uv run jupyter kernelspec list`
+
+- Remove a virtual environment managed by [uv], simply delete the directory `.venv`.
+
+- Remove a Conda environment:
+
+```sh
+conda deactivate
+conda env remove --name hydro-env
+```
 
 ## References
 
