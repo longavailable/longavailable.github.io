@@ -76,7 +76,7 @@ If you have a custom domain, you can redirect to the **full domain** with ther t
 [Remotely access Home Assistant via Tailscale for free](https://tailscale.com/blog/remotely-access-home-assistant)
 
 <!--links-->
-[cpolar]: https://tailscale.com/
+[tailscale]: https://tailscale.com/
 [tailscale add-on]: https://github.com/hassio-addons/addon-tailscale
 [homeassistant]: https://www.home-assistant.io/
 [console]: https://login.tailscale.com/admin/machines
