@@ -35,7 +35,7 @@ Managing scientific projects often requires balancing system-level dependencies 
 
 ## Workflow Template
 
-1. Create [Conda] Environment
+- Create [Conda] Environment
 
 ```sh
 conda create -n hydro-env python=3.11 gdal proj 
@@ -54,7 +54,7 @@ Activate the new environment:
 conda activate hydro-env
 ```
 
-2. Install [uv] Inside [Conda]
+- Install [uv] Inside [Conda]
 
 ```sh
 pip install uv
@@ -66,7 +66,7 @@ or
 conda install conda-forge::uv
 ```
 
-3. Initialize [uv] Project
+- Initialize [uv] Project
 
 Navigating into the project directory, and initializing it:
 
@@ -81,7 +81,7 @@ This creates `pyproject.toml` and `uv.lock` inside the project, aligned with [Co
 uv sync
 ```
 
-4. Run Scripts
+- Run Scripts
 
 ```sh
 uv run script.py
@@ -89,7 +89,7 @@ uv run script.py
 
 This ensures dependencies from `uv.lock` are resolved while [Conda] provides system libraries.
 
-5. [Jupyter] Integration
+- [Jupyter] Integration
 
 ```sh
 uv add jupyter
