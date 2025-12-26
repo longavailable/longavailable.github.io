@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Team
 permalink: /team/
 ---
 
@@ -25,11 +25,9 @@ permalink: /team/
 
   .team-links img {
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: 2px;
 }
 </style>
-
-<h1>Our Team</h1>
 
 <!--
 Carefuly using spaces in Liquid lines
