@@ -1,0 +1,26 @@
+<div class="team-member">
+    <img src="{{ include.photo }}" alt="{{ include.name }}" class="avatar">
+
+    <div class="team-text">
+        <strong>{{ include.name }}</strong><br>
+        {{ include.title }}<br>
+
+        {% if include.description %}
+            {{ include.description | markdownify }}
+        {% endif %}
+
+        {% if include.links %}
+            <p class="team-links">
+                {% for link in include.links %}
+                    <a href="{{ link.url }}" target="_blank">
+                        {% if link.icon %}
+                            <img src="{{ link.icon }}" height="18" alt="{{ link.name }}">
+                        {% else %}
+                            {{ link.name }}
+                        {% endif %}
+                     </a>
+                {% endfor %}
+            </p>
+        {% endif %}
+    </div>
+</div>
