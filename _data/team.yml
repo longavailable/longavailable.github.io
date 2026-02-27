@@ -42,6 +42,10 @@
       url: https://sciprofiles.com/profile/meixiuyu
       icon: https://sciprofiles.com/images/sciprofiles-primary-logo.svg
       
+    - name: 百度学术
+      url: https://xueshu.baidu.com/scholarID/CN-B874FOHJ
+      icon: https://edu-wenku.bdimg.com/v1/pc/tfchat/scholar/xueshu-banner-1750648701907.svg
+      
 - name: Dr Bruce / Xiaolong Liu / 刘小龙
   photo: /assets/pics/bruce.jpg
   title: Maintainer of LONGLOVEMYU, civil engineer, Pythoner, GISer, PhD from Southeast University
