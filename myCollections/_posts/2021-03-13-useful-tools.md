@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2025-12-26 12:20:00 +0800
+date:   2026-02-27 11:00:00 +0800
 #first published date
 published: 2021-03-13 10:10:00 +0800
 categories: [post]
@@ -25,7 +25,7 @@ permalink: /useful-tools/
 | DWG FastView for Windows | [官网](https://en.dwgfastview.com/cloud/download/) |
 | CiteHist/CiteHist pro | [CiteHist官网], [CiteHist Pro官网], [蓝奏云密码666](https://wwe.lanzous.com/b010bc9dc) |
 | 视频录制、屏幕录制、直播录制[OBS Studio](https://obsproject.com/) | <https://obsproject.com/> |
-| 虚拟形象、面部捕捉、动作捕捉[小K直播姬](https://www.yunboai.com/) | <https://www.yunboai.com/> |
+| [容器镜像监测](https://status.anye.xyz/) | <https://status.anye.xyz/> |
 | **Web-based Application** ||
 | [KinhDown] | [在线解析](https://pan.kdbaidu.com/), [在线解析](https://yun.kdbaidu.com/), [在线解析](https://www.kdbaidu.com/) |
 | [56网盘搜索] | [官网](https://www.56wangpan.com/) |
