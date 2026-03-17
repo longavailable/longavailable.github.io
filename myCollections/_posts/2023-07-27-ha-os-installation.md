@@ -3,7 +3,7 @@ layout: post
 title:  The detailed steps of installing Home Assistant Operating System on Ubuntu
 author: Bruce Liu
 #last update date
-date:   2024-08-22 14:10:00 +0800
+date:   2026-03-17 16:40:00 +0800
 #first published date
 published:   2023-07-27 00:40:00 +0800
 categories: [post]
@@ -99,6 +99,10 @@ Then wait patiently.
   Start a domian:
   
   `virsh start <domain name>`
+  
+  Restart a domain:
+  
+  `virsh reboot <domain name>` or forcely `virsh reset <domain name>`
   
   Immediately shutdown a domain:
   
