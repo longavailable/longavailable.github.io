@@ -3,14 +3,14 @@ layout: post
 title:  The detailed steps of installing Home Assistant Operating System on Ubuntu
 author: Bruce Liu
 #last update date
-date:   2026-03-17 16:40:00 +0800
+date:   2026-03-19 19:40:00 +0800
 #first published date
 published:   2023-07-27 00:40:00 +0800
 categories: [post]
 tags: [home assistant, virsh, Ubuntu]
 description: 
 header-image: 
-permalink: /install-haos-on-ubuntu
+permalink: /install-haos-on-ubuntu-bridge-mode
 ---
 
 As the title, this is the detailed steps.
