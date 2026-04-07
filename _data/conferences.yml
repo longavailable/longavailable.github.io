@@ -4,10 +4,11 @@
   end_date: "2026-05-17"
   location: 南京钟山宾馆
   registration_deadline: "2025-04-30"
-  url: https://zsyyb.cn/newsdetail.htm?id=10933
+  url: https://zsyyb.cn/newsdetail.htm?id=10933     # 会议通知/注册连接
   cost: 会议费900元/人+食宿自理
   reminder_cycle: 14 # 提前14天提醒
   status: potential # 表示尚未注册
+  publication: https://zsyyb.cn/meeting/meetingDetail/fca99721892543e48bef6f550df1626c      # 论文提交连接
   
 - title: AIRS2026人工智能与遥感科学交叉论坛
   start_date: "2026-05-15"
