@@ -1,4 +1,34 @@
 # 学术会议信息
+- title: 第十一届职业教育和继续教育期刊改革与发展学术论坛
+  start_date: "2026-05-15"
+  end_date: "2026-05-17"
+  location: 南京钟山宾馆
+  registration_deadline: "2025-04-30"
+  url: https://zsyyb.cn/newsdetail.htm?id=10933
+  cost: 会议费900元/人+食宿自理
+  reminder_cycle: 14 # 提前14天提醒
+  status: potential # 表示尚未注册
+  
+- title: AIRS2026人工智能与遥感科学交叉论坛
+  start_date: "2026-05-15"
+  end_date: "2026-05-17"
+  location: 湖南长沙
+  registration_deadline: "2025-05-10"
+  url: https://www.airs.top/static/airs2026.html
+  cost: 会议费2000-2500元/人+食宿自理
+  reminder_cycle: 14 # 提前14天提醒
+  status: potential # 表示尚未注册
+
+- title: 第二十八届中国科协年会人工智能促进地球科学的突破性发展、挑战及展望研讨会
+  start_date: "2026-07-11"
+  end_date: "2026-07-11"
+  location: 北京市中国科技会堂
+  registration_deadline: "2025-05-05"
+  url: https://www.cms1924.org/xuehui-station/hyNoticeDetail.html?id=6878
+  cost: 会议费***元/人+食宿自理
+  reminder_cycle: 14 # 提前14天提醒
+  status: potential # 表示尚未注册
+  
 - title: 第十一届江苏省测绘地理信息学会青年科技论坛
   start_date: "2025-11-01"
   end_date: "2025-11-01"
