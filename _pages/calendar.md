@@ -31,7 +31,7 @@ permalink: /calendar/
                         <p>注册截止日期：{{ conference.registration_deadline }}</p>
                         <p>状态：尚未注册</p>
                         <a href="{{ conference.url }}" target="_blank" style="display:inline-block;">立即注册</a>
-                        {% if conference.publication != "" %}
+                        {% if conference.publication and conference.publication != "" %}
                             <a href="{{ conference.publication }}" target="_blank" style="display:inline-block; margin-left:15px;">提交论文</a>
                         {% endif %}
                     </div>
