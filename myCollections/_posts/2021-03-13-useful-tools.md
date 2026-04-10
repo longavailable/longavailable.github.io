@@ -3,7 +3,7 @@ layout: post
 title:  Useful tools
 author: Bruce Liu
 #last update date
-date:   2026-02-27 11:00:00 +0800
+date:   2026-04-11 00:54:00 +0800
 #first published date
 published: 2021-03-13 10:10:00 +0800
 categories: [post]
@@ -45,6 +45,7 @@ permalink: /useful-tools/
 | PDF转图片/长图片[依奇在线超级转换工具](https://www.wdku.net/) | <https://pdf.wdku.net/pdftoimage> |
 | 证件照剪切制作工具[证件照大师](https://id-photo.cn/maker/) | <https://id-photo.cn/maker/> |
 | 手写体在线生成[第一字体转换器](http://m.diyiziti.com/shouxie) | <http://m.diyiziti.com/shouxie> |
+| 给图片添加GPS信息[Geotag Photo Editor Online](https://imglift.app/geotag) | <https://imglift.app/geotag> |
 
 
 
