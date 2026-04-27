@@ -3,7 +3,7 @@ layout: post
 title:  Ubuntu 部署 PostgreSQL 18 完整指南：局域网+Tailscale 双网络访问配置
 author: Bruce Liu, Microsoft Copilot
 #last update date
-date:   2026-04-24 14:50:00 +0800
+date:   2026-04-24 19:00:00 +0800
 #first published date
 published:   2026-04-24 14:50:00 +0800
 categories: [post]
@@ -68,6 +68,12 @@ sudo apt install -y postgresql-18
 - 自动启动PostgreSQL 18服务，并设置开机自启
               
 - 创建默认的`postgres`系统用户和数据库管理员账户
+
+根据需要，安装PostGIS：
+
+```bash
+sudo apt install -y postgresql-18-postgis-3
+```
 
 ### 4. 验证安装是否成功
 
