@@ -3,7 +3,7 @@ layout: post
 title:  Hermes智能体Honcho配置指南：代替 Hermes 自带 Memory 机制
 author: Bruce Liu, Doubao
 #last update date
-date:   2026-04-30 22:30:00 +0800
+date:   2026-05-01 23:20:00 +0800
 #first published date
 published:   2026-04-30 22:30:00 +0800
 categories: [post]
@@ -73,17 +73,7 @@ Hermes 原生 Memory 的永久记忆存在明确字符限制，仅支持最多 2
 
 依托PostgreSQL统一存储，多个Hermes Agent可连接同一[Honcho]服务，共享会话记忆、用户画像及事实数据，实现多智能体协同工作
 
-### 注：启用 [Honcho] 后，原生记忆机制自动失效
-
-这是 Hermes 的官方设计：
-
-- 同一时间只能使用一种记忆提供者
-
-- 启用 [Honcho] 后，Hermes 自动切换记忆后端
-
-- 原生 `memory` / `remember` / `forget` 命令全部失效
-
-- 所有记忆行为都会交给 [Honcho] 处理，原记忆内容也会自动注入到[Honcho]中。
+**注**：启用 [Honcho] 后，原生记忆机制仍正常工作，两者互不影响。
 
 ## 二、前置部署：PostgreSQL（带 vector 扩展）
 
@@ -157,20 +147,52 @@ sudo systemctl status postgresql@18-main
 
 ## 三、部署 Honcho API 并关联 PostgreSQL
 
+**！！** Honcho 默认设置都是针对OpenAI模型，需要搭配OpenAI api来使用，而本地化配置难度较大。这里记录下本人利用本地模型配置过程。
+
+本地安装Text Embedding模型，可以选择[gte-Qwen2-1.5B-instruct (1536固定)](https://huggingface.co/Alibaba-NLP/gte-Qwen2-1.5B-instruct) 、 [Qwen3-Embedding-4B (可降维，32-2560)](https://huggingface.co/Qwen/Qwen3-Embedding-4B) (因为它与OpenAI的text-embedding-3-small一样，是1536维的，而Honcho的Embeding架构的维度存在锁死在1536的问题。)
+
+```bash
+ollama pull miti99/gte-qwen2
+```
+
+本地LLM模型使用[llama3.1:8b](https://huggingface.co/meta-llama/Llama-3.1-8B) 。
+
+```bash
+ollama pull llama3.1:8b
+```
+
+由于修改Text Embedding模型、LLM模型，环境参数配置非常多。这里以*.env*文件形式完成，见<https://gist.github.com/longavailable/a6b79f934b37526b40f815948cc72d41>，其他模型可参照修改。
+
+注：database配置也放置*.env*文件中。假设*.env*文件文件路径为`~/docker-composed/honcho/.env`。
+
+接下来docker运行honcho。
+
 ```bash
 # 先拉取 Honcho 官方镜像（部署前必做，确保获取最新版本，使用ghcr仓库地址）
 docker pull ghcr.io/plastic-labs/honcho:latest
+```
 
-# 部署 Honcho API 并关联 PostgreSQL 数据库
+```
+# 部署 Honcho API 并关联 PostgreSQL 
 docker run -d \
   --name honcho-api \
   --network host \
-  --restart always \
-  -e DB_CONNECTION_URI=postgresql+psycopg://bruce:88888@localhost:5432/honcho_db \  # 替换为你的数据库信息
+  --env-file ~/docker-composed/honcho/.env \
+  --restart always \  
+  ghcr.io/plastic-labs/honcho:latest  
+```
+
+如果数据库配置没有放在*.env*文件中，也可以通过添加`-e DB_CONNECTION_URI=postgresql+psycopg://<username>:<password>@localhost:5432/honcho_db`参数，完整命令为：
+
+```
+# 部署 Honcho API 并关联 PostgreSQL 
+docker run -d \
+  --name honcho-api \
+  --network host \
+  --env-file ~/docker-composed/honcho/.env \
+  --restart always \  
+  -e DB_CONNECTION_URI=postgresql+psycopg://<username>:<password>@localhost:5432/honcho_db \
   ghcr.io/plastic-labs/honcho:latest
-  
-  # 检查（报错）信息
-  docker logs honcho-api
 ```
 
 ## 四、初始化 [Honcho] 数据库
@@ -224,7 +246,7 @@ curl http://localhost:8000/docs
 }
 ```
 
-补充说明：配置完成后，建议重启 Hermes 服务，确保记忆提供者切换生效；若后续修改 Honcho 端口或服务地址，重新执行 `hermes memory setup` 命令重新配置即可。
+补充说明：配置完成后，建议重启 Hermes 服务，确保记忆提供者切换生效；若后续修改 [Honcho] 端口或服务地址，重新执行 `hermes memory setup` 命令重新配置即可。
 
 ## 六、验证是否生效
 
@@ -236,6 +258,14 @@ hermes honcho status
 
 ```bash
 Connection... OK
+```
+
+检查日志，是否报错。需要与hermes聊天过程相结合，只有在聊天中，[Honcho]的logs没有错误，并能准确运行，才算正常使用。
+
+```bash
+docker logs honcho-api
+docker logs --tail 50 honcho-api
+docker logs --tail 500 honcho-api 2>&1 | grep -A 20 "error"
 ```
 
 ## 七、Honcho 常用命令（替代原生记忆）
@@ -253,7 +283,7 @@ Connection... OK
 
 - PostgreSQL 的 vector 扩展不可省略，否则 [Honcho] 语义检索功能会失效，部分记忆相关操作报错。
 
-- Honcho 与 PostgreSQL 的连接信息（用户名、密码、数据库名）必须完全一致，否则会出现 `Peer data unavailable` 或数据库连接失败。
+- [Honcho] 与 PostgreSQL 的连接信息（用户名、密码、数据库名）必须完全一致，否则会出现 `Peer data unavailable` 或数据库连接失败。
 
 - Ubuntu 直接安装的 PostgreSQL 18，数据默认存储在 `/var/lib/postgresql/18/main/`，建议定期备份数据（ Honcho 所有记忆都存在 PostgreSQL 中），避免数据丢失。
 
