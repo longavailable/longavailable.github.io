@@ -183,7 +183,7 @@ Home Assistant的`4357`端口也是类似设置。
 
 ## References
 
-- [桥连模式，安装步骤](https://longlovemyu.com/install-haos-on-ubuntu/install-haos-on-ubuntu-bridge-mode)
+- [桥连模式，安装步骤](https://longlovemyu.com/install-haos-on-ubuntu-bridge-mode)
 
 
 <!--links-->
