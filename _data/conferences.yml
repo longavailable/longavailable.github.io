@@ -1,4 +1,16 @@
 # 学术会议信息
+
+- title: 第二十三届中国水论坛
+  start_date: "2026-08-14"
+  end_date: "2026-08-16"
+  location: 哈尔滨/东北农业大学
+  registration_deadline: "2025-08-01"
+  url: https://cwf2026.scimeeting.cn/     # 会议通知/注册连接
+  cost: 会议费2000元/人+食宿自理
+  reminder_cycle: 14 # 提前14天提醒
+  status: potential # 表示尚未注册
+  publication: https://cwf2026.scimeeting.cn/      # 论文提交连接
+
 - title: 第十一届职业教育和继续教育期刊改革与发展学术论坛
   start_date: "2026-05-15"
   end_date: "2026-05-17"
