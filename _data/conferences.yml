@@ -1,5 +1,15 @@
 # 学术会议信息
 
+- title: 江苏省测绘地理信息学会第十二届青年科技讲坛
+  start_date: "2026-10-24"
+  end_date: "2026-10-24"
+  location: 南京/南京林业大学
+  registration_deadline: "2026-10-10"
+  url: http://www.chxh.cn/tzgg1/20261008/a2ab2b3a-7e18-4a3e-a7eb-42efc87c5717.html     # 会议通知/注册连接
+  cost: 会议费500元/人+住宿自理
+  reminder_cycle: 14 # 提前14天提醒
+  status: potential # 表示尚未注册
+  
 - title: 第二十三届中国水论坛
   start_date: "2026-08-14"
   end_date: "2026-08-16"
