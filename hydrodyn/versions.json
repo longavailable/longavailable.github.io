@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "released_at": "2026-11-09T22:20:46+08:00",
+  "released_at": "2026-11-09T23:35:52+08:00",
   "components": {
-    "backend": "1.0.0",
-    "frontend": "1.0.0",
+    "backend": "1.0.1",
+    "frontend": "1.0.1",
     "worker": "1.0.0",
     "translator": "1.0.0"
   }
