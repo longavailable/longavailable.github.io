@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "released_at": "2026-11-09T22:20:46+08:00",
+  "components": {
+    "backend": "1.0.0",
+    "frontend": "1.0.0",
+    "worker": "1.0.0",
+    "translator": "1.0.0"
+  }
+}
